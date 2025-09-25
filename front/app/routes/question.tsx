@@ -26,9 +26,7 @@ interface McqResult {
   weight: Record<string, number>;
 }
 
-// 보기 라벨 (A, B, C, D, E)
 const letters = (n: number) => Array.from({ length: n }, (_, i) => String.fromCharCode(65 + i));
-// 표기 맵
 const ModelNameMap: Record<string, string> = {
   "gemma-finetuning": "gemma 파인튜닝",
   "gemma-STaR": "gemma 생성 해설 학습",
@@ -38,12 +36,9 @@ const ModelNameMap: Record<string, string> = {
   "phi-teacher-student": "phi 외부 api 지식 증류",
 };
 
-// 내부 데이터 소스 선택 (UI 노출 없음)
-// 'server' 로 설정하면 실제 서버에 전송, 'mock' 은 로컬 /mcq 액션으로 전송
-const DATA_SOURCE: "server" | "mock" = "server";
+// 백엔드 주소
 const SERVER_ENDPOINT = "http://172.21.49.252:8080/api/problem";
 
-// 전역 일관 정렬: 모델 키는 아래 순서를 우선 적용하고, 없으면 알파벳순
 const MODEL_ORDER = [
   'gemma-finetuning',
   'gemma-STaR',
@@ -64,7 +59,7 @@ function sortModelKeys<T extends string>(keys: T[]): T[] {
   });
 }
 
-// 1) 최종 확률 막대 그래프
+// 최종 확률
 function FinalProbsCard({ probs }: { probs: number[] }) {
   const data = probs.map((p, i) => ({ option: letters(probs.length)[i], prob: p }));
   return (
@@ -85,7 +80,7 @@ function FinalProbsCard({ probs }: { probs: number[] }) {
   );
 }
 
-// 2) 모델별 확률: 그룹 막대(모델 × 보기)
+// 모델별 확률
 function ModelProbsCard({ model }: { model: Record<string, number[]> }) {
   const modelNames = sortModelKeys(Object.keys(model));
   const L = modelNames.length ? model[modelNames[0]].length : 0;
@@ -118,7 +113,7 @@ function ModelProbsCard({ model }: { model: Record<string, number[]> }) {
   );
 }
 
-// (옵션) 모델별 확률을 “각 모델의 분포 모양”으로 보고 싶으면 레이더도 유용
+// 레이더
 function ModelProbsRadar({ model }: { model: Record<string, number[]> }) {
   const modelNames = sortModelKeys(Object.keys(model));
   const L = modelNames.length ? model[modelNames[0]].length : 0;
@@ -152,10 +147,9 @@ function ModelProbsRadar({ model }: { model: Record<string, number[]> }) {
   );
 }
 
-// 3) 모델 가중치: 수평 바
+// 모델 가중치
 function WeightsCard({ weight }: { weight: Record<string, number> }) {
   const data = Object.entries(weight).map(([m, w]) => ({ model: m, weight: w }));
-  // 모델 순서를 전역 기준에 맞춰 고정 (가중치 차트도 다른 차트와 동일한 모델 순서 유지)
   const sortedData = data.sort((a, b) => {
     const indexA = MODEL_ORDER.indexOf(a.model as any);
     const indexB = MODEL_ORDER.indexOf(b.model as any);
@@ -183,10 +177,9 @@ function WeightsCard({ weight }: { weight: Record<string, number> }) {
   );
 }
 
-// 4) (선택) 분류기 점수: 막대
+// 분류기 확률
 function ClassifierCard({ classifier }: { classifier: Record<string, number> }) {
   const data = Object.entries(classifier).map(([k, v]) => ({ label: k, value: v }));
-  // 안정적인 표시를 위해 라벨 알파벳순 정렬
   data.sort((a, b) => a.label.localeCompare(b.label));
   return (
     <Card>
@@ -231,7 +224,7 @@ export default function Question() {
     };
 
     try {
-      const endpoint = DATA_SOURCE === "mock" ? "/mcq" : SERVER_ENDPOINT;
+      const endpoint = SERVER_ENDPOINT;
       const response = await fetch(endpoint, {
         method: "POST",
         headers: {
@@ -261,7 +254,6 @@ export default function Question() {
 
   return (
     <div className="flex gap-8 p-8">
-      {/* Left Column: Input Form */}
       <div className="w-1/2">
         <h1 className="text-2xl font-bold mb-4">문제 입력</h1>
         <p className="mb-6">지문, 문제, 보기를 입력하고 제출 버튼을 누르세요.</p>
@@ -364,8 +356,6 @@ export default function Question() {
           </div>
         </form>
       </div>
-
-      {/* Right Column: Result */}
       <div className="w-1/2 border-l pl-8">
         <h1 className="text-2xl font-bold mb-4">풀이 결과</h1>
         <div className="p-4 bg-gray-100 rounded-lg min-h-[200px]">
