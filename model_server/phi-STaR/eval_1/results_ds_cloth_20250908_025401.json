@@ -1,0 +1,3580 @@
+{
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "num_items_total": 238,
+  "num_evaluated": 236,
+  "num_stopped": 236,
+  "num_skipped": 2,
+  "accuracy_no_skipped": "52.97%",
+  "results": [
+    {
+      "index": 0,
+      "generated_until_stop": "1. Context: Mr. Zigler's effect on spirits\n2. Suitable word: uplift spirits\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.3125,
+        "B": 0.025634765625,
+        "C": 0.002105712890625,
+        "D": 0.66015625,
+        "E": 0.00013446807861328125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 1,
+      "generated_until_stop": "1. Context: feeling inspired\n2. Best fit: arrived (indicating a moment of realization or inspiration)\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.00665283203125,
+        "C": 0.000545501708984375,
+        "D": 0.00518798828125,
+        "E": 1.2874603271484375e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 2,
+      "generated_until_stop": "1. Context: expressing a desire to make people feel a certain way\n2. A, C, D: don't fit the context of making people feel something\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.006622314453125,
+        "B": 0.984375,
+        "C": 0.0014801025390625,
+        "D": 0.006622314453125,
+        "E": 0.0002574920654296875
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 3,
+      "generated_until_stop": "1. Context: father asking for explanation\n2. Suitable word: what\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00191497802734375,
+        "B": 0.00191497802734375,
+        "C": 0.9921875,
+        "D": 0.0031585693359375,
+        "E": 3.981590270996094e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 4,
+      "generated_until_stop": "1. Context: A(n) _ was born.\n2. Options: dream, girl, speaker, idea\n3. B: girl fits naturally in the sentence structure.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.006561279296875,
+        "B": 0.97265625,
+        "C": 0.002410888671875,
+        "D": 0.017822265625,
+        "E": 9.34600830078125e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 5,
+      "generated_until_stop": "1. Context: describing the timeline of events in a career\n2. A: After - indicates the end of the career\n3. B, C, D: don't fit the timeline\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.97265625,
+        "B": 0.02294921875,
+        "C": 0.0002536773681640625,
+        "D": 0.0030975341796875,
+        "E": 3.4332275390625e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 6,
+      "generated_until_stop": "1. Context: career progression\n2. Suitable word: working\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0040283203125,
+        "B": 0.00518798828125,
+        "C": 0.98828125,
+        "D": 0.0019073486328125,
+        "E": 2.7179718017578125e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 7,
+      "generated_until_stop": "1. Context: career progression in a company\n2. Options: A, B, C, D\n3. A, B, C: not directly related to career\n4. D: career is the most relevant option\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.01092529296875,
+        "B": 0.005157470703125,
+        "C": 0.000698089599609375,
+        "D": 0.984375,
+        "E": 0.00012111663818359375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 8,
+      "generated_until_stop": "1. Context: feeling about leaving after earning a six-figure income\n2. A: surprised - fits the context of unexpected reaction\n3. B, C, D: don't fit the context of negative feeling\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.431640625,
+        "B": 0.5546875,
+        "C": 0.00121307373046875,
+        "D": 0.0130615234375,
+        "E": 0.0001125335693359375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 9,
+      "generated_until_stop": "1. Context: expressing doubt or uncertainty\n2. Best fit: C. if\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0361328125,
+        "B": 0.162109375,
+        "C": 0.56640625,
+        "D": 0.2353515625,
+        "E": 0.00066375732421875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 10,
+      "generated_until_stop": "1. Context: making a commitment to start a company\n2. Best fit: A. promise\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.7578125,
+        "B": 0.2177734375,
+        "C": 0.00579833984375,
+        "D": 0.017822265625,
+        "E": 8.249282836914062e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 11,
+      "generated_until_stop": "1. Context: leaving a position after a meeting\n2. Suitable word: attending\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.003997802734375,
+        "B": 0.0179443359375,
+        "C": 0.000255584716796875,
+        "D": 0.9765625,
+        "E": 0.0001544952392578125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 12,
+      "generated_until_stop": "1. Context: vice-president made a significant impact\n2. Best fit: speech (as it is commonly delivered by vice-presidents)\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0004291534423828125,
+        "B": 1.0,
+        "C": 0.000335693359375,
+        "D": 0.000911712646484375,
+        "E": 1.0132789611816406e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 13,
+      "generated_until_stop": "1. Context: asking about the purpose of writing down three wishes\n2. Options: A, B, D: don't fit the context\n3. C: fits the context of asking about the purpose of writing down three wishes\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0016937255859375,
+        "B": 0.001495361328125,
+        "C": 0.9921875,
+        "D": 0.004058837890625,
+        "E": 7.43865966796875e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 14,
+      "generated_until_stop": "1. Context: asking about the need for something\n2. Options: A, B, C, D\n3. A: fits the context of asking about a need\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.984375,
+        "B": 0.006622314453125,
+        "C": 0.00101470947265625,
+        "D": 0.00848388671875,
+        "E": 8.344650268554688e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 15,
+      "generated_until_stop": "1. Context: past accomplishments prepared for current moment\n2. Suitable word: something\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000705718994140625,
+        "B": 0.99609375,
+        "C": 0.00116729736328125,
+        "D": 0.001922607421875,
+        "E": 1.1444091796875e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 16,
+      "generated_until_stop": "1. Context: motivational speaker\n2. Suitable word: alive (as it fits the context of a motivational speaker being present)\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.953125,
+        "B": 0.036865234375,
+        "C": 0.00183868408203125,
+        "D": 0.00823974609375,
+        "E": 4.315376281738281e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 17,
+      "generated_until_stop": "1. Context: decision made, immediate action\n2. Best fit: D (examined) makes sense in the context of analyzing or evaluating the decision.",
+      "pred": "D",
+      "probs": {
+        "A": 0.06494140625,
+        "B": 0.10546875,
+        "C": 0.310546875,
+        "D": 0.45703125,
+        "E": 0.06201171875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 18,
+      "generated_until_stop": "1. Context: husband laid off, no income\n2. Best fit: D (income) matches the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00125885009765625,
+        "B": 0.04736328125,
+        "C": 0.000247955322265625,
+        "D": 0.94921875,
+        "E": 0.00011730194091796875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 19,
+      "generated_until_stop": "1. Context: booking engagements with new customers\n2. Suitable option: A. speaking\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.953125,
+        "B": 0.0419921875,
+        "C": 0.00098419189453125,
+        "D": 0.0030364990234375,
+        "E": 3.814697265625e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 20,
+      "generated_until_stop": "1. Context: help in self-care\n2. Options: A, B, C, D\n3. A: groups fit context\n4. B, C, D: don't fit context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.004058837890625,
+        "C": 6.580352783203125e-05,
+        "D": 0.0006256103515625,
+        "E": 3.528594970703125e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 21,
+      "generated_until_stop": "1. Context: floors for self-care\n2. Suitable word: help\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0003795623779296875,
+        "B": 1.0,
+        "C": 0.000431060791015625,
+        "D": 0.000553131103515625,
+        "E": 8.940696716308594e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 22,
+      "generated_until_stop": "1. Context: old people with Alzheimer\n2. Action: most of them stared\n3. A, C, D: don't fit the context\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.021240234375,
+        "B": 0.90234375,
+        "C": 0.00119781494140625,
+        "D": 0.07421875,
+        "E": 0.00018405914306640625
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 23,
+      "generated_until_stop": "1. Context: singing on the third floor for old people with Alzheimer\n2. Most fitting word: D. shut (as it fits the context of being distracted or disengaged)",
+      "pred": "D",
+      "probs": {
+        "A": 0.060302734375,
+        "B": 0.1142578125,
+        "C": 0.341796875,
+        "D": 0.453125,
+        "E": 0.03076171875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 24,
+      "generated_until_stop": "1. Context: \"However, one lady  _  my eye.\"\n2. Suitable word: \"looked\" fits naturally in the sentence.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00518798828125,
+        "B": 0.98828125,
+        "C": 0.00115966796875,
+        "D": 0.00518798828125,
+        "E": 5.7697296142578125e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 25,
+      "generated_until_stop": "1. Context: describing the difference in songs\n2. Options: A, C, D: don't fit the context\n3. B: fits the context of appearance\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00116729736328125,
+        "B": 0.99609375,
+        "C": 0.0003795623779296875,
+        "D": 0.0006256103515625,
+        "E": 7.486343383789062e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 26,
+      "generated_until_stop": "1. Context: improving performance with each song\n2. A: faster fits the context of improving performance\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.92578125,
+        "B": 0.0279541015625,
+        "C": 0.000843048095703125,
+        "D": 0.046142578125,
+        "E": 0.00010061264038085938
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 27,
+      "generated_until_stop": "1. Context: contrasting two actions\n2. Suitable word: though\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0009002685546875,
+        "B": 0.98828125,
+        "C": 0.000545501708984375,
+        "D": 0.010986328125,
+        "E": 2.1219253540039062e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 28,
+      "generated_until_stop": "1. Context: singing and performing\n2. Suitable verb: moving\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0019073486328125,
+        "B": 0.010986328125,
+        "C": 0.0002918243408203125,
+        "D": 0.98828125,
+        "E": 8.392333984375e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 29,
+      "generated_until_stop": "1. Context: deciding not to visit someone due to other commitments\n2. Best fit: A. responsibilities\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.006683349609375,
+        "C": 0.00013828277587890625,
+        "D": 0.0031585693359375,
+        "E": 1.6570091247558594e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 30,
+      "generated_until_stop": "1. Context: People working at the care center.\n2. Suitable action: Speaking to her.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0162353515625,
+        "B": 0.0732421875,
+        "C": 0.890625,
+        "D": 0.0208740234375,
+        "E": 0.00010967254638671875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 31,
+      "generated_until_stop": "1. Context: feeling about not giving her attention\n2. Options: A, B, D: don't fit the context\n3. C: sure (feeling confident or certain)\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.027587890625,
+        "B": 0.035400390625,
+        "C": 0.9140625,
+        "D": 0.021484375,
+        "E": 0.00023937225341796875
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 32,
+      "generated_until_stop": "1. Context: feeling guilty about not giving attention\n2. Justin's action: likely related to noticing the situation\n3. A, B, D: don't fit the context of noticing\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.0024566650390625,
+        "C": 0.9921875,
+        "D": 0.0024566650390625,
+        "E": 7.43865966796875e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 33,
+      "generated_until_stop": "1. Context: talking about someone's behavior towards her needs\n2. A: acted - implies taking action, fitting the context\n3. B, C, D: don't fit the context of behavior towards her needs\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.96875,
+        "B": 0.029296875,
+        "C": 0.0002536773681640625,
+        "D": 0.0021209716796875,
+        "E": 5.650520324707031e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 34,
+      "generated_until_stop": "1. Context: Justin is looking at an aged lady.\n2. Options: A, B, C, D\n3. A: tears - fits the context of looking at an aged lady.\n4. B, C, D: don't fit the context as well as A.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.0179443359375,
+        "C": 0.00069427490234375,
+        "D": 0.003997802734375,
+        "E": 0.00013637542724609375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 35,
+      "generated_until_stop": "1. Context: Justin is expressing his respect and intention to visit the aged lady.\n2. Options: A, C, D: don't fit the context of visiting someone.\n3. B: body - fits the context of visiting someone and expressing respect.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0019073486328125,
+        "B": 0.98828125,
+        "C": 0.000331878662109375,
+        "D": 0.008544921875,
+        "E": 3.9577484130859375e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 36,
+      "generated_until_stop": "1. Context: describing a touching moment\n2. Options: A, C, D: don't fit the context\n3. B: fits the context of describing something\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000431060791015625,
+        "B": 1.0,
+        "C": 0.0001583099365234375,
+        "D": 9.584426879882812e-05,
+        "E": 2.1457672119140625e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 37,
+      "generated_until_stop": "1. Context: boy talking about kindness and love\n2. Suitable word: teach\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.002471923828125,
+        "C": 0.000705718994140625,
+        "D": 0.000705718994140625,
+        "E": 1.6689300537109375e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 38,
+      "generated_until_stop": "1. Context: Justin's example of a complete, selfless attitude\n2. Suitable word: something memorable\n3. A, C, D: don't fit the context\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00116729736328125,
+        "B": 0.99609375,
+        "C": 0.00015735626220703125,
+        "D": 0.004058837890625,
+        "E": 3.504753112792969e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 39,
+      "generated_until_stop": "1. Context: feeling fortunate to witness a lesson\n2. Best fit: lucky\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00116729736328125,
+        "B": 0.001922607421875,
+        "C": 0.99609375,
+        "D": 0.00116729736328125,
+        "E": 2.4199485778808594e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 40,
+      "generated_until_stop": "1. Context: feeling grateful leads to receiving blessings\n2. Suitable word: \"open\" fits the context of receiving blessings\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.002471923828125,
+        "C": 0.00054931640625,
+        "D": 0.99609375,
+        "E": 0.0001392364501953125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 41,
+      "generated_until_stop": "1. Context: receiving almost everything you want\n2. Suitable word: easily\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.0024566650390625,
+        "C": 0.0002593994140625,
+        "D": 0.9921875,
+        "E": 0.00015735626220703125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 42,
+      "generated_until_stop": "1. Context: feeling grateful for being alive\n2. Best fit: B. alive\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0013275146484375,
+        "B": 0.99609375,
+        "C": 0.0003795623779296875,
+        "D": 0.0004291534423828125,
+        "E": 2.4199485778808594e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 43,
+      "generated_until_stop": "1. Context: talking about money\n2. Options: A, B, D: don't fit the context\n3. C: fits the context of being grateful for money\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.001495361328125,
+        "C": 0.9921875,
+        "D": 0.000705718994140625,
+        "E": 7.43865966796875e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 44,
+      "generated_until_stop": "1. Context: gratitude leads to positive outcomes\n2. Best fit: positive\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.004974365234375,
+        "B": 0.9453125,
+        "C": 0.0005950927734375,
+        "D": 0.047119140625,
+        "E": 4.291534423828125e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 45,
+      "generated_until_stop": "1. Context: key to healthier and happier lives\n2. Options: A, B, C, D\n3. A: looking (not directly related to health and happiness)\n4. B: taking (not directly related to health and happiness)\n5. C: leading (not directly related to health and happiness)\n6. D: enjoying (related to health and happiness)\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.004058837890625,
+        "C": 0.00115966796875,
+        "D": 0.9921875,
+        "E": 0.00022792816162109375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 46,
+      "generated_until_stop": "1. Context: favorite _ is a phrase\n2. Options: A, C, D: don't fit the context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.11083984375,
+        "B": 0.2353515625,
+        "C": 0.63671875,
+        "D": 0.0150146484375,
+        "E": 0.000453948974609375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 47,
+      "generated_until_stop": "1. Context: expressing appreciation\n2. Best fit: B. wonderful\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.01092529296875,
+        "B": 0.984375,
+        "C": 0.000423431396484375,
+        "D": 0.0040283203125,
+        "E": 1.4483928680419922e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 48,
+      "generated_until_stop": "1. Context: wife not very _ around the house\n2. Options: organized, lazy, beautiful, careless\n3. A, C, D: don't fit the context\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0279541015625,
+        "B": 0.92578125,
+        "C": 0.0004520416259765625,
+        "D": 0.046142578125,
+        "E": 0.00012969970703125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 49,
+      "generated_until_stop": "1. Context: wife is great at cooking favorite dishes\n2. Options: A, B, C, D\n3. A, B, C, D: all fit, but A is most common\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.004058837890625,
+        "C": 0.000202178955078125,
+        "D": 0.0024566650390625,
+        "E": 4.506111145019531e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 50,
+      "generated_until_stop": "1. Context: child accidentally messes up shirt\n2. A: stopped - doesn't fit the context\n3. B, C: don't fit the context\n4. D: spilled - fits the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.003143310546875,
+        "B": 0.008544921875,
+        "C": 0.0009002685546875,
+        "D": 0.98828125,
+        "E": 0.000156402587890625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 51,
+      "generated_until_stop": "1. Context: making a promise to oneself\n2. Suitable word: suggest\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000690460205078125,
+        "B": 0.97265625,
+        "C": 0.00188446044921875,
+        "D": 0.02294921875,
+        "E": 1.633167266845703e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 52,
+      "generated_until_stop": "1. Context: waking up and thinking of things to be grateful for\n2. Best fit: B. grateful\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00170135498046875,
+        "B": 0.99609375,
+        "C": 0.0003337860107421875,
+        "D": 0.00080108642578125,
+        "E": 3.528594970703125e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 53,
+      "generated_until_stop": "1. Context: noticing a smile\n2. Meaning: noticing something\n3. A, C, D: don't fit\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0284423828125,
+        "B": 0.94140625,
+        "C": 0.000667572021484375,
+        "D": 0.0284423828125,
+        "E": 0.00019168853759765625
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 54,
+      "generated_until_stop": "1. Context: feeling of gratitude\n2. Best fit: C. power\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.005126953125,
+        "B": 0.006591796875,
+        "C": 0.9765625,
+        "D": 0.0108642578125,
+        "E": 9.393692016601562e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 55,
+      "generated_until_stop": "1. Context: making Jane live a better life\n2. Best fit: happy life\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00150299072265625,
+        "C": 0.00090789794921875,
+        "D": 0.0001583099365234375,
+        "E": 6.139278411865234e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 56,
+      "generated_until_stop": "1. Context: Jane didn't understand her.\n2. Suitable word: C. Although\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0057373046875,
+        "B": 0.007354736328125,
+        "C": 0.96484375,
+        "D": 0.022705078125,
+        "E": 0.0001735687255859375
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 57,
+      "generated_until_stop": "1. Context: Mother busy, Jane studying\n2. Suitable word: housework (related to daily chores)\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000911712646484375,
+        "C": 5.817413330078125e-05,
+        "D": 0.0002613067626953125,
+        "E": 6.139278411865234e-06
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 58,
+      "generated_until_stop": "1. Context: Jane unhappy and reacting negatively\n2. A, B: negative reactions\n3. C, D: positive reactions\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.89453125,
+        "B": 0.09423828125,
+        "C": 0.0022125244140625,
+        "D": 0.00994873046875,
+        "E": 4.0531158447265625e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 59,
+      "generated_until_stop": "1. Context: Mother wants to make Jane happy.\n2. Options: A, B, C, D\n3. A, B, C: not suitable for making Jane happy\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0140380859375,
+        "B": 0.00244140625,
+        "C": 0.00101470947265625,
+        "D": 0.98046875,
+        "E": 0.0004787445068359375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 60,
+      "generated_until_stop": "1. Context: manager advises on clothing\n2. Options: A, B, C, D\n3. A, B, C: don't fit context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.0031585693359375,
+        "C": 0.0002593994140625,
+        "D": 0.9921875,
+        "E": 0.0002593994140625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 61,
+      "generated_until_stop": "1. Context: accident, ski clothes\n2. Suitable word: caught\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00147247314453125,
+        "B": 0.0179443359375,
+        "C": 0.00054168701171875,
+        "D": 0.98046875,
+        "E": 9.441375732421875e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 62,
+      "generated_until_stop": "1. Context: Mother couldn't _ them, so she refused.\n2. Options: A, B, C, D\n3. A: stand - doesn't fit the context of refusal\n4. B, C: don't fit the context of refusal\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.005218505859375,
+        "B": 0.0024566650390625,
+        "C": 0.000202178955078125,
+        "D": 0.9921875,
+        "E": 0.00042724609375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 63,
+      "generated_until_stop": "1. Context: skiing on a snowfield\n2. Snowfield is already mentioned\n3. A, B, D: don't fit the context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0291748046875,
+        "B": 0.003936767578125,
+        "C": 0.96484375,
+        "D": 0.001861572265625,
+        "E": 0.0001964569091796875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 64,
+      "generated_until_stop": "1. Snowfield began to _ .\n2. Snowfield began to shake (snowslide)\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.009033203125,
+        "B": 0.06689453125,
+        "C": 0.8125,
+        "D": 0.1103515625,
+        "E": 6.103515625e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 65,
+      "generated_until_stop": "1. Context: running away from snowslide\n2. Suitable word: escaped\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0019073486328125,
+        "B": 0.0019073486328125,
+        "C": 0.98828125,
+        "D": 0.00665283203125,
+        "E": 9.489059448242188e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 66,
+      "generated_until_stop": "1. Context: describing a situation where people on the helicopter couldn't see or hear them.\n2. A: so - indicates a result or consequence.\n3. B, C, D: don't fit the context of describing the situation.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9296875,
+        "B": 0.0595703125,
+        "C": 0.000659942626953125,
+        "D": 0.008056640625,
+        "E": 8.96453857421875e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 67,
+      "generated_until_stop": "1. Context: Jane hurt her head seriously\n2. Dropping on snow: blood is likely to drop\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00090789794921875,
+        "B": 0.00150299072265625,
+        "C": 0.00020313262939453125,
+        "D": 0.99609375,
+        "E": 6.580352783203125e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 68,
+      "generated_until_stop": "1. Context: cutting wrist\n2. Blood drop: immediate effect\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.005157470703125,
+        "B": 0.01092529296875,
+        "C": 0.00189208984375,
+        "D": 0.98046875,
+        "E": 6.4849853515625e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 69,
+      "generated_until_stop": "1. Context: Jane's emotional state\n2. A: fits emotional context\n3. B, C, D: don't fit emotional context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.02294921875,
+        "C": 0.000255584716796875,
+        "D": 0.00078582763671875,
+        "E": 3.457069396972656e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 70,
+      "generated_until_stop": "1. Context: feeling about blood on snowfield\n2. Suitable word: painful\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00090789794921875,
+        "B": 0.001495361328125,
+        "C": 0.99609375,
+        "D": 0.0031585693359375,
+        "E": 2.1338462829589844e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 71,
+      "generated_until_stop": "1. Context: feeling painful, hearing tragedy\n2. Suitable word: feel admiration or respect\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0031585693359375,
+        "B": 0.9921875,
+        "C": 0.00148773193359375,
+        "D": 0.004058837890625,
+        "E": 2.4080276489257812e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 72,
+      "generated_until_stop": "1. Context: neighbor's cat had kittens\n2. Suitable word: recently\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.00518798828125,
+        "C": 0.000701904296875,
+        "D": 0.00665283203125,
+        "E": 2.7179718017578125e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 73,
+      "generated_until_stop": "1. Context: Sam's reaction to taking a kitten\n2. Options: A, B, C, D\n3. A, B, C: negative reactions\n4. D: positive reaction\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0177001953125,
+        "B": 0.0177001953125,
+        "C": 0.00060272216796875,
+        "D": 0.96484375,
+        "E": 0.000324249267578125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 74,
+      "generated_until_stop": "1. Context: preparing to take a kitten\n2. Suitable word: hearts (feeling of excitement or nervousness)\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01080322265625,
+        "B": 0.01080322265625,
+        "C": 0.97265625,
+        "D": 0.006561279296875,
+        "E": 0.00011968612670898438
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 75,
+      "generated_until_stop": "1. Context: running after imaginary mice and squirrels\n2. Suitable verb: raced\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.005157470703125,
+        "B": 0.00848388671875,
+        "C": 0.98046875,
+        "D": 0.005157470703125,
+        "E": 5.054473876953125e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 76,
+      "generated_until_stop": "1. Context: racing, jumping, imaginary game\n2. Adjective fitting: D. quickly\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.08203125,
+        "B": 0.0341796875,
+        "C": 0.003173828125,
+        "D": 0.87890625,
+        "E": 0.00070953369140625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 77,
+      "generated_until_stop": "1. Context: Sam and Lightning were not close to each other.\n2. Options: A, B, C, D\n3. A, B, C, D: don't fit the context of distance\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.1025390625,
+        "B": 0.1689453125,
+        "C": 0.1318359375,
+        "D": 0.58984375,
+        "E": 0.005126953125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 78,
+      "generated_until_stop": "1. Context: Lightning started something with Sam.\n2. Options: A, B, C: don't fit the context of starting something.\n3. D: fits the context of starting something with Sam.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.01385498046875,
+        "B": 0.01385498046875,
+        "C": 0.00165557861328125,
+        "D": 0.96875,
+        "E": 0.000537872314453125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 79,
+      "generated_until_stop": "1. Context: talking about taking one out and the other waiting\n2. A: either fits the context of taking one out\n3. B, C, D: don't fit the context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.02294921875,
+        "C": 8.296966552734375e-05,
+        "D": 0.000476837158203125,
+        "E": 3.457069396972656e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 80,
+      "generated_until_stop": "1. Context: returning home\n2. Suitable word: waiting\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.0040283203125,
+        "C": 0.000156402587890625,
+        "D": 0.008544921875,
+        "E": 1.4543533325195312e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 81,
+      "generated_until_stop": "1. Context: something it was for years\n2. Options: A, C, D: similar meanings\n3. B: less common, fits better\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00080108642578125,
+        "B": 0.99609375,
+        "C": 0.0004863739013671875,
+        "D": 0.004058837890625,
+        "E": 3.0994415283203125e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 82,
+      "generated_until_stop": "1. Context: Sam suddenly died of a weak heart\n2. Suitable word: warning (as it fits the context of sudden death)\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.0108642578125,
+        "C": 0.00848388671875,
+        "D": 0.0024261474609375,
+        "E": 1.4424324035644531e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 83,
+      "generated_until_stop": "1. Context: Sam's absence and Lightning's confusion\n2. Suitable word: to understand or make sense of\n3. A, B, C: don't fit the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.002471923828125,
+        "B": 0.001922607421875,
+        "C": 0.0002593994140625,
+        "D": 0.99609375,
+        "E": 0.0003337860107421875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 84,
+      "generated_until_stop": "1. Context: Lightning seemed heartbroken\n2. Time unit: short period\n3. A, C, D: longer periods\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0184326171875,
+        "B": 0.609375,
+        "C": 0.000713348388671875,
+        "D": 0.37109375,
+        "E": 0.000263214111328125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 85,
+      "generated_until_stop": "1. Context: unable to convey feelings\n2. Best fit: express\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.0024566650390625,
+        "C": 0.00042724609375,
+        "D": 0.005218505859375,
+        "E": 3.504753112792969e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 86,
+      "generated_until_stop": "1. Context: She could not tell me in words that she was _ , but I could see the pain and disappointment in her eyes whenever anyone opened the front door.\n2. Options: A, B, C, D\n3. A: doing - irrelevant\n4. B: suffering - fits the context of pain and disappointment\n5. C: missing - fits the context of disappointment\n6. D: enjoying - irrelevant\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0017547607421875,
+        "B": 0.90625,
+        "C": 0.07421875,
+        "D": 0.0166015625,
+        "E": 0.00011205673217773438
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 87,
+      "generated_until_stop": "1. Context: She was suffering and I saw pain in her eyes.\n2. Options: A, C, D: don't fit the context of suffering and pain.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.42578125,
+        "B": 0.546875,
+        "C": 0.000820159912109375,
+        "D": 0.0272216796875,
+        "E": 0.00018310546875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 88,
+      "generated_until_stop": "1. Context: weeks _ by, cat's sorrow lifting\n2. Suitable word: \"went\" fits the context of time passing\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9140625,
+        "B": 0.058349609375,
+        "C": 0.001373291015625,
+        "D": 0.027587890625,
+        "E": 5.316734313964844e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 89,
+      "generated_until_stop": "1. Context: looking at the floor\n2. Suitable word: seemed\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.006683349609375,
+        "C": 0.000202178955078125,
+        "D": 0.0003337860107421875,
+        "E": 7.808208465576172e-06
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 90,
+      "generated_until_stop": "1. Context: Lightning sleeping next to a statue\n2. Suitable word: Lying (as it fits the context of sleeping)\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0242919921875,
+        "B": 0.051513671875,
+        "C": 0.296875,
+        "D": 0.62890625,
+        "E": 0.00057220458984375
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 91,
+      "generated_until_stop": "1. Context: Sleeping next to a statue\n2. Best fit: Comfortable place to sleep\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0228271484375,
+        "B": 0.96875,
+        "C": 0.00145721435546875,
+        "D": 0.00653076171875,
+        "E": 2.6702880859375e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 92,
+      "generated_until_stop": "1. Context: Joe is tired and sitting down by the window.\n2. Suitable word: hanging (as it describes a position of the head)\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.92578125,
+        "B": 0.05908203125,
+        "C": 0.004852294921875,
+        "D": 0.01025390625,
+        "E": 8.916854858398438e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 93,
+      "generated_until_stop": "1. Context: Kay senses something unusual.\n2. Options: A, B, D don't fit the context of sensing something unusual.\n3. C: stolen fits the context of something unusual and potentially bad news.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.003082275390625,
+        "B": 0.0107421875,
+        "C": 0.96875,
+        "D": 0.0177001953125,
+        "E": 0.0002536773681640625
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 94,
+      "generated_until_stop": "1. Context: Joe is sitting still, without movement.\n2. Kay's reaction: She sensed something unusual.\n3. A, C, D: don't fit the context of unusual behavior.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.003173828125,
+        "B": 0.99609375,
+        "C": 0.00012302398681640625,
+        "D": 0.000705718994140625,
+        "E": 2.1338462829589844e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 95,
+      "generated_until_stop": "1. Context: Joe's usual greeting behavior\n2. Missing word: Joe's reaction\n3. A, B, C: don't fit the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.04736328125,
+        "B": 0.002349853515625,
+        "C": 0.000408172607421875,
+        "D": 0.94921875,
+        "E": 0.000408172607421875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 96,
+      "generated_until_stop": "1. Context: Kay noticed something unusual about Joe.\n2. Suitable word: sensed\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.004058837890625,
+        "C": 0.0003337860107421875,
+        "D": 0.00054931640625,
+        "E": 1.0073184967041016e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 97,
+      "generated_until_stop": "1. Context: Kay senses something unusual.\n2. Options: A, B, D: don't fit the context of unusual news.\n3. C: fits the context of unusual news.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.004150390625,
+        "B": 0.0947265625,
+        "C": 0.8984375,
+        "D": 0.0028533935546875,
+        "E": 0.00014209747314453125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 98,
+      "generated_until_stop": "1. Context: discussing chances in a competition\n2. A: fits the context of competition and position\n3. B, C, D: don't fit the context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.0108642578125,
+        "C": 0.0024261474609375,
+        "D": 0.00848388671875,
+        "E": 9.393692016601562e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 99,
+      "generated_until_stop": "1. Context: discussing the situation and odds\n2. Best fit: C (chance) to express the odds or opportunity\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0040283203125,
+        "B": 0.005157470703125,
+        "C": 0.98046875,
+        "D": 0.00848388671875,
+        "E": 5.7220458984375e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 100,
+      "generated_until_stop": "1. Context: describing an opponent's position\n2. Options: A, B, D: don't fit the context\n3. C: experienced fits the context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.006622314453125,
+        "B": 0.006622314453125,
+        "C": 0.984375,
+        "D": 0.0031280517578125,
+        "E": 0.000423431396484375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 101,
+      "generated_until_stop": "1. Context: describing the opponent's performance\n2. Opposite of \"good\" (indicating a positive job)\n3. B, C: irrelevant\n4. D: fits the context of being in the lead\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.298828125,
+        "B": 0.06640625,
+        "C": 0.00201416015625,
+        "D": 0.6328125,
+        "E": 0.000652313232421875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 102,
+      "generated_until_stop": "1. Context: discussing opponent's position\n2. Options: A, B, C: don't fit context\n3. D: fits context of being successful\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0361328125,
+        "B": 0.0281982421875,
+        "C": 0.0015869140625,
+        "D": 0.93359375,
+        "E": 0.000354766845703125
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 103,
+      "generated_until_stop": "1. Context: Joe Hart is trying to gain support.\n2. Suitable word: Joe Hart is trying to gain support.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.248046875,
+        "B": 0.318359375,
+        "C": 0.026123046875,
+        "D": 0.408203125,
+        "E": 0.00022602081298828125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 104,
+      "generated_until_stop": "1. Context: children repeating a request\n2. Suitable word: ask\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01092529296875,
+        "B": 0.0040283203125,
+        "C": 0.984375,
+        "D": 0.00244140625,
+        "E": 7.343292236328125e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 105,
+      "generated_until_stop": "1. Context: Joe Hart is running for something.\n2. Options: A, B, D don't fit the context of a campaign.\n3. C: \"vote for our daddy, Joe Hart!\" fits the context of a campaign.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.004058837890625,
+        "C": 0.9921875,
+        "D": 0.0031585693359375,
+        "E": 8.392333984375e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 106,
+      "generated_until_stop": "1. Context: Joe Hart's campaign activities\n2. Suitable word: traveling\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0108642578125,
+        "B": 0.003997802734375,
+        "C": 0.9765625,
+        "D": 0.006591796875,
+        "E": 7.343292236328125e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 107,
+      "generated_until_stop": "1. Context: children visiting door to door\n2. Suitable verb: offering\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.005218505859375,
+        "C": 0.00115966796875,
+        "D": 0.001495361328125,
+        "E": 2.4080276489257812e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 108,
+      "generated_until_stop": "1. Context: night before a specific vote\n2. Options: A, B, C, D\n3. A: final vote fits context\n4. B, C, D: don't fit context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.97265625,
+        "B": 0.017822265625,
+        "C": 0.00041961669921875,
+        "D": 0.0084228515625,
+        "E": 0.0001201629638671875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 109,
+      "generated_until_stop": "1. Context: night before final vote, family too _ to fall asleep\n2. Options: A, C, D: don't fit the context\n3. B: anxious fits the context of being too excited to sleep\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.9921875,
+        "C": 0.00042724609375,
+        "D": 0.004058837890625,
+        "E": 3.0994415283203125e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 110,
+      "generated_until_stop": "1. Context: waiting for final vote result\n2. Emotions: tears, joy, relief\n3. A, C, D: don't fit emotional release\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.66015625,
+        "B": 0.3125,
+        "C": 0.000469207763671875,
+        "D": 0.025634765625,
+        "E": 0.00013446807861328125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 111,
+      "generated_until_stop": "1. Context: waiting for final vote result\n2. Emotions: anxious, heart-pounding\n3. A: laughter fits emotional release\n4. B, C, D: don't fit context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.005218505859375,
+        "C": 0.000202178955078125,
+        "D": 0.00080108642578125,
+        "E": 6.580352783203125e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 112,
+      "generated_until_stop": "1. Context: contrasting two ideas\n2. Suitable word: C. But\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00830078125,
+        "B": 0.017578125,
+        "C": 0.9609375,
+        "D": 0.013671875,
+        "E": 0.000152587890625
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 113,
+      "generated_until_stop": "1. Context: making a promise to slow down\n2. Focus: pay more attention to what matters in life\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00518798828125,
+        "B": 0.9921875,
+        "C": 0.00148773193359375,
+        "D": 0.00191497802734375,
+        "E": 5.7697296142578125e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 114,
+      "generated_until_stop": "1. Context: younger family member reminding\n2. A, B, D: don't fit the family relationship\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0031585693359375,
+        "B": 0.00191497802734375,
+        "C": 0.9921875,
+        "D": 0.0024566650390625,
+        "E": 0.0001392364501953125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 115,
+      "generated_until_stop": "1. Context: bike ride destination\n2. Options: A, B, C: unlikely\n3. D: park (common bike ride destination)\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.013916015625,
+        "B": 0.0084228515625,
+        "C": 0.0003719329833984375,
+        "D": 0.9765625,
+        "E": 0.000225067138671875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 116,
+      "generated_until_stop": "1. Context: daughter enjoying ice cream\n2. Options: A, C, D: don't fit the context\n3. B: fits the context of enjoying ice cream\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000804901123046875,
+        "B": 1.0,
+        "C": 0.00020313262939453125,
+        "D": 0.00048828125,
+        "E": 2.1457672119140625e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 117,
+      "generated_until_stop": "1. Context: \"I nearly _ .\"\n2. Options: A, B, C, D\n3. C: \"burst\" fits the context of feeling overwhelmed or emotional.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00191497802734375,
+        "B": 0.0031585693359375,
+        "C": 0.9921875,
+        "D": 0.001495361328125,
+        "E": 6.580352783203125e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 118,
+      "generated_until_stop": "1. Context: life is 49_ (likely referring to a number of years)\n2. Options: A, B, C, D\n3. A: worried - fits the context of a challenging life\n4. B, C, D: don't fit the context as well\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.72265625,
+        "B": 0.265625,
+        "C": 0.00139617919921875,
+        "D": 0.008056640625,
+        "E": 7.867813110351562e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 119,
+      "generated_until_stop": "1. Context: child looking up at parent\n2. Suitable word: \"when\" fits the context of waiting\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00885009765625,
+        "B": 0.10791015625,
+        "C": 0.083984375,
+        "D": 0.796875,
+        "E": 0.0001621246337890625
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 120,
+      "generated_until_stop": "1. Context: choosing to do things slowly\n2. Options: A, B, C, D\n3. A, B, D: don't fit the context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0135498046875,
+        "B": 0.0286865234375,
+        "C": 0.94921875,
+        "D": 0.00823974609375,
+        "E": 0.000247955322265625
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 121,
+      "generated_until_stop": "1. Context: choosing to do things slowly\n2. Opposite of rushing\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.80078125,
+        "B": 0.1083984375,
+        "C": 0.08447265625,
+        "D": 0.006927490234375,
+        "E": 8.726119995117188e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 122,
+      "generated_until_stop": "1. Context: choosing a better approach\n2. Sent1: \"I chose the latter\" → implies a positive choice\n3. A, B, D: don't fit the positive tone\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.037109375,
+        "B": 0.00390625,
+        "C": 0.95703125,
+        "D": 0.0018463134765625,
+        "E": 0.0003204345703125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 123,
+      "generated_until_stop": "1. Context: giving advice\n2. Suitable word: kindly\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.008544921875,
+        "C": 0.0019073486328125,
+        "D": 0.00115966796875,
+        "E": 1.1324882507324219e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 124,
+      "generated_until_stop": "1. Context: talking merrily\n2. Suitable word: sat\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.00090789794921875,
+        "C": 0.00020313262939453125,
+        "D": 0.99609375,
+        "E": 9.584426879882812e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 125,
+      "generated_until_stop": "1. Context: sitting, smiling\n2. Suitable word: silence\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.004058837890625,
+        "C": 0.00012302398681640625,
+        "D": 0.00090789794921875,
+        "E": 1.2934207916259766e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 126,
+      "generated_until_stop": "1. Context: daughter taking last bite\n2. Suitable word: saved\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.006683349609375,
+        "C": 0.00054931640625,
+        "D": 0.00148773193359375,
+        "E": 1.2874603271484375e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 127,
+      "generated_until_stop": "1. Context: daughter saving last bite\n2. Suitable word: hurriedly (indicating quick action)\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.001495361328125,
+        "B": 0.00115966796875,
+        "C": 0.9921875,
+        "D": 0.004058837890625,
+        "E": 2.1338462829589844e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 128,
+      "generated_until_stop": "1. Context: child gives last bite, love felt\n2. Options: A, B, C, D\n3. A: better fits love and sweetness\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.008544921875,
+        "C": 0.00020122528076171875,
+        "D": 0.0024566650390625,
+        "E": 8.392333984375e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 129,
+      "generated_until_stop": "1. Context: old man waiting for a ride\n2. Suitable word: river (common crossing)\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98046875,
+        "B": 0.0179443359375,
+        "C": 0.00054168701171875,
+        "D": 0.00189208984375,
+        "E": 1.8596649169921875e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 130,
+      "generated_until_stop": "1. Context: wait seems long\n2. Meaning: long wait feels endless\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00116729736328125,
+        "B": 0.99609375,
+        "C": 0.0004291534423828125,
+        "D": 0.000553131103515625,
+        "E": 1.1444091796875e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 131,
+      "generated_until_stop": "1. Context: horsemen coming around the bend\n2. Suitable word: watched\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001495361328125,
+        "B": 0.005218505859375,
+        "C": 0.0002593994140625,
+        "D": 0.9921875,
+        "E": 0.000202178955078125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 132,
+      "generated_until_stop": "1. Context: old man waits for a rider\n2. Suitable word: next\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0024261474609375,
+        "B": 0.01397705078125,
+        "C": 0.00311279296875,
+        "D": 0.98046875,
+        "E": 0.00012111663818359375
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 133,
+      "generated_until_stop": "1. Context: old man catching last rider\n2. A, C, D: don't fit the context\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.013671875,
+        "B": 0.95703125,
+        "C": 0.00067901611328125,
+        "D": 0.0289306640625,
+        "E": 0.0002498626708984375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 134,
+      "generated_until_stop": "1. Context: looking for a way\n2. Options: A, B, C, D\n3. A, B, C, D: all fit\n4. D: bus is a common way\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0031280517578125,
+        "B": 0.01092529296875,
+        "C": 0.00130462646484375,
+        "D": 0.984375,
+        "E": 0.00010728836059570312
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 135,
+      "generated_until_stop": "1. Context: old man unable to do something to his body\n2. Options: A, B, C, D\n3. A: feel - fits the context of being half-frozen\n4. B, C, D: don't fit the context of half-frozen body\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.002471923828125,
+        "C": 0.001495361328125,
+        "D": 0.000705718994140625,
+        "E": 5.793571472167969e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 136,
+      "generated_until_stop": "1. Context: horseman noticing another rider's behavior\n2. Suitable word: honesty (as it fits the context of noticing and questioning)\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00653076171875,
+        "B": 0.0084228515625,
+        "C": 0.97265625,
+        "D": 0.01385498046875,
+        "E": 0.00015354156494140625
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 137,
+      "generated_until_stop": "1. Context: horseman asking about letting riders go by\n2. Suitable word: stop (to get a ride)\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0218505859375,
+        "B": 0.9296875,
+        "C": 0.0037994384765625,
+        "D": 0.046142578125,
+        "E": 0.00011444091796875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 138,
+      "generated_until_stop": "1. Context: someone asked for a ride\n2. Options: A, B, D: don't fit the context\n3. C: fits the context of asking for a ride\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01080322265625,
+        "B": 0.01220703125,
+        "C": 0.96875,
+        "D": 0.00653076171875,
+        "E": 0.00011968612670898438
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 139,
+      "generated_until_stop": "1. Context: old man replies about duration\n2. A: redundant\n3. B, C: less fitting\n4. D: best fit\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00701904296875,
+        "B": 0.1806640625,
+        "C": 0.00074005126953125,
+        "D": 0.8125,
+        "E": 0.000308990478515625
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 140,
+      "generated_until_stop": "1. Context: looking into eyes, seeing no _ for situation\n2. A: doubt - fits context of seeing no doubt\n3. B, C, D: don't fit context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.60546875,
+        "B": 0.287109375,
+        "C": 0.000335693359375,
+        "D": 0.10546875,
+        "E": 0.0002040863037109375
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 141,
+      "generated_until_stop": "1. Context: looking into eyes\n2. Options: A, B, C, D\n3. A: help - not directly related to eyes\n4. B, C: partial, not full meaning\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.003143310546875,
+        "B": 0.00665283203125,
+        "C": 0.000545501708984375,
+        "D": 0.98828125,
+        "E": 0.00020122528076171875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 142,
+      "generated_until_stop": "1. Context: opportunity to give help\n2. Suitable word: offer\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.001495361328125,
+        "B": 0.99609375,
+        "C": 0.00070953369140625,
+        "D": 0.00116729736328125,
+        "E": 1.6689300537109375e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 143,
+      "generated_until_stop": "1. Context: seeking help\n2. Best fit: A. need\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.02294921875,
+        "C": 0.000370025634765625,
+        "D": 0.00146484375,
+        "E": 3.910064697265625e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 144,
+      "generated_until_stop": "1. Context: heartwarming comments\n2. Suitable word: touched\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.0024566650390625,
+        "C": 0.9921875,
+        "D": 0.0024566650390625,
+        "E": 3.981590270996094e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 145,
+      "generated_until_stop": "1. Context: \"too busy in my own affairs that I _ to respond to the needs of others with kindness and compassion.\"\n2. Suitable word: \"try\" fits the context of attempting to respond to others.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.96875,
+        "B": 0.029296875,
+        "C": 0.0005340576171875,
+        "D": 0.00113677978515625,
+        "E": 4.410743713378906e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 146,
+      "generated_until_stop": "1. Context: guessing the correct answer\n2. Young person's thought: something very important to humans\n3. A, B, C: don't fit the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.013916015625,
+        "B": 0.0084228515625,
+        "C": 0.0004215240478515625,
+        "D": 0.9765625,
+        "E": 0.00054168701171875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 147,
+      "generated_until_stop": "1. Context: \"She said,\"No.Many people are _ .But you keep thinking about it and I will ask you again soon.\"\n2. Options: A, B, C, D\n3. A: ill - fits the context of being discouraged\n4. B, C, D: don't fit the context of being discouraged\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.93359375,
+        "B": 0.00433349609375,
+        "C": 0.000518798828125,
+        "D": 0.059814453125,
+        "E": 0.00019073486328125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 148,
+      "generated_until_stop": "1. Context: \"Since making my first _ ,I had often thought over the question.\"\n2. Options: A, B, C, D\n3. A: decision - fits the context of thinking over a question\n4. B, C, D: don't fit the context as well\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.828125,
+        "B": 0.1123046875,
+        "C": 0.005584716796875,
+        "D": 0.052978515625,
+        "E": 0.00019073486328125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 149,
+      "generated_until_stop": "1. Context: discussing the answer's correctness\n2. Options: A, B, C, D\n3. A, B, C: not directly related to correctness\n4. D: thinking fits best in the context of discussing the answer's correctness\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001495361328125,
+        "B": 0.002471923828125,
+        "C": 0.000705718994140625,
+        "D": 0.99609375,
+        "E": 0.000377655029296875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 150,
+      "generated_until_stop": "1. Context: \"No,but you are getting smarter every year, my child.\"\n2. Options: A, B, C, D\n3. A: \"Beyond\" fits the context of comparing two time periods.\n4. B, C, D: don't fit the context of comparing two time periods.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.0179443359375,
+        "C": 0.0001983642578125,
+        "D": 0.005126953125,
+        "E": 0.00012063980102539062
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 151,
+      "generated_until_stop": "1. Context: Mother asked me a couple more _ and always her response to my answer was,\"No,but you are getting  smarter  every year, my child.\n2. Suitable word: questions\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.006683349609375,
+        "C": 0.0002593994140625,
+        "D": 0.0002593994140625,
+        "E": 1.138448715209961e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 152,
+      "generated_until_stop": "1. Context: Mother asks about child's progress\n2. Mother's response: \"No,but you are getting _ every year\"\n3. Options: A, B, C, D\n4. A: smarter (fits the context of progress)\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.69140625,
+        "B": 0.1982421875,
+        "C": 0.014404296875,
+        "D": 0.09375,
+        "E": 0.00043487548828125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 153,
+      "generated_until_stop": "1. Context: saying final goodbye\n2. Suitable word: D. turn\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0040283203125,
+        "B": 0.0096435546875,
+        "C": 0.000545501708984375,
+        "D": 0.984375,
+        "E": 0.00013828277587890625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 154,
+      "generated_until_stop": "1. Context: feeling puzzled\n2. Best fit: D. shocked\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00148773193359375,
+        "B": 0.006683349609375,
+        "C": 0.00042724609375,
+        "D": 0.9921875,
+        "E": 0.00013828277587890625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 155,
+      "generated_until_stop": "1. Context: talking about something surprising\n2. Options: A, B, C, D\n3. A, C, D: don't fit the context\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.9921875,
+        "C": 0.00054931640625,
+        "D": 0.004058837890625,
+        "E": 0.00013828277587890625
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 156,
+      "generated_until_stop": "1. Context: She saw the _ on my face and told me.\n2. Suitable word: puzzlement\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.017822265625,
+        "C": 0.00146484375,
+        "D": 0.005126953125,
+        "E": 2.372264862060547e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 157,
+      "generated_until_stop": "1. Context: importance of a question\n2. Meaning: lived life\n3. A, B, D: don't fit context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.004058837890625,
+        "C": 0.9921875,
+        "D": 0.0024566650390625,
+        "E": 0.0002288818359375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 158,
+      "generated_until_stop": "1. Context: body part importance\n2. Options: hair, hands, feet, shoulders\n3. A, B, D: less important\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.022705078125,
+        "B": 0.00836181640625,
+        "C": 0.96484375,
+        "D": 0.00506591796875,
+        "E": 0.0005340576171875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 159,
+      "generated_until_stop": "1. Context: \"I only hope that you have enough love and friends and that you will have a shoulder to cry on when you need it.\"\n2. Suitable word: \"because\" fits the context of providing a reason for having support.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9453125,
+        "B": 0.047119140625,
+        "C": 0.0014190673828125,
+        "D": 0.006378173828125,
+        "E": 4.291534423828125e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 160,
+      "generated_until_stop": "1. Context: talking about having a supportive friend\n2. Options: A, B, D: don't fit the context\n3. C: love fits the context of a supportive friend\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0040283203125,
+        "B": 0.0040283203125,
+        "C": 0.98828125,
+        "D": 0.0040283203125,
+        "E": 0.000156402587890625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 161,
+      "generated_until_stop": "1. Context: talking about having a place to rest one's head and cry\n2. Options: A, B, C, D\n3. A: fits the context of having a place to rest and cry\n4. B, C, D: don't fit the context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.006683349609375,
+        "C": 0.000331878662109375,
+        "D": 0.0024566650390625,
+        "E": 5.7697296142578125e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 162,
+      "generated_until_stop": "1. Context: body part, not selfish\n2. A, C, D: don't fit the meaning\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.008544921875,
+        "B": 0.98828125,
+        "C": 0.0004825592041015625,
+        "D": 0.0040283203125,
+        "E": 0.000156402587890625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 163,
+      "generated_until_stop": "1. Context: preparing for holiday delivery\n2. A: listed - fits the context of preparing a delivery\n3. B, C, D: don't fit the context of preparing a delivery\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9609375,
+        "B": 0.037353515625,
+        "C": 0.0003662109375,
+        "D": 0.001129150390625,
+        "E": 5.602836608886719e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 164,
+      "generated_until_stop": "1. Context: She mailed it in advance to make sure it would arrive at her house weeks before the _ .\n2. Options: A, B, C, D\n3. A: holiday - fits the context of Christmas\n4. B, C, D: don't fit the context of Christmas\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.004058837890625,
+        "C": 0.00020122528076171875,
+        "D": 0.00518798828125,
+        "E": 0.0001220703125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 165,
+      "generated_until_stop": "1. Context: Cathy checks tracking number\n2. Frequency: every _ with Canada Post\n3. Options: A, B, C, D\n4. D: week fits the context of checking tracking numbers\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.005828857421875,
+        "B": 0.0157470703125,
+        "C": 0.0004215240478515625,
+        "D": 0.9765625,
+        "E": 0.00017547607421875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 166,
+      "generated_until_stop": "1. Context: talking about a package\n2. Suitable word: conversation\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.0031585693359375,
+        "C": 0.00010824203491210938,
+        "D": 0.0031585693359375,
+        "E": 1.2934207916259766e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 167,
+      "generated_until_stop": "1. Context: conversation about package\n2. Time frame: twenty minutes later\n3. Options: A, B, C, D\n4. D: arguing fits the context of a prolonged discussion\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00665283203125,
+        "B": 0.005859375,
+        "C": 0.00061798095703125,
+        "D": 0.98828125,
+        "E": 0.000331878662109375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 168,
+      "generated_until_stop": "1. Context: talking about family members\n2. Options: A, B, D: not directly related to family members\n3. C: husband - fits naturally in the sentence\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0108642578125,
+        "B": 0.0084228515625,
+        "C": 0.9765625,
+        "D": 0.005126953125,
+        "E": 0.000255584716796875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 169,
+      "generated_until_stop": "1. Context: making a lot for each other\n2. Suitable word: money\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00836181640625,
+        "B": 0.01385498046875,
+        "C": 0.96875,
+        "D": 0.00836181640625,
+        "E": 4.982948303222656e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 170,
+      "generated_until_stop": "1. Context: package lost\n2. Suitable word: accept\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.002349853515625,
+        "B": 0.94921875,
+        "C": 0.0011138916015625,
+        "D": 0.04736328125,
+        "E": 7.104873657226562e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 171,
+      "generated_until_stop": "1. Context: package lost\n2. Options: A, C, D: don't fit the meaning\n3. B: fits the meaning of \"lost\"\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00116729736328125,
+        "B": 0.99609375,
+        "C": 0.00020313262939453125,
+        "D": 0.00070953369140625,
+        "E": 4.5299530029296875e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 172,
+      "generated_until_stop": "1. Context: phone call to a group\n2. Options: A, B, D: unlikely places for a phone call\n3. C: house - most common place for a phone call\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.03662109375,
+        "B": 0.010498046875,
+        "C": 0.94140625,
+        "D": 0.010498046875,
+        "E": 0.000217437744140625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 173,
+      "generated_until_stop": "1. Context: forgetting about a package\n2. Missing word: something forgotten\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.006622314453125,
+        "B": 0.00848388671875,
+        "C": 0.984375,
+        "D": 0.00189971923828125,
+        "E": 4.458427429199219e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 174,
+      "generated_until_stop": "1. Context: door action\n2. A: locked - contradicts opening\n3. B, D: irrelevant\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0177001953125,
+        "B": 0.00653076171875,
+        "C": 0.96875,
+        "D": 0.00738525390625,
+        "E": 0.00011968612670898438
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 175,
+      "generated_until_stop": "1. Context: expressing possession\n2. A, B, D: don't fit possessive context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0177001953125,
+        "B": 0.00653076171875,
+        "C": 0.96875,
+        "D": 0.00653076171875,
+        "E": 0.0001354217529296875
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 176,
+      "generated_until_stop": "1. Context: noticing something unexpected\n2. Best fit: B. realized\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000553131103515625,
+        "B": 1.0,
+        "C": 0.0002613067626953125,
+        "D": 0.00048828125,
+        "E": 1.4722347259521484e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 177,
+      "generated_until_stop": "1. Context: He wanted to give the gift in time for Christmas.\n2. Suitable word: \"so\" indicates purpose or result.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0031585693359375,
+        "B": 0.9921875,
+        "C": 0.00054931640625,
+        "D": 0.0031585693359375,
+        "E": 2.1338462829589844e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 178,
+      "generated_until_stop": "1. Context: expressing gratitude to a stranger\n2. Options: A, B, C, D\n3. A, B, C: polite, kind, honest\n4. D: generous (fits best in the context of returning a gift)\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.0016937255859375,
+        "C": 0.00017833709716796875,
+        "D": 0.9921875,
+        "E": 0.00010824203491210938
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 179,
+      "generated_until_stop": "1. Context: thanking a stranger for helping with a gift\n2. Suitable action: returning a gift\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00640869140625,
+        "B": 0.036865234375,
+        "C": 0.94921875,
+        "D": 0.00640869140625,
+        "E": 0.0001506805419921875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 180,
+      "generated_until_stop": "1. Sent1: thanked this kind stranger for taking so much trouble to return this gift to us on Christmas Day, and _ thanked God that the package had been lost in the first place.\n2. The word \"silently\" fits the context of expressing gratitude without words.\n3. A, B, C, D: don't fit the context of silent gratitude.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9296875,
+        "B": 0.0361328125,
+        "C": 0.0048828125,
+        "D": 0.028076171875,
+        "E": 0.0007476806640625
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 181,
+      "generated_until_stop": "1. Context: holiday season gift to sister\n2. Suitable word: connection\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9609375,
+        "B": 0.037353515625,
+        "C": 0.000530242919921875,
+        "D": 0.000530242919921875,
+        "E": 7.599592208862305e-06
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 182,
+      "generated_until_stop": "1. Context: referring to Doris' career\n2. Options: A, C, D: don't fit career context\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00848388671875,
+        "B": 0.984375,
+        "C": 0.000423431396484375,
+        "D": 0.00848388671875,
+        "E": 5.7220458984375e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 183,
+      "generated_until_stop": "1. Context: talking about Doris' room with dolls\n2. Word: creative (as it fits the description of unique dolls)\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01080322265625,
+        "B": 0.01385498046875,
+        "C": 0.96875,
+        "D": 0.005096435546875,
+        "E": 0.00011968612670898438
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 184,
+      "generated_until_stop": "1. Context: describing dolls made by Doris\n2. Options: A, B, C, D\n3. A: not relevant to description\n4. C: not relevant to description\n5. D: not relevant to description\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.01092529296875,
+        "B": 0.984375,
+        "C": 0.000896453857421875,
+        "D": 0.0031280517578125,
+        "E": 0.00010728836059570312
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 185,
+      "generated_until_stop": "1. Context: talking to Doris, learning about her class\n2. Suitable word: prepared\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.01953125,
+        "B": 0.83203125,
+        "C": 0.004364013671875,
+        "D": 0.14453125,
+        "E": 0.000278472900390625
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 186,
+      "generated_until_stop": "1. Context: Doris took a doll out to show someone.\n2. Options: A, B, C, D\n3. A: show (fits the context)\n4. B, C, D: don't fit the context\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.8984375,
+        "B": 0.0947265625,
+        "C": 0.0010528564453125,
+        "D": 0.00604248046875,
+        "E": 0.00018310546875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 187,
+      "generated_until_stop": "1. Context: describing a doll's artistic work\n2. Options: A, B, C, D\n3. A: common (not fitting the description)\n4. B, C, D: B fits the description of unique artistic work\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.99609375,
+        "C": 0.0003795623779296875,
+        "D": 0.00080108642578125,
+        "E": 5.125999450683594e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 188,
+      "generated_until_stop": "1. Context: learning about Doris's class in doll making\n2. Observation: unusual doll with fine artistic work\n3. Emotion: reaction to unique work\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0137939453125,
+        "B": 0.00653076171875,
+        "C": 0.96875,
+        "D": 0.0107421875,
+        "E": 9.298324584960938e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 189,
+      "generated_until_stop": "1. Context: Doris was handling the doll.\n2. Suitable word: shaking\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.96484375,
+        "B": 0.029052734375,
+        "C": 0.0023956298828125,
+        "D": 0.00506591796875,
+        "E": 2.0623207092285156e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 190,
+      "generated_until_stop": "1. Context: observing a break in the doll's skirt\n2. Emotion: feeling about the situation\n3. A, C, D: don't fit the context\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.98828125,
+        "C": 0.000701904296875,
+        "D": 0.006683349609375,
+        "E": 3.504753112792969e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 191,
+      "generated_until_stop": "1. Context: Doris was  turning  the doll carefully in her hand.\n2. Action: something happened to the skirt.\n3. Options: A, B, C, D\n4. A: replaced - doesn't fit the context\n5. B: burned - doesn't fit the context\n6. C: decorated - doesn't fit the context\n7. D: bumped - fits the context (as in \"bumped the side of the skirt\")\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004974365234375,
+        "B": 0.047119140625,
+        "C": 0.00067138671875,
+        "D": 0.9453125,
+        "E": 0.00014972686767578125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 192,
+      "generated_until_stop": "1. Context: Doris's experience in school\n2. Options: A, B, D: irrelevant\n3. C: most relevant\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.033935546875,
+        "B": 0.055908203125,
+        "C": 0.875,
+        "D": 0.033935546875,
+        "E": 0.0003337860107421875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 193,
+      "generated_until_stop": "1. Context: talking about showing the doll to the teacher\n2. Options: A, B, D: don't fit the context\n3. C: choice fits the context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.001312255859375,
+        "B": 0.0031585693359375,
+        "C": 0.9921875,
+        "D": 0.003570556640625,
+        "E": 0.00010824203491210938
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 194,
+      "generated_until_stop": "1. Context: describing a break in the skirt\n2. Options: A, B, C, D\n3. A, B, C: don't fit the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.003997802734375,
+        "B": 0.0179443359375,
+        "C": 0.000255584716796875,
+        "D": 0.9765625,
+        "E": 0.00019931793212890625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 195,
+      "generated_until_stop": "1. Break in the skirt\n2. Teacher's reaction\n3. D: destroyed\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.466796875,
+        "B": 0.283203125,
+        "C": 0.0556640625,
+        "D": 0.1943359375,
+        "E": 0.00013828277587890625
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 196,
+      "generated_until_stop": "1. Context: teacher's reaction to the break in the skirt\n2. Suitable word: ignore\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.006500244140625,
+        "B": 0.0137939453125,
+        "C": 0.96484375,
+        "D": 0.0137939453125,
+        "E": 9.298324584960938e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 197,
+      "generated_until_stop": "1. Context: teacher's remark about the doll\n2. Teacher's focus: good qualities of the doll\n3. A, B, D: don't fit the context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0031585693359375,
+        "B": 0.0031585693359375,
+        "C": 0.9921875,
+        "D": 0.001495361328125,
+        "E": 5.793571472167969e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 198,
+      "generated_until_stop": "1. Context: teacher's remark changes Doris's life\n2. Options: A, B, C, D\n3. A: attitude - fits the context of change in life\n4. B, C, D: don't fit the context of life change\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00170135498046875,
+        "C": 0.0001087188720703125,
+        "D": 0.00116729736328125,
+        "E": 2.4199485778808594e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 199,
+      "generated_until_stop": "1. Context: teacher's mistake\n2. Word: feeling about mistake\n3. A, C: don't fit\n4. B, D: B fits better\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.002777099609375,
+        "B": 0.9921875,
+        "C": 0.000621795654296875,
+        "D": 0.00518798828125,
+        "E": 3.0994415283203125e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 200,
+      "generated_until_stop": "1. Context: talking about studying English\n2. Reaction: gentle shaking, shrugging, \"You don't say!\"\n3. A, B, D: don't fit the reaction\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.02783203125,
+        "B": 0.035888671875,
+        "C": 0.921875,
+        "D": 0.01318359375,
+        "E": 0.000396728515625
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 201,
+      "generated_until_stop": "1. Context: expressing doubt about the topic's suitability\n2. A: doesn't fit the context\n3. B, D: don't fit the context\n4. C: fits the context of expressing doubt\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.0031585693359375,
+        "C": 0.9921875,
+        "D": 0.000705718994140625,
+        "E": 0.00010824203491210938
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 202,
+      "generated_until_stop": "1. Context: speaker changed the topic\n2. Suitable word: never\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.97265625,
+        "B": 0.02294921875,
+        "C": 0.00146484375,
+        "D": 0.00146484375,
+        "E": 2.086162567138672e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 203,
+      "generated_until_stop": "1. Context: talking about a place\n2. A, B, D: don't fit the context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00518798828125,
+        "B": 0.003143310546875,
+        "C": 0.98828125,
+        "D": 0.0019073486328125,
+        "E": 0.000156402587890625
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 204,
+      "generated_until_stop": "1. Context: leaving China\n2. Suitable word: back\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00653076171875,
+        "B": 0.96875,
+        "C": 0.0107421875,
+        "D": 0.0137939453125,
+        "E": 3.4332275390625e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 205,
+      "generated_until_stop": "1. Context: talking about seeing something in China\n2. Options: A, B, C, D\n3. A: doesn't fit context\n4. B: too vague\n5. C: doesn't fit context\n6. D: fits context\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.01068115234375,
+        "B": 0.022705078125,
+        "C": 0.001861572265625,
+        "D": 0.96484375,
+        "E": 0.0005340576171875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 206,
+      "generated_until_stop": "1. Context: talking to a guide\n2. Best fit: \"to\" a guide\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.09765625,
+        "B": 0.33984375,
+        "C": 0.4375,
+        "D": 0.125,
+        "E": 0.0003108978271484375
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 207,
+      "generated_until_stop": "1. Context: feeling about something\n2. A, B, D: don't fit the context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.07421875,
+        "B": 0.0166015625,
+        "C": 0.90234375,
+        "D": 0.004730224609375,
+        "E": 0.00023651123046875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 208,
+      "generated_until_stop": "1. Context: asking not to talk about it\n2. Suitable word: \"don't\" or \"won't\"\n3. A, B, D: don't fit the context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0732421875,
+        "B": 0.007720947265625,
+        "C": 0.890625,
+        "D": 0.0269775390625,
+        "E": 0.00063323974609375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 209,
+      "generated_until_stop": "1. Context: asking a question\n2. Options: A, B, C, D\n3. A: How - fits the context of asking a question\n4. B, C, D: don't fit the context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.87890625,
+        "B": 0.119140625,
+        "C": 0.000179290771484375,
+        "D": 0.001495361328125,
+        "E": 8.440017700195312e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 210,
+      "generated_until_stop": "1. Context: He answered, great _ .\n2. Suitable word: surprised\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0014801025390625,
+        "B": 0.00665283203125,
+        "C": 0.984375,
+        "D": 0.00665283203125,
+        "E": 3.4809112548828125e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 211,
+      "generated_until_stop": "1. Context: English laughing to tears\n2. Action: expressing something\n3. A, B, C: don't fit the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0291748046875,
+        "B": 0.00186920166015625,
+        "C": 0.0004177093505859375,
+        "D": 0.96875,
+        "E": 0.0004177093505859375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 212,
+      "generated_until_stop": "1. Context: \"It is an _ of surprise.\"\n2. Suitable word: \"expression\" fits naturally in the sentence.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0031585693359375,
+        "B": 0.9921875,
+        "C": 0.000904083251953125,
+        "D": 0.0024566650390625,
+        "E": 3.504753112792969e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 213,
+      "generated_until_stop": "1. Context: \"Since then I have been more careful with idioms.\"\n2. Suitable preposition: \"Since then I have been more careful with idioms.\"\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.039306640625,
+        "B": 0.06494140625,
+        "C": 0.10693359375,
+        "D": 0.7890625,
+        "E": 0.00020599365234375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 214,
+      "generated_until_stop": "1. Context: \"made a fool of _\"\n2. Suitable pronoun: \"myself\"\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.009765625,
+        "B": 0.60546875,
+        "C": 0.018310546875,
+        "D": 0.3671875,
+        "E": 0.0001583099365234375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 215,
+      "generated_until_stop": "1. Context: something negative happens\n2. Options: A, B, D: positive outcomes\n3. C: ignored leads to negative consequences\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00390625,
+        "B": 0.037109375,
+        "C": 0.95703125,
+        "D": 0.0023651123046875,
+        "E": 0.000118255615234375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 216,
+      "generated_until_stop": "1. Context: found myself at a bus station\n2. Options: A, B, D don't fit the context\n3. C: delayed fits the context of being at a bus station\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0031585693359375,
+        "B": 0.002166748046875,
+        "C": 0.9921875,
+        "D": 0.002166748046875,
+        "E": 4.506111145019531e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 217,
+      "generated_until_stop": "1. Context: feeling not good\n2. Options: A, B, C, D\n3. A, B, C: don't fit well\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0218505859375,
+        "B": 0.72265625,
+        "C": 0.04638671875,
+        "D": 0.20703125,
+        "E": 0.00016689300537109375
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 218,
+      "generated_until_stop": "1. Context: woman asking for help with bus ticket\n2. Common phrase: \"spare change\" for money\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.008544921875,
+        "B": 0.003143310546875,
+        "C": 0.000331878662109375,
+        "D": 0.98828125,
+        "E": 7.390975952148438e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 219,
+      "generated_until_stop": "1. Context: feeling regret about something\n2. Options: A, B, D don't fit the feeling of regret\n3. C: selfishness fits the feeling of regret\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00102996826171875,
+        "B": 0.004058837890625,
+        "C": 0.99609375,
+        "D": 0.0004291534423828125,
+        "E": 3.981590270996094e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 220,
+      "generated_until_stop": "1. Context: handing her five dollars\n2. Low sounds from her stomach\n3. C: hunger is most likely cause\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00830078125,
+        "B": 0.0225830078125,
+        "C": 0.95703125,
+        "D": 0.0106201171875,
+        "E": 9.202957153320312e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 221,
+      "generated_until_stop": "1. Context: handing her five dollars, heard low sounds from her stomach\n2. Suitable item: something to eat or drink\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00518798828125,
+        "B": 0.98828125,
+        "C": 0.003143310546875,
+        "D": 0.0040283203125,
+        "E": 3.4809112548828125e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 222,
+      "generated_until_stop": "1. Context: trying to make up for earlier tone\n2. Suitable word: apology\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00150299072265625,
+        "C": 0.00020313262939453125,
+        "D": 0.0002613067626953125,
+        "E": 7.867813110351562e-06
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 223,
+      "generated_until_stop": "1. Context: noticing her tired appearance\n2. Suitable word: good (relaxing, comfortable)\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.01611328125,
+        "B": 0.8828125,
+        "C": 0.009765625,
+        "D": 0.0927734375,
+        "E": 0.00020313262939453125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 224,
+      "generated_until_stop": "1. Context: tired, had several months\n2. Options: A, B, C: don't fit tiredness\n3. D: fits tiredness\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.005157470703125,
+        "B": 0.008544921875,
+        "C": 0.000698089599609375,
+        "D": 0.984375,
+        "E": 0.0003299713134765625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 225,
+      "generated_until_stop": "1. Context: feeling about food\n2. A: anger doesn't fit\n3. B, C, D: don't fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0084228515625,
+        "B": 0.96875,
+        "C": 0.003082275390625,
+        "D": 0.017822265625,
+        "E": 0.00011968612670898438
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 226,
+      "generated_until_stop": "1. Context: unlikely to use ticket\n2. Options: A, B, D: unlikely\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.0024566650390625,
+        "C": 0.9921875,
+        "D": 0.00191497802734375,
+        "E": 3.0994415283203125e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 227,
+      "generated_until_stop": "1. Context: apologizing and still feeling about money\n2. A: short - doesn't fit the context\n3. B, C: don't fit the context\n4. D: ashamed - fits the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0031280517578125,
+        "B": 0.0140380859375,
+        "C": 0.00037384033203125,
+        "D": 0.98046875,
+        "E": 0.00015544891357421875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 228,
+      "generated_until_stop": "1. Context: \"I was being a fool\" implies a conclusion or result.\n2. B: \"Therefore\" fits as it indicates a conclusion.\n3. A, C, D: don't fit the context of concluding a statement.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00090789794921875,
+        "B": 0.99609375,
+        "C": 9.584426879882812e-05,
+        "D": 0.002471923828125,
+        "E": 2.1338462829589844e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 229,
+      "generated_until_stop": "1. Context: trying to do something to my twenty\n2. Options: A, B, C, D\n3. A: return - doesn't fit the context\n4. B, C: don't fit the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.00090789794921875,
+        "C": 0.000179290771484375,
+        "D": 0.99609375,
+        "E": 0.00020313262939453125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 230,
+      "generated_until_stop": "1. Context: talking about getting something else\n2. Suitable word: trade\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.9921875,
+        "C": 0.00054931640625,
+        "D": 0.0024566650390625,
+        "E": 2.1338462829589844e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 231,
+      "generated_until_stop": "1. Context: She started crying and hugged me.\n2. Suitable word: \"out\" fits the context of comforting someone.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.96484375,
+        "B": 0.022705078125,
+        "C": 0.0023956298828125,
+        "D": 0.00836181640625,
+        "E": 3.8623809814453125e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 232,
+      "generated_until_stop": "1. Context: remembering woman's help\n2. Suitable word: worth\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0084228515625,
+        "B": 0.0108642578125,
+        "C": 0.9765625,
+        "D": 0.005126953125,
+        "E": 0.00010633468627929688
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 233,
+      "generated_until_stop": "1. Context: making a positive impact\n2. A, B, D: don't fit the context\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00848388671875,
+        "B": 0.006622314453125,
+        "C": 0.98046875,
+        "D": 0.0031280517578125,
+        "E": 7.343292236328125e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 234,
+      "generated_until_stop": "1. Context: efforts might come back to bite me\n2. Suitable word: inspire another human being\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.9921875,
+        "C": 0.00115966796875,
+        "D": 0.001495361328125,
+        "E": 3.0994415283203125e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 235,
+      "generated_until_stop": "1. Context: \"I get _ A's in school, or that I am a captain of the football team, or that I belong to positive youth organizations.\"\n2. Options: A, B, C, D\n3. A: \"particularly\" fits the context of emphasizing achievements.\n4. B, C, D: don't fit the context of emphasizing achievements.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.00665283203125,
+        "C": 0.000701904296875,
+        "D": 0.003143310546875,
+        "E": 0.0001220703125
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 236,
+      "generated_until_stop": "1. Context: Belonging to youth organizations\n2. Options: A, B, C, D\n3. A, B, C, D: all fit, but C (positive) is most relevant to the context of youth organizations\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0107421875,
+        "B": 0.00836181640625,
+        "C": 0.96875,
+        "D": 0.01220703125,
+        "E": 0.00019741058349609375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 237,
+      "generated_until_stop": "1. Context: describing a person as a potential threat\n2. Best fit: D. danger\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.008056640625,
+        "B": 0.0595703125,
+        "C": 0.00139617919921875,
+        "D": 0.9296875,
+        "E": 0.00021457672119140625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    }
+  ]
+}

@@ -1,0 +1,1315 @@
+{
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "num_items_total": 87,
+  "num_evaluated": 84,
+  "num_stopped": 84,
+  "num_skipped": 3,
+  "accuracy_no_skipped": "77.38%",
+  "results": [
+    {
+      "index": 0,
+      "generated_until_stop": "The passage explicitly states that \"In Canada the event is called a 'formal'.\" This directly answers the question about which country refers to the prom as a \"formal.\" The other options, America, Britain, and Australia, are mentioned in the context of how the word \"prom\" or \"dance\" is used or referred to, but not as the specific term for the event itself in that country.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 1.2759119272232056e-07,
+        "B": 1.0,
+        "C": 3.9301812648773193e-07,
+        "D": 1.126900315284729e-07,
+        "E": 8.672941476106644e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 1,
+      "generated_until_stop": "The passage discusses the significance of the prom in a student's life, touching on aspects like tradition, expense, and social anxiety. The question asks for the *most* important reason why the prom is significant. While the passage mentions the tradition (B) and the students raising money (D), and even acknowledges the problems (C), the overarching theme is the transition to adulthood. The phrase \"It means the end of life as a child, and the beginning of life as an adult\" directly supports this idea. Therefore, \"It's the sign of becoming an adult\" best captures the primary significance of the prom as presented in the text.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 3.46451997756958e-07,
+        "C": 1.2759119272232056e-07,
+        "D": 1.6391277313232422e-07,
+        "E": 1.4435499906539917e-07
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 2,
+      "generated_until_stop": "The passage provides a comprehensive overview of the prom, including its origins, variations across different countries, the cost and fundraising associated with it, and the common anxieties of students and parents. It touches on historical aspects, traditions, financial aspects, and the emotional experience. The most fitting description for this broad and detailed exposition is \"general information of the prom.\" While it does delve into specific historical and traditional elements, it also covers practical and psychological aspects, making it a general summary rather than a focused historical or developmental account.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 5.364418029785156e-07,
+        "B": 2.384185791015625e-07,
+        "C": 1.2069940567016602e-06,
+        "D": 1.0,
+        "E": 1.7583370208740234e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 3,
+      "generated_until_stop": "The passage describes the origins of the kite and its early uses. The narrative of a Chinese farmer tying a string to his hat to prevent it from blowing away is presented as the \"first kite was born\" story. This event is the most direct and widely cited origin story for the invention of the kite, as it describes the initial purpose and creation of the kite. The other options, while related to the history of kites, do not represent the \"birth\" of the kite in the same way. The farmer's action is presented as the starting point for the development of the kite.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 4.798173904418945e-06,
+        "B": 1.0,
+        "C": 5.029141902923584e-07,
+        "D": 1.2759119272232056e-07,
+        "E": 1.3445969671010971e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 4,
+      "generated_until_stop": "The passage lists several materials used in the construction of kites, including bamboo and silk, and mentions paper as a material. The word \"cloth\" is not explicitly mentioned as a material for kites in the provided text. Therefore, \"cloth\" is the material that is not indicated as being used for kites in the passage.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 5.699694156646729e-07,
+        "B": 6.845220923423767e-08,
+        "C": 1.0,
+        "D": 1.0654330253601074e-06,
+        "E": 8.754432201385498e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 5,
+      "generated_until_stop": "The passage explicitly states that \"in the late 1500s, the kite was introduced to Europe by the Italians.\" This direct statement provides the most accurate and specific information regarding the introduction of the kite to Europe. The other options, while related to the history of kites, do not specifically address the introduction of the kite to Europe in the late 1500s.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 3.213062882423401e-08,
+        "B": 1.0,
+        "C": 3.655441105365753e-08,
+        "D": 2.2118911147117615e-08,
+        "E": 2.1973391994833946e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 6,
+      "generated_until_stop": "The passage provides a historical account of the development and uses of kites. It details the materials used in their construction, the origins of kite flying, and its applications in navigation and as a children's pastime. The narrative spans from ancient China to Europe, highlighting significant milestones and cultural practices associated with kites. The question asks what the passage tells us. The options are: A. how to make a kite, B. how to fly a kite, C. how kite flying was introduced to Europe, and D. what a kite is like. The passage offers a comprehensive history of kites, including their construction, early use, and spread to other regions. While it touches on aspects of making and flying kites, and their introduction to Europe, the overarching theme is the historical development and cultural significance of kites. The passage provides factual information about the history and evolution of kites, making option C the most encompassing and directly supported by the text's focus on historical events and the introduction of kite flying to new areas.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 7.486343383789062e-05,
+        "B": 2.1457672119140625e-05,
+        "C": 1.0,
+        "D": 0.00012302398681640625,
+        "E": 8.940696716308594e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 7,
+      "generated_until_stop": "The passage describes the writer's experience staying in a private holiday home in Antigua. The passage explicitly mentions the presence of a private swimming pool and a yard where breakfast was eaten. It also highlights the pleasant amenities and the writer's enjoyment of the food, attributing it to the overall positive experience. However, there is no mention of the holiday home supplying seafood to the writer. The other options are directly supported by the text.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 7.867813110351562e-06,
+        "B": 7.338821887969971e-07,
+        "C": 3.293156623840332e-06,
+        "D": 1.0,
+        "E": 6.973743438720703e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 8,
+      "generated_until_stop": "The passage describes the writer's experience in Antigua, focusing on the positive aspects of the holiday. The writer states, \"Everything is so pleasant on these beautiful islands, swept by the trade winds and warmed by the sun for so many summer months.\" This sets a general tone of enjoyment and satisfaction. The subsequent sentences detail specific activities and amenities: \"There was a private swimming pool, and a cool, wide yard where I ate my breakfast most mornings.\" \"The bright blue sea and the endless blue around the beach areas proved to be an excellent place for me to spend the long afternoons.\" \"I managed to visit the Sugar Mill and Shirley Heights on my last two days.\" \"I rented a boat and came home after a day's sailing, refreshed, looking forward to dinner.\" \"There was always someone to have a drink with---- that's what I liked most.\" While options A, B, and C are mentioned, they are more general descriptions of the environment. Option D, \"there were many people to drink with,\" directly addresses the writer's stated preference and enjoyment, making it the most important reason for the writer's travel experience as presented in the passage.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 7.867813110351562e-06,
+        "B": 2.562999725341797e-06,
+        "C": 6.139278411865234e-06,
+        "D": 1.0,
+        "E": 3.725290298461914e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 9,
+      "generated_until_stop": "The passage is a first-person narrative describing a holiday experience in Antigua. It details the travel arrangements, activities, and personal reflections on the trip. The style is informal and personal, focusing on the narrator's experiences and feelings. This type of writing is characteristic of a personal account of a trip, such as a travel diary. The other options, a tour guide, a student's report, and a health report, do not fit the content and style of the passage.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 1.126900315284729e-07,
+        "B": 1.0,
+        "C": 3.46451997756958e-07,
+        "D": 5.3085386753082275e-08,
+        "E": 5.966285243630409e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 10,
+      "generated_until_stop": "The passage provides a list of benefits of eating fruit and vegetables during autumn, specifically mentioning apples, pears, pumpkins, and sweet corn. The overall message is that autumn is an ideal time for consuming these foods due to their availability and nutritional value. The final sentence, \"Autumn weather is cold and dry. Try to eat as much fruit and vegetables as you can. They will make you healthy,\" reinforces this idea by encouraging the consumption of these seasonal produce items for their health benefits. Therefore, the most fitting summary of the passage's main point is that autumn is a great time for fruit and vegetables.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 6.891787052154541e-07,
+        "C": 1.9744038581848145e-07,
+        "D": 4.731118679046631e-07,
+        "E": 3.888271749019623e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 11,
+      "generated_until_stop": "The sentence \" _ are /is in rich beta carotene\" requires a plural subject that is associated with beta carotene. The passage states that \"Pumpkin is a nice vegetable in autumn. They are rich in beta carotene.\" The pronoun \"They\" refers to pumpkins, and the sentence structure indicates a plural subject. Therefore, \"Pumpkins\" is the correct answer.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 3.688037395477295e-07,
+        "C": 9.424984455108643e-07,
+        "D": 7.338821887969971e-07,
+        "E": 9.918585419654846e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 12,
+      "generated_until_stop": "The passage discusses how the Internet connects people to the world and provides access to information and services. The statement \"Some people say the world is smaller than before because of the Internet\" is a consequence of these capabilities. The most direct and logical reason for this perceived \"smaller world\" is the ability of the Internet to bring distant places and experiences closer to people's homes. Therefore, the sentence that best supports this idea is the one that explains how the Internet bridges the gap between people and the outside world.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 7.338821887969971e-07,
+        "B": 6.48200511932373e-07,
+        "C": 1.0,
+        "D": 5.699694156646729e-07,
+        "E": 2.8405338525772095e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 13,
+      "generated_until_stop": "The passage discusses the vast capabilities of the Internet, highlighting how it enables people to access information and services from anywhere. The examples provided, such as going shopping without leaving home, seeing a doctor without going to the hospital, and studying without going to school, all point to the ability to \"know\" or access information and services remotely. The phrase \"Can we go shopping without leaving home?\" and \"Can we see a doctor without going to the hospital?\" are directly related to accessing information and services. The final sentence, \"Can we see a doctor and study all kinds of subjects?\" further emphasizes the broad scope of what the Internet enables us to do. Therefore, \"know a lot of information\" is the most fitting completion as it encapsulates the overarching theme of the Internet's ability to provide access to information.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 2.1457672119140625e-05,
+        "B": 2.384185791015625e-07,
+        "C": 1.0,
+        "D": 6.48200511932373e-07,
+        "E": 6.845220923423767e-08
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 14,
+      "generated_until_stop": "The passage discusses the benefits and uses of the Internet, highlighting how it brings the world closer, provides answers to questions about distant places and events, and enables activities like shopping, consulting doctors, and studying from home. The concluding sentences emphasize the positive impact of the Internet on opening eyes and minds, and providing new ideas. The overall tone is one of strong endorsement of Internet exploration. Therefore, the sentence that best summarizes the passage is one that affirms the value of exploring the Internet.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 1.3709068298339844e-06,
+        "C": 1.7583370208740234e-06,
+        "D": 1.0654330253601074e-06,
+        "E": 8.242204785346985e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 15,
+      "generated_until_stop": "The passage discusses the advantages of the Internet in accessing information and learning. It states that \"A lot of information can be collected at a great speed\" and that \"With the Internet they can learn better and more easily.\" It also mentions that the Internet \"often gives us new ideas.\" The question asks which statement is not true. Option B, \"Without leaving home, we can get the money from the bank by the radio,\" is clearly incorrect as the radio cannot be used to access a bank's services. The other options are consistent with the positive portrayal of the Internet's capabilities throughout the passage.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 4.231929779052734e-06,
+        "B": 1.0,
+        "C": 1.2069940567016602e-06,
+        "D": 5.029141902923584e-07,
+        "E": 2.514570951461792e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 16,
+      "generated_until_stop": "The passage details an actor's public apology for a personal mistake. The apology is for \"taking drugs with friends at his house in Beijing.\" The other options, \"hit his fans,\" \"did badly in his film,\" and \"said something bad,\" are not supported by the text. The apology is directly linked to the act of drug use.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 1.2014061212539673e-07,
+        "C": 1.83936208486557e-08,
+        "D": 4.1443854570388794e-08,
+        "E": 3.1868694350123405e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 17,
+      "generated_until_stop": "The passage explicitly states that Ko became famous and popular after starring in the film \"You Are the Apple of My Eye\" in 2011. This film is directly linked to his rise in popularity and the subsequent public apology for his actions. The other options, while potentially related to his career or image, are not the specific reason for his initial fame as described in the text.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 7.729977369308472e-08,
+        "B": 1.0,
+        "C": 1.7583370208740234e-06,
+        "D": 3.9301812648773193e-07,
+        "E": 1.2631062418222427e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 18,
+      "generated_until_stop": "The passage explicitly states that the press conference \"by the end of the 10-minute press conference\" indicates its duration. The phrase \"by the end of the 10-minute press conference\" is a temporal marker that confirms the event lasted for 10 minutes.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.2649765014648438e-06,
+        "B": 1.4435499906539917e-07,
+        "C": 7.338821887969971e-07,
+        "D": 1.0,
+        "E": 2.2649765014648438e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 19,
+      "generated_until_stop": "The statement \"After 14 days of detention, Ko's acting skills grew a lot!\" expresses a positive development in Ko's abilities despite his recent negative actions. The context of a user commenting on Ko's performance after a period of detention suggests an observation of his professional growth. Among the given options, the one that best fits this observation, implying a belief in his improved talent and performance, is \"He thinks Ko has trained hard and improved his acting skills.\" The other options do not align with the specific focus on his acting skills growing.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 3.528594970703125e-05,
+        "B": 9.424984455108643e-07,
+        "C": 6.973743438720703e-06,
+        "D": 1.0,
+        "E": 3.725290298461914e-06
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 20,
+      "generated_until_stop": "The passage describes a public apology by a Taiwan actor, Kai Ko, for taking drugs. The title should reflect the central event of the passage, which is Ko's public apology and its aftermath. While \"Drugs are dangerous\" is a general statement, and \"A famous Taiwan actor\" is a description of Ko, and \"At the press conference\" is a location, the most direct and encompassing title for the passage is \"Apologizing for taking drugs,\" as this is the primary action and consequence being discussed.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 2.1047890186309814e-07,
+        "B": 2.384185791015625e-07,
+        "C": 1.0,
+        "D": 1.55717134475708e-06,
+        "E": 2.384185791015625e-07
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 21,
+      "generated_until_stop": "The passage explains the crucial role of plants in the survival of animals and humans, stating that \"Life could not go on if there were no plants\" because plants produce food through photosynthesis, which animals and humans cannot do directly. The passage then elaborates on the life cycle of plants, mentioning seeds and spores. The statement \"Without plants, man will die out\" directly reflects the central theme of the passage, which is the indispensable importance of plants for life on Earth, including humans. The other options are either too general, incorrect, or not the primary focus of the passage.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.55717134475708e-06,
+        "B": 8.307397365570068e-07,
+        "C": 2.562999725341797e-06,
+        "D": 1.0,
+        "E": 6.139278411865234e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 22,
+      "generated_until_stop": "The passage provides detailed information about plants, their importance for life on Earth, and their reproduction methods. This content is characteristic of educational material aimed at explaining biological concepts. Among the given options, a science magazine is the most appropriate source for such factual and scientific information, as it typically features articles on natural sciences, including botany. The other options, a storybook, a novel, and a laboratory report, are less likely to contain this specific, informative, and educational text.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 7.729977369308472e-08,
+        "B": 9.255018085241318e-09,
+        "C": 1.0,
+        "D": 4.6798959374427795e-08,
+        "E": 1.3445969671010971e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 23,
+      "generated_until_stop": "The passage is a letter from Michael to John, discussing their holiday together and future plans. Michael explicitly states, \"We enjoyed having you and your sister here.\" This directly indicates that both John and his sister stayed with Michael for a holiday. The subsequent sentences about Tom and Ann are separate from this specific holiday event.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.55717134475708e-06,
+        "B": 3.46451997756958e-07,
+        "C": 1.0,
+        "D": 4.4517219066619873e-07,
+        "E": 5.3085386753082275e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 24,
+      "generated_until_stop": "The passage discusses a holiday that lasted \"a week\" and then mentions a \"five-week holiday next year.\" The context of a \"five-week holiday\" implies a significant duration, and the preceding mention of \"a week\" establishes a temporal reference point. The phrase \"A week is not really long enough, is it?\" further reinforces the idea that the current holiday is relatively short compared to a longer, future one. Therefore, the most logical duration for the initial holiday, in contrast to the upcoming \"five-week holiday,\" is \"one week.\"\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 3.0547380447387695e-07,
+        "C": 7.729977369308472e-08,
+        "D": 4.1443854570388794e-08,
+        "E": 2.514570951461792e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 25,
+      "generated_until_stop": "The passage describes Michael's experience as a student in Grade One. The letter is written to John, who is also a student, and Michael expresses hope that John will be able to stay longer during his next visit. Michael also mentions that he and his friends are working hard now that they are in Grade One, and he anticipates having to work hard when he is in Grade One. This indicates a strong commitment to academic effort. The other options are not supported by the text. Michael's teacher's strictness is not mentioned, there's no indication of dissatisfaction with schoolwork, and there's no suggestion of a lack of interest in learning.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.7583370208740234e-06,
+        "B": 1.2014061212539673e-07,
+        "C": 1.7583370208740234e-06,
+        "D": 1.0,
+        "E": 1.0654330253601074e-06
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 26,
+      "generated_until_stop": "The sentence \"We are in Grade One now\" is a statement of current status. The pronoun \"We\" refers to the group of people being addressed in the letter, which includes the recipient \"John\" and his sister. The context of the letter, which discusses a recent holiday and the children's school year, strongly suggests that \"We\" refers to John and his sister. Therefore, the most logical completion of the sentence is \"John and his sister are both in Grade One now.\"\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 1.2069940567016602e-06,
+        "C": 9.313225746154785e-08,
+        "D": 2.8405338525772095e-08,
+        "E": 8.672941476106644e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 27,
+      "generated_until_stop": "The passage explicitly states that Michael did not go to the island for a picnic because he had cut his foot and couldn't walk very well. This directly explains his absence from the activity. The other options are not supported by the text.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 2.3632310330867767e-08,
+        "B": 6.752088665962219e-09,
+        "C": 1.0,
+        "D": 1.0570511221885681e-07,
+        "E": 4.6566128730773926e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 28,
+      "generated_until_stop": "The passage discusses the advantages and potential problems of microblogging. It mentions that microblogs are a \"great way of learning the freshest news\" and that \"It is easy and fast to send a message on a microblog.\" The passage also provides an example of how microblogs can spread information quickly, but also how they can spread misinformation, as seen with the salt buying frenzy after the Japan earthquake. The question asks for a disadvantage. Options B and D are clearly advantages. Option A, \"It is short but carries many meanings,\" is a neutral statement about the nature of microblogs and doesn't inherently represent a disadvantage. Option C, \"It can send rumors,\" is presented as an example of a problem that can arise from microblogging, making it a disadvantage.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 9.632110595703125e-05,
+        "B": 1.0654330253601074e-06,
+        "C": 1.0,
+        "D": 7.486343383789062e-05,
+        "E": 6.139278411865234e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 29,
+      "generated_until_stop": "The passage discusses the rapid growth and widespread use of microblogs in China, highlighting their function as a platform for sharing various types of content. The examples provided—news, everyday life, pictures, music, videos—demonstrate the diverse media that microblogs can disseminate. The question asks what people *don't* typically share on Weibo. Given the options, \"secrets\" is the most likely answer, as microblogs are generally public and open platforms, and sharing personal secrets is contrary to the general nature of microblogging content.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.3709068298339844e-06,
+        "B": 1.2759119272232056e-07,
+        "C": 1.7583370208740234e-06,
+        "D": 1.0,
+        "E": 2.7008354663848877e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 30,
+      "generated_until_stop": "The passage provides a comprehensive introduction to Weibo, including its definition, origins, growth, reasons for use, and potential problems. The initial questions and statements establish what Weibo is and how it functions. The subsequent paragraphs delve into the reasons for its popularity and its impact on people's lives, but the core focus remains on explaining the platform itself and its widespread adoption. The mention of \"Weibo Addicts\" and the detailed description of its features and user behavior strongly suggest an explanation of its nature and how people engage with it.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.01092529296875,
+        "B": 0.00115203857421875,
+        "C": 0.0021514892578125,
+        "D": 0.984375,
+        "E": 5.745887756347656e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 31,
+      "generated_until_stop": "The passage explains that people are joining dangerous sports because modern life has become too safe and uninteresting. It contrasts this with a past where life was like a fight and inherently interesting due to the constant presence of danger. The text explicitly states that people seek excitement when life is perceived as lacking it. Therefore, the primary reason for joining dangerous sports, as presented in the passage, is the need for excitement.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 2.514570951461792e-08,
+        "B": 2.066371962428093e-09,
+        "C": 1.0,
+        "D": 1.8533319234848022e-07,
+        "E": 2.514570951461792e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 32,
+      "generated_until_stop": "The passage discusses dangerous sports and contrasts them with modern, safe lives. The sentence \" _ is not a dangerous sport\" requires a sport that is not inherently dangerous. Among the options, \"Playing table tennis\" is a sport that is generally considered safe and does not involve significant risk of injury or death, unlike the other options which are explicitly described as dangerous. The context of the passage, which lists other dangerous activities, makes \"Playing table tennis\" the most logical choice as the sport that is *not* dangerous.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 3.0547380447387695e-07,
+        "B": 1.0,
+        "C": 3.0547380447387695e-07,
+        "D": 2.8405338525772095e-08,
+        "E": 4.94765117764473e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 33,
+      "generated_until_stop": "The passage describes the mechanics of bungee jumping. It states that \"You jump from a high place, about 200 meters above the ground, and there is a rubber band tied to your legs.\" The subsequent sentence explains what happens when you jump: \"When you jump down, the rubber band pulls you up.\" This clearly indicates that the action involves jumping down while being pulled up by a rubber band. Therefore, the most accurate description of the action in bungee jumping, as presented in the passage, is jumping down with a rubber band tied to your legs.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 1.6391277313232422e-07,
+        "B": 1.0,
+        "C": 4.4517219066619873e-07,
+        "D": 2.384185791015625e-07,
+        "E": 1.5061232261359692e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 34,
+      "generated_until_stop": "The passage explains that in the past, people lived in danger because they had to go out and look for food, and life was like a fight but was interesting. This implies a lack of modern conveniences and a constant state of threat from the environment. The options provided offer potential reasons for this state of danger. Option A, \"the living condition was poor,\" is a general statement that could be true but doesn't directly explain the *dangerous* aspect of living. Option B, \"there was no doctor or hospital,\" is a specific example of a lack of modern safety nets, which contributes to a dangerous living situation. Option C, \"there were many dangerous animals,\" is another specific example of an external threat that would make life dangerous. Option D, \"A, B and C,\" combines these elements into a comprehensive explanation of why people lived in danger in the past. The passage suggests that the lack of modern conveniences and the presence of external threats like dangerous animals and the absence of medical care were key factors. Therefore, a combination of these factors best explains the dangerous living conditions of the past.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 3.528594970703125e-05,
+        "B": 1.2069940567016602e-06,
+        "C": 0.000335693359375,
+        "D": 1.0,
+        "E": 2.905726432800293e-06
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 35,
+      "generated_until_stop": "The passage discusses the lack of excitement in modern, safe lives and the desire for new thrills. It contrasts this with a past where life was \"like a fight but was interesting.\" The options provided are statements about modern life. Option B, \"Many people live and work in safe places,\" directly reflects the passage's assertion that modern life has become too safe and uninteresting, leading people to seek dangerous sports for excitement. Options A, C, and D are general statements about modern conveniences and healthcare, which are not the primary focus of the passage's argument about the need for dangerous sports.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 1.55717134475708e-06,
+        "B": 1.0,
+        "C": 5.029141902923584e-07,
+        "D": 1.955777406692505e-08,
+        "E": 7.188646122813225e-09
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 36,
+      "generated_until_stop": "The passage describes the activities of children in different continents during holidays. The specific example of Shirley attending camps and not being asked to focus on academics is presented as a typical American experience. The subsequent sentences discuss activities in Australia and Africa, but the initial mention of Shirley and her camp attendance is the key context for determining her origin.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000431060791015625,
+        "B": 1.0,
+        "C": 6.48200511932373e-07,
+        "D": 6.48200511932373e-07,
+        "E": 4.1443854570388794e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 37,
+      "generated_until_stop": "The passage contrasts the activities of children in Africa with those in other continents. It lists specific examples of what African children do during holidays, such as building a boat, having a camel race, making a drum, and making a rag football. The question asks what children in other continents usually do during their holidays, and the passage provides examples like playing camp games and attending different camps. The sentence \"Parents can _ their kids to enjoy the learning process and to build a closer relationship with them\" suggests an activity that parents can facilitate for their children. Among the options, \"play camp games\" is a common recreational activity for children during holidays, and parents often encourage and facilitate this. The other options, \"do spelling tests\" and \"make a drum,\" are specific activities mentioned as what *African* kids do, not a general holiday activity for children in other continents. \"Build a boat\" is also an activity specific to the African context provided in the passage.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 2.384185791015625e-07,
+        "C": 7.729977369308472e-08,
+        "D": 4.6798959374427795e-08,
+        "E": 4.94765117764473e-09
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 38,
+      "generated_until_stop": "The passage describes various activities children engage in during holidays in different continents. The sentence \"Parents can _ their kids to enjoy the learning process and to build a closer relationship with them\" implies that parents in Australia are encouraged to let their children participate in activities that are educational and foster bonding. The preceding sentence lists examples of such activities: \"They take part in activities on over twenty different themes. They learn painting, dancing, singing, history, culture and so on.\" This context directly supports the idea that parents can *enjoy* the learning process and build a closer relationship through these activities. The other options are either incorrect or not supported by the text. For instance, the passage states that children in America \"don't have much homework to do\" and \"keep themselves busy by playing camp games,\" which doesn't imply they are good at maths. Similarly, the passage doesn't suggest that children in Australia spend much time on homework, nor that children in Africa don't play football.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.8984375,
+        "B": 0.0211181640625,
+        "C": 0.0211181640625,
+        "D": 0.044921875,
+        "E": 0.0128173828125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 39,
+      "generated_until_stop": "The passage contrasts the activities of children in different continents during holidays. It provides examples of what American, Australian, and African children do. The final sentence, \"Parents can _ their kids to enjoy the learning process and to build a closer relationship with them,\" suggests an action parents can take to enhance their children's holiday experience. The preceding sentences discuss activities and learning, implying that parents should facilitate these experiences. Among the options, \"To advise kids to make holiday plans\" is the most fitting as it aligns with the overall theme of making holidays enjoyable and educational, and it implicitly suggests that parents should guide their children in planning these activities.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 8.307397365570068e-07,
+        "C": 2.7008354663848877e-07,
+        "D": 1.3709068298339844e-06,
+        "E": 3.655441105365753e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 40,
+      "generated_until_stop": "The passage describes a situation where three tortoises, who are friends, are in a restaurant and forget to bring money for their cakes. The subsequent dialogue and actions are a direct consequence of their established relationship and shared experience. The phrase \"While (......) they were waiting for the cakes\" implies a period of interaction or observation. Given that they are friends and have just entered a restaurant, the most logical and contextually relevant statement about their relationship during this waiting period is that they knew each other.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 7.338821887969971e-07,
+        "B": 1.0,
+        "C": 9.424984455108643e-07,
+        "D": 5.029141902923584e-07,
+        "E": 4.6798959374427795e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 41,
+      "generated_until_stop": "The sentence structure indicates a temporal relationship between the tortoises' actions and the forgotten money. The phrase \"While (......) they were waiting for the cakes\" suggests a period of anticipation or inactivity. The most logical event to precede the waiting for cakes and the subsequent realization of forgetting money is the act of ordering the cakes themselves. Therefore, the blank should be filled with \"after they ordered the cake.\"\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.000335693359375,
+        "B": 4.00543212890625e-05,
+        "C": 5.817413330078125e-05,
+        "D": 1.0,
+        "E": 0.0001583099365234375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 42,
+      "generated_until_stop": "The context describes a situation where the tortoises are waiting for their cakes and realize they don't have money. The big tortoise suggests the little one gets it, and the medium-sized tortoise agrees. The passage then describes the little tortoise going to get the money. The blank needs a verb that describes the tortoises' state while waiting for the cakes, implying they were not concerned about the lack of money at that moment. \"Didn't mind\" fits this context, suggesting they were not worried about the missing money while enjoying their meal. The other options do not fit the narrative flow as well. \"Couldn't find the money\" would imply they *did* have money but lost it, which contradicts the subsequent events. \"Wanted to share his cake\" is irrelevant to the situation of forgetting money. \"Agreed to get the money\" is something the little tortoise does, not a state of the other two tortoises while waiting.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 8.487701416015625e-05,
+        "C": 2.384185791015625e-07,
+        "D": 3.123283386230469e-05,
+        "E": 6.007030606269836e-08
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 43,
+      "generated_until_stop": "The passage describes a situation where the tortoises are waiting for their cakes. The little tortoise is sent to get money. The subsequent events involve the other two tortoises eating the little tortoise's cake. The phrase \"A few days later\" indicates a passage of time. The context implies that the little tortoise's absence was not prolonged, and the other tortoises acted without waiting for a significant duration. Therefore, the most fitting description of the little tortoise's return is that it happened relatively soon after the initial event.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.017822265625,
+        "B": 0.97265625,
+        "C": 0.01080322265625,
+        "D": 0.0004177093505859375,
+        "E": 2.1904706954956055e-06
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 44,
+      "generated_until_stop": "The passage describes a situation where the tortoises ordered cakes but forgot to bring money. The large and medium-sized tortoises then decided to eat the little tortoise's cake, despite his previous warning. The context of \"while (......) they were waiting for the cakes\" suggests a period of anticipation or inactivity. The subsequent actions of the tortoises imply a desire to consume the cake they had ordered. Among the given options, \"they wanted to leave at last\" best fits the scenario of waiting for a meal and then deciding to eat something else, implying they had been waiting for the original cakes to arrive or were simply finishing their meal. The other options do not logically precede the decision to eat the little tortoise's cake in this context.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 1.6689300537109375e-05,
+        "B": 1.0,
+        "C": 1.6689300537109375e-05,
+        "D": 1.0132789611816406e-05,
+        "E": 6.48200511932373e-07
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 45,
+      "generated_until_stop": "The passage provides a comprehensive guide on what to do if a bone is broken, including immediate actions, treatment, and the healing process. The title should reflect the overall content and purpose of the passage, which is to inform the reader about the experience and management of a broken bone. Options A, C, and D are too specific or incomplete compared to the broad and informative nature of the passage. Option B, however, accurately captures the main focus of the text, which is the body's ability to heal broken bones.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 1.7583370208740234e-06,
+        "B": 1.0,
+        "C": 5.14984130859375e-05,
+        "D": 1.2069940567016602e-06,
+        "E": 1.0654330253601074e-06
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 46,
+      "generated_until_stop": "The passage provides explicit instructions on what to do when someone breaks a bone. It emphasizes staying calm, making the injured person comfortable, and calling a doctor. It also warns against moving the injured part of the body, stating that movement could make the injury worse. Therefore, the action that should *not* be done is moving the injured part.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 4.1443854570388794e-08,
+        "B": 4.103640094399452e-09,
+        "C": 1.0,
+        "D": 5.029141902923584e-07,
+        "E": 1.955777406692505e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 47,
+      "generated_until_stop": "The passage describes a teacher's story to her students about life and envy. The teacher sets up an experiment with four students, each receiving a different cup of tea, but all drinking the same thing. The purpose of this setup is to illustrate a lesson about appreciating one's own life and not being envious of others. The key point of the story is that the students are all drinking tea, but the *form* of the tea is different in each cup. The *content* of the tea, however, is the same for everyone. The question asks what is true about the cups. The options provided are: A. All of the students had the same kind of cups. B. One of the cups is different from others. C. All of the cups were filled with the same tea. D. There was different tea in different cups. The narrative explicitly states that \"There were four of them and there were four completely different cups on the tables.\" This directly supports option B. The other options are either too general (A), contradictory to the setup (C), or incomplete (D). The teacher's lesson is about appreciating one's own life, which is analogous to appreciating one's own cup of tea, regardless of how it is presented or what it is compared to.\n\nanswer",
+      "pred": "B",
+      "probs": {
+        "A": 0.201171875,
+        "B": 0.703125,
+        "C": 0.0576171875,
+        "D": 0.034912109375,
+        "E": 0.005340576171875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 48,
+      "generated_until_stop": "The story Mary tells her students is a metaphor about life and enjoyment. The teacher in the story serves as a warning about the dangers of envy and the importance of appreciating one's own life. The students' behavior of looking at each other's tea cups and envying them is presented as a negative outcome. The teacher's concluding message, \"So now, taste your own tea. Does it matter from which teacup it came from?\" directly addresses this issue, urging the students to focus on their own experiences and not compare themselves to others. Therefore, the lesson is about appreciating and enjoying one's own life.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 6.48200511932373e-07,
+        "B": 1.6391277313232422e-07,
+        "C": 5.699694156646729e-07,
+        "D": 1.0,
+        "E": 1.996755599975586e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 49,
+      "generated_until_stop": "The story Mary tells her students is a metaphor about life and envy. The key point of the story is that everyone has the same \"life\" (like the tea), but people often focus on what others have, rather than their own. The different cups are a deliberate distraction to make the students focus on the tea itself, which is the same for everyone. The title should reflect this core message about the sameness of life and the distraction of material differences. \"The same cups, the same tea\" directly addresses the uniformity of the tea, which is the central element of the metaphor, and contrasts it with the students' potential preoccupation with the cups themselves, which is what Mary is trying to prevent.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00148773193359375,
+        "B": 0.9921875,
+        "C": 0.006683349609375,
+        "D": 3.504753112792969e-05,
+        "E": 7.808208465576172e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 50,
+      "generated_until_stop": "The passage describes Mike's performance in a football match, specifically mentioning his skill in scoring goals and his interaction with the opposing goalkeeper. The father's subsequent question about missing a chance to score another goal, and Mike's explanation about the goalkeeper's tears, directly relate to Mike's actions and performance in the game. Therefore, the most fitting reason for his selection in the school team is his proficiency in playing football.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.7583370208740234e-06,
+        "B": 9.424984455108643e-07,
+        "C": 2.905726432800293e-06,
+        "D": 1.0,
+        "E": 8.940696716308594e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 51,
+      "generated_until_stop": "The passage explicitly states that \"The Gum Tree School team wore green shirts and blue shorts, and Mike's team wore white shirts and red shorts.\" The question asks about Mike's team shirt color. The passage directly provides this information, indicating that Mike's team wore white shirts.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.2649765014648438e-06,
+        "B": 3.9301812648773193e-07,
+        "C": 3.725290298461914e-06,
+        "D": 1.0,
+        "E": 1.2069940567016602e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 52,
+      "generated_until_stop": "The passage details Mike's performance in a football match. It states that \"In the first two minutes of the match, Mike ran with the ball and kicked it into the goal.\" This is the first goal. The passage then mentions, \"After that, Mike scored two goals before half time.\" This indicates a total of three goals before half time. The final part of the passage describes a missed opportunity for a fourth goal, but it does not count as a scored goal. Therefore, the total number of goals Mike scored in the match is three.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.000804901123046875,
+        "B": 1.6689300537109375e-05,
+        "C": 1.0,
+        "D": 2.562999725341797e-06,
+        "E": 3.46451997756958e-07
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 53,
+      "generated_until_stop": "The passage describes Mike's performance in a football match against Gum Tree School. Despite a missed scoring opportunity, Mike's actions are presented in a context of excitement and positive interaction. The father's question about kicking the ball lightly, followed by Mike's explanation about the goalkeeper's tears, suggests a reason for his gentle kick that is not related to a lack of skill or a desire to be unaggressive. The options provided offer different interpretations of Mike's behavior and the outcome of the match. The narrative implies Mike's good sportsmanship and his consideration for others, even in a competitive setting.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00048828125,
+        "B": 4.00543212890625e-05,
+        "C": 0.00014019012451171875,
+        "D": 1.0,
+        "E": 5.817413330078125e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 54,
+      "generated_until_stop": "The passage explicitly states that Jeff had cancer when he was 12 years old and that doctors had to cut off most of his right leg. The blank in the sentence \"Jeff's right leg was cut off because of the \\_\\_\\_\" directly refers to the medical condition that necessitated the amputation. Therefore, the most logical and contextually appropriate word to fill the blank is \"cancer.\"\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.2069940567016602e-06,
+        "B": 4.4517219066619873e-07,
+        "C": 1.0,
+        "D": 2.384185791015625e-07,
+        "E": 7.729977369308472e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 55,
+      "generated_until_stop": "The passage describes Jeff's journey across America with his friends, all of whom have artificial legs. The sentence \"They all have no \\_\\_\\_\" implies a shared characteristic or lack thereof. Given the context of running across America with artificial legs, the most logical thing that would be absent or shared among them, especially in relation to their physical condition and the activities they engage in, is their natural legs. The subsequent sentences about Jeff's prosthetic legs and his ability to ski, ride a bicycle, swim, and play soccer further support the idea that their natural legs are absent or replaced.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 3.123283386230469e-05,
+        "B": 1.0,
+        "C": 6.628036499023438e-05,
+        "D": 5.817413330078125e-05,
+        "E": 5.699694156646729e-07
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 56,
+      "generated_until_stop": "The sentence \"I ran for everybody\" is a concluding statement made by Jeff Keith. The preceding text describes his achievements and struggles, including his disability and his successful run across America. The phrase \"I ran not only for disabled people, I ran for everybody\" is a generalization about human potential and capability. The most fitting interpretation of this statement is that it expresses a belief in the universal ability to achieve goals, regardless of one's circumstances.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 5.14984130859375e-05,
+        "B": 1.0,
+        "C": 3.528594970703125e-05,
+        "D": 0.0001087188720703125,
+        "E": 1.7583370208740234e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 57,
+      "generated_until_stop": "The passage explains that \"fashion\" refers to trends and styles that change over time and are often associated with consumer behavior. The examples provided, such as \"fashionable coat\" and \"fashionable colour,\" directly relate to clothing. The question asks what \"fashion\" means for most people, and the passage explicitly states that for most people, the word \"fashion\" means \"clothes.\" Therefore, the most appropriate answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0002613067626953125,
+        "B": 1.955777406692505e-08,
+        "C": 4.5299530029296875e-05,
+        "D": 1.0,
+        "E": 1.0132789611816406e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 58,
+      "generated_until_stop": "The passage discusses how fashions change over time and how people are exposed to new trends. The sentence \"New fashions mean that people will buy new things, so you see \\_\\_\\_\" implies a visible outcome of these changing fashions. Among the options, \"wearing a fashionable coat\" directly relates to the concept of fashion and its visible manifestation in people's attire, which is a common example of how new fashions are adopted and observed. The other options, while related to societal activities, do not as directly illustrate the visible impact of changing fashions on individual behavior in the same way.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 7.338821887969971e-07,
+        "B": 1.126900315284729e-07,
+        "C": 6.48200511932373e-07,
+        "D": 1.0,
+        "E": 7.338821887969971e-07
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 59,
+      "generated_until_stop": "The passage explains that \"fashions change as time goes\" and that people \"buy new things\" because of new fashions. This implies a cycle of consumption and production. The question asks what is observed when people buy new things due to fashion. The most direct and logical outcome of people buying new things is the generation of revenue for those who produce or sell these items. Therefore, the most fitting completion is that one can make money through fashion.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.000553131103515625,
+        "B": 1.2993812561035156e-05,
+        "C": 1.0,
+        "D": 1.6689300537109375e-05,
+        "E": 6.943941116333008e-06
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 60,
+      "generated_until_stop": "The passage discusses how fashions change over time and how people are exposed to new trends more rapidly today. The sentence \"New fashions mean that people will buy new things, so you see _\" implies a visible outcome of these changing fashions. Among the options, \"the changes of fashions\" directly addresses the core concept of the passage, which is the evolution and visibility of fashion trends. The other options, \"the kinds of colours,\" \"the money in fashion,\" and \"the differences between houses,\" are too specific or unrelated to the general idea of how fashions manifest and are perceived in society.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 1.0477378964424133e-08,
+        "C": 4.94765117764473e-09,
+        "D": 4.94765117764473e-09,
+        "E": 9.74978320300579e-10
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 61,
+      "generated_until_stop": "The passage explains that the mother's strictness is misunderstood by outsiders. The writer states, \"No outsider can know what our family is really like.\" This directly addresses the reason why people criticize the mother, implying that their lack of understanding of the family's true nature leads to their negative judgments. The other options, while potentially related to cultural differences or parenting styles, are not explicitly supported by the text as the primary reason for criticism.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 4.6798959374427795e-08,
+        "C": 1.3445969671010971e-08,
+        "D": 1.3445969671010971e-08,
+        "E": 7.188646122813225e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 62,
+      "generated_until_stop": "The passage is a letter from a daughter to her mother, \"Tiger Mom.\" The daughter defends her mother's strict parenting style against accusations of raising \"robot kids\" who lack independence. She explains that, contrary to the criticism, her mother's strictness made her \"more independent.\" The daughter then lists specific examples of her own achievements and understanding of effort and self-reliance, directly contradicting the idea of being a \"robot kid.\" Therefore, the most fitting conclusion to the statement \"Your strict parenting made me \\_\\_\\_\" is \"an independent thinker.\"\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 8.307397365570068e-07,
+        "B": 1.126900315284729e-07,
+        "C": 8.307397365570068e-07,
+        "D": 1.0,
+        "E": 7.867813110351562e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 63,
+      "generated_until_stop": "The passage is a letter from a daughter, Sophia, to her mother, Tiger Mom, expressing gratitude for her strict parenting. The letter outlines several points: the mother's strictness led to the daughter's independence, the daughter's initial lack of effort in birthday card-making was not hurtful to the mother, and the daughter now understands the value of trying one's best. The final sentence, \"Thank you for what you've made me,\" directly summarizes the overall sentiment of the letter, indicating appreciation for the mother's efforts in raising her. The other options do not accurately reflect the content or tone of the passage.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 8.307397365570068e-07,
+        "C": 5.029141902923584e-07,
+        "D": 5.029141902923584e-07,
+        "E": 2.514570951461792e-08
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 64,
+      "generated_until_stop": "The passage explicitly states that the two main factors influencing people's choice of location are climate and resources. The subsequent sentences provide examples of how climate (warm conditions, normal rainfall) and resources (beaches, rivers, soil, oil, woods) affect population distribution. Therefore, the most accurate answer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00116729736328125,
+        "B": 3.9301812648773193e-07,
+        "C": 1.0,
+        "D": 1.6689300537109375e-05,
+        "E": 7.867813110351562e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 65,
+      "generated_until_stop": "The passage explains that the north and south poles are less ideal for living due to their \"bitterly cold and windy conditions.\" This directly points to the reason why many people avoid these regions. The other options, while potentially factors, are not the primary reason emphasized in the context of the poles. The focus is on the general climate and conditions.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 7.338821887969971e-07,
+        "B": 3.655441105365753e-08,
+        "C": 1.0,
+        "D": 1.7583370208740234e-06,
+        "E": 4.6798959374427795e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 66,
+      "generated_until_stop": "The passage explains that people are drawn to locations with favorable conditions for survival and livelihood. The specific example given is people who prefer farming being attracted to valleys near rivers due to the availability of resources like fertile soil. This implies that the ability to grow plants or keep animals is a significant factor influencing people's choice of location in such areas. The other options, while potentially true in other contexts, do not directly address the primary reason for people living in valleys near rivers as presented in the passage.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.2993812561035156e-05,
+        "B": 6.973743438720703e-06,
+        "C": 1.4722347259521484e-05,
+        "D": 1.0,
+        "E": 6.139278411865234e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 67,
+      "generated_until_stop": "The passage lists specific sports available for the P. E. test: long jump, basketball dribbling, and volleyball. The sentence in question states that the test is for boys and girls can choose the sit-up. The blank needs a sport that is gender-neutral and is mentioned as an option for the test. Among the choices, \"skipping\" is the only one that fits this criterion and is also a common component of physical education tests, alongside running.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 9.424984455108643e-07,
+        "C": 1.8533319234848022e-07,
+        "D": 2.384185791015625e-07,
+        "E": 2.8405338525772095e-08
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 68,
+      "generated_until_stop": "The passage states that the P.E. test in Nanjing is held in April. This information directly indicates the season during which the test takes place. The other options, \"spring,\" \"autumn,\" and \"Junior Two,\" are either too general or incorrect in this context. \"Spring\" is a season, and while the test could occur in spring, \"April\" is a specific month, and the question asks about the *time* of year. \"Junior One\" and \"Junior Two\" refer to academic years or grades, not seasons. Therefore, the most accurate answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 9.584426879882812e-05,
+        "C": 0.003173828125,
+        "D": 0.00020313262939453125,
+        "E": 5.817413330078125e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 69,
+      "generated_until_stop": "The passage explains that students in Nanjing find the P.E. test easy and that more than 90% of them can get full marks. This is attributed to their training over three years. The question asks why most students get high marks. The most direct and logical reason provided in the text is the extensive training they have undergone. The other options, while potentially contributing factors, are not the primary explanation given for the high success rate.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 6.48200511932373e-07,
+        "B": 3.213062882423401e-08,
+        "C": 1.0,
+        "D": 1.2069940567016602e-06,
+        "E": 7.729977369308472e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 70,
+      "generated_until_stop": "The passage states that \"Most students find the test easy and more than 90% of them can get full marks.\" This directly indicates that the test is perceived as easy by the majority of students. The subsequent sentences further elaborate on the reasons for this ease, such as training and the nature of the test itself. Therefore, the most appropriate answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.058349609375,
+        "B": 0.91015625,
+        "C": 0.01300048828125,
+        "D": 0.0167236328125,
+        "E": 0.000392913818359375
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 71,
+      "generated_until_stop": "The phrase \"once in a blue moon\" signifies a rare occurrence. The passage explains that a blue moon is a rare event, and the expression is used to describe things that happen infrequently. The examples provided in the passage, such as eating sweets or visiting the shore, are instances of rare actions. Therefore, the sentence that best fits the context of using \"once in a blue moon\" to describe a rare event in someone's life is the one where the person rarely does something, and then does it on a rare occasion.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0035858154296875,
+        "B": 0.99609375,
+        "C": 0.000377655029296875,
+        "D": 6.580352783203125e-05,
+        "E": 1.0654330253601074e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 72,
+      "generated_until_stop": "The passage explains that a \"blue moon\" occurs when there are two full moons in a single month. This phenomenon is a rare event in the lunar cycle. The phrase \"once in a blue moon\" is used to describe things that happen very infrequently, mirroring the rarity of a blue moon. Therefore, the specific condition that defines a blue moon and leads to the common expression is the occurrence of two full moons within a month.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 4.400499165058136e-08,
+        "B": 4.6798959374427795e-08,
+        "C": 1.0,
+        "D": 8.242204785346985e-08,
+        "E": 8.381903171539307e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 73,
+      "generated_until_stop": "The passage explains the phrase \"once in a blue moon\" and its origin. The phrase refers to something happening very rarely. The explanation provided is that a \"blue moon\" is a rare event, and the expression \"once in a blue moon\" is used to describe other rare events. The passage then states that the phrase \"blue moon\" has to do with the shape of the moon, and specifically mentions a crescent moon. A crescent is a shape that looks like the tip of a fingernail. The letter that forms the word \"crescent\" is \"C\". Therefore, the letter \"C\" is the answer.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.3990869522094727e-06,
+        "B": 5.657784640789032e-08,
+        "C": 0.26953125,
+        "D": 0.73046875,
+        "E": 3.9301812648773193e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 74,
+      "generated_until_stop": "The passage explains that a blue moon is a rare event, occurring only 15 times over the next 20 years. The phrase \"once in a blue moon\" is used to describe things that happen very infrequently. The explanation clarifies that the \"blue moon\" itself is not actually blue, but the term refers to a specific, infrequent occurrence. The context of the passage and the definition of a blue moon strongly suggest that the expression is used for events that happen \"less than once a year.\"\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 5.699694156646729e-07,
+        "B": 1.0,
+        "C": 7.338821887969971e-07,
+        "D": 6.845220923423767e-08,
+        "E": 1.3445969671010971e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 75,
+      "generated_until_stop": "The passage describes \"Make-A-Wish\" as a charity that helps children with serious illnesses by making their wishes come true. The examples provided, such as Christopher the sick boy who dreams of becoming a police officer, and the types of wishes children have (like meeting actors or having things), all point to the core demographic of the charity. The focus is on children who are unwell and need hope and joy.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 3.46451997756958e-07,
+        "C": 1.0896474123001099e-07,
+        "D": 1.9744038581848145e-07,
+        "E": 1.3853423297405243e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 76,
+      "generated_until_stop": "The passage describes a child named Christopher who is very sick and dreams of becoming a police officer. The two police officers, Tommy Austin and Ron Cox, made his wish come true by providing him with an experience related to his dream. The options provided are: A) They gave him a computer. B) They gave him a tour of the city. C) They took him to a concert. D) They took him to the hospital. Considering Christopher's dream of becoming a police officer, the most fitting experience that aligns with this aspiration and the context of a \"Make-A-Wish\" charity event is a tour of the city in a police helicopter. This experience would give him a sense of adventure and a closer connection to the profession he admires.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 2.7008354663848877e-07,
+        "B": 1.0,
+        "C": 2.384185791015625e-07,
+        "D": 2.1047890186309814e-07,
+        "E": 1.3445969671010971e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 77,
+      "generated_until_stop": "The passage provides a detailed description of the \"Make-A-Wish\" charity, its origins, the types of wishes it fulfills, and the people involved. The question asks for a true statement based on this passage. Let's evaluate each option:\n\nA. \"Sick children just wish to get well.\"\nThis statement is too general and not supported by the passage. The passage explains that the charity helps children with serious illnesses have hope and joy, and forget about their health problems. It doesn't state that sick children *only* wish to get well.\n\nB. Christopher and Tommy are two officers.\nThe passage states that Christopher was a 7-year-old boy who was very sick and that two police officers, Tommy Austin and Ron Cox, made his wish come true. This statement is directly supported by the text.\n\nC. \"Make-A-Wish\" has a history of over 30 years.\nThe passage states that the charity started in 1980. If the current year is assumed to be 2023, then the charity has been active for 43 years, which is indeed over 30 years. This statement is also supported by the text.\n\nD. \"Make-A-Wish\" has a history of over 30 years.\nThis is the same statement as option C,",
+      "pred": "A",
+      "probs": {
+        "A": 0.703125,
+        "B": 0.01007080078125,
+        "C": 0.01007080078125,
+        "D": 0.2021484375,
+        "E": 0.07421875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 78,
+      "generated_until_stop": "The passage describes a Christmas Eve when Marley, a cousin, arrives at the narrator's home with her parents who are getting a divorce. The narrator's mother is interacting with Marley and the narrator, discussing Christmas presents. The narrator is asked by their mother if they are sure about the gifts, implying a desire for something more from the narrator. The narrator then gives their mother the music box and something else. The following morning, Marley expects nothing and wants to show she doesn't care, but is excited when she sees her name on the biggest box. The narrator's happiness is doubled. The context of the passage is about Christmas presents and the relationship between Marley and the narrator's family. The narrator is interacting with Marley and her parents. The narrator's mother is asking the narrator about the gifts for Marley. The narrator is giving their mother the music box and something else. The question asks who Marley spent Christmas with. The passage states that Marley arrived at the narrator's home with her parents. Therefore, Marley spent Christmas with the narrator's family.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.004974365234375,
+        "B": 0.00182342529296875,
+        "C": 0.9453125,
+        "D": 0.047119140625,
+        "E": 0.000408172607421875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 79,
+      "generated_until_stop": "The passage describes a situation where the narrator is forced to choose between Christmas presents for Marley, their cousin. The narrator initially reluctantly gives the ice skates and then, when asked if they are sure about the other gifts, decides to give the music box as well. The phrase \"And \\_\\_\\_\" suggests a continuation of this pattern of giving. Considering the context of Christmas presents and the narrator's desire to please Marley, the most logical and consistent addition to the list of gifts, following the pattern of giving the music box, is \"Nothing.\" This implies the narrator, feeling the weight of the situation and the expectation of giving more, ultimately decided to give nothing further, focusing on the emotional value of the music box.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 5.424022674560547e-06,
+        "B": 7.338821887969971e-07,
+        "C": 2.2649765014648438e-06,
+        "D": 1.0,
+        "E": 5.029141902923584e-07
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 80,
+      "generated_until_stop": "The passage describes a Christmas Eve when the narrator's cousin Marley arrives with a suitcase, indicating a difficult family situation (divorce). The narrator's mother is deciding which Christmas presents to give Marley, and the narrator reluctantly gives her the music box, implying a sense of obligation or perhaps a desire to appease Marley. The narrator's subsequent thought, \"But when she saw her name on the biggest box, she couldn't hide her excitement,\" directly contradicts the idea that Marley expected nothing or was indifferent. The narrator's happiness being \"cut in half\" suggests a mixed emotional response, not necessarily happiness. The most fitting statement is that the writer, despite the circumstances, gave Marley the music box, implying a gesture of care or perhaps a reluctant gift in the context of the family's troubles.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.87109375,
+        "B": 0.091796875,
+        "C": 0.01239013671875,
+        "D": 0.0262451171875,
+        "E": 9.489059448242188e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 81,
+      "generated_until_stop": "The passage discusses the physical benefits of walking, specifically mentioning improvements in bodily function. The sentence \"Walking benefits people's \\_\\_\\_\" is a general statement summarizing these advantages. The subsequent sentences detail how walking \"builds a stronger heart and lungs\" and improves overall physical fitness. Therefore, the most fitting completion to the sentence is the organs directly involved in the described benefits.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.8533319234848022e-07,
+        "B": 2.2118911147117615e-08,
+        "C": 1.0,
+        "D": 9.918585419654846e-08,
+        "E": 1.7229467630386353e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 82,
+      "generated_until_stop": "The passage discusses the benefits and accessibility of walking as a form of exercise. It highlights that walking is easy to continue, offers mental and physical benefits, and can be done almost anywhere without special equipment. The sentence in question, \"Most people like walking because \\_\\_\\_,\" needs a reason that aligns with these points. Among the options, \"it is easy to continue\" directly supports the idea that people enjoy walking due to its accessibility and the ability to maintain a routine, which is a recurring theme in the text.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 3.0547380447387695e-07,
+        "C": 6.845220923423767e-08,
+        "D": 6.007030606269836e-08,
+        "E": 1.1874362826347351e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 83,
+      "generated_until_stop": "The passage discusses the benefits and accessibility of walking as a form of exercise. It mentions that \"almost everyone can walk. There are no special lessons or training.\" To support this activity, the passage then lists the essential items needed: \"Good walking shoes and comfortable clothes.\" The other options, a bag, hat and gloves, or food and drinks, are not mentioned as necessary for the act of walking itself, although they might be useful for longer excursions. The focus is on the basic requirements for starting and continuing a walking routine.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 3.293156623840332e-06,
+        "B": 1.2759119272232056e-07,
+        "C": 1.2069940567016602e-06,
+        "D": 1.0,
+        "E": 1.3709068298339844e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 84,
+      "generated_until_stop": "The passage lists a series of ways to reduce carbon dioxide and other greenhouse gases. The numbered \"WAY\" labels indicate distinct suggestions. Counting these numbered items, we find a total of five distinct ways presented.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 6.48200511932373e-07,
+        "B": 5.699694156646729e-07,
+        "C": 1.1444091796875e-05,
+        "D": 1.0,
+        "E": 0.00150299072265625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 85,
+      "generated_until_stop": "The passage discusses ways to reduce carbon dioxide (CO2) and other greenhouse gases to combat global warming. The specific action mentioned in WAY 2 is turning off a PC. The text states that this action \"may only save $5 a month, but it reduces CO2 by 750 pounds.\" This clearly indicates that the primary benefit of turning off a PC when it's not in use is the reduction of CO2 emissions. The other options, while related to environmental benefits, do not directly address the specific action of turning off a PC.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 6.007030606269836e-08,
+        "B": 1.0,
+        "C": 4.1443854570388794e-08,
+        "D": 1.7229467630386353e-08,
+        "E": 9.74978320300579e-10
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 86,
+      "generated_until_stop": "The question asks to identify ways that suggest recycling or reusing things. The passage provides several examples of such practices. Let's examine each way in relation to recycling or reusing:\n\nWAY 1: Bring your own cup to Starbucks.\n- This is about reducing waste by using a reusable cup instead of disposable ones. This is a form of reusing.\n\nWAY 2: Turn off your computer.\n- This is about saving energy and reducing the carbon footprint. While it's a good practice, it doesn't directly relate to recycling or reusing physical items.\n\nWAY 3: Reuse plastic bags.\n- This directly involves reusing items that would otherwise be discarded, which is the core idea of recycling and reusing.\n\nWAY 4: Use recycled paper in the bathroom.\n- This is about using products made from recycled materials, which is a form of recycling.\n\nWAY 5: Plant a tree.\n- This is about reforestation and improving the environment, which is a form of recycling natural resources (trees) into something beneficial for the planet.\n\nBased on this analysis, Ways 3 and 4 directly relate to recycling or reusing physical items, while Way 2 is about energy conservation and Way 5 is about reforestation. Therefore, the combination that best fits the",
+      "pred": "A",
+      "probs": {
+        "A": 0.7734375,
+        "B": 0.00012302398681640625,
+        "C": 0.001922607421875,
+        "D": 0.000705718994140625,
+        "E": 0.2216796875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": true
+    }
+  ]
+}

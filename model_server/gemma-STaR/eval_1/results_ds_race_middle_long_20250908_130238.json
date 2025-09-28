@@ -1,0 +1,1315 @@
+{
+  "model_id": "google/gemma-3-4b-it",
+  "num_items_total": 87,
+  "num_evaluated": 87,
+  "num_stopped": 87,
+  "num_skipped": 0,
+  "accuracy_no_skipped": "78.16%",
+  "results": [
+    {
+      "index": 0,
+      "generated_until_stop": "1. Question: \"formal\" in which country?\n2. Passage: \"In Canada the event is called a 'formal'.\"\n3. A, C, D: incorrect\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0013580322265625,
+        "B": 0.9921875,
+        "C": 0.001739501953125,
+        "D": 0.004302978515625,
+        "E": 0.000934600830078125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 1,
+      "generated_until_stop": "1. Question: Why is the prom important?\n2. Text: “end of life as a child, and the beginning of life as an adult.”\n3. B: old tradition\n4. C: problems to work out\n5. D: money raising\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.984375,
+        "B": 0.00604248046875,
+        "C": 0.00799560546875,
+        "D": 0.002288818359375,
+        "E": 0.00122833251953125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 2,
+      "generated_until_stop": "1. Question: main topic\n2. Text: history of the word \"promote\"\n3. B, C, D: details, not main topic\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000568389892578125,
+        "C": 0.00011205673217773438,
+        "D": 0.0005035400390625,
+        "E": 0.0002231597900390625
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 3,
+      "generated_until_stop": "1. Question: when was the first kite born?\n2. Text: farmer tied string to hat\n3. A: not mentioned\n4. B, C, D: all describe making kites, not the birth\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00921630859375,
+        "B": 0.94140625,
+        "C": 0.0184326171875,
+        "D": 0.0235595703125,
+        "E": 0.00579833984375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 4,
+      "generated_until_stop": "1. Question: what's NOT mentioned?\n2. Text: kites made of bamboo, silk, wood, paper.\n3. C: not mentioned\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.03857421875,
+        "B": 0.00714111328125,
+        "C": 0.93359375,
+        "D": 0.0181884765625,
+        "E": 0.002044677734375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 5,
+      "generated_until_stop": "1. Question: who introduced kite to Europe?\n2. Text: “the kite was introduced to Europe by the Italians.”\n3. A, C, D: irrelevant\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.002532958984375,
+        "B": 0.98828125,
+        "C": 0.0010223388671875,
+        "D": 0.0040283203125,
+        "E": 0.0034637451171875
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 6,
+      "generated_until_stop": "1. Question: passage tells us...\n2. Text: kites have long history\n3. A: making a kite is mentioned\n4. B, D: not the main point\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0556640625,
+        "B": 0.01239013671875,
+        "C": 0.92578125,
+        "D": 0.005157470703125,
+        "E": 0.00162506103515625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 7,
+      "generated_until_stop": "1. Question: what is NOT mentioned?\n2. Text: describes features of the home\n3. D: seafood is not mentioned\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.011962890625,
+        "B": 0.005645751953125,
+        "C": 0.0036468505859375,
+        "D": 0.9765625,
+        "E": 0.0005950927734375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 8,
+      "generated_until_stop": "1. Question: reason for travel\n2. Text: “I wanted something more than the usual hotel room…”\n3. A, B, C, D: all describe aspects of Antigua\n4. The main reason is personal rest.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.29296875,
+        "B": 0.189453125,
+        "C": 0.353515625,
+        "D": 0.138671875,
+        "E": 0.02490234375
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 9,
+      "generated_until_stop": "1.  Main idea: man's personal experience\n2.  Details: describes a holiday\n3.  A: guide would describe places\n4.  B, C, D: not suitable\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.04052734375,
+        "B": 0.89453125,
+        "C": 0.023193359375,
+        "D": 0.02880859375,
+        "E": 0.01129150390625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 10,
+      "generated_until_stop": "1. Question: passage tells us...\n2. Main idea: autumn is a good time for fruit/veg\n3. B: specific detail, not main point\n4. C, D: details, not main idea\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00102996826171875,
+        "C": 0.0002765655517578125,
+        "D": 0.0023956298828125,
+        "E": 0.0005340576171875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 11,
+      "generated_until_stop": "1. Question: what is rich in Beta carotene?\n2. Text: “rich in Beta carotene”\n3. A, B, C, D: all contain vitamin C\n4. Answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9375,
+        "B": 0.036376953125,
+        "C": 0.0194091796875,
+        "D": 0.005218505859375,
+        "E": 0.003173828125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 12,
+      "generated_until_stop": "1. Question: why world is smaller?\n2. Text: Internet brings world closer\n3. A: irrelevant\n4. B: contradicts the text\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0033721923828125,
+        "B": 0.00738525390625,
+        "C": 0.96484375,
+        "D": 0.022705078125,
+        "E": 0.001129150390625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 13,
+      "generated_until_stop": "1. Question: what can't we do through the internet?\n2. Text: “can we study without going to school?”\n3. A, C, D: don’t fit the question\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.01318359375,
+        "B": 0.953125,
+        "C": 0.005828857421875,
+        "D": 0.0238037109375,
+        "E": 0.004547119140625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 14,
+      "generated_until_stop": "1. Question: what does the passage tell us?\n2. Main idea: internet is helpful\n3. A: directly stated\n4. B, C, D: contradict the main idea\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000568389892578125,
+        "C": 0.000335693359375,
+        "D": 0.000518798828125,
+        "E": 0.0004291534423828125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 15,
+      "generated_until_stop": "1. Question: which sentence is not true?\n2. Text: Internet helps us learn better & easily.\n3. A: true, faster info\n4. B: false, radio doesn't help\n5. C, D: true statements\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.005218505859375,
+        "B": 0.93359375,
+        "C": 0.041015625,
+        "D": 0.01416015625,
+        "E": 0.007568359375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 16,
+      "generated_until_stop": "1.  Question: reason for apology\n2.  Text: \"took drugs\" is the main reason\n3.  A, C, D: irrelevant\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.007080078125,
+        "C": 0.00084686279296875,
+        "D": 0.0016326904296875,
+        "E": 0.001312255859375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 17,
+      "generated_until_stop": "1. Question: What made Ko famous?\n2. Text: \"You Are the Apple of My Eye\" film\n3. A, C, D: irrelevant\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.01300048828125,
+        "B": 0.97265625,
+        "C": 0.01043701171875,
+        "D": 0.0028076171875,
+        "E": 0.0028076171875
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 18,
+      "generated_until_stop": "1. Question: duration of the conference\n2. Text: \"10-minute\"\n3. A: no time mentioned\n4. B, C: incorrect units\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.02490234375,
+        "B": 0.0029754638671875,
+        "C": 0.0028839111328125,
+        "D": 0.96484375,
+        "E": 0.003173828125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 19,
+      "generated_until_stop": "1.  The question asks about the meaning of the statement.\n2.  The statement says \"After 14 days of detention, Ko's acting skills grew a lot!\"\n3.  This implies a positive change in his skills.\n4.  Options B, C, D don’t fit the context.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.000820159912109375,
+        "C": 0.000621795654296875,
+        "D": 0.007781982421875,
+        "E": 0.0012359619140625
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 20,
+      "generated_until_stop": "1. Question: best title\n2. Text: “I’m so sorry” – indicates apology\n3. A: irrelevant\n4. B, D: specific details\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0145263671875,
+        "B": 0.0211181640625,
+        "C": 0.95703125,
+        "D": 0.00665283203125,
+        "E": 0.0020904541015625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 21,
+      "generated_until_stop": "1. Question: fact the passage leads to\n2. Main: plants are important\n3. A: contradicts the text\n4. B, C: incorrect details\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00238037109375,
+        "B": 0.00238037109375,
+        "C": 0.001800537109375,
+        "D": 0.9921875,
+        "E": 0.0010223388671875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 22,
+      "generated_until_stop": "1. Topic: importance of plants\n2. Text: plants are vital for life\n3. A: fiction, not scientific\n4. B: not about plants\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00157928466796875,
+        "B": 0.002777099609375,
+        "C": 0.98828125,
+        "D": 0.006866455078125,
+        "E": 0.000637054443359375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 23,
+      "generated_until_stop": "1.  Sentence: “stayed with Michael for a holiday.”\n2.  Context: John and his sister visited Michael.\n3.  A: John is the one staying.\n4.  B, D: incorrect, not the one staying.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.015625,
+        "B": 0.00811767578125,
+        "C": 0.96875,
+        "D": 0.00384521484375,
+        "E": 0.0018768310546875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 24,
+      "generated_until_stop": "1.  Question: duration of holiday\n2.  Text: “A week is not really long enough”\n3.  A: too short\n4.  B, C, D: longer, but not the best fit\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.017333984375,
+        "B": 0.7109375,
+        "C": 0.140625,
+        "D": 0.0966796875,
+        "E": 0.033447265625
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 25,
+      "generated_until_stop": "1.  Keyword: \"It feels like three months!\"\n2.  Text: Michael expresses long time passing\n3.  A: contradicts the text\n4.  B, C, D: irrelevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.04248046875,
+        "B": 0.0078125,
+        "C": 0.00885009765625,
+        "D": 0.93359375,
+        "E": 0.006500244140625
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 26,
+      "generated_until_stop": "1.  Question: what is happening now?\n2.  Text: “We have been back at school three weeks now.”\n3.  A, B, C: incorrect context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.005340576171875,
+        "B": 0.0023040771484375,
+        "C": 0.0020904541015625,
+        "D": 0.98828125,
+        "E": 0.002777099609375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 27,
+      "generated_until_stop": "1. Question: Why didn't Michael go?\n2. Text: Michael cut his foot.\n3. A: irrelevant\n4. B, D: incorrect\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0031585693359375,
+        "B": 0.001861572265625,
+        "C": 0.9921875,
+        "D": 0.000823974609375,
+        "E": 0.000965118408203125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 28,
+      "generated_until_stop": "1. Question: NOT advantage of Weibo?\n2. Text: microblogs are fast & easy to send messages.\n3. A, B, D: all advantages\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0016326904296875,
+        "B": 0.0036773681640625,
+        "C": 0.98828125,
+        "D": 0.005035400390625,
+        "E": 0.0005645751953125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 29,
+      "generated_until_stop": "1. Question: what do people not share?\n2. Text: microblogs are about sharing info\n3. A, B, C: irrelevant to the question\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00070953369140625,
+        "B": 0.00030517578125,
+        "C": 0.0003795623779296875,
+        "D": 1.0,
+        "E": 0.0004444122314453125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 30,
+      "generated_until_stop": "1.  Main topic: microblogs and their rise.\n2.  Text: \"Weibo Addicts\" and writing microblogs.\n3.  A: irrelevant to main topic.\n4.  B, C: focus on specific aspects, not the overall trend.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00384521484375,
+        "B": 0.018310546875,
+        "C": 0.00396728515625,
+        "D": 0.96875,
+        "E": 0.00384521484375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 31,
+      "generated_until_stop": "1. Question: why join dangerous sports?\n2. Text: “little excitement in life”\n3. A: irrelevant\n4. B, D: not the main reason\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00185394287109375,
+        "B": 0.002532958984375,
+        "C": 0.9921875,
+        "D": 0.00185394287109375,
+        "E": 0.00109100341796875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 32,
+      "generated_until_stop": "1. Question: Which is not a dangerous sport?\n2. Text: “Banging jumping and motorcycle racing are quite dangerous sports.”\n3. A, C, D: all describe dangerous activities.\n4. B: table tennis is a safe sport.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0021820068359375,
+        "B": 0.96484375,
+        "C": 0.024169921875,
+        "D": 0.005401611328125,
+        "E": 0.003173828125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 33,
+      "generated_until_stop": "1.  Passage describes the action of jumping.\n2.  “jump from a high place” indicates the action.\n3.  A, C, D: don’t fit the description.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00140380859375,
+        "B": 0.99609375,
+        "C": 0.000881195068359375,
+        "D": 0.00128173828125,
+        "E": 0.00066375732421875
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 34,
+      "generated_until_stop": "1. Question: what lived in the past?\n2. Text: “in the past, people lived in danger”\n3. A, B, C: don’t fit the context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.59375,
+        "B": 0.0296630859375,
+        "C": 0.00482177734375,
+        "D": 0.361328125,
+        "E": 0.0096435546875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 35,
+      "generated_until_stop": "1. Question: Which is NOT true?\n2. Text: “Many people live and work in safe places.”\n3. A, C, D: all true based on the passage.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00080108642578125,
+        "B": 0.99609375,
+        "C": 0.000751495361328125,
+        "D": 0.00262451171875,
+        "E": 0.000850677490234375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 36,
+      "generated_until_stop": "1. Question: Shirley's origin\n2. Text: Shirley attends camps in America\n3. A, B, D: incorrect\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.049560546875,
+        "B": 0.34375,
+        "C": 0.56640625,
+        "D": 0.02734375,
+        "E": 0.01214599609375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 37,
+      "generated_until_stop": "1. Question: what do African kids do?\n2. Text: build a boat, have a camel race, make a drum\n3. A, B, C: irrelevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00201416015625,
+        "B": 0.0021514892578125,
+        "C": 0.01312255859375,
+        "D": 0.98046875,
+        "E": 0.002288818359375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 38,
+      "generated_until_stop": "1.  Question: what is true?\n2.  Text: \"Hooray! It's a holiday!\" - October\n3.  A: before October\n4.  B, C, D: incorrect\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.87890625,
+        "B": 0.052734375,
+        "C": 0.024169921875,
+        "D": 0.022705078125,
+        "E": 0.0213623046875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 39,
+      "generated_until_stop": "1.  Main idea: holiday activities around the world.\n2.  Text: describes how children in different continents spend their holidays.\n3.  A: focuses on planning, not activities.\n4.  B, C, D: not the main purpose.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.006805419921875,
+        "C": 0.0045166015625,
+        "D": 0.007476806640625,
+        "E": 0.0035247802734375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 40,
+      "generated_until_stop": "1.  Question: what happened to the turtles?\n2.  Text: turtles went to restaurant\n3.  A: irrelevant\n4.  C: not mentioned\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.001434326171875,
+        "B": 0.92578125,
+        "C": 0.004150390625,
+        "D": 0.06689453125,
+        "E": 0.0029449462890625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 41,
+      "generated_until_stop": "1.  Question: what happened before?\n2.  Text: they forgot money\n3.  A, B, C: irrelevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0034637451171875,
+        "B": 0.0014495849609375,
+        "C": 0.00174713134765625,
+        "D": 0.9921875,
+        "E": 0.001129150390625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 42,
+      "generated_until_stop": "1.  Question: what did the little tortoise do?\n2.  Text: went home to get money\n3.  B, C, D: don’t fit the context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00124359130859375,
+        "C": 0.000354766845703125,
+        "D": 0.001983642578125,
+        "E": 0.00080108642578125
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 43,
+      "generated_until_stop": "1.  Question: what happened to the little tortoise?\n2.  Text: little tortoise went home\n3.  B, C, D: don’t fit the context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00109100341796875,
+        "C": 0.000774383544921875,
+        "D": 0.001983642578125,
+        "E": 0.000881195068359375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 44,
+      "generated_until_stop": "1.  Question: why eat cake?\n2.  Text: big/ medium tortoise hungry\n3.  B, C, D: don’t fit the context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.000732421875,
+        "C": 0.00023746490478515625,
+        "D": 0.0008544921875,
+        "E": 0.0004711151123046875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 45,
+      "generated_until_stop": "1. Question: best title for the passage\n2. Main idea: bone break and healing\n3. A: focuses on diagnosis\n4. B, C, D: too specific\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.048828125,
+        "B": 0.86328125,
+        "C": 0.0108642578125,
+        "D": 0.06689453125,
+        "E": 0.00872802734375
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 46,
+      "generated_until_stop": "1. Question: what should not be done?\n2. Text: “Do not move the injured body part since movement could make it worse.”\n3. A: correct action\n4. B, D: not relevant\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0036773681640625,
+        "B": 0.0032501220703125,
+        "C": 0.98828125,
+        "D": 0.0027008056640625,
+        "E": 0.000873565673828125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 47,
+      "generated_until_stop": "1.  Question: True statement?\n2.  Text: \"You know, these cups brings to my mind a story...\"\n3.  A: incorrect, different cups\n4.  C, D: incorrect, same tea\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00185394287109375,
+        "B": 0.98828125,
+        "C": 0.0015869140625,
+        "D": 0.005706787109375,
+        "E": 0.00153350830078125
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 48,
+      "generated_until_stop": "1.  Main idea: tea story\n2.  Text: \"envy the fine cups\"\n3.  A: doesn't fit the story\n4.  B, C: incorrect focus\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004180908203125,
+        "B": 0.004302978515625,
+        "C": 0.000640869140625,
+        "D": 0.98828125,
+        "E": 0.001312255859375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 49,
+      "generated_until_stop": "1.  Main idea: story about tea and envy.\n2.  Text: \"You all have the same thing in your cups...\"\n3.  A, B, C: focus on the tea itself.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0213623046875,
+        "B": 0.00360107421875,
+        "C": 0.0047607421875,
+        "D": 0.96875,
+        "E": 0.0016021728515625
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 50,
+      "generated_until_stop": "1. Question: Mike was chosen because...\n2. Text: “very good at football”\n3. A, B, C: don’t fit the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0025482177734375,
+        "B": 0.0015411376953125,
+        "C": 0.00090789794921875,
+        "D": 0.9921875,
+        "E": 0.0013580322265625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 51,
+      "generated_until_stop": "1. Question: shirt color\n2. Text: Mike's team - white shirt\n3. A, B, C: incorrect\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0028533935546875,
+        "B": 0.0027618408203125,
+        "C": 0.007049560546875,
+        "D": 0.98046875,
+        "E": 0.00531005859375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 52,
+      "generated_until_stop": "1. Question: Mike's goals\n2. Text: “He scored a lot of goals”\n3. First goal: 1\n4. Other goals: 2 + 1 = 3\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0322265625,
+        "B": 0.0284423828125,
+        "C": 0.8828125,
+        "D": 0.0498046875,
+        "E": 0.00634765625
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 53,
+      "generated_until_stop": "1. Question: what do we know about Mike?\n2. Text: Mike was a good player\n3. A: contradicts the text\n4. B: not mentioned\n5. C: not mentioned\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004302978515625,
+        "B": 0.0012359619140625,
+        "C": 0.000965118408203125,
+        "D": 0.9921875,
+        "E": 0.0009918212890625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 54,
+      "generated_until_stop": "1.  Context: Jeff lost his leg due to cancer.\n2.  Passage: \"When he was 12 years old , Jeff had cancer...\"\n3.  A, B, D: don't fit the context.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00994873046875,
+        "B": 0.0026702880859375,
+        "C": 0.98046875,
+        "D": 0.0032196044921875,
+        "E": 0.00201416015625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 55,
+      "generated_until_stop": "1.  Question: Jeff's friends ran across America with him.\n2.  Text: “Run, Jeff, Run, Jeff Keith’s RunAcross America.”\n3.  B, C, D: irrelevant to the question.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.0012054443359375,
+        "C": 0.00054931640625,
+        "D": 0.00090789794921875,
+        "E": 0.00102996826171875
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 56,
+      "generated_until_stop": "1.  Keyword: \"ran for everybody\"\n2.  Text: Jeff's motivation - run for cancer society\n3.  A: irrelevant to the sentence\n4.  B, C, D: not the core meaning\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.1650390625,
+        "B": 0.337890625,
+        "C": 0.11328125,
+        "D": 0.255859375,
+        "E": 0.1279296875
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 57,
+      "generated_until_stop": "1. Question: fashion means...\n2. Text: “clothes” is the most common meaning.\n3. A, B, C: not the main focus.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.002471923828125,
+        "B": 0.000728607177734375,
+        "C": 0.001495361328125,
+        "D": 0.99609375,
+        "E": 0.00066375732421875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 58,
+      "generated_until_stop": "1. Question: how to see fashion change?\n2. Text: “Fashions change as time goes.”\n3. A, C, D: irrelevant\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0036773681640625,
+        "B": 0.98828125,
+        "C": 0.00244140625,
+        "D": 0.005340576171875,
+        "E": 0.00115966796875
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 59,
+      "generated_until_stop": "1.  Question: \"There is money in fashion\" means...\n2.  Passage: mentions \"money in fashion\"\n3.  A, B, D: don't directly address the question.\n4.  C: directly states a way to make money.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00848388671875,
+        "B": 0.0017242431640625,
+        "C": 0.98046875,
+        "D": 0.0062255859375,
+        "E": 0.001953125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 60,
+      "generated_until_stop": "1.  Main topic: fashion and its changes\n2.  Text: \"fashions change as time goes\"\n3.  A: describes the passage's focus\n4.  B, C, D: irrelevant\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.0008544921875,
+        "C": 0.000606536865234375,
+        "D": 0.00070953369140625,
+        "E": 0.0005340576171875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 61,
+      "generated_until_stop": "1.  Question: Why do people criticize her mother?\n2.  Text: “they don’t hear us laughing over each other’s jokes.”\n3.  B, C, D: don’t address the core reason.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.000732421875,
+        "C": 0.0001735687255859375,
+        "D": 0.00128173828125,
+        "E": 0.00075531005859375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 62,
+      "generated_until_stop": "1.  Keyword: “raised me the way you did”\n2.  Text: emphasizes independence due to strict parenting.\n3.  A: contradicts the passage.\n4.  B, C: irrelevant to the question.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00174713134765625,
+        "B": 0.0006256103515625,
+        "C": 0.0004863739013671875,
+        "D": 0.99609375,
+        "E": 0.00125885009765625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 63,
+      "generated_until_stop": "1.  Question: Which sentence is wrong?\n2.  Text: Sophia expresses gratitude for her mother's raising.\n3.  B: contradicts the text.\n4.  C, D: not the focus of the question.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.953125,
+        "B": 0.0269775390625,
+        "C": 0.005157470703125,
+        "D": 0.01092529296875,
+        "E": 0.0054931640625
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 64,
+      "generated_until_stop": "1. Question: factors influencing population distribution\n2. Text: “two main factors”\n3. A: includes oceans, not just resources\n4. B, D: too specific\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00518798828125,
+        "B": 0.00518798828125,
+        "C": 0.984375,
+        "D": 0.0025177001953125,
+        "E": 0.00112152099609375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 65,
+      "generated_until_stop": "1. Question: why don't many people live there?\n2. Text: cold/bitter weather keeps people away\n3. A: not mentioned\n4. B, D: irrelevant\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.002960205078125,
+        "B": 0.002777099609375,
+        "C": 0.9921875,
+        "D": 0.002044677734375,
+        "E": 0.000850677490234375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 66,
+      "generated_until_stop": "1. Question: why live in valleys?\n2. Text: “farmers can take advantage of rich soil in valleys near rivers.”\n3. A: temperature is too low\n4. B, C: not the main reason\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.005523681640625,
+        "B": 0.00139617919921875,
+        "C": 0.002960205078125,
+        "D": 0.98828125,
+        "E": 0.0009002685546875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 67,
+      "generated_until_stop": "1. Question: except what sport?\n2. Text: “the _ is for boys and girls can choose the sit-up.”\n3. A, B, D: are sports\n4. C: not mentioned\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00482177734375,
+        "B": 0.0059814453125,
+        "C": 0.9765625,
+        "D": 0.01190185546875,
+        "E": 0.00110626220703125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 68,
+      "generated_until_stop": "1. Context: P. E. test in April\n2. Text: “In April”\n3. A, C, D: irrelevant\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.01214599609375,
+        "B": 0.96484375,
+        "C": 0.0030670166015625,
+        "D": 0.015625,
+        "E": 0.0033721923828125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 69,
+      "generated_until_stop": "1. Question: why students get high marks?\n2. Text: “most students find the test easy and more than 90% of them can get full marks.”\n3. A: not stated\n4. B: too simple\n5. C: main reason\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0028533935546875,
+        "B": 0.0040283203125,
+        "C": 0.984375,
+        "D": 0.00750732421875,
+        "E": 0.000926971435546875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 70,
+      "generated_until_stop": "1. Question: what do teachers/parents think?\n2. Text: “Most teachers and parents welcome the P. E. test.”\n3. A, C, B: incorrect\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00070953369140625,
+        "B": 0.00164794921875,
+        "C": 0.0004711151123046875,
+        "D": 0.99609375,
+        "E": 0.000568389892578125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 71,
+      "generated_until_stop": "1. Question: \"once in a blue moon\" example\n2. Passage: describes rare events\n3. A, B, C: don't fit the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00830078125,
+        "B": 0.0198974609375,
+        "C": 0.00830078125,
+        "D": 0.9609375,
+        "E": 0.004302978515625
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 72,
+      "generated_until_stop": "1. Question: when blue moon happens?\n2. Text: “two full moons in one month”\n3. A: incorrect, describes a specific event\n4. B, D: incorrect, describes moon shapes\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0026092529296875,
+        "B": 0.003143310546875,
+        "C": 0.98828125,
+        "D": 0.004302978515625,
+        "E": 0.0009918212890625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 73,
+      "generated_until_stop": "1. Question: example of crescent shape\n2. Text: \"crescent moon\" - shape like a nail\n3. A, B, C: not related to shape\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0022735595703125,
+        "B": 0.0024871826171875,
+        "C": 0.01904296875,
+        "D": 0.97265625,
+        "E": 0.0024871826171875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 74,
+      "generated_until_stop": "1. Question: frequency of blue moons\n2. Text: 15 blue moons in 20 years\n3. A, B, D: incorrect\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.004974365234375,
+        "B": 0.02685546875,
+        "C": 0.94921875,
+        "D": 0.0184326171875,
+        "E": 0.0024261474609375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 75,
+      "generated_until_stop": "1.  Question: \"Make-A-wish\" helps...\n2.  Text: wishes for children with serious illnesses\n3.  B, C, D: irrelevant\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0002307891845703125,
+        "C": 0.0001392364501953125,
+        "D": 0.0003566741943359375,
+        "E": 0.00030517578125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 76,
+      "generated_until_stop": "1. Question: What did the officers do?\n2. Text: tour of city, uniform, and meeting\n3. A, C, D: not directly stated\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0013580322265625,
+        "B": 0.9921875,
+        "C": 0.00148773193359375,
+        "D": 0.003692626953125,
+        "E": 0.0015869140625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 77,
+      "generated_until_stop": "1. Question: what is true?\n2. Text: history of charity\n3. A: incorrect, children wish to be\n4. B: incorrect, Tommy and Ron Cox\n5. C: incorrect, many volunteers\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0068359375,
+        "B": 0.004547119140625,
+        "C": 0.032470703125,
+        "D": 0.953125,
+        "E": 0.003662109375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 78,
+      "generated_until_stop": "1. Question: Who spent Christmas with Marley?\n2. Text: Marley arrived with her uncle's family.\n3. A: father, not relevant\n4. B: mother, part of the story\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0020599365234375,
+        "B": 0.0081787109375,
+        "C": 0.1796875,
+        "D": 0.80859375,
+        "E": 0.00213623046875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 79,
+      "generated_until_stop": "1. Question: What was the gift?\n2. Text: “They were the best presents I ever got.”\n3. A, B, C: specific gifts\n4. D: incorrect, no gift\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.625,
+        "B": 0.07421875,
+        "C": 0.27734375,
+        "D": 0.0146484375,
+        "E": 0.01104736328125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 80,
+      "generated_until_stop": "1.  Main idea: focus on the first Christmas\n2.  Text: writer's happiness, Marley's excitement\n3.  A: true, stated in the first paragraph\n4.  B: false, the writer didn't hate her cousin\n5.  C: false, Marley was excited\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00390625,
+        "B": 0.0014801025390625,
+        "C": 0.007293701171875,
+        "D": 0.984375,
+        "E": 0.00152587890625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 81,
+      "generated_until_stop": "1. Question: benefits of walking\n2. Text: “heart and lungs”\n3. A, B, D: irrelevant\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.002532958984375,
+        "B": 0.0037994384765625,
+        "C": 0.98828125,
+        "D": 0.0037994384765625,
+        "E": 0.000797271728515625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 82,
+      "generated_until_stop": "1. Question: why people like walking?\n2. Text: easy to continue, good exercise\n3. B, C, D: don’t fit the context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00102996826171875,
+        "C": 0.0003910064697265625,
+        "D": 0.000644683837890625,
+        "E": 0.00058746337890625
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 83,
+      "generated_until_stop": "1. Question: what to prepare for?\n2. Text: “Good walking shoes and comfortable clothes are the only equipment that a walker needs.”\n3. A, B, C: irrelevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001983642578125,
+        "B": 0.0005340576171875,
+        "C": 0.00131988525390625,
+        "D": 0.99609375,
+        "E": 0.000965118408203125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 84,
+      "generated_until_stop": "1. Question: How many ways?\n2. Text: “Bring your own cup…” “Turn off your computer…” “Reuse plastic bags…” “Use recycled paper…” “Plant a tree.”\n3. A, B, C: incorrect numbers\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0015411376953125,
+        "B": 0.00140380859375,
+        "C": 0.0016937255859375,
+        "D": 0.9921875,
+        "E": 0.001983642578125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 85,
+      "generated_until_stop": "1. Question: what happens if PC turned off?\n2. Text: “Turn off your computer”\n3. A: money saving\n4. B, C, D: not directly related to the question.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0233154296875,
+        "B": 0.90625,
+        "C": 0.045166015625,
+        "D": 0.02197265625,
+        "E": 0.004608154296875
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 86,
+      "generated_until_stop": "1. Question: recycling/cheaning\n2. Text: “Bring your own cup to Starbucks”\n3. “Reuse plastic bags”\n4. “Use recycled paper”\n5. “Plant a tree”\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.58203125,
+        "B": 0.138671875,
+        "C": 0.228515625,
+        "D": 0.044921875,
+        "E": 0.005035400390625
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    }
+  ]
+}

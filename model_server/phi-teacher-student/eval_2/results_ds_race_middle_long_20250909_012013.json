@@ -1,0 +1,1330 @@
+{
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "num_items_total": 88,
+  "num_evaluated": 83,
+  "num_stopped": 83,
+  "num_skipped": 5,
+  "accuracy_no_skipped": "72.29%",
+  "results": [
+    {
+      "index": 87,
+      "generated_until_stop": "The passage discusses various actions to combat global warming and reduce environmental impact. The primary goal mentioned is to \"limit CO2 and other greenhouse gases.\" While some actions directly relate to energy use or paper consumption, the overarching theme of the passage is the reduction of greenhouse gases. The examples provided, such as reusing plastic bags and using recycled paper, are presented as ways to reduce the production and consumption of resources that contribute to greenhouse gas emissions. Therefore, the most fitting generalization that encompasses the purpose of these actions is that they all produce less greenhouse gases.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 3.888271749019623e-08,
+        "B": 4.1443854570388794e-08,
+        "C": 1.0,
+        "D": 2.384185791015625e-07,
+        "E": 5.657784640789032e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 88,
+      "generated_until_stop": "The passage lists several ways to reduce carbon dioxide and other greenhouse gases, which are linked to global warming. The final way, \"WAY 5: Plant a tree,\" is presented as a beneficial action for the environment. The subsequent sentence, \"Just one tree will help make cleaner air and save the environment from 5,000 pounds of hot CO2 each year,\" directly explains the benefits of planting a tree. Therefore, the primary uses of planting a tree, as stated in the passage, are to make your garden beautiful, help make cleaner air, and save the environment. The answer that encompasses all these points is \"D. All of above.\"\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.0654330253601074e-06,
+        "B": 1.525040715932846e-08,
+        "C": 5.699694156646729e-07,
+        "D": 1.0,
+        "E": 3.0547380447387695e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 89,
+      "generated_until_stop": "The passage describes a 9-year-old boy's interaction with his robot and his parents. The boy states that his robot helps him with homework, and his parents prioritize homework over video games. The parents are surprised when the boy finishes his homework. The question asks what the boy *wanted* his robot to do. Given the context of homework and parental expectations, the most logical desire for the robot would be to *help* the boy with his homework, enabling him to meet his parents' expectations and potentially avoid restrictions on video games.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 3.46451997756958e-07,
+        "C": 2.384185791015625e-07,
+        "D": 4.4517219066619873e-07,
+        "E": 4.98257577419281e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 90,
+      "generated_until_stop": "The passage states that the survey was conducted with \"one hundred kids.\" The question asks how many kids imagined robots could help do chores. The relevant sentence in the passage is: \"A quarter of kids surveyed imagined that their robots could do chores and boring work so that they might be freed up.\" A quarter of 100 is 25. Therefore, 25 kids imagined robots could help do chores.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 4.4517219066619873e-07,
+        "B": 1.0,
+        "C": 2.1047890186309814e-07,
+        "D": 6.007030606269836e-08,
+        "E": 2.342858351767063e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 91,
+      "generated_until_stop": "The passage describes several ways children imagine robots helping them learn and with their daily lives. The specific examples provided are: robots making learning fun, robots doing dirty work, robots being friends, and robots being cool. The passage explicitly mentions that robots can \"keep secrets\" and \"give suggestions.\" However, there is no mention of robots making movies in the provided text. The other options are all discussed in the passage.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 4.4517219066619873e-07,
+        "B": 1.7229467630386353e-08,
+        "C": 6.007030606269836e-08,
+        "D": 1.0,
+        "E": 2.7008354663848877e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 92,
+      "generated_until_stop": "The passage describes children's imaginative ideas about robots helping with learning and chores. The options provided are potential roles for robots. The passage explicitly mentions \"Robots can make learning fun\" and \"Robots take care of the dirty work.\" It also states that \"Two-thirds of the kids thought that their robots could be friends.\" The passage does not mention robots as \"listeners\" in the context of learning or chores, nor do they explicitly act as \"parents\" or \"kitchen helpers.\" However, the idea of robots as \"tutors\" aligns with the concept of making learning fun and assisting with homework, as implied by the examples given.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 3.123283386230469e-05,
+        "B": 5.699694156646729e-07,
+        "C": 1.0,
+        "D": 7.338821887969971e-07,
+        "E": 3.9301812648773193e-07
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 93,
+      "generated_until_stop": "The passage describes the imaginative ideas of children regarding robots and their potential roles in their lives. The children envision robots as helpers with various functions: making learning fun, doing chores, being friends, and even having personalities. There is no indication of the children hating robots or needing them to do everything. The passage focuses on the positive and functional aspects of robots as perceived by the children. Therefore, the most fitting description of the children's thoughts is that they are \"full of ideas\" about what robots can do for them.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 1.0570511221885681e-07,
+        "C": 2.2118911147117615e-08,
+        "D": 2.0838342607021332e-08,
+        "E": 1.3445969671010971e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 94,
+      "generated_until_stop": "The passage provides a detailed description of penguins, including their habitat, diet, and the threats they face. The sentence in question, \"Penguins _ .\", is a fragment. The subsequent sentences offer information about their swimming abilities, distribution, and diet. The most fitting completion of the fragment, based on the provided text, is a statement about their swimming prowess, as this is a prominent characteristic discussed in the passage. The other options are either too specific or not directly supported by the general information given.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 6.48200511932373e-07,
+        "C": 2.2649765014648438e-06,
+        "D": 1.996755599975586e-06,
+        "E": 7.338821887969971e-07
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 95,
+      "generated_until_stop": "The passage lists several factors contributing to the decline in penguin populations. These include the warming of ocean waters, which reduces the supply of fish and krill, and human activities like widespread fishing, oil exploration, and oil spills. The passage explicitly mentions that \"Warming of the earth is the decrease in penguin populations\" and that \"Widespread fishing, exploration for oil and oil leaks also make penguins be in danger.\" Among the options provided, \"Warming of the oceans\" is directly stated as the cause of the decrease in penguin populations, making it the most accurate answer.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00020313262939453125,
+        "B": 1.0132789611816406e-05,
+        "C": 4.5299530029296875e-05,
+        "D": 1.0,
+        "E": 3.528594970703125e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 96,
+      "generated_until_stop": "The passage describes a situation where oil leaking from a ship harmed a significant percentage of penguins in South Africa. The subsequent actions of \"thousands of people helped clean and treat the birds well\" and \"Then they returned the penguins to the wild\" are presented as positive interventions. The question asks why the penguins are now reproducing in higher numbers than before the oil leak. The most direct and logical reason, given the context of the passage, is that the penguins were treated and cared for after the incident, leading to their recovery and increased reproduction. Options A, B, and D, while potentially beneficial, are not as directly supported by the specific actions described in the passage as the general act of helping and treating the penguins.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 6.407499313354492e-07,
+        "B": 1.424923539161682e-07,
+        "C": 0.98828125,
+        "D": 0.010986328125,
+        "E": 2.5331974029541016e-06
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 97,
+      "generated_until_stop": "The passage lists several skills that a part-time job can teach teenagers, such as responsibility, independence, teamwork, and leadership. The question asks for a skill that a part-time job *cannot* teach. Among the options provided, \"organization\" is not explicitly mentioned as a skill taught by a part-time job in the passage. While organization might be indirectly improved by managing a job and school, it is not directly stated as a primary skill taught by the experience of having a part-time job.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 6.139278411865234e-06,
+        "B": 8.307397365570068e-07,
+        "C": 2.2649765014648438e-06,
+        "D": 1.0,
+        "E": 4.798173904418945e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 98,
+      "generated_until_stop": "The passage explicitly states that \"The US Department of Labor allows teenagers to apply for jobs at the age of 14.\" This directly provides the legal age for American teenagers to work. The other options, thirteen, twelve, and eleven, are not supported by the text.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 6.007030606269836e-08,
+        "C": 8.149072527885437e-09,
+        "D": 1.525040715932846e-08,
+        "E": 2.648448571562767e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 99,
+      "generated_until_stop": "The passage discusses popular part-time jobs for American teenagers, specifically mentioning \"working in ice cream stores, coffee shops, and clothing stores\" during the school year. It then transitions to summer jobs, listing \"camps, swimming pools and amusement parks\" as examples. Among the options provided, \"At a camp\" is the only one that directly aligns with the summer job examples given in the text, indicating a popular summer employment opportunity for teenagers seeking activity and fun.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 2.868473529815674e-07,
+        "B": 8.672941476106644e-09,
+        "C": 1.0,
+        "D": 1.6391277313232422e-07,
+        "E": 1.1874362826347351e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 100,
+      "generated_until_stop": "The passage describes the benefits and activities of American teenagers who have part-time jobs. It specifically mentions babysitting as a popular job and states that \"After the children are sleeping and before the parents come home, babysitters have lots of freedom.\" This directly supports the idea that teenagers like to babysit because they have \"lots of freedom\" during those periods. The other options, while potentially true in some contexts, are not the primary reason presented in the passage for the popularity of babysitting among American teenagers.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 6.48200511932373e-07,
+        "B": 2.6775524020195007e-08,
+        "C": 2.1047890186309814e-07,
+        "D": 1.0,
+        "E": 6.48200511932373e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 101,
+      "generated_until_stop": "The passage discusses different types of travel books and their usefulness. The sentence in question states, \"If _ has written such a book about the facts of a place, then it is more useful.\" The context is about travel books that provide objective information about a place. Among the options, \"travel books\" is the most fitting as it directly refers to the category of books being discussed. The other options, \"travel maps,\" \"travel films,\" and \"travel places,\" do not fit the context of writing books that provide factual information about a place.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 6.845220923423767e-08,
+        "B": 1.0,
+        "C": 1.2069940567016602e-06,
+        "D": 1.126900315284729e-07,
+        "E": 2.9976945370435715e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 102,
+      "generated_until_stop": "The passage discusses different types of travel books and their usefulness. The sentence in question is: \"The second kind are those books which give objective information of things to be done and seen. If _ has written such a book about the facts of a place, then it is more useful.\" This implies that the author of the book should have personal knowledge or experience of the place to provide accurate and useful information. Among the given options, \"a lot of experience\" directly addresses this requirement for credibility and practical usefulness in travel writing. The other options, \"travelled,\" \"read books,\" and \"surfed the Internet,\" are less specific or less directly relevant to the author's ability to provide factual and practical information about a place.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.7583370208740234e-06,
+        "B": 3.655441105365753e-08,
+        "C": 1.0,
+        "D": 2.7008354663848877e-07,
+        "E": 1.2631062418222427e-08
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 103,
+      "generated_until_stop": "The passage emphasizes the practical nature of travel and the rapid changes occurring in the 21st century. It advises readers to be cautious of travel books that describe everything as interesting, exciting, or fantastic, and to keep an open mind regarding the date of publication. This caution is due to the fact that many things in travel can change quickly. Therefore, the most logical reason to notice the date of publication is to ensure the information is current and relevant, as travel information can become outdated rapidly.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0001583099365234375,
+        "B": 0.0001583099365234375,
+        "C": 0.00012302398681640625,
+        "D": 1.0,
+        "E": 0.0001583099365234375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 104,
+      "generated_until_stop": "The passage describes Jeff Keith's physical condition and his achievements despite it. The text explicitly states, \"Jeff Keith has only one leg. When he was 12 years old, Jeff had cancer. Doctors had to cut off most of his right leg.\" This information directly establishes his physical challenges. The subsequent sentences detail how he overcomes these challenges by using a prosthetic leg to participate in activities like skiing, swimming, and running. The phrase \"He is disabled, but he can do many things\" further reinforces this. Therefore, the most fitting word to describe him in the blank is \"disabled.\"\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 5.3085386753082275e-08,
+        "C": 2.8405338525772095e-08,
+        "D": 3.725290298461914e-06,
+        "E": 3.623426891863346e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 105,
+      "generated_until_stop": "The passage describes Jeff's physical condition and his ability to perform activities like skiing, riding a bicycle, swimming, and playing soccer. The sentence \"Jeff has only one leg. When he was 12 years old, Jeff had cancer. Doctors had to cut off most of his right leg\" clearly establishes that Jeff lost his right leg due to cancer. The subsequent sentences detail his use of a prosthetic leg to compensate for the missing one. Therefore, the missing word in the blank must refer to the missing anatomical part.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 1.0132789611816406e-05,
+        "B": 1.0,
+        "C": 6.628036499023438e-05,
+        "D": 5.817413330078125e-05,
+        "E": 2.7008354663848877e-07
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 106,
+      "generated_until_stop": "The passage describes Jeff's physical condition and his achievements despite it. The sentence \"Jeff has only one leg\" and the subsequent description of his prosthetic leg are presented as a significant aspect of his life. The context of running across America and the mention of his age when he started this journey (22 years old) are also provided. However, the question asks for the *age* when he *had* to put on an \"other\" leg, implying a contrast to his current situation with one leg. The passage states, \"Everyday Jeff puts on an _ leg. The leg is plastic.\" This implies a prosthetic leg, which is a replacement for a missing or injured limb. The passage then details his life with this prosthetic leg, including running and his achievements. The most logical age to introduce the concept of a prosthetic leg, especially in the context of overcoming physical challenges and running, is when he was a child, as this would set the stage for his future endeavors. The sentence \"When he was 12 years old, Jeff had cancer. Doctors had to cut off most of his right leg.\" directly addresses the origin of his need for a prosthetic leg.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 3.293156623840332e-06,
+        "C": 3.725290298461914e-06,
+        "D": 0.0001583099365234375,
+        "E": 6.48200511932373e-07
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 107,
+      "generated_until_stop": "The passage describes Jeff Keith's journey and achievements despite his disability. It highlights his ability to participate in activities like skiing, swimming, and soccer, and his successful run across the United States. The passage also explains the purpose of the donations he received during his run. The statement \"In order to run across American, Jeff wore out five plastic legs\" is a factual detail about his experience, but it does not convey the broader message of what the passage aims to communicate about human potential and overcoming obstacles. The other options, however, directly reflect the central themes of the passage: Jeff's current educational pursuit and his future career aspiration (A), the charitable use of donations (B), and the inspirational message that people can achieve their goals regardless of their circumstances (C). The passage emphasizes that Jeff's story is not just about being disabled, but about what he *can* do, and that he wants others to know this. The statement about wearing out five plastic legs is a specific instance of his journey, but it doesn't capture the overarching narrative of his resilience and determination.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.059326171875,
+        "B": 0.00799560546875,
+        "C": 0.92578125,
+        "D": 0.004852294921875,
+        "E": 0.000659942626953125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 108,
+      "generated_until_stop": "The passage provides the date range for Sagittarius: \"Sagittarius (November 23--December 21).\" The options include birth dates that fall within this range. Option B, \"Peter, a boy who was born on Nov 22, 1998,\" has a birth date that is within the Sagittarius date range. The other options, A, C, and D, have birth dates that are either outside the Sagittarius range or not specified as being within it.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 6.973743438720703e-06,
+        "B": 1.0,
+        "C": 1.0654330253601074e-06,
+        "D": 1.0654330253601074e-06,
+        "E": 5.3085386753082275e-08
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 109,
+      "generated_until_stop": "The passage describes Sagittarius as fun, loving, generous, and friendly, and states they \"seldom tell lies.\" It also mentions they can be \"a bit rude, that's only because they're very honest and will say exactly what they think.\" The sentence in question follows this description and states, \" _ . Their values are spiritual rather than material.\" The options provided are: A. Sagittarians often tell lies. B. Sagittarians can be rude. C. Sagittarians show great interest in strange things and people. D. Sagittarians can end up working by using their good intuition. The passage explicitly states that Sagittarians seldom tell lies and that their rudeness is a consequence of their honesty. Therefore, option A is incorrect. Option B is a direct restatement of the passage's explanation of their rudeness. Option C is not directly supported by the provided text, which focuses more on honesty, rudeness, and spiritual values. Option D is a summary of their hard work and intuitive nature, which is discussed later in the passage. The sentence structure suggests a continuation of the list of characteristics. Given the context of honesty and spiritual values, the most fitting continuation relates to their openness and willingness to share, which can sometimes be perceived",
+      "pred": "A",
+      "probs": {
+        "A": 0.326171875,
+        "B": 0.0208740234375,
+        "C": 0.000629425048828125,
+        "D": 0.326171875,
+        "E": 0.326171875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": true
+    },
+    {
+      "index": 110,
+      "generated_until_stop": "The passage describes the narrator's experience at the Hershey Chocolate Factory and the town's chocolate-themed attractions. The narrator is excited and expresses strong agreement (\"a hundred times yes\") to what the tour guide is saying about the town and the chocolate's history. The context is about the narrator's positive experience and fascination with the place, not a detailed explanation of chocolate production or a personal preference for a specific type of chocolate. The narrator's enthusiastic response is to the overall experience and the information being presented.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 1.4722347259521484e-05,
+        "C": 2.2649765014648438e-06,
+        "D": 7.867813110351562e-06,
+        "E": 6.48200511932373e-07
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 111,
+      "generated_until_stop": "The passage describes Hershey, Pennsylvania, as a \"chocolate-themed amusement park\" with \"Chocolate Ave\" and \"Cake St.\" road signs. The narrator's enthusiastic response, \"Yes, a hundred times yes!\" indicates a strong positive impression. The context of a chocolate-themed amusement park strongly suggests that the town itself is presented as a large, engaging, and visually stimulating environment, akin to a theme park. The other options, while potentially true in some respects, do not capture the overarching theme and the narrator's excited reaction as effectively as the description of it being a theme park.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 8.487701416015625e-05,
+        "B": 6.139278411865234e-06,
+        "C": 0.000804901123046875,
+        "D": 1.0,
+        "E": 4.5299530029296875e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 112,
+      "generated_until_stop": "The passage describes the history and development of Hershey's Kisses and the town of Hershey, Pennsylvania. The narrator is excited by this information and responds with \"a hundred times yes!\" This enthusiastic agreement suggests that the preceding statement resonated with the narrator's existing knowledge and positive feelings about Hershey's Kisses. Among the options, \"Hershey Chocolate developed very fast\" is a factual statement that aligns with the narrative of rapid growth and expansion described by the tour guide, and it is a statement that a chocolate fan would likely be familiar with and agree upon. The other options are either incorrect or less likely to elicit such an enthusiastic response in this context.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 3.293156623840332e-06,
+        "B": 2.1047890186309814e-07,
+        "C": 1.0,
+        "D": 1.55717134475708e-06,
+        "E": 1.126900315284729e-07
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 113,
+      "generated_until_stop": "The passage describes the writer's enthusiastic response to the tour guide's information about Hershey Chocolate Factory. The writer's exclamation \"Yes, a hundred times yes!\" indicates a strong positive reaction and excitement about the topic. This suggests a desire to visit the factory, rather than a lack of prior knowledge, a desire to avoid it, or a previous visit. The context of hearing about the factory and the excited response strongly imply a desire to experience it firsthand.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 3.123283386230469e-05,
+        "B": 1.7583370208740234e-06,
+        "C": 4.5299530029296875e-05,
+        "D": 1.0,
+        "E": 2.4318695068359375e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 114,
+      "generated_until_stop": "The passage describes Linda's childhood and her mother's story about a doll that was never received because Linda's parents died before she turned five. The doll was a gift that Linda's mother had intended for her fifth birthday. The narrative then shifts to Rita, who is in a similar situation, looking for a birthday gift for her daughter. The passage implies that Rita is reflecting on the significance of dolls as birthday gifts, drawing a parallel to her own mother's unfulfilled wish. The question asks why Linda thought dolls were the best birthday gifts for Rita. The provided options offer different interpretations of Linda's past and her feelings about receiving dolls. Option D, \"Linda had never got the dream doll from her parents,\" directly addresses the central theme of the passage: the unfulfilled desire for a specific doll due to her parents' untimely deaths. This lack of the \"dream doll\" is presented as the reason why Linda believes dolls are the best birthday gifts for Rita, as it evokes a sense of cherished childhood memories and the emotional significance of receiving gifts, even if they are not exactly what was desired. The other options, while related to dolls, do not capture the specific emotional and narrative arc that leads to the conclusion that dolls are the best birthday gifts in this context.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 6.973743438720703e-06,
+        "B": 9.424984455108643e-07,
+        "C": 4.798173904418945e-06,
+        "D": 1.0,
+        "E": 8.940696716308594e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 115,
+      "generated_until_stop": "The passage describes a birthday gift that arrives late, specifically a doll that was meant for Linda's fifth birthday but was forgotten until her sixtieth birthday. The narrative focuses on the emotional impact of this late gift and how it brings back memories of her mother. The title should reflect the central theme of this emotional journey and the significance of the late birthday gift. \"A Late Birthday Gift\" directly addresses the core element of the story, which is the arrival of the doll after a long wait and the associated feelings. The other options, while related to birthdays or happiness, do not capture the specific narrative arc as effectively.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.000804901123046875,
+        "B": 1.5497207641601562e-06,
+        "C": 5.424022674560547e-06,
+        "D": 1.0,
+        "E": 1.996755599975586e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 116,
+      "generated_until_stop": "The passage describes the roles of different leaders in a group learning environment. The \"discipline leader\" is specifically mentioned as the person responsible for ensuring that students do not chat in class, which is a common expectation for maintaining order and focus during group activities. The other options, while potentially part of a student's responsibilities, are not the primary function of a discipline leader as described in the context of a classroom setting.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 2.384185791015625e-07,
+        "B": 1.618172973394394e-08,
+        "C": 1.0,
+        "D": 1.2069940567016602e-06,
+        "E": 1.2759119272232056e-07
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 117,
+      "generated_until_stop": "The passage describes a new learning method called \"Tuantuanzuo,\" where students sit in groups and take on different roles like team leader, study leader, and discipline leader. The teacher, Wei Liying, explains that this method is designed to give students more opportunities for interaction and collaboration. The examples provided, such as dealing with group responsibilities and asking for help from leaders, all point towards increased interaction among students. Among the given options, \"communicate\" best encapsulates the essence of these interactions, as it implies active exchange of information and ideas within the group setting.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.384185791015625e-07,
+        "B": 5.3085386753082275e-08,
+        "C": 7.338821887969971e-07,
+        "D": 1.0,
+        "E": 5.699694156646729e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 118,
+      "generated_until_stop": "The passage describes a new learning method called \"Tuantuanzuo\" at Dulangkou School, where students sit in groups and take on roles like team leader, study leader, and discipline leader. The passage provides examples of students adapting to this system. Wang Lin, a 15-year-old team leader, initially found the responsibilities tiring but has since adapted and seen benefits, even becoming an excellent speaker. Zhang Qi, a 16-year-old student, improved her English score by seeking help from her team leaders. These examples illustrate a process of adaptation and eventual acceptance of the new learning method. The phrase \"have got used to it and can see the benefits now\" further supports this idea of adaptation and positive reception.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00020313262939453125,
+        "C": 0.000431060791015625,
+        "D": 0.00070953369140625,
+        "E": 5.817413330078125e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 119,
+      "generated_until_stop": "The passage describes a classroom setup where students sit in groups, and each group has specific roles. The text explicitly states, \"Each group has five or six students, according to Wei, and they play different roles.\" The roles mentioned are a team leader, a study leader, and a discipline leader. This totals three distinct leadership positions within each group. The options provided are numerical counts of leaders, and the passage clearly enumerates three such roles.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.006683349609375,
+        "C": 0.000202178955078125,
+        "D": 1.2934207916259766e-05,
+        "E": 2.5480985641479492e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 120,
+      "generated_until_stop": "The passage describes a competitive struggle between two major Chinese internet companies for a specific market. The sentence \"battle for the _ market between the two companies\" indicates a shared market space. The context of the passage is the competition between Alibaba and Tencent in the realm of mobile payment and digital red envelopes. Therefore, the blank should refer to the \"mobile payment market\" or a similar overarching market that both companies are vying for.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.1806640625,
+        "B": 0.00897216796875,
+        "C": 0.80859375,
+        "D": 0.000946044921875,
+        "E": 1.9669532775878906e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 121,
+      "generated_until_stop": "The passage describes the evolution of the tradition of giving \"red envelopes\" in China, focusing on the technological advancements that have made this practice more convenient and widespread. The text mentions that it is now possible to exchange \"red envelopes\" using a smartphone, and that this has led to a competitive \"battle for the _ market\" between Alibaba and Tencent. The context of mobile payment systems and the specific mention of \"smartphone\" strongly suggest that the market in question is the mobile payment market.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0002613067626953125,
+        "B": 1.2993812561035156e-05,
+        "C": 1.0,
+        "D": 0.000335693359375,
+        "E": 3.123283386230469e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 122,
+      "generated_until_stop": "The passage describes the competition between Alibaba and Tencent in the \"hongbao\" market. It states that Alipay Wallet, run by Alibaba, is \"ready to take on the competition\" and that Tencent has banned Alipay from sending red envelopes on WeChat. This implies that Alipay is actively trying to enter or increase its share in this market, and Tencent is trying to protect its existing user base. The passage also mentions that Alipay controls a significant portion of the mobile phone payment market, but the question asks about the \"hongbao\" market specifically. The sentence \"It's easy to send and receive hongbao or take part in the lotteries: you simply need to register your bank details\" indicates that the process is not complicated. The idea of electronic red envelopes was indeed introduced by WeChat in 2014, but the question asks for a true statement about the current situation. The sentence \"According to market research group iResearch, Alipay controls 82.6 percent of the Chinese mobile phone payment market, compared to 10 percent for Tencent's Tenpay\" provides a comparison of market shares, but the question asks about the \"hongbao\" market, not the overall mobile payment market. The sentence \"It's more convenient, simple and fun\" is a statement of",
+      "pred": "A",
+      "probs": {
+        "A": 0.93359375,
+        "B": 1.3768672943115234e-05,
+        "C": 0.00628662109375,
+        "D": 0.000354766845703125,
+        "E": 0.0595703125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 123,
+      "generated_until_stop": "The passage describes a competitive struggle between Tencent and Alibaba in the \"hong bao\" market, driven by features like electronic red envelopes and lotteries. The context of a \"battle for the _ market\" strongly suggests a desire to increase market share and attract new users to their services. Among the options, \"App users\" directly relates to the user base of mobile payment systems, which is the core of the competition. The other options, while potentially benefits, are not the primary driver of the described competitive actions.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.0132789611816406e-05,
+        "B": 3.293156623840332e-06,
+        "C": 3.725290298461914e-06,
+        "D": 1.0,
+        "E": 6.973743438720703e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 124,
+      "generated_until_stop": "The passage emphasizes positive and constructive communication, particularly when addressing mistakes or offering advice. The context of \"treat others in the same way you would want to be treated\" and \"be kind about it\" strongly suggests a need for a courteous and understanding approach. Among the given options, \"politely\" best aligns with this overarching theme of respectful interaction.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 3.46451997756958e-07,
+        "C": 2.1047890186309814e-07,
+        "D": 1.2759119272232056e-07,
+        "E": 1.3445969671010971e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 125,
+      "generated_until_stop": "The passage provides guidelines for respectful online communication, emphasizing not to ask personal questions unless one knows the person well. The specific examples given are \"age,\" \"sex,\" and \"families.\" The question asks what *not* to ask if you don't know the person very well. The options provided are \"their age,\" \"their sex,\" and \"their weight.\" Since \"age\" and \"sex\" are explicitly mentioned as examples of personal information to avoid asking, and \"weight\" is not mentioned, the correct answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.62109375,
+        "B": 1.0371208190917969e-05,
+        "C": 9.822845458984375e-05,
+        "D": 0.376953125,
+        "E": 0.0032501220703125
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 126,
+      "generated_until_stop": "The passage provides a comprehensive guide on appropriate conduct in online communication, emphasizing principles like treating others as one would wish to be treated and respecting differing opinions. It offers specific advice on responding to rudeness, offering help to newcomers, and avoiding intrusive personal inquiries. The overarching theme of these directives is the establishment and adherence to a set of behavioral norms for internet interactions.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.2069940567016602e-06,
+        "B": 1.2014061212539673e-07,
+        "C": 1.0,
+        "D": 6.139278411865234e-06,
+        "E": 3.213062882423401e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 127,
+      "generated_until_stop": "The passage discusses the use of certain foods as \"medical food\" and \"medicines\" in Chinese culture. It provides examples like ginger, pepper, and garlic, explaining their historical medicinal uses. The question asks which of the options is *not* a common spice in Chinese cooking with medicinal properties. While ginger, pepper, and garlic are explicitly mentioned as examples of medicinal food, \"pearls\" are not discussed in the context of food or medicine. Instead, pearls are mentioned as an item people might eat for beauty or other reasons, but not as a common culinary spice with medicinal benefits. Therefore, \"pearls\" is the correct answer as it is not a common spice in Chinese cooking with medicinal properties.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 5.029141902923584e-07,
+        "B": 9.918585419654846e-08,
+        "C": 2.7008354663848877e-07,
+        "D": 1.0,
+        "E": 1.996755599975586e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 128,
+      "generated_until_stop": "The passage explains that for many Chinese people, certain foods like bird brains, pearls, and black rice are not considered strange but are instead consumed for their medicinal properties. It provides historical context and examples of how food has been used for healing in Chinese culture. The passage also mentions that some people are skeptical of food as medicine, preferring to buy it from drugstores, while others are willing to try it, believing it cannot harm them. The passage concludes with an example of a restaurant serving medicinal food.\n\nThe statement \"Many Chinese believe medicinal food tastes good\" is not directly supported by the text. The passage focuses on the *medicinal* value of the food, not its taste. While the passage does mention that ginger, for example, is a common spice in Chinese cooking and is used for its medicinal properties, it does not explicitly state that *many Chinese people believe medicinal food tastes good*. The primary emphasis is on the health benefits and historical use of these foods as medicine.\n\nThe other options are also not directly supported by the text. The passage states that the Chinese have eaten medicinal food for a long time (A), but it doesn't claim that *many Chinese people believe* it tastes good. It also doesn't state that *medicinal food is bad for your",
+      "pred": "A",
+      "probs": {
+        "A": 0.90234375,
+        "B": 0.000820159912109375,
+        "C": 0.07373046875,
+        "D": 0.00286865234375,
+        "E": 0.021240234375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": true
+    },
+    {
+      "index": 129,
+      "generated_until_stop": "The passage explains that ginger was used by the Chinese not for its taste, but for its medicinal properties. It states that ginger was believed to aid digestion and help with colds. This directly relates to the health benefits of the food. The other options, while potentially true of ginger, do not capture the primary reason for its use as medicine as described in the text.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 2.3632310330867767e-08,
+        "B": 8.149072527885437e-09,
+        "C": 1.0,
+        "D": 1.126900315284729e-07,
+        "E": 1.955777406692505e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 130,
+      "generated_until_stop": "The passage discusses the use of certain foods as medicine in Chinese culture. It provides examples of foods like bird brains, pearls, and black rice, explaining that they are not considered strange by many Chinese people, but rather good medicines. The passage also mentions ginger, pepper, and garlic as examples of foods that were likely used as medicine for a long time. The question asks for information that can be found in the passage. The passage states that \"Ginger, for example, is a common spice in Chinese cooking. Ginger gives food a nice flavor. The Chinese began to use ginger many years ago. They used ginger not because it tasted good. They used ginger because it was medicinal.\" This directly answers the question about when the Chinese started to eat bird brains, as it provides a specific example of a food used for medicinal purposes. The other options are not supported by the text. The passage does not explain why women like \"Queen's Secret,\" what the advantage of using pepper is, or how Chinese people stop a toothache using these specific examples.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0002613067626953125,
+        "C": 1.996755599975586e-06,
+        "D": 1.7583370208740234e-06,
+        "E": 1.8533319234848022e-07
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 131,
+      "generated_until_stop": "The passage describes the historical and cultural context of medicinal food in Chinese culture, providing examples like ginger, pearls, and black rice. It also explains that some people are skeptical of food as medicine, preferring drugstores, while others are open to it. The passage concludes with a specific example of a restaurant serving medicinal food. The information presented is factual and informative, suggesting a broader awareness and interest in this culinary tradition. The most logical inference is that more people outside of China, particularly those unfamiliar with it, will become interested in and learn about medicinal food.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 7.867813110351562e-06,
+        "C": 1.3709068298339844e-06,
+        "D": 1.996755599975586e-06,
+        "E": 3.46451997756958e-07
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 132,
+      "generated_until_stop": "The passage states that the Netherlands is \"a bit larger than the size of Taiwan, China.\" This implies that Taiwan is smaller than the Netherlands. The phrase \"a bit larger\" suggests a slight difference in size, indicating that Taiwan is not significantly larger or smaller, but rather slightly less in area compared to the Netherlands. Therefore, the most appropriate description for Taiwan in this context is that it is \"a bit smaller.\"\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.07568359375,
+        "B": 0.00012874603271484375,
+        "C": 0.92578125,
+        "D": 8.869171142578125e-05,
+        "E": 4.410743713378906e-06
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 133,
+      "generated_until_stop": "The passage provides a detailed description of the Netherlands, including its size, culture, art, and notable features like the Keukenhof tulip garden. It also mentions Dutch people, their work ethic, and some specific cultural practices. The \"Did you know?\" section adds further information about Dutch products and traditions. The question asks what is *not* talked about. Considering the content, \"Weather\" is the most likely omission, as the passage focuses on cultural, artistic, and geographical aspects without delving into the climate of the Netherlands.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 7.729977369308472e-08,
+        "B": 5.966285243630409e-09,
+        "C": 1.0,
+        "D": 6.007030606269836e-08,
+        "E": 1.1874362826347351e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 134,
+      "generated_until_stop": "The passage states, \"More than a quarter of the country is below sea level. So Dutch people build many dams to protect the country from flooding. They have created almost one sixth of the country from seas and rivers!\" The sentence in question is \"About _ of the Netherlands is created from the seas and rivers.\" The passage explicitly mentions that \"almost one sixth of the country is from seas and rivers.\" This directly provides the percentage. One sixth is approximately 16.67%, which is close to the given option of 16%.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 1.6391277313232422e-07,
+        "C": 7.338821887969971e-07,
+        "D": 7.729977369308472e-08,
+        "E": 1.0477378964424133e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 135,
+      "generated_until_stop": "The passage provides several cultural and geographical facts about the Netherlands. The sentence \"In the Netherlands, it's good manners to praise the food before eating\" is a direct statement about Dutch etiquette. The other options are also supported by the text: the Netherlands and China are geographically distant, not neighbors; Keulenhof garden is indeed famous for tulips; and wooden clogs are a traditional Dutch item. However, the phrasing of option D, \"It's good manners to praise the food before eating,\" is a common expression of politeness and is a well-established cultural norm in the Netherlands, making it a true statement.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.0002593994140625,
+        "C": 0.0004291534423828125,
+        "D": 0.99609375,
+        "E": 0.00090789794921875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 136,
+      "generated_until_stop": "The sentence structure “The San Francisco race is not as \\_\\_\\_ as the London race” implies a comparison of magnitude or scale between the two events. The passage provides details about the number of participants and the distances involved in both races. The London race, despite being longer and harder, has significantly fewer participants than the San Francisco race. Therefore, the most appropriate word to describe the San Francisco race in this comparative context is one that indicates its large scale.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00014019012451171875,
+        "B": 1.0,
+        "C": 0.0002307891845703125,
+        "D": 7.486343383789062e-05,
+        "E": 2.905726432800293e-06
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 137,
+      "generated_until_stop": "The passage states that the youngest international player in any sport was Jamaica's Joy Foster, who was the Jamaican table tennis champion in 1958 when she was 8 years old. The question asks for the year of her birth. If she was 8 years old in 1958, then she was born in 1958 - 8 = 1940. However, the options provided are 1950, 1952, 1958, and 1966. The passage explicitly mentions her champion status in 1958, and the context of being the youngest international player at that age strongly suggests her birth year is the same as the year she became a champion, or a year very close to it, given the typical age for such achievements. The provided options are all close to this period. The passage directly states her champion year as 1958, and the question asks for her birth year, which would be a year prior to or very near to her champion year if she was indeed 8 at that time. The most logical inference, given the direct statement of her champion year and the typical age for international recognition, is that the year of her birth is the same as the year she became a champion, or a year that would make her 8",
+      "pred": "A",
+      "probs": {
+        "A": 0.41015625,
+        "B": 0.03369140625,
+        "C": 0.11767578125,
+        "D": 0.11767578125,
+        "E": 0.3203125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": true
+    },
+    {
+      "index": 138,
+      "generated_until_stop": "The sentence describes a world record for walking backwards. The context is about a man from Texas who walked backwards for 18 months and set a record. The sentence structure \"A man from Texas, the USA, walked backwards for 18 months in 1931--1032. Nobody else has ever broken this record.\" indicates that this achievement was unique to that individual. The phrase \"A man from Texas, the USA, walked backwards for 18 months in 1931--1032\" establishes the subject of the record. The subsequent sentence, \"Nobody else has ever broken this record,\" confirms that this was a singular accomplishment. Therefore, the blank should be filled with a quantifier that refers to the single person who achieved this.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.006683349609375,
+        "B": 0.000202178955078125,
+        "C": 0.9921875,
+        "D": 0.0001220703125,
+        "E": 6.109476089477539e-06
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 139,
+      "generated_until_stop": "The passage contains several examples of superlatives related to sports, such as the largest number of people in a race, the youngest international player, the strongest superlative in walking backwards, and the most popular sport. The common theme among these examples is the use of superlative language to describe achievements or characteristics in sports. Therefore, a title that reflects this overarching theme of superlatives in sports would be most appropriate.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.2069940567016602e-06,
+        "B": 5.699694156646729e-07,
+        "C": 1.0,
+        "D": 8.940696716308594e-06,
+        "E": 5.029141902923584e-07
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 140,
+      "generated_until_stop": "The passage explains how different animals and pests use colors for protection. It provides examples of locusts changing their colors to match crop colors to avoid being eaten by birds, and pests that blend in with their environment to avoid being seen by predators. The passage also mentions fish that release a black liquid to deter enemies. The common theme is the use of color for defense. The question asks what locusts can do to protect themselves, and the passage explicitly states that their color-changing ability is a form of protection. Therefore, the most accurate statement is that locusts can change their colors to protect themselves.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.384185791015625e-07,
+        "B": 8.754432201385498e-08,
+        "C": 1.2069940567016602e-06,
+        "D": 1.0,
+        "E": 5.699694156646729e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 141,
+      "generated_until_stop": "The passage explains how pests and animals use colors to protect themselves from predators. Pests like locusts change their colors to match the crops to avoid being seen. Other pests that are easily found by predators must hide. The passage explicitly states that these pests \"hide themselves for lives and appear only at night.\" This directly corresponds to option D, which states they \"hide at night and appear in the day time.\" The other options, while related to survival strategies, do not specifically address the mechanism of protection described in the passage for pests that are easily found.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.150369644165039e-05,
+        "B": 1.150369644165039e-05,
+        "C": 5.424022674560547e-06,
+        "D": 1.0,
+        "E": 6.973743438720703e-06
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 142,
+      "generated_until_stop": "The passage explains how animals use their colors to protect themselves from predators. The examples given are bears and lions, which blend in with their environment to avoid being seen. The specific sentence in question states, \"Bears, lions and other animals move quietly through forests. They cannot be easily seen by hunters because their colours are much like the trees.\" This directly links their ability to keep safe to their coloration being similar to the trees in the forest. The other options, while potentially true of some animals, do not directly explain the mechanism of protection described in the passage.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 4.1443854570388794e-08,
+        "C": 3.841705620288849e-09,
+        "D": 1.618172973394394e-08,
+        "E": 2.4883775040507317e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 143,
+      "generated_until_stop": "The passage explains how animals and pests use colors for protection. The example of the fish describes a mechanism for avoiding predators. The fish produces a black liquid that spreads quickly, making them unfindable by enemies and allowing them to swim away. This defensive strategy directly contributes to their safety. The other options, while potentially related to survival, are not explicitly supported by the provided text as the primary reason for the fish's safety in the context of the passage.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00070953369140625,
+        "B": 1.0,
+        "C": 4.4517219066619873e-07,
+        "D": 2.7008354663848877e-07,
+        "E": 9.255018085241318e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 144,
+      "generated_until_stop": "The passage discusses how animals and pests use colors for protection. It provides examples of birds changing color to match crops, pests hiding by appearing at night, and animals blending in with their environment. The concluding sentence summarizes that the \"main use of colours is to protect themselves.\" This overarching theme is best captured by a title that encompasses both animals and pests and their use of color for defense.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 5.029141902923584e-07,
+        "B": 1.2014061212539673e-07,
+        "C": 1.0,
+        "D": 6.48200511932373e-07,
+        "E": 3.213062882423401e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 145,
+      "generated_until_stop": "The passage provides detailed explanations of the terms \"high tech\" and \"state of the art.\" It defines these concepts, offers examples, and discusses their historical context and common usage. The primary purpose of the passage is to clarify and explain what these terms mean and how they are used to describe modern technology. The introductory sentences set the stage for this explanation, and the subsequent paragraphs delve into the specifics of each term.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00042724609375,
+        "B": 1.2874603271484375e-05,
+        "C": 0.9921875,
+        "D": 0.008544921875,
+        "E": 1.138448715209961e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 146,
+      "generated_until_stop": "The passage explains the concepts of \"high tech\" and \"state of the art\" and their origins. It highlights that these terms are used to describe modern technology and products. The passage also mentions that \"state of the art\" became popular later than \"high tech\" and that the computer revolution led to the widespread use of these terms. The example of a lantern out of a big orange pumpkin is not discussed in the passage and is irrelevant to the explanation of \"high tech\" and \"state of the art.\"\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01092529296875,
+        "B": 0.005157470703125,
+        "C": 0.984375,
+        "D": 0.00115203857421875,
+        "E": 9.953975677490234e-06
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 147,
+      "generated_until_stop": "The passage explains that \"state of the art\" refers to the most modern and latest technology available. It is used to describe products that are at the cutting edge of design and functionality. The passage also mentions that computer technology changes rapidly, implying that what is considered \"state of the art\" today may become outdated quickly. Therefore, the statement that a state of the art computer \"may easily become unpopular\" is a logical consequence of the rapid advancement and changing nature of technology, which is consistent with the information provided. The other options are also supported by the text. \"State of the art\" means the best one can buy, and producers claim their products are \"state of the art\" to highlight their modernity and superiority.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.4722347259521484e-05,
+        "B": 2.2649765014648438e-06,
+        "C": 1.0,
+        "D": 2.1457672119140625e-05,
+        "E": 4.4517219066619873e-07
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 148,
+      "generated_until_stop": "The passage defines and explains two terms: \"high tech\" and \"state of the art.\" It then provides examples and historical context for these terms, particularly in relation to technological advancements. The title should reflect the primary subject of the passage, which is the explanation and significance of these two modern technological descriptors. \"High Tech and State of the Art\" directly encapsulates the core content of the text.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 2.1047890186309814e-07,
+        "B": 1.0,
+        "C": 8.307397365570068e-07,
+        "D": 2.562999725341797e-06,
+        "E": 5.617039278149605e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 149,
+      "generated_until_stop": "The passage discusses personality as it relates to behavior, thoughts, and reactions. The question asks what is *not* part of personality. Options A, C, and D are all explicitly mentioned as components of personality in the text (\"how people think, behave, and react\"). Option B, \"what you look like,\" is not discussed in the passage as a defining aspect of personality.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 4.6798959374427795e-08,
+        "B": 1.0,
+        "C": 4.6798959374427795e-08,
+        "D": 1.955777406692505e-08,
+        "E": 3.841705620288849e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 150,
+      "generated_until_stop": "The passage discusses the origins of personality and how it is influenced by genetics, family, school, and life experiences. It explicitly states that \"A baby gets its blood type, genes and other physical things when it's still inside its mother. These things may help decide what the baby will be like.\" This directly links blood type and genes to the development of a person's inherent characteristics, including their personality. The other options, while related to personal development, do not specifically address the biological or inherited factors that are highlighted in the passage as determinants of personality.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00170135498046875,
+        "B": 2.1338462829589844e-05,
+        "C": 0.00070953369140625,
+        "D": 0.99609375,
+        "E": 1.0654330253601074e-06
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 151,
+      "generated_until_stop": "The passage outlines various activities available to visitors at Harvard University. The \"For All Visitors\" section lists activities that are open to everyone. The \"For Seniors Only\" section lists activities restricted to seniors. The question asks which activity is NOT available to all visitors. Options A, B, and C are all listed as available to \"For All Visitors.\" Option D, \"A meal with Harvard students,\" is listed as \"For Seniors Only,\" indicating it is not available to all visitors.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.0132789611816406e-05,
+        "B": 1.996755599975586e-06,
+        "C": 7.867813110351562e-06,
+        "D": 1.0,
+        "E": 4.00543212890625e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 152,
+      "generated_until_stop": "The passage explicitly states that \"dorms, academic departments, athletic facilities and libraries are not included on any of our tours.\" Therefore, these locations are not officially part of the visitor experience as described. The other options, while mentioned in the context of university life, are either explicitly excluded from the tour or are not the primary focus of the visitor's experience as outlined in the text.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.02880859375,
+        "B": 0.7421875,
+        "C": 0.212890625,
+        "D": 0.006439208984375,
+        "E": 0.00823974609375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 153,
+      "generated_until_stop": "The passage provides detailed information about visiting Harvard University, including admission details, tours, classes, and special events for seniors. This type of content is characteristic of a university's official online presence, designed to inform potential visitors and students about what the institution offers. Among the given options, a \"school website\" is the most fitting source for such comprehensive and specific information about a university. The other options, such as news reports, advertisements, or feature stories, typically offer more general or event-specific information and are less likely to contain the depth of administrative and visitor-oriented details presented here.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.3709068298339844e-06,
+        "B": 1.6391277313232422e-07,
+        "C": 1.2069940567016602e-06,
+        "D": 1.0,
+        "E": 2.2649765014648438e-06
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 154,
+      "generated_until_stop": "The passage explicitly states the narrator's preference: \"I like dumplings with vegetables and pork better than any other kind.\" This direct statement provides the answer to the question about what the writer likes dumplings with best.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 9.424984455108643e-07,
+        "B": 2.384185791015625e-07,
+        "C": 1.0,
+        "D": 1.7583370208740234e-06,
+        "E": 1.4435499906539917e-07
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 155,
+      "generated_until_stop": "The passage discusses the context in which one might buy dumplings from a supermarket. The sentence \"If you have no time to make them, you can buy them from any supermarket\" directly addresses a situation where the individual lacks the time for preparation. The subsequent sentence, \"Then you take them home and eat them with \\_\\_\\_,\" implies a social or familial context, but the primary reason for buying from the supermarket is the lack of time. Therefore, the most fitting completion is related to the absence of time.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.92578125,
+        "B": 5.3882598876953125e-05,
+        "C": 0.07568359375,
+        "D": 0.00011396408081054688,
+        "E": 1.9788742065429688e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 156,
+      "generated_until_stop": "The passage describes the cultural significance and evolution of eating dumplings in China. It mentions the practice of putting a coin in a dumpling for good luck during the Spring Festival and notes that in the past, people were too poor to eat dumplings frequently. It then states that as the country has grown stronger and people richer, they can now eat dumplings often. The question asks which statement is NOT true. Options A, B, and D are all consistent with the information provided in the passage. Option C, however, is a restatement of the historical context and is not presented as a contrast or an incorrect fact. The passage implies that the *ability* to eat dumplings has increased due to wealth, not that the *frequency* of eating them has increased. Therefore, the statement that people *could only eat dumplings because they were poor* is a true historical fact and not an incorrect one. The question is likely asking about the *reason* for eating dumplings, and the passage implies that the *reason* has changed from necessity to a cultural practice. However, the question asks for a statement that is *NOT true*. Considering the context of the passage, which is about the *reasons* for eating dumplings, the most logical interpretation of the",
+      "pred": "A",
+      "probs": {
+        "A": 0.6171875,
+        "B": 0.0087890625,
+        "C": 0.06494140625,
+        "D": 0.0185546875,
+        "E": 0.291015625
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 157,
+      "generated_until_stop": "The passage describes Hunter Adam's mental health struggles during his teenage years, his unconventional approach to medicine, and his subsequent fame. The question asks when he had mental health problems. The passage explicitly states, \"When he was a teenager, Hunter Adam was very unhappy and he spent many years in a special hospital for people with mental health problems.\" This directly indicates the period of his mental health issues.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 7.867813110351562e-06,
+        "B": 4.172325134277344e-07,
+        "C": 1.0,
+        "D": 2.5331974029541016e-07,
+        "E": 1.0570511221885681e-07
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 158,
+      "generated_until_stop": "The passage describes Hunter Adams' unconventional behavior at medical school, such as wearing shirts with flowers instead of white coats and trying to make patients laugh. The doctors at the school disliked him because his actions were \"too different.\" This implies that his deviation from the norm and his unique approach to patient care were the reasons for their dislike, rather than his personal warmth, his mental health history, or his role as a clown. The core issue was his distinctiveness.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 9.918585419654846e-08,
+        "B": 1.1874362826347351e-08,
+        "C": 7.729977369308472e-08,
+        "D": 1.0,
+        "E": 6.48200511932373e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 159,
+      "generated_until_stop": "The passage describes Hunter Adam's journey from a teenager with mental health issues to a successful doctor and the founder of the Gusundheit Institute. The sentence \"When he finished medical school and become a doctor, Adams opened his own hospital, called 'the Gusundheit Institute', together with some other doctors.\" indicates the establishment of a new place. The question asks what \"the Gusundheit Institute\" was. The context of opening a hospital and being a place of alternative working methods strongly suggests that it is a hospital. The other options are not supported by the text. Universal Pictures made a film about his life, but the Institute itself is not a film studio. The passage also mentions a medical school, but \"the Gusundheit Institute\" is presented as a separate entity founded after medical school.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 1.996755599975586e-06,
+        "C": 2.1047890186309814e-07,
+        "D": 3.9301812648773193e-07,
+        "E": 2.1047890186309814e-07
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 160,
+      "generated_until_stop": "The passage describes Hunter Adam's unconventional approach to being a doctor and his belief in the importance of emotional care for patients. It states that he wore shirts with flowers instead of white coats and tried to make his patients laugh. The film about his life, played by Robin Williams, emphasizes his belief in a doctor-patient relationship based on friendship. Therefore, the statement that \"Robin Williams believed that patients need a doctor who is a friend\" is consistent with the information provided about Adams' philosophy and the film's portrayal. The other options are either directly stated in the text (A and C) or are a factual detail about Williams' profession (D) which is not the subject of the passage's main idea.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0003795623779296875,
+        "B": 1.0,
+        "C": 0.000335693359375,
+        "D": 0.0002307891845703125,
+        "E": 5.424022674560547e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 161,
+      "generated_until_stop": "The passage provides a detailed account of Hunter Adam's life, focusing on his unconventional approach to medicine and his efforts to improve the well-being of hospital patients. The narrative describes his childhood unhappiness, his time in a mental health hospital, his unique style at medical school, and his eventual establishment of a new type of hospital. The film and Robin Williams' portrayal are mentioned as a testament to his impact. The central theme of the passage is Adam's innovative approach to patient care, specifically his belief in the importance of friendship and laughter in the healing process. Therefore, the most fitting summary of the passage is \"how to cheer up patients.\"\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 9.918585419654846e-08,
+        "C": 1.4435499906539917e-07,
+        "D": 4.6798959374427795e-08,
+        "E": 4.6566128730773926e-09
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 162,
+      "generated_until_stop": "The passage states that \"It lies in central Hangzhou, in Zhejiang Province of eastern China.\" The phrase \"in central Hangzhou\" directly specifies the location. Therefore, the most accurate answer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 6.139278411865234e-06,
+        "C": 0.000553131103515625,
+        "D": 0.000335693359375,
+        "E": 2.2649765014648438e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 163,
+      "generated_until_stop": "The passage explicitly states that the West Lake is divided by three causeways: Su Di, Bai Di, and Yanggong Di. The sentence in question directly refers to these causeways. Therefore, the number of causeways is three.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 1.126900315284729e-07,
+        "B": 1.0,
+        "C": 9.424984455108643e-07,
+        "D": 4.6798959374427795e-08,
+        "E": 1.8189894035458565e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 164,
+      "generated_until_stop": "The passage explicitly states, \"Spring Dawn on the Su Causeway is considered as the first of ten scenes.\" This direct statement clearly identifies the position of \"Spring Dawn on the Su Causeway\" within the sequence of \"Ten Scenes of West Lake.\" Therefore, the answer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 6.48200511932373e-07,
+        "C": 1.6689300537109375e-05,
+        "D": 3.528594970703125e-05,
+        "E": 1.3709068298339844e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 165,
+      "generated_until_stop": "The passage is an introduction to West Lake, Hangzhou, and its historical and cultural significance. The narrator is welcoming visitors and providing information about the location and its attractions. The context is about a place that people visit and are attracted to for its beauty. Among the given options, \"tourists\" best fits the audience for such an introduction and description of a famous landmark. The other options, \"students,\" \"teachers,\" and \"singers,\" are too specific and do not align with the general welcoming and informative tone of the passage.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 4.172325134277344e-07,
+        "B": 1.83936208486557e-08,
+        "C": 4.4517219066619873e-07,
+        "D": 1.0,
+        "E": 4.4517219066619873e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 166,
+      "generated_until_stop": "The passage states that \"More than 20 of my classmates have adopted pets online, while last year the number was just 10.\" This indicates a significant increase in the number of students adopting pets online. The phrase \"more than 20\" directly points to a quantity greater than 20. Therefore, the most appropriate answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.4375,
+        "B": 0.5625,
+        "C": 0.0001468658447265625,
+        "D": 0.000843048095703125,
+        "E": 0.0001468658447265625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 167,
+      "generated_until_stop": "The passage describes Dai Yingshuang's positive experience with raising pets online. She states it is \"great fun\" and that she has learned to take care of others through this activity. The passage also includes a quote from another student, Wang Zhaotong, whose parents approve of her online pet-raising as long as she maintains a balance between studying and playing. The overall tone of the passage is positive and highlights the enjoyment and learning derived from this activity. Therefore, the most fitting answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0179443359375,
+        "B": 4.458427429199219e-05,
+        "C": 0.000896453857421875,
+        "D": 0.98046875,
+        "E": 9.441375732421875e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 168,
+      "generated_until_stop": "The passage discusses the popularity of raising virtual pets online among teenagers and the concerns of parents regarding this activity. It states that \"spending a lot of time online\" is a consequence of raising an online pet. Therefore, the statement that \"Raising an online pet doesn't mean spending a lot of time online\" is false. The other statements are consistent with the information provided in the passage.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 4.231929779052734e-06,
+        "C": 1.2069940567016602e-06,
+        "D": 1.0654330253601074e-06,
+        "E": 2.384185791015625e-07
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 169,
+      "generated_until_stop": "The passage describes several individuals and their experiences with raising online pets. The specific examples mentioned are: Wang Hui, Dai Yingshuang, and Wang Zhaotong. The passage also refers to \"more than 20 of my classmates\" and \"her parents,\" but these are not individual examples of raising pets. Therefore, the total number of distinct examples is three.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00069427490234375,
+        "B": 0.02294921875,
+        "C": 0.9765625,
+        "D": 3.390014171600342e-07,
+        "E": 5.192123353481293e-08
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 170,
+      "generated_until_stop": "The passage provides several examples of teenagers raising pets online, discusses the activities involved (feeding, washing, talking, playing), and mentions the potential benefits (fun, learning to care for others) and concerns (worry from parents about influence on studies). The overall tone and content of the passage are about the practice and its implications, making option A the most fitting summary. Options B and C are too specific or negative, and option D focuses only on adoption without encompassing the broader topic of raising pets online.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 4.6798959374427795e-08,
+        "C": 2.2118911147117615e-08,
+        "D": 1.1874362826347351e-08,
+        "E": 3.1868694350123405e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 171,
+      "generated_until_stop": "The passage explicitly states that happiness is for everyone and is not dependent on material possessions like houses, cars, or money. The examples provided in the passage are used to illustrate that people who appear to have everything can still be unhappy, and that happiness is an internal state. Therefore, the sentence \"Happiness is for \\_\\_\\_\" should be completed with a word that encompasses all people, as the subsequent text argues against equating happiness with wealth or status.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 3.123283386230469e-05,
+        "B": 1.996755599975586e-06,
+        "C": 1.2993812561035156e-05,
+        "D": 1.0,
+        "E": 3.528594970703125e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 172,
+      "generated_until_stop": "The passage discusses how happiness is not material wealth but a feeling. It provides examples of how people offer support when one does something wrong, emphasizing the importance of community and personal growth. The sentence in question follows a list of positive interactions: friends helping in school, parents caring for studying, and friends congratulating on success. The phrase \"When you do something wrong, \\_\\_\\_ people around you will help you to correct it\" logically continues this theme of support and correction. The other options do not fit the context of receiving help from others after making a mistake.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 3.9301812648773193e-07,
+        "C": 6.007030606269836e-08,
+        "D": 6.845220923423767e-08,
+        "E": 6.845220923423767e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 173,
+      "generated_until_stop": "The passage emphasizes that happiness is a feeling of the heart and is not solely dependent on material possessions like money or status. It provides examples of how people offer support and help in various situations, reinforcing the idea that happiness is accessible to everyone, regardless of their material circumstances. The statement \"Happiness is not a feeling from your heart\" directly contradicts the central theme of the passage, which is about finding happiness within oneself and through relationships, independent of external wealth.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.000335693359375,
+        "B": 0.000179290771484375,
+        "C": 9.584426879882812e-05,
+        "D": 1.0,
+        "E": 0.000335693359375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 174,
+      "generated_until_stop": "The passage contrasts happiness with material possessions like houses and cars, suggesting that these do not guarantee happiness. It then explains that happiness is a feeling of the heart, and can exist even in poverty or when facing difficulties. The sentence \"Happiness is not the same as money\" directly follows this explanation. Therefore, the reason for this statement is that money does not inherently bring happiness.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 2.1047890186309814e-07,
+        "B": 1.0,
+        "C": 6.48200511932373e-07,
+        "D": 2.384185791015625e-07,
+        "E": 2.3632310330867767e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    }
+  ]
+}

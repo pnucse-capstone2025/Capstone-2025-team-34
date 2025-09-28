@@ -1,0 +1,1330 @@
+{
+  "model_id": "google/gemma-3-4b-it",
+  "num_items_total": 88,
+  "num_evaluated": 86,
+  "num_stopped": 86,
+  "num_skipped": 2,
+  "accuracy_no_skipped": "67.44%",
+  "results": [
+    {
+      "index": 87,
+      "generated_until_stop": "The passage describes a situation where Dan, to avoid answering \"What's the time?\" repeatedly, buys a clock. He believes this will stop people from asking him. However, the subsequent sentences reveal that people *do* stop and ask about the clock's accuracy. This implies that his initial action, while intended to solve his perceived problem of being repeatedly asked the time, has paradoxically created a new problem: people questioning the clock's validity. Therefore, the question of whether he \"solved his problem\" is not a simple affirmative. The context suggests he did not solve his problem, but rather changed it into a different, similar one.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 6.198883056640625e-05,
+        "B": 0.000518798828125,
+        "C": 1.0,
+        "D": 0.000553131103515625,
+        "E": 1.57160684466362e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 88,
+      "generated_until_stop": "The passage describes a situation where a doorman is initially asked many times for the time by people passing by. He then buys a clock to stop being asked. After this, he is still asked for the time by people who stop and look at the clock, implying they are trying to confirm its accuracy. This suggests the people are not necessarily \"stupid\" but rather trying to ensure the clock is functioning correctly. The phrase \"Is that clock right?\" indicates a question about its accuracy, which is a common reason for people to ask for the time or to interact with a public clock.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0031280517578125,
+        "B": 0.00750732421875,
+        "C": 0.921875,
+        "D": 0.06689453125,
+        "E": 2.5704503059387207e-07
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 89,
+      "generated_until_stop": "The passage describes a sequence of events: a camping trip, a meal and wine, sleeping in a tent, and then a conversation about what can be seen in the sky. The phrase \"Some hours later, Holmes woke up and pushed his friend\" indicates that a significant period of time has passed since they went to sleep. The subsequent dialogue about the sky and the final realization about the stolen tent further suggest that this waking up occurred after a considerable duration of sleep. Therefore, the most fitting context for waking up after a night's sleep, especially in a camping scenario, is \"in the middle of the night.\"\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0002460479736328125,
+        "C": 7.009506225585938e-05,
+        "D": 0.000148773193359375,
+        "E": 2.1420419216156006e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 90,
+      "generated_until_stop": "The passage describes Watson's thoughts after seeing the stars. He lists three distinct thoughts: 1) a beautiful clear day tomorrow, 2) the time is about twelve o'clock, and 3) the world is so big and we are so small. The question asks how many \"things\" he thought of. The provided list comprises of these three distinct ideas. Therefore, the number of \"things\" he thought of is three.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 6.580352783203125e-05,
+        "B": 1.0,
+        "C": 0.000667572021484375,
+        "D": 4.839897155761719e-05,
+        "E": 5.145557224750519e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 91,
+      "generated_until_stop": "The passage describes a scene where Holmes and Watson are in a tent at night, and Holmes asks Watson questions about the sky. The context of being in a tent and the mention of looking at the sky suggest that the events are happening while they are inside the tent. The question about what the sky \"teells me\" implies they are observing something from within the confines of the tent.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 7.486343383789062e-05,
+        "B": 0.0002956390380859375,
+        "C": 0.00014019012451171875,
+        "D": 1.0,
+        "E": 4.4517219066619873e-07
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 92,
+      "generated_until_stop": "The passage explicitly states, \"It is the eighteen 'World Reading Day'.\". The subsequent sentences discuss reading habits and events in Germany, further reinforcing the idea of a global observance related to reading. Therefore, the most fitting answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.89453125,
+        "B": 0.02880859375,
+        "C": 0.0224609375,
+        "D": 0.0537109375,
+        "E": 1.895427703857422e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 93,
+      "generated_until_stop": "The passage discusses where people in Germany can buy books. It mentions book shops in cities and towns, and also online. The phrase \"more than 70% of people like reading\" and the subsequent sentences about reading in various locations suggest a broad range of purchasing options. While \"book shops\" and \"on the Internet\" are specific, \"everywhere\" encompasses all the mentioned possibilities and the general context of ease of purchasing books in Germany.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 5.817413330078125e-05,
+        "B": 0.00020313262939453125,
+        "C": 8.487701416015625e-05,
+        "D": 1.0,
+        "E": 3.46451997756958e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 94,
+      "generated_until_stop": "The passage states that in Germany, \"more than 70% of people like reading.\" The passage then provides examples of how people engage in reading activities. The question asks how many people *like* reading. The passage implies a significant majority, and the options are all cardinal numbers. Without further context or a specific number of people involved in these activities, the question is unanswerable. However, if the question is asking about a specific group within the 70% who are involved in a particular activity, and the passage implies a large number, then a number greater than 70% would be expected. Given the options, and the context of a reading event, a number that represents a significant portion of the population participating is most appropriate. The passage doesn't explicitly state a specific number of people who \"like reading\" in a way that fits a simple choice among the options. However, if we interpret the question as asking about a specific, perhaps smaller, group within the 70% who are *active* readers or *event organizers* for \"World Reading Day,\" and the passage mentions \"Parents often read books for kids,\" and \"Reading parties,\" then a number that represents a significant, but not necessarily all, of the 70",
+      "pred": "D",
+      "probs": {
+        "A": 0.1611328125,
+        "B": 0.1845703125,
+        "C": 0.123046875,
+        "D": 0.46484375,
+        "E": 0.06591796875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 95,
+      "generated_until_stop": "The passage describes a historical discussion about the meanings of \"fruit\" and \"veget.\" The question \"What are fruits and what are vegetables?\" and the subsequent sentences about how they are eaten, directly indicate that people were trying to understand these terms. The other options do not fit the context of the initial passage.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000148773193359375,
+        "C": 1.6689300537109375e-05,
+        "D": 5.14984130859375e-05,
+        "E": 4.6566128730773926e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 96,
+      "generated_until_stop": "The passage discusses the historical and common understanding of eating habits regarding fruits and vegetables. The sentence \"People usually eat vegetables \\_\\_\\_\" follows the explanation that vegetables are typically consumed as part of a meal. The subsequent sentences detail the historical debate and the common, albeit incorrect, understanding of when and how vegetables are eaten. The phrase \"as part of a meal\" implies a primary timing for eating vegetables in conjunction with other food items. Among the given options, \"during a meal\" best fits this context, indicating the usual placement of vegetables within a standard meal's progression.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 5.14984130859375e-05,
+        "B": 0.00020313262939453125,
+        "C": 0.00020313262939453125,
+        "D": 1.0,
+        "E": 9.639188647270203e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 97,
+      "generated_until_stop": "The passage discusses the confusion surrounding the terms \"fruit\" and \"veget.\" It then provides two examples to illustrate their common understanding:\n\n1. The passage states that \"to most people, fruits mean sweet things like apples, pears, oranges and watermelons.\"\n2. It then clarifies that \"vegetables mean things like potatoes, onions and carrots.\"\n\nThe question asks what \"most people\" think of fruits. The passage explicitly states that \"to most people, fruits mean sweet things like apples, pears, oranges and watermelons.\" This directly addresses the common perception of fruit.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0002956390380859375,
+        "B": 1.0,
+        "C": 0.000457763671875,
+        "D": 0.00096893310546875,
+        "E": 7.497146725654602e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 98,
+      "generated_until_stop": "The passage describes the white lambs' perception of the black lamb. The text states, \"They thought he was ugly.\" This directly conveys the white lambs' negative opinion of the black lamb. Therefore, the most fitting word to describe their feelings is \"ugly.\"\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0001392364501953125,
+        "B": 0.0004291534423828125,
+        "C": 0.99609375,
+        "D": 0.00170135498046875,
+        "E": 2.2118911147117615e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 99,
+      "generated_until_stop": "The passage describes a farmer's actions towards his four lambs. The narrative explicitly states that the farmer \"gave bad food to the black lamb.\" The subsequent sentences detail the lambs' journey and the farmer's discovery of the black lamb. The phrase \"all the lambs\" would imply the farmer's actions were directed at all of them, which is not specified. \"The black Lamb\" and \"the white lambs\" are specific individuals or groups, and the context of the passage focuses on the black Lamb's unique situation and the overall narrative of the lambs. The most logical group to which the farmer would have given bad food, as a specific instance in the text, is the black Lamb.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00116729736328125,
+        "C": 0.000457763671875,
+        "D": 0.0002613067626953125,
+        "E": 1.525040715932846e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 100,
+      "generated_until_stop": "The passage describes a situation where the lambs are lost because it is covered in snow, making it impossible for them to find their way home. The sentence \"They couldn't find the way home\" directly explains the cause of their predicament. The subsequent sentences about the snow accumulating and the farmer's discovery of the black lamb are secondary to the primary reason for their lostness.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0003566741943359375,
+        "B": 1.0,
+        "C": 0.00102996826171875,
+        "D": 0.0003147125244140625,
+        "E": 1.1920928955078125e-07
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 101,
+      "generated_until_stop": "The passage describes a situation where the farmer is looking for his lost lambs. The narrative structure indicates a sequence of events: the lambs went out to eat grass, it started to snow, they became lost, and then the farmer found them. The phrase \"When the farmer found that the lambs were not at home, he went out to look for them\" signifies the beginning of the search. The subsequent sentence, \"There was snow everywhere. They couldn't find the way home,\" further emphasizes their predicament. The final sentence, \"Suddenly, he saw something black. He went to it. Oh, it was his black Lamb!\", reveals that the farmer initially saw the black Lamb and then found the other lambs. Therefore, the most logical preceding event that would lead the farmer to search for his lambs is the observation of the black Lamb.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9609375,
+        "B": 0.037109375,
+        "C": 0.00185394287109375,
+        "D": 0.0010528564453125,
+        "E": 9.546056389808655e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 102,
+      "generated_until_stop": "The story describes a black lamb that is initially rejected by its peers and the farmer due to its appearance. However, the narrative reveals that the black lamb was the key to finding the lost lambs. This implies that despite its perceived ugliness, the black lamb possessed a quality that was essential for survival and success in a difficult situation. The phrase \"Thanks to the black Lamb, I can find you!\" suggests that the black Lamb's presence or characteristic was what allowed the farmer to locate them. Therefore, the most fitting lesson is that inner value or a specific trait, even if not immediately obvious or appealing, can be crucial for overcoming challenges and being found.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0027618408203125,
+        "B": 0.0040283203125,
+        "C": 0.92578125,
+        "D": 0.06689453125,
+        "E": 7.227063179016113e-07
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 103,
+      "generated_until_stop": "The passage describes Vivian's experience learning cooking. She states, \"I think I can do everything because I watched and helped my mom cook our family meals all the time when I was young.\" This directly links her ability to cook to her mother's actions and guidance. The other options, \"her friend,\" \"her teacher,\" and \"her wife,\" do not have this direct connection to her learning cooking.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.996755599975586e-06,
+        "B": 1.150369644165039e-05,
+        "C": 1.0,
+        "D": 2.753734588623047e-05,
+        "E": 1.6079866327345371e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 104,
+      "generated_until_stop": "The passage describes Vivian's situation as living alone. The phrase \"I do everything because I live by myself now\" directly explains why she is doing all the chores. The other options, \"She loves doing chores,\" \"Her parents force her to do all the chores,\" and \"Her mother asks her to do all the chores,\" are not directly supported by the text and would imply a different reason for her doing the chores.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 4.839897155761719e-05,
+        "B": 7.963180541992188e-05,
+        "C": 1.7762184143066406e-05,
+        "D": 1.0,
+        "E": 7.264316082000732e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 105,
+      "generated_until_stop": "The passage presents three individuals and their experiences with household chores. The question asks what can be learned from the passage. The passage explicitly states that Manuel \"only like to do the laundry\" and that his mom does the other chores. It also states that Arthur \"do many things around the house\" and \"enjoy doing these things.\" The final statement, \"I have to do something to keep busy,\" implies a need or desire for activity. The passage then introduces Vivian, who states she \"can cook many kinds of dishes\" and she \"does everything because I live by myself now.\" This implies she is the sole caregiver and does not rely on others for basic needs like cooking. The final sentence, \"Maybe Arthur has already retired,\" is a deduction from the context of him doing many things around the house and enjoying it, suggesting he might not be working or has no other obligations that would leave him with free time for such activities.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0137939453125,
+        "B": 0.130859375,
+        "C": 0.75390625,
+        "D": 0.10205078125,
+        "E": 4.082918167114258e-06
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 106,
+      "generated_until_stop": "The passage describes Tony's actions and experiences. The phrase \"He is 16 years old. He studies in a middle school. He often watches TV and likes the popular hair style. His parents and teachers tell him not to do so, but he doesn't listen to them\" clearly indicates that Tony is a young person engaged in education and prone to some behaviors (like liking a certain hair style and not listening to authority) that are typical of a student. The subsequent events, while potentially adding to the narrative, do not alter the primary implication of his role or status.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 4.267692565917969e-05,
+        "B": 1.0,
+        "C": 0.0001583099365234375,
+        "D": 4.00543212890625e-05,
+        "E": 2.514570951461792e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 107,
+      "generated_until_stop": "The question asks if Tony's parents and teachers like his hair style. The passage states that \"His parents and teachers tell him not to do so, but he doesn't listen to them.\" This implies that they do not like his hair style. The subsequent sentence, \"About thirty minutes later, a nurse brings him to a women's ward and asks, 'Don't you know I am a boy?'\" further suggests a misunderstanding or a situation where his gender might be perceived differently, which could be related to his hair. The phrase \"your hair is too long\" also implies a dislike for his current hairstyle. Therefore, the most logical conclusion is that his parents and teachers do not like his hair style.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 4.267692565917969e-05,
+        "B": 1.0,
+        "C": 0.0001316070556640625,
+        "D": 1.150369644165039e-05,
+        "E": 1.1874362826347351e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 108,
+      "generated_until_stop": "The passage describes Tony's mother buying him something that he \"loves very much\" and that he \"still puts it on\" the next morning, even when it's cold. This suggests a piece of clothing that can be worn. The phrase \"a beautiful shirt\" directly fits this description, as shirts are items of clothing that can be loved and worn. The other options, computer, book, and flower, do not fit the context of being bought and worn in this manner.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 7.420778274536133e-06,
+        "B": 3.314018249511719e-05,
+        "C": 1.0,
+        "D": 5.817413330078125e-05,
+        "E": 1.1714291758835316e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 109,
+      "generated_until_stop": "The passage describes Tony's actions and the subsequent events that led to him being taken to the hospital. The phrase \"His parents take him to hospital\" indicates a cause for concern. The preceding sentences detail Tony's persistent disregard for his parents' advice about his hair and his general behavior. The most logical reason for his parents' concern and his visit to the hospital, given the context of his uncooperative attitude and the cold weather, is that he is ill and the cold weather might have exacerbated his condition. The other options, while potentially related to his behavior, do not directly explain why he would be taken to the hospital in this manner.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 3.7670135498046875e-05,
+        "B": 1.0,
+        "C": 0.0003566741943359375,
+        "D": 3.123283386230469e-05,
+        "E": 3.771856427192688e-08
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 110,
+      "generated_until_stop": "The passage describes Tony's actions and the subsequent events. The sentence \"About thirty minutes later, a nurse brings him to a women's ward.\" followed by the nurse's statement \"Don't you know I am a boy?\" indicates that the nurse's knowledge of Tony's gender is the immediate context for the situation. The other options, \"That evening he has a bad cold,\" \"His parents take him to school,\" and \"He doesn't watch TV and like the popular hair style,\" are all details about Tony's prior behavior or a separate, unrelated event. The nurse's statement directly addresses the most recent interaction and the implied reason for him being in a women's ward, which is her misjudgment of his gender based on his hair.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0003566741943359375,
+        "C": 4.00543212890625e-05,
+        "D": 4.267692565917969e-05,
+        "E": 5.4424162954092026e-09
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 111,
+      "generated_until_stop": "The passage describes a \"strange looking fish\" that is \"very strange\" and \"remains still\" while \"hanging on to a bit of weed.\" It then explains how the mother seahorse carries its eggs in the father's pouch and how the babies are born. The description of the fish being held up with one hand and its unusual movement pattern strongly suggest it is a fish. The other options are either too general (a small horse, a sea) or specific to its life stage (an egg, which is not the primary focus of the passage).\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 2.014636993408203e-05,
+        "B": 1.0,
+        "C": 5.817413330078125e-05,
+        "D": 6.139278411865234e-06,
+        "E": 9.546056389808655e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 112,
+      "generated_until_stop": "The passage describes the reproduction of seahorses. It states that mother seahorses lay eggs, which are then kept in father's pouch. When the eggs hatch, the babies emerge from the pouch into the sea. Therefore, the most fitting description of how baby seahorses are produced is that they are born in mother's pouch and then move to father's for final maturation and emergence. The other options do not align with the provided text.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00112152099609375,
+        "B": 0.95703125,
+        "C": 0.0419921875,
+        "D": 0.001190185546875,
+        "E": 8.456408977508545e-07
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 113,
+      "generated_until_stop": "The passage describes the diet of a seahorse. It states that the seahorse \"eats\" and then provides a description of its typical food source: \"When a small fish swimps by, the seahorse will suddenly jump and eat it up.\" This directly indicates that the seahorse consumes small fish. The other options, \"sea weed,\" \"water,\" and \"nothing,\" are not supported by the text as the primary food of a seahorse in this context.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 8.404254913330078e-06,
+        "B": 1.0,
+        "C": 3.7670135498046875e-05,
+        "D": 3.293156623840332e-06,
+        "E": 4.802132025361061e-09
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 114,
+      "generated_until_stop": "The passage describes a seahorse as a \"strange fish\" and then provides several details about its appearance and behavior, including its head looking like a horse and its ability to pick it up with one hand. The final sentence, \"Mother seahorse lays eggs . These eggs are kept in Father's pouch . When the eggs hatch, the babies pop out of the pouch into the sea,\" refers to the offspring of the seahorse. The question asks about the size of the seahorse relative to a horse. Considering the other details about its unusual appearance and the context of reproduction, the most fitting comparative statement about its size, especially in relation to its offspring, is that it is significantly smaller than a horse. The phrase \"you can pick it up with one hand\" reinforces the idea of a small size.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 5.817413330078125e-05,
+        "B": 0.00016880035400390625,
+        "C": 6.580352783203125e-05,
+        "D": 1.0,
+        "E": 1.126900315284729e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 115,
+      "generated_until_stop": "The passage describes a dog's actions after a heavy rain. The sentence \"The mother dog swam to the island _\" followed by the explanation \"Her four children were there\" and \"The mother swim there every day to feed her babies\" clearly indicates the dog's primary motivation for returning to the island. The act of swimming to an island and then returning to feed her children is a direct expression of maternal care and sustenance for her offspring. Therefore, the most fitting reason for her actions is to provide food for her babies.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 5.817413330078125e-05,
+        "B": 1.0,
+        "C": 0.0001316070556640625,
+        "D": 3.314018249511719e-05,
+        "E": 3.4226104617118835e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 116,
+      "generated_until_stop": "The passage describes the behavior of chimpanzee parents in relation to their young. The examples provided illustrate their caring actions: the mother dog swimming to feed her children, and the parents rushing to save a hurt bird. The sentence in question follows this pattern of showing parental care. The phrase \"cared for the hurt or lost ones\" directly aligns with the observed actions of the animal parents. The other options, \"often left for a far place,\" \"always stayed in the same place,\" and \"didn't care about each other,\" all contradict the evidence presented in the text.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00012302398681640625,
+        "C": 2.9325485229492188e-05,
+        "D": 5.817413330078125e-05,
+        "E": 2.735760062932968e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 117,
+      "generated_until_stop": "The context describes parents rushing to save their injured baby from the street. The phrase \"rushed down to the road and took the little bird away with their claws\" indicates a protective and urgent action to save the baby. The other options do not fit the scenario of parents rushing to save their injured offspring.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.2993812561035156e-05,
+        "B": 7.486343383789062e-05,
+        "C": 2.586841583251953e-05,
+        "D": 1.0,
+        "E": 2.759043127298355e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 118,
+      "generated_until_stop": "The passage describes animal parents' actions to save their children from harm. The first story is about a dog that swim to an island to feed its children during a flood. The second story is about chimpanzee parents caring for injured or lost members of their group. The third story is about bird parents rushing to save their injured baby. These stories all illustrate the strong, caring nature of animal parents. The question asks what the passage \"we know\" from these stories. The most general and encompassing statement that can be made from these examples is that animal parents are deeply connected to and care for their children.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 2.1457672119140625e-05,
+        "B": 0.000148773193359375,
+        "C": 1.0,
+        "D": 0.0003795623779296875,
+        "E": 1.2223608791828156e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 119,
+      "generated_until_stop": "The passage states, \"Today is the fifth day of August. It isJudy's birthday.\" The context of a birthday card and a present being found directly relates to the date of the birthday. Therefore, the most logical date to be associated with \"Judy's birthday\" is the fifth day of July, as specified in the passage.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.94140625,
+        "B": 0.025146484375,
+        "C": 0.0162353515625,
+        "D": 0.0172119140625,
+        "E": 1.2516975402832031e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 120,
+      "generated_until_stop": "The passage describes a series of clues given toJudy about her present. The clues are a series of words that, when taken from their original words, form a final word or phrase. The final word is \"Judy\". The passage then asks \"What am I?\". The answer to this question is \"Aha, I know. But where is it?\". This implies thatJudy has found the present and is now looking for the specific item mentioned in the clues. The question \"What is it?\" is a repetition of the initial question about the nature of the present. The structure of the clues and the subsequent dialogue suggest that the present is something that can be found and is being described by the clues. The word \"Judy\" itself is the answer to the final question, implying that the present is a letter or note from someone namedJudy.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00054931640625,
+        "B": 0.001922607421875,
+        "C": 0.0010986328125,
+        "D": 0.99609375,
+        "E": 4.5821070671081543e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 121,
+      "generated_until_stop": "The passage describes a series of clues leading to a present. The first clue, \"There's a present for you,Judy.Look for it in your bedroom,\" is followed by the discovery of a red box containing a piece of paper with more instructions. The instructions explicitly state, \"What am I?\". The subsequent sentences from the father, \"It is in your study,\" provide the final location for the present. Therefore, the most logical place to find the present, given the preceding narrative, is in the study.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 1.0132789611816406e-05,
+        "B": 1.0,
+        "C": 0.0003147125244140625,
+        "D": 3.314018249511719e-05,
+        "E": 3.655441105365753e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 122,
+      "generated_until_stop": "The passage describes a series of clues leading to a present forJudy. The clues are a series of words that, when taken from their original context, form a larger word or phrase. The final question asks, \"What am I?\". The preceding sentences reveal that the present is a piece of paper containing these clues. The word \"bag\" is the first letter of \"age\", \"like\", and \"now\", and the last letter of \"desk\" and \"get\". Therefore, the word \"bag\" is the answer to the final question, as it is the object being presented.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00040435791015625,
+        "B": 1.0,
+        "C": 0.0002956390380859375,
+        "D": 2.753734588623047e-05,
+        "E": 3.4226104617118835e-08
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 123,
+      "generated_until_stop": "The passage lists the preferences of several individuals regarding their clothing. The sentence structure indicates a continuation of this list. The preceding sentences establish that \"Sue likes red clothes\" and \"Mina likes white clothes,\" and \"Emma likes to wear a green skirt.\" The blank needs a color that is not previously mentioned and fits the pattern of individual preferences. Considering the options, \"White\" is the only one that is not \"red\" or \"green\" and is distinct from the other examples provided.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9140625,
+        "B": 0.0849609375,
+        "C": 0.0006103515625,
+        "D": 0.00022411346435546875,
+        "E": 8.009374141693115e-08
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 124,
+      "generated_until_stop": "The passage lists the preferences of several individuals for clothing. The sentence \"My friends like different clothes\" introduces a series of examples. The subsequent sentences detail what each person typically wears. The phrase \"She is in a white shirt\" directly follows the statement about Mina's preferences and provides a specific item of clothing. The question asks what Mina is \"in,\" implying a piece of clothing or a type of attire. Given the context of liking white clothes and being in a white shirt, the most logical continuation of this pattern of descriptive phrases for clothing is a similar item.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00159454345703125,
+        "C": 0.0003147125244140625,
+        "D": 0.0008544921875,
+        "E": 4.400499165058136e-08
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 125,
+      "generated_until_stop": "The passage lists the preferences of several individuals: Sue (red), Mina (white), Emma (green), David (white cap and black pants), and Peter (white coat and black pants). The sentence in question refers to \"My friends like different clothes.\" The subsequent sentences detail the clothing choices of these individuals. The sentence structure implies a continuation of the list of individuals whose preferences are being discussed. Among the options, \"Emma\" is the only one whose clothing preference (green skirt) is not yet mentioned in the preceding sentences, making her the most logical continuation of the list of individuals whose attire is being described.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 2.753734588623047e-05,
+        "B": 1.0,
+        "C": 0.00010251998901367188,
+        "D": 1.0788440704345703e-05,
+        "E": 5.699694156646729e-07
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 126,
+      "generated_until_stop": "The passage lists the clothing preferences of several individuals. The sentence structure \"David often wears a \\_\\_\\_\" requires a noun that can be a piece of clothing or an accessory. Considering the context of the preceding sentences, which describe what others wear (red skirt, white shirt, green skirt), and the subsequent sentences about Peter's attire, the most logical continuation of the pattern of wearing items of clothing that complements or contrasts with what others wear is a piece of clothing that would be paired with black pants. The options provided are all items of clothing or accessories. The phrase \"black pants\" is mentioned as something David wears, and the question asks what David *often* wears, implying a consistent choice. The other options, while possible, do not fit the established pattern of contrasting or complementary attire as naturally as \"black pants\" does in relation to the other examples.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.0033721923828125,
+        "C": 0.000850677490234375,
+        "D": 0.00159454345703125,
+        "E": 6.565824151039124e-08
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 127,
+      "generated_until_stop": "The sentence structure indicates a parallel between the subjects and the verb \"often wear black pants.\" The preceding sentences describe the preferences of individual friends for specific clothes. The phrase \"often wear black pants\" is a general statement about a common characteristic of these individuals. The options provided are groups of friends. The sentence implies a group that, like the others mentioned, \"often wear black pants.\" Considering the context of the other friends' preferences, the most logical group to be described as \"often wear black pants\" in addition to their other preferences is the one that is not explicitly mentioned as liking a specific color but is implied to be a general category of person who might wear black pants. However, without further context or a clearer sentence structure, it's difficult to definitively determine the intended meaning. The question asks for a group that *often* wears black pants, and the passage provides examples of individuals who wear specific colors. The sentence fragment suggests a group that is not explicitly defined by a specific color preference but is implied to be a general category that *can* or *does* wear black pants.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.007354736328125,
+        "B": 0.01373291015625,
+        "C": 0.84765625,
+        "D": 0.1298828125,
+        "E": 4.842877388000488e-07
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 128,
+      "generated_until_stop": "The passage states, \"Now I'm studying in America.\" The subsequent sentences describe the narrator's experiences in America, including joining clubs. Therefore, the most logical place for the narrator to be studying is in America.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0001583099365234375,
+        "C": 3.123283386230469e-05,
+        "D": 6.198883056640625e-05,
+        "E": 1.7811544239521027e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 129,
+      "generated_until_stop": "The passage describes Lin Tao's initial reluctance to speak English and his subsequent hesitation in joining clubs during his first year. The phrase \"I don't like to speak to others\" directly explains his lack of participation in activities. The context of not knowing \"anything about clubs\" also implies a social barrier. Therefore, the most fitting reason for his silence and lack of participation in the first year is that he cannot speak English well, which prevents him from interacting with others and joining activities.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 5.14984130859375e-05,
+        "B": 1.0,
+        "C": 0.000179290771484375,
+        "D": 1.3828277587890625e-05,
+        "E": 2.2817403078079224e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 130,
+      "generated_until_stop": "The passage describes Lin Tao's journey of adapting to a new environment and overcoming his initial reluctance to engage. The phrase \"I _ that school is not just about getting good grades, it's also about being part of a club\" indicates a realization or a guiding principle that influences his actions. The subsequent sentences about joining clubs and making friends further elaborate on his evolving understanding of school. The most fitting statement to connect these ideas and reflect the overall theme of personal growth and social integration is one that emphasizes the importance of social engagement and overcoming shyness.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00095367431640625,
+        "B": 0.01397705078125,
+        "C": 0.003997802734375,
+        "D": 0.98046875,
+        "E": 1.780688762664795e-06
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 131,
+      "generated_until_stop": "The passage describes Lin Tao's journey in America, highlighting his initial reluctance to engage with the new environment and his eventual positive experience in joining clubs. The sentence \"I _ that school is not just about getting good grades, it's also about being part of a club\" directly explains his realization about the value of club participation. The subsequent sentences about making new friends further support this idea. Therefore, the most logical inference about what Lin Tao learned is that he discovered the importance of being involved in school activities beyond academic achievement.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.041259765625,
+        "B": 0.0250244140625,
+        "C": 0.1533203125,
+        "D": 0.78125,
+        "E": 2.586841583251953e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 132,
+      "generated_until_stop": "The passage describes a classroom activity where Miss Baker is posing questions about meals to her students. The students are then discussing their answers. The phrase \"Which meal do we all need most?\" and the subsequent dialogue between Miss Baker and the students clearly indicate that the group being addressed is the teacher and her students. The other options do not fit the context of a classroom discussion about meals.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.2218952178955078e-05,
+        "B": 1.2993812561035156e-05,
+        "C": 1.0,
+        "D": 9.012222290039062e-05,
+        "E": 1.2223608791828156e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 133,
+      "generated_until_stop": "The passage discusses the concept of \"the big meal of the day\" and the need for food every morning. Miss Baker asks the students to identify the meal they need most. The students' answers, as provided in the text, are \"Dinner,\" \"Lunch,\" and \"breakfast.\" The question asks what Miss Baker *thinks* is the big meal of the day, and the subsequent dialogue reveals that Miss Baker believes \"breakfast\" is the most important meal. The other options, \"lunch\" and \"dinner,\" are discussed as meals that students might identify as important, but the central point of the exercise is to determine the *most* important meal, which Miss Baker, through the students' answers and her own reasoning, believes is breakfast.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000518798828125,
+        "C": 0.000179290771484375,
+        "D": 0.00040435791015625,
+        "E": 7.031485438346863e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 134,
+      "generated_until_stop": "The passage discusses the importance of breakfast by asking a question about which meal is needed most, followed by a discussion about the consequences of not having breakfast. The students' answers to \"What may happen to us if we have no breakfast?\" are \"We may feel hungry,\" \"We may not feel like working,\" and \"We may feel sick.\" These all point to a fundamental reason why breakfast is considered the most important meal. The explanation that \"from night to morning is a long time to go without food\" directly addresses why the body needs to be supplied with nourishment upon waking. The other options are not directly supported by the context or the students' reasoning.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.014636993408203e-05,
+        "B": 7.486343383789062e-05,
+        "C": 7.963180541992188e-05,
+        "D": 1.0,
+        "E": 7.031485438346863e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 135,
+      "generated_until_stop": "The passage describes a situation where a mother is asking her son to wash apples after he has already received them. The mother then provides a specific instruction about which apple he should take, implying a prior interaction or a context where the son's desire for the largest apple was established. The question asks for the reason behind the mother's initial request to wash the apples. Considering the subsequent dialogue where the mother offers the largest apple, the most logical reason for the initial request to wash them is to ensure he only receives the desired size, or to perhaps select the largest one after washing. The other options do not fit the context of receiving and then selecting an apple.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.142578125,
+        "B": 0.439453125,
+        "C": 0.03173828125,
+        "D": 0.38671875,
+        "E": 8.821487426757812e-06
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 136,
+      "generated_until_stop": "The question asks who was going to eat the biggest apple. The passage describes a situation whereVal is given four apples and asked to choose one. His mother then suggests he take the biggest one, even if it means being a bit less polite. The subsequent dialogue, \"What?,\" \"You should be polite and want the smallest one,\" and \"Should I tell a lie to be polite, Mum?\" all indicate thatVal is the one who is considering which apple to take and is being prompted by his mother to be polite. Therefore, the answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.15234375,
+        "B": 0.115234375,
+        "C": 0.35546875,
+        "D": 0.376953125,
+        "E": 0.0003986358642578125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 137,
+      "generated_until_stop": "The passage describes a sequence of events involving Val, his mother, and his sister. The sentence \"Val is a six-year-old boy. He begins to go to school this term. He studies very hard and listens to the teachers carefully. He is polite and has many friends\" establishes a positive and detailed characterization of Val. The subsequent sentences describe activities happening on a Sunday: the mother is doing housework, the sister is doing homework, and Val is watching TV. The father brings back apples. The dialogue then focuses onVal's desire for apples and his mother's instructions regarding politeness. The question asks for a statement that is \"right\" in the context of the passage. The passage explicitly states that Val is polite and has many friends. Therefore, the first option, \"Val is not polite and he has no friends,\" is incorrect and contradicts the established characterization. The other options, \"Mother was cooking in the kitchen,\" \"His sister was doing her homework,\" and \"Val's father came back for some apples,\" are all consistent with the narrative flow and the events described. However, the question asks for the *most* fitting or *best* answer, and the provided passage offers no information to support any of these as being \"",
+      "pred": "B",
+      "probs": {
+        "A": 0.1787109375,
+        "B": 0.39453125,
+        "C": 0.150390625,
+        "D": 0.03466796875,
+        "E": 0.2412109375
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 138,
+      "generated_until_stop": "The passage lists several musical instruments and activities. The phrase \"the piano, the drums, the bamboo flute, the trumpet, the guitar and the violin\" clearly enumerates six distinct items. The final sentence mentions singing and dancing as additional activities, but the question asks about the *number of kinds of instruments*. The provided list is the primary source of information for this question.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000293731689453125,
+        "B": 0.87890625,
+        "C": 0.11865234375,
+        "D": 0.002471923828125,
+        "E": 7.525086402893066e-07
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 139,
+      "generated_until_stop": "The passage lists the cost of learning to sing, dance, and play musical instruments. The sentence \"It's \\_\\_\\_.\" refers to the cost of a musical instrument. The preceding sentences offer instruments for $20 each, and the final sentence states that art classes are available for $30 each. The most logical continuation of the price list for a musical instrument is the price mentioned in the first part of the passage.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00019073486328125,
+        "B": 1.0,
+        "C": 0.0002613067626953125,
+        "D": 0.00012302398681640625,
+        "E": 9.313225746154785e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 140,
+      "generated_until_stop": "The passage lists various musical instruments and activities. The question asks what one cannot learn about in the club, implying a missing item from the list of available learning activities. The context of the passage is about learning musical instruments and singing/dancing. Among the options, \"chess\" is the only one that is not a musical instrument or a related performance activity. Therefore, the sentence implies that one cannot learn about \"chess\" in the club, as it is not part of the offered learning programs.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0001583099365234375,
+        "B": 0.00021648406982421875,
+        "C": 0.000148773193359375,
+        "D": 1.0,
+        "E": 2.039596438407898e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 141,
+      "generated_until_stop": "The passage lists the cost of learning musical instruments and singing. The first item, \"the guitar,\" is available for $20 each. The second item, \"to dance,\" is available for $25 each. The question asks what the cost is for \"learn to sing.\" The passage states \"You can also learn to sing, to dance for $25 each.\" The cost of learning to sing is not explicitly stated as a separate price, but the context of learning musical instruments and dancing suggests a parallel structure. The options provided are the cost of each activity. The passage explicitly states the cost of learning to dance as $25. The question asks about learning to sing, and the passage implies that singing is also an activity with a cost. The structure \"learn to dance for $25 each\" suggests a parallel for \"learn to sing.\" If the cost of learning to dance is $25, and the passage implies a similar cost for singing, then the most logical cost for singing, given the options, is also $25.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0002117156982421875,
+        "B": 0.020263671875,
+        "C": 0.00078582763671875,
+        "D": 0.98046875,
+        "E": 1.1101365089416504e-06
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 142,
+      "generated_until_stop": "The passage describes a situation where Effendi played a trick on the prime minister, predicting his death. The king then confronts Effendi, demanding he reveal his own death date. The narrative structure focuses on the king's fear of death and his need to keep Effendi alive. The question asks what the story tells us about the relationship between these events. The passage implies that Effendi had some fore knowledge of the king's death, which he then used to play his trick. The king's fear of his own death is a direct consequence of this fore knowledge. Therefore, the most fitting answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.263671875,
+        "B": 0.1103515625,
+        "C": 0.263671875,
+        "D": 0.361328125,
+        "E": 5.811452865600586e-06
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 143,
+      "generated_until_stop": "The passage describes a situation where the Prime Minister died, and the king confronts the person responsible. The king's statement, \"you must know the date of your own death,\" implies that the person's death was pre-arranged or was the subject of a prediction. The subsequent dialogue with Effendi reveals that the king's fear of killing Effendi prevents him from executing the death sentence. Therefore, the most logical reason for the Prime Minister's death, in the context of the king's confrontation, is that he was the one who predicted his own death.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.002593994140625,
+        "B": 0.98046875,
+        "C": 0.01397705078125,
+        "D": 0.00177764892578125,
+        "E": 2.644956111907959e-07
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 144,
+      "generated_until_stop": "The passage describes a situation where the king is angry at Effendi for playing a trick on the Prime Minister, which led to the minister's death. The king then confronts Effendi, demanding to know the date of his own death. This demand is a direct consequence of the king's belief that Effendi, knowing the minister's death, also knows his own. The king's fear of killing Effendi and the potential consequences for himself (death after him) reinforces this belief. Therefore, the king is trying to understand *when* he will die, based on the premise that Effendi knows this.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00054931640625,
+        "B": 0.002471923828125,
+        "C": 0.00058746337890625,
+        "D": 0.99609375,
+        "E": 6.668269634246826e-07
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 145,
+      "generated_until_stop": "The passage describes a situation where the king is angry at Effendi for playing a trick on the minister, which led to the minister's death. The king then confronts Effendi, demanding he know his own death date. Effendi responds by stating he'll die two days before the king, implying he wants to live as long as possible and thus delaying his own death. The king's fear of his own death if he kills Effendi further explains his decision to let him go. Therefore, the most fitting reason for the king to let Effendi go is that he *didn't believe* he would die two days later, or rather, he *hoped* he wouldn't die.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0028228759765625,
+        "B": 0.0081787109375,
+        "C": 0.94140625,
+        "D": 0.046875,
+        "E": 4.917383193969727e-07
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 146,
+      "generated_until_stop": "The passage describes a situation where the king confronts Effendi, knowing the minister's death was a result of the king's own actions (or at least, a consequence he's trying to avoid). The king's statement, \"you must know the date of your own death,\" implies a parallel situation where he, too, is facing a death sentence. The subsequent reasoning, \"Because the king was afraid if he killed Effendi, he himself would die after that,\" and the final action of letting Effendi go, all point to the king's fear of his own death. Therefore, the king was afraid of death.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00014019012451171875,
+        "B": 1.0,
+        "C": 0.000667572021484375,
+        "D": 6.198883056640625e-05,
+        "E": 8.754432201385498e-08
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 147,
+      "generated_until_stop": "The passage discusses how babies learn their language, emphasizing a gradual process. The phrase \"slowly\" is used to describe the initial stages of language acquisition, contrasting with the idea of learning \"Quickly.\" The other options, \"Loudly\" and \"Quietly,\" do not fit the context of how a baby learns a language. Therefore, \"Slowly\" is the most appropriate adverb to describe this process.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00011587142944335938,
+        "C": 4.267692565917969e-05,
+        "D": 9.012222290039062e-05,
+        "E": 9.255018085241318e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 148,
+      "generated_until_stop": "The passage lists several methods for learning English, each followed by specific instructions. The phrase \"Here are some ideas for learning English faster\" suggests a collection of these ideas. Counting the distinct methods presented (listen to English, practice conversations, reading English stories, write down new words, keep an English diary) reveals that there are six distinct categories of advice provided. Therefore, the number of ideas is six.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 2.586841583251953e-05,
+        "B": 0.00020313262939453125,
+        "C": 0.99609375,
+        "D": 0.001922607421875,
+        "E": 1.2293457984924316e-07
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 149,
+      "generated_until_stop": "The passage discusses learning English through various methods, including listening to radio and TV, watching movies, and using online lessons. It also emphasizes the importance of reading stories and practicing conversations. The phrase \"Start with children's storybooks\" is presented as a concrete example of what to read. The subsequent sentences about reading \"stories for ESL readers\" and using online resources like \"English Club.com for young learners\" further support this idea of starting with age-appropriate and accessible reading materials. Therefore, \"Children's storybooks\" is the most logical and contextually relevant choice as the initial step in this learning process.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00075531005859375,
+        "C": 0.000667572021484375,
+        "D": 0.000335693359375,
+        "E": 4.6798959374427795e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 150,
+      "generated_until_stop": "The passage discusses the importance of food and its effect on people's health and well-being. It mentions scientists learning about food and the necessity of eating certain types of food for health. The final sentence of the passage, \"So it's our duty to make everyone full and make everyone healthy,\" implies a collective effort to address food security and health. Among the given options, scientists are the ones who would be most directly involved in research, understanding, and communicating these issues regarding food and health.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 9.5367431640625e-06,
+        "B": 1.7762184143066406e-05,
+        "C": 1.0,
+        "D": 4.267692565917969e-05,
+        "E": 4.220055416226387e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 151,
+      "generated_until_stop": "The passage discusses the importance of food for people's health and well-being, contrasting the necessity of eating certain foods with the freedom to choose when and how often. The sentence \"What we eat is the most important thing\" directly follows a list of examples of what people *must* eat. The subsequent sentences emphasize the diversity of food and the ways people consume it. The question asks what scientists think is the most important aspect of food, and the preceding text has established that the *type* of food is paramount. Therefore, the most fitting answer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.12890625,
+        "B": 0.0888671875,
+        "C": 0.7421875,
+        "D": 0.0380859375,
+        "E": 3.591179847717285e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 152,
+      "generated_until_stop": "The passage discusses the importance of eating healthy food and making everyone full and healthy. The sentence \"Every day, we should eat some vegetables\" is a direct recommendation from the text, emphasizing the need for a balanced diet. The statement \"All the people in the world have enough food to eat\" is a general statement about food availability, which is then contrasted with the problem of junk food consumption. The sentence \"Many people are eating unhealthy food\" directly addresses the negative consequences of poor food choices, which the passage aims to prevent. The final sentence, \"Everyone is needed to help solve the two problems,\" is a concluding call to action, suggesting that the solutions being discussed are not easily or solely the responsibility of the individual.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0150146484375,
+        "B": 0.8203125,
+        "C": 0.111328125,
+        "D": 0.052490234375,
+        "E": 5.543231964111328e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 153,
+      "generated_until_stop": "The passage discusses the importance of eating healthy food for good health. It explicitly states, \"We shouldn't eat too much meat\" and mentions that \"of course our bodies need some water and milk.\" It also lists \"green and yellow vegetables\" and \"bread and rice\" as examples of food people should eat. The sentence in question follows this context, and the options provided are all types of food. Considering the overall theme of health and what is generally considered as a source of nourishment, the most logical and contextually appropriate answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.76171875,
+        "B": 0.03662109375,
+        "C": 0.1591796875,
+        "D": 0.04296875,
+        "E": 1.2576580047607422e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 154,
+      "generated_until_stop": "The passage discusses scientific findings about food, eating habits, and global health issues like hunger and junk food consumption. The content is informative and educational, suggesting a publication that would present such factual, global-oriented information. Among the options, a \"health magazine\" is the most fitting as it typically covers subjects related to food, nutrition, and well-being, aligning with the passage's theme.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00011587142944335938,
+        "B": 0.00019073486328125,
+        "C": 0.00012302398681640625,
+        "D": 1.0,
+        "E": 3.1478703022003174e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 155,
+      "generated_until_stop": "The passage describes Mr. Smith's ability to pursue and apprehend a fleeing criminal. The phrase \"he is good at \\_\\_\\_\" should reflect this skill. The subsequent actions of running after the thief and shouting at him directly relate to the act of pursuit and capture. Therefore, the most fitting word is \"catching.\"\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 4.839897155761719e-05,
+        "B": 1.0,
+        "C": 0.0008544921875,
+        "D": 5.459785461425781e-05,
+        "E": 3.5390257835388184e-08
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 156,
+      "generated_until_stop": "The narrative describes Mr. Smith's pursuit of a thief who has just taken his belongings. The phrase \"he is soon a few miles away from his house\" indicates that the thief has gained a significant distance. The subsequent dialogue, \"He thinks he can run faster than me, but you see he is wrong,\" reinforces the idea that the thief is continuing to run. Therefore, the most logical action the thief would take to avoid being caught, given the context of running away, is to disappear or conceal himself. \"Hides behind his house\" fits this scenario, implying the thief is trying to make a escape.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0006256103515625,
+        "C": 0.00021648406982421875,
+        "D": 0.0002307891845703125,
+        "E": 4.842877388000488e-08
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 157,
+      "generated_until_stop": "The passage describes Mr. Smith's pursuit of a thief. The phrase \"the thief _\" refers to the action of the thief after breaking into the house. The context is that Mr. Smith is chasing the thief. Therefore, the most logical action the thief would perform to cause Mr. Smith to get angry and run away is to \"run away.\" The other options do not fit the narrative of a pursuit.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 4.839897155761719e-05,
+        "B": 1.0,
+        "C": 0.00020313262939453125,
+        "D": 2.753734588623047e-05,
+        "E": 2.3632310330867767e-08
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 158,
+      "generated_until_stop": "The passage describes Mr. Smith's actions and his belief about his superior running ability. The phrase \"He thinks he can run faster than me, but you see he is wrong\" directly implies that Mr. Smith believes he is running faster than the thief. The other options do not fit the context of his self-perception and the narrative of his pursuit.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 8.487701416015625e-05,
+        "B": 0.000431060791015625,
+        "C": 9.584426879882812e-05,
+        "D": 1.0,
+        "E": 9.639188647270203e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 159,
+      "generated_until_stop": "The narrative describes Mr. Smith's pursuit of a thief. The phrase \"he is soon a few miles away from his house\" indicates that the thief has run a significant distance. The subsequent dialogue, \"He thinks he can run faster than me, but you see he is wrong,\" confirms that Mr. Smith is continuing the chase. Therefore, the most logical outcome of the pursuit at this point is that the thief is no longer ahead of him.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00109100341796875,
+        "B": 0.004058837890625,
+        "C": 0.9921875,
+        "D": 0.001495361328125,
+        "E": 2.491287887096405e-08
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 160,
+      "generated_until_stop": "The passage describes a typical British diet, contrasting it with Chinese food. It states that British people eat \"a lot of potatoes\" and \"a lot of bread with butter for breakfast.\" It also mentions \"meat or fish with potatoes and one or two other vegetables\" for dinner. The question asks what British people eat \"every day.\" While potatoes and bread are significant, the passage emphasizes the daily consumption of a specific, substantial food item that is central to their meals and contrasts with the other examples. The phrase \"They like to eat them every day\" directly points to the primary food they consume in large quantities.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0003147125244140625,
+        "B": 0.000179290771484375,
+        "C": 1.0,
+        "D": 0.000457763671875,
+        "E": 1.0128132998943329e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 161,
+      "generated_until_stop": "The passage describes a typical British meal, which includes bread with butter for breakfast and dinner. The sentence asks what they eat when they have bread. The context of \"breakfast and usually for one other meal\" and the mention of \"potato\" and \"vegetables\" suggest a complementary food item that is commonly paired with bread in British culture. Among the options, \"vegetables\" are a common and logical counterpart to bread in a meal, fitting the overall description of British food habits.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0009613037109375,
+        "B": 0.98828125,
+        "C": 0.00665283203125,
+        "D": 0.002960205078125,
+        "E": 2.8759241104125977e-06
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 162,
+      "generated_until_stop": "The passage states that \"Butter is made from milk.\" The context of food preparation and the preceding sentences about what British people eat suggest a primary source for a common food item. While tea is also consumed, the direct origin of butter is milk, and the sentence structure implies a simple explanation of its creation.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 6.5267086029052734e-06,
+        "B": 5.4836273193359375e-05,
+        "C": 1.0,
+        "D": 4.267692565917969e-05,
+        "E": 2.9103830456733704e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 163,
+      "generated_until_stop": "The passage describes English food habits, contrasting them with Chinese food. It states they eat a lot of potatoes and bread with butter, and they are the biggest tea drinkers in the world, consuming strong black tea from India. The sentence \"English people drink a lot of tea\" is a direct statement about their tea consumption, which is consistent with the overall description of their diet and preferences. The other options are either incorrect or not directly supported by the text. \"Chinese food is different from British food\" is the introductory statement, and the following examples elaborate on *their* (English) food, not a general statement about Chinese food or a comparison of both. The final two options, \"Both Chinese people and English people like rice and fish\" and \"English people like both Chinese tea and Indian tea,\" are not supported by the provided text.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.028564453125,
+        "B": 0.10595703125,
+        "C": 0.69140625,
+        "D": 0.1748046875,
+        "E": 2.9206275939941406e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 164,
+      "generated_until_stop": "The passage describes the phenomenon of \"flash mobs,\" which are groups of people who gather in public spaces to perform a specific action and then leave. The examples provided, such as fans remembering Michael Jackson or people spreading a positive message, occur in public locations where people can be seen and interact. Among the given options, \"in the railway stations\" is a specific public place where such events could plausibly take place and be observed by travelers and others. The other options, \"in schools,\" \"in villages,\" and \"on the playground,\" are less likely to be the primary venues for a widespread, public \"flash mob\" event as described in the text.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.2218952178955078e-05,
+        "B": 0.0002460479736328125,
+        "C": 1.0,
+        "D": 0.00019073486328125,
+        "E": 5.587935447692871e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 165,
+      "generated_until_stop": "The passage describes a 2009 event in Liverpool where fans gathered to \"remember him\" and \"singing and dancing Michael's famous song 'Beat It' together.\" The subsequent sentences provide examples of how flash mobs are used, including remembering someone and spreading a message. The most fitting action for a group of people to perform in a railway station as described in the passage, especially in the context of a song and a memorial, is to \"remember Michael Jackson.\"\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00010204315185546875,
+        "B": 1.0,
+        "C": 0.00020313262939453125,
+        "D": 2.586841583251953e-05,
+        "E": 2.9336661100387573e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 166,
+      "generated_until_stop": "The passage describes the nature of \"flash mobbers\" and their activities. The examples provided—a fan event for Michael Jackson and a protest against negative words— illustrate the purpose and behavior of these groups. The sentence \"They usually do simple actions like singing and dancing\" directly describes a common characteristic of a flash mob, as indicated by the examples. The other options, while potentially true in some contexts, are not as universally or as directly supported by the provided text as the description of their actions. The final sentence about creating good memories also reinforces the idea of a specific, often spontaneous, group activity.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000621795654296875,
+        "B": 0.9921875,
+        "C": 0.005889892578125,
+        "D": 0.00054931640625,
+        "E": 2.2258609533309937e-07
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 167,
+      "generated_until_stop": "The passage describes a specific cultural practice in Poland regarding red roses as a gift. The phrase \"the red rose is a sign of love\" directly explains the meaning of this gesture. Therefore, the most logical inference about the man's feelings, given the context of presenting red roses, is that he has developed romantic interest in her.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00011587142944335938,
+        "B": 0.000804901123046875,
+        "C": 0.000148773193359375,
+        "D": 1.0,
+        "E": 2.384185791015625e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 168,
+      "generated_until_stop": "The passage describes a gesture of agreement or satisfaction. The phrase \"put his thumb and forefinger into a circle\" is presented as a sign of \"OK.\" The context of \"We should learn more about them to avoid embarrassment\" further suggests that the narrator is trying to understand and adapt to different cultural practices. Therefore, the most fitting interpretation of this gesture, in the context of avoiding embarrassment and seeking to understand, is that the person is expressing satisfaction or approval.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 7.963180541992188e-05,
+        "B": 0.0002956390380859375,
+        "C": 5.4836273193359375e-05,
+        "D": 1.0,
+        "E": 1.0570511221885681e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 169,
+      "generated_until_stop": "The passage describes a specific cultural practice in Poland related to receiving flowers. The phrase \"The hostess isn't expected to remove the cover of the bunch of flowers\" indicates a customary or typical behavior. The word that best describes this expected, usual, or common practice, especially in contrast to what might be considered polite or impolite in other contexts, is \"polite.\" The other options do not fit the context of a cultural norm or expectation regarding the handling of a gift.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00020313262939453125,
+        "B": 1.0,
+        "C": 0.000335693359375,
+        "D": 4.267692565917969e-05,
+        "E": 4.400499165058136e-08
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 170,
+      "generated_until_stop": "The passage contrasts common practices in different cultures. It states that in America, a specific gesture signifies satisfaction. The following sentences then detail customs in Brazil, Poland, and provide a general rule for politeness (\"When in Rome, do as the Romans do\"). The final sentence, before the question, summarizes the idea of learning about different cultures to avoid embarrassment. The question then asks what a man nodding means in Bulgaria, given that it's a difference from what nodding means in other cultures. The passage explicitly states that in Bulgaria, nodding means the opposite of what it means in other places, and then provides examples of what other gestures mean. The structure implies that the question is asking about a common, universally understood meaning of a gesture, and then reveals a cultural difference. The provided solution is \"agrees,\" and the passage supports this by stating that in Bulgaria, nodding means the opposite of agreement. Therefore, if a man knocks, it means he is not pleased or agrees.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0015716552734375,
+        "B": 0.01239013671875,
+        "C": 0.0021514892578125,
+        "D": 0.984375,
+        "E": 5.811452865600586e-07
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 171,
+      "generated_until_stop": "The phrase \"When in Rome, do as the Romans do\" is a well-known idiom that conveys the principle of adapting to the customs of a foreign place. The surrounding text provides examples of cultural differences, emphasizing the need to observe local practices to avoid causing offense or embarrassment. Therefore, the most fitting interpretation of this common saying is that one should observe and comply with the customs of a particular society when they are present in that society.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 5.459785461425781e-05,
+        "B": 7.009506225585938e-05,
+        "C": 1.0,
+        "D": 0.0013275146484375,
+        "E": 2.1420419216156006e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 172,
+      "generated_until_stop": "The passage clearly states \"English tutor wanted\" and provides detailed information about the job requirements and contact information. The subsequent sentences describe the tasks, experience, and location, all of which are consistent with the initial job title. Therefore, the most logical inference is that Mrs. Yang is looking for an English tutor for her daughter.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00021648406982421875,
+        "B": 4.5299530029296875e-05,
+        "C": 1.0,
+        "D": 0.0002460479736328125,
+        "E": 1.3853423297405243e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 173,
+      "generated_until_stop": "The job description states that the teacher will work from 3:00 to 6:00 pm. This interval is three hours long. Therefore, the phrase \"for three hours\" accurately describes the duration of the work period.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 4.798173904418945e-06,
+        "B": 1.5735626220703125e-05,
+        "C": 1.0,
+        "D": 0.000148773193359375,
+        "E": 3.958120942115784e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 174,
+      "generated_until_stop": "The job description lists specific activities related to teaching English to a child. The phrase \"Teach from 3:00 to 6:00 pm\" and \"Tell her stories in English\" are direct instructions. The other options, while potentially related to caring for a child, are not explicitly stated as part of the job's core responsibilities in this context. The most fitting answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.043212890625,
+        "B": 0.035888671875,
+        "C": 0.05224609375,
+        "D": 0.8671875,
+        "E": 6.146728992462158e-07
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    }
+  ]
+}

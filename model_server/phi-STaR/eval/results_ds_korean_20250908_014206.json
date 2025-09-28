@@ -1,0 +1,1870 @@
+{
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "num_items_total": 124,
+  "num_evaluated": 113,
+  "num_stopped": 113,
+  "num_skipped": 11,
+  "accuracy_no_skipped": "74.34%",
+  "results": [
+    {
+      "index": 0,
+      "generated_until_stop": "1. Identify the underlined part: \"at last\"\n2. Match the meaning with the options: B. 요약하면 (meaning \"at last\")",
+      "pred": "D",
+      "probs": {
+        "A": 0.031494140625,
+        "B": 0.061767578125,
+        "C": 0.3671875,
+        "D": 0.5078125,
+        "E": 0.03173828125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 1,
+      "generated_until_stop": "1. A: Can you sing well?\n2. B: _ , but I can dance well.\n3. A, B, D: don’t fit both\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.027099609375,
+        "B": 0.2578125,
+        "C": 0.69921875,
+        "D": 0.0164794921875,
+        "E": 0.0003871917724609375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 2,
+      "generated_until_stop": "1. Identify the subject: \"It\"\n2. Determine the context: \"It\" refers to something that can take many different forms.\n3. Match the context with the options: \"It\" refers to \"donation.\"\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.008544921875,
+        "C": 0.000293731689453125,
+        "D": 0.000904083251953125,
+        "E": 2.1219253540039062e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 3,
+      "generated_until_stop": "1. Identify the main idea: self-enhancement through comparison\n2. Focus on the relevant part: comparison with superior others\n3. Eliminate irrelevant options: B, C, D\n4. Choose the option that best fits the main idea: E\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.000335693359375,
+        "B": 0.000335693359375,
+        "C": 2.4318695068359375e-05,
+        "D": 5.14984130859375e-05,
+        "E": 1.0
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 4,
+      "generated_until_stop": "1. A: B offers a reason for not going to the movies.\n2. B: B's reason is having a cold.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98046875,
+        "B": 0.015869140625,
+        "C": 0.00147247314453125,
+        "D": 0.00130462646484375,
+        "E": 2.384185791015625e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 5,
+      "generated_until_stop": "1. Subject: shoes\n2. Correct verb form: are\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.004608154296875,
+        "B": 0.0016937255859375,
+        "C": 0.9921875,
+        "D": 0.0010223388671875,
+        "E": 2.4080276489257812e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 6,
+      "generated_until_stop": "1. Read the passage and identify the flow of ideas.\n2. Determine where the given sentence fits logically.\n3. Compare the options to the flow of ideas.\n\nThe given sentence: \"They also rated how generally extroverted those fake extroverts appeared, based on their recorded voices and body language.\"\n\nLooking at the passage, the sentence fits after describing the experiment and the results, which is after the part where Lippa compares the results (point ③).\n\nAnswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.006103515625,
+        "B": 0.2021484375,
+        "C": 0.703125,
+        "D": 0.07421875,
+        "E": 0.01287841796875
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 7,
+      "generated_until_stop": "1. Sent1: information that would _ ― produce guilt or shame, suggest long-term costs, or make people sad or mad\n2. Sent2: present-biased agents prefer to delay receipt of important information\n3. A, C, D, E: don’t fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0272216796875,
+        "B": 0.8984375,
+        "C": 0.0164794921875,
+        "D": 0.0211181640625,
+        "E": 0.034912109375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 8,
+      "generated_until_stop": "1. A: _ , cycling or walking?\n2. B: I like cycling rather than walking.\n3. A: Why do you like it?\n4. B: Because I think cycling burns more calories.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.043701171875,
+        "B": 0.03857421875,
+        "C": 0.03857421875,
+        "D": 0.87890625,
+        "E": 0.000377655029296875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 9,
+      "generated_until_stop": "1. Identify the main idea: The passage discusses the importance of planning and taking precautions to prevent emergencies and the consequences of not doing so.\n2. Eliminate options that do not support the main idea: A, C, D, E do not directly support the main idea of planning and taking precautions.\n3. Choose the option that best supports the main idea: B, \"전통적 가치바탕으로앞날을 계획해야 한다.\" This option emphasizes the importance of planning and taking precautions, which aligns with the main idea of the passage.",
+      "pred": "D",
+      "probs": {
+        "A": 0.051025390625,
+        "B": 0.0517578125,
+        "C": 0.357421875,
+        "D": 0.49609375,
+        "E": 0.043701171875
+      },
+      "gold": "E",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 10,
+      "generated_until_stop": "1. Songkran is a festival in Thailand.\n2. It is held in April.\n3. A matches the passage.\n4. B matches the passage.\n5. D matches the passage.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.10205078125,
+        "B": 0.09033203125,
+        "C": 0.75390625,
+        "D": 0.04833984375,
+        "E": 0.004486083984375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 11,
+      "generated_until_stop": "1. Check the passage for each option.\n2. A: Matches \"Hours: Open daily: 9:00 a.m. - 6:00 p.m.\"\n3. B: Matches \"Admission: Adults: $12\"\n4. C: Matches \"Admission: 10% discount for groups of ten or more\"\n5. D: Does not match \"Photography: Visitors can take photographs.\"\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001678466796875,
+        "B": 0.0096435546875,
+        "C": 0.0021514892578125,
+        "D": 0.98828125,
+        "E": 0.000156402587890625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 12,
+      "generated_until_stop": "1. Sent1: Can you make a paper rose? → question\n2. Sent2: No, _ . I can only make a paper bird. → response\n3. B, C, D: don’t fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.006561279296875,
+        "B": 0.97265625,
+        "C": 0.0018768310546875,
+        "D": 0.017822265625,
+        "E": 5.6743621826171875e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 13,
+      "generated_until_stop": "1. Sent1: deal with → verb\n2. Sent2: food shortage problems → noun\n3. A, B, D: don’t fit both\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.005859375,
+        "B": 0.005859375,
+        "C": 0.984375,
+        "D": 0.0027618408203125,
+        "E": 0.00012159347534179688
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 14,
+      "generated_until_stop": "1. Main idea: cities attract creative people\n2. Text: cities offer greatest exposure to people\n3. A, C, D, E: irrelevant\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.01092529296875,
+        "B": 0.984375,
+        "C": 0.00079345703125,
+        "D": 0.00130462646484375,
+        "E": 0.001678466796875
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 15,
+      "generated_until_stop": "1. Identify the main focus of the passage: Urban delivery vehicles, particularly bicycles and tricycles.\n2. Eliminate options that are not supported by the passage: B, D, E are not the main focus.\n3. Choose the option that best summarizes the passage: A, C, D are all supported, but D is the most comprehensive.",
+      "pred": "D",
+      "probs": {
+        "A": 0.0274658203125,
+        "B": 0.053466796875,
+        "C": 0.30078125,
+        "D": 0.5625,
+        "E": 0.0556640625
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 16,
+      "generated_until_stop": "1. Identify the main idea: scientific knowledge vs artistic creation\n2. Compare the two: scientific knowledge progresses through experiments, artistic works are unique to their creator\n3. Match the options: A. successive …… unique\n4. Confirm the answer: A. successive …… unique",
+      "pred": "D",
+      "probs": {
+        "A": 0.036865234375,
+        "B": 0.052490234375,
+        "C": 0.2451171875,
+        "D": 0.60546875,
+        "E": 0.060302734375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 17,
+      "generated_until_stop": "1. Identify the content of the passage.\n2. Compare each option with the passage content.\n3. A matches the passage: \"It looks like a horse.\"\n4. B matches the passage: \"It swims standing up.\"\n5. D matches the passage: \"It can change its color.\"\n6. C does not match the passage: \"It moves slowly in the water.\" (The passage does not mention the speed of movement.)\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.000553131103515625,
+        "B": 0.00150299072265625,
+        "C": 0.99609375,
+        "D": 7.486343383789062e-05,
+        "E": 1.8835067749023438e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 18,
+      "generated_until_stop": "1. Read the passage and understand the flow.\n2. Identify the main points: media effects, study design, results, and implications.\n3. Determine which part is unrelated to the main flow.\n4. Compare options to the main flow.\n\nA. ① - Study design, part of the flow.\nB. ② - Study design, part of the flow.\nC. ③ - Mention of novelists' preferences, unrelated to the main flow.\nD. ④ - Results of the study, part of the flow.\nE. ⑤ - Implications and conclusions, part of the flow.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.002166748046875,
+        "B": 0.00115966796875,
+        "C": 0.9921875,
+        "D": 0.0024566650390625,
+        "E": 0.002166748046875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 19,
+      "generated_until_stop": "1. Main idea: managing a crisis proactively\n2. Text: \"stealing thunder\" implies taking the initiative\n3. A, C, D: don't fit the main idea\n4. E: not directly related to the main idea\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0004863739013671875,
+        "B": 1.0,
+        "C": 0.00020313262939453125,
+        "D": 0.00070953369140625,
+        "E": 0.000335693359375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 20,
+      "generated_until_stop": "1. Context: writing a book review\n2. Suitable word: opinion\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000911712646484375,
+        "B": 0.99609375,
+        "C": 0.0004291534423828125,
+        "D": 0.00070953369140625,
+        "E": 8.940696716308594e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 21,
+      "generated_until_stop": "answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.474609375,
+        "B": 0.287109375,
+        "C": 0.0059814453125,
+        "D": 0.2236328125,
+        "E": 0.007659912109375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 22,
+      "generated_until_stop": "1. Read the passage and identify the main idea.\n2. Match the main idea with the most appropriate option.\n3. Eliminate options that do not match the main idea.\n4. Choose the option that best summarizes the main idea.\n5. Write the final answer.\n\nIn this passage, the main idea is that emotional empathy is a learned ability and practice is necessary to develop it. Option C best summarizes this main idea. Therefore, the final answer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0002307891845703125,
+        "B": 3.725290298461914e-06,
+        "C": 1.0,
+        "D": 5.424022674560547e-06,
+        "E": 0.0001583099365234375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 23,
+      "generated_until_stop": "1. Sent1: I go for a ___ every morning → noun\n2. Sent2: His parents ___ a small coffee shop → verb\n3. A, C, D: don’t fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0625,
+        "B": 0.76171875,
+        "C": 0.006591796875,
+        "D": 0.169921875,
+        "E": 0.00069427490234375
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 24,
+      "generated_until_stop": "1. Mike couldn't borrow books because he left his library card at home.\n2. Option C matches the reason: \"Did not bring card\" (C).\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.008544921875,
+        "B": 0.0019073486328125,
+        "C": 0.98828125,
+        "D": 0.00115966796875,
+        "E": 3.9577484130859375e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 25,
+      "generated_until_stop": "1. Keyword: communicate with other elephants\n2. Text: elephants can feel shaking with their feet\n3. A, B, C: irrelevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00170135498046875,
+        "B": 0.00116729736328125,
+        "C": 0.00020313262939453125,
+        "D": 0.99609375,
+        "E": 0.00012302398681640625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 26,
+      "generated_until_stop": "1. Read the passage and identify the main idea.\n2. Determine where the given sentence fits logically.\n3. Match the sentence to the most appropriate part of the passage.\n\nThe given sentence: \"Even so, it is not the money per se that is valuable, but the fact that it can potentially yield more positive experiences.\"\n\nThe passage discusses the value of money and how it can lead to positive experiences. The sentence fits best after discussing the potential benefits of money (point ③).\n\nAnswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.022216796875,
+        "B": 0.1279296875,
+        "C": 0.73828125,
+        "D": 0.01348876953125,
+        "E": 0.099609375
+      },
+      "gold": "E",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 27,
+      "generated_until_stop": "1. Passage mentions hunters moving across the land bridge (C).\n2. Passage describes the journey of hunters from Asia to North America (A).\n3. Passage talks about the rewards of hunting mammoths (B).\n\nAnswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.310546875,
+        "B": 0.0693359375,
+        "C": 0.03271484375,
+        "D": 0.1884765625,
+        "E": 0.3984375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 28,
+      "generated_until_stop": "1. Identify the pair of words.\n2. Determine the relationship between the pair.\n3. Compare the relationship to the options.\n\nA. win － lose: opposite relationship\nB. pull － push: opposite relationship\nC. answer － reply: similar relationship\nD. arrive － leave: opposite relationship\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0810546875,
+        "B": 0.283203125,
+        "C": 0.46484375,
+        "D": 0.1708984375,
+        "E": 0.0002269744873046875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 29,
+      "generated_until_stop": "1. Identify the flow of the passage.\n2. Determine where the new sentence fits logically.\n3. Compare the options to the passage's flow.\n\nThe passage discusses the benefits of science, ending with a belief in its positive impact. The new sentence, \"However, I think science does us more good than harm,\" fits best after the introduction of the benefits (C. ③). It provides a counterpoint to the potential dangers mentioned earlier (B. ②).\n\nAnswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.03271484375,
+        "B": 0.310546875,
+        "C": 0.51171875,
+        "D": 0.146484375,
+        "E": 0.000362396240234375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 30,
+      "generated_until_stop": "1. Read the passage and identify the underlined parts.\n2. Determine if the underlined parts are grammatically correct.\n3. Compare the underlined parts with the given options.\n\nIn this passage, the underlined parts are:\n① rely heavily on analogies drawn with modern-day hunter-gatherer societies.\n② as Steven Mithen emphasizes in The Prehistory of the Modern Mind, tend to view man and beast, animal and plant, organic and inorganic spheres, as participants in an integrated, animated totality.\n③ which spread through the visual art and the mythology of primitive cultures.\n④ inhabited their world.\n⑤ itself and its place in nature.\n\nThe underlined part that is grammatically incorrect is:\nE. ⑤\n\nThe correct phrase should be \"itself and its place in nature\" instead of \"⑤ itself and its place in nature.\"\n\nAnswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.001922607421875,
+        "C": 0.00054931640625,
+        "D": 9.584426879882812e-05,
+        "E": 0.99609375
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 31,
+      "generated_until_stop": "1. A: What is Alice good at?\n2. B: She’s good at drawing\n3. A, C, D: don’t fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.9921875,
+        "C": 0.0010223388671875,
+        "D": 0.00457763671875,
+        "E": 3.9577484130859375e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 32,
+      "generated_until_stop": "1. Identify the pair of words.\n2. Determine the relationship between the pair.\n3. Compare the relationship to the options.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.29296875,
+        "B": 0.29296875,
+        "C": 0.03955078125,
+        "D": 0.375,
+        "E": 0.00023555755615234375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 33,
+      "generated_until_stop": "1. Identify the main idea: The passage discusses the unsustainable nature of current efforts to protect and maintain human progress, meeting human needs, and realizing human ambitions.\n2. Match the main idea with the options: The passage emphasizes the exploitation of environmental resources by the current generation, without considering the impact on future generations.\n3. Eliminate options that do not match the main idea: A, B, C, D: These options do not directly address the unsustainable nature of current efforts and the exploitation of environmental resources.\n4. Choose the option that best summarizes the main idea: E: This option directly addresses the unsustainable nature of current efforts and the exploitation of environmental resources by the current generation, without considering the impact on future generations.\n5. Final answer: E",
+      "pred": "D",
+      "probs": {
+        "A": 0.04052734375,
+        "B": 0.041015625,
+        "C": 0.396484375,
+        "D": 0.494140625,
+        "E": 0.0286865234375
+      },
+      "gold": "E",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 34,
+      "generated_until_stop": "1. Long before Whitman, poets sought fame.\n2. Whitman added a new sense of fame.\n3. Fame for Whitman was dependent on the crowd's approval.\n4. Other poets sought inspiration from the goddess of poetry.\n5. Whitman's poet sought fame with political celebrities.\n\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.00090789794921875,
+        "B": 0.00070953369140625,
+        "C": 0.00020313262939453125,
+        "D": 0.0004863739013671875,
+        "E": 0.99609375
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 35,
+      "generated_until_stop": "1. Read the passage and identify the underlined parts.\n2. Determine if the word used in the underlined part fits the context.\n3. Compare the options to the passage.\n\nA. ①: \"restrictions\" - fits the context\nB. ②: \"assess\" - fits the context\nC. ③: \"necessity\" - fits the context\nD. ④: \"low\" - fits the context\nE. ⑤: \"similar\" - fits the context\n\nAll options fit the context, so there seems to be an error in the question or options provided. Please review the passage and options again.",
+      "pred": "D",
+      "probs": {
+        "A": 0.0390625,
+        "B": 0.040283203125,
+        "C": 0.39453125,
+        "D": 0.490234375,
+        "E": 0.03564453125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": true
+    },
+    {
+      "index": 36,
+      "generated_until_stop": "1. Context: \"I called him yesterday, _ he didn’t answer.\"\n2. Suitable word: \"but\" (indicating contrast)\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.875,
+        "B": 0.09228515625,
+        "C": 0.007568359375,
+        "D": 0.0263671875,
+        "E": 6.532669067382812e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 37,
+      "generated_until_stop": "1. Identify the subject: \"It\"\n2. Context: \"It\" is good for our health and tastes good.\n3. Options: A, B, C, D\n4. B matches the context: \"It\" refers to honey.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00170135498046875,
+        "B": 0.99609375,
+        "C": 0.0004291534423828125,
+        "D": 0.0003795623779296875,
+        "E": 1.8835067749023438e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 38,
+      "generated_until_stop": "answer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.050048828125,
+        "B": 0.050048828125,
+        "C": 0.88671875,
+        "D": 0.01434326171875,
+        "E": 0.00018024444580078125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 39,
+      "generated_until_stop": "1. Sent1: I don’t think it’s a good idea because everyone looks the same.\n2. Sent2: I agree with you.\n3. B, C, D: don’t fit both\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.56640625,
+        "B": 0.267578125,
+        "C": 0.036376953125,
+        "D": 0.126953125,
+        "E": 0.00040435791015625
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 40,
+      "generated_until_stop": "1. Keyword: school newspaper\n2. Text: submit three articles\n3. A: matches\n4. B: matches\n5. C: does not match (responsible person is student reporter)\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0030975341796875,
+        "B": 0.0074462890625,
+        "C": 0.97265625,
+        "D": 0.0157470703125,
+        "E": 5.6743621826171875e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 41,
+      "generated_until_stop": "1. Context: car crash impact\n2. Goal: protect drivers and passengers\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.002471923828125,
+        "C": 0.00054931640625,
+        "D": 0.99609375,
+        "E": 0.00012302398681640625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 42,
+      "generated_until_stop": "1. Read the passage and identify the flow of ideas.\n2. Determine where the given sentence fits logically.\n3. Match the sentence to the most appropriate place in the passage.\n\nThe given sentence: \"Still, many believe we will eventually reach a point at which conflict with the finite nature of resources is inevitable.\"\n\nThe passage discusses the sustainability of our standard of living, the finite carrying capacity of the Earth, and the potential for cultural changes and innovations to expand Earth's capacity. The sentence fits best after discussing the finite carrying capacity and before discussing the potential for cultural changes and innovations.\n\nAnswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0634765625,
+        "B": 0.60546875,
+        "C": 0.005218505859375,
+        "D": 0.10498046875,
+        "E": 0.22265625
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 43,
+      "generated_until_stop": "1. A: We need to change the meeting time. It’s too early.\n2. B: I agree. What about 10 a.m.?\n3. A, B: don’t fit both\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.8515625,
+        "B": 0.0177001953125,
+        "C": 0.115234375,
+        "D": 0.0137939453125,
+        "E": 4.38690185546875e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 44,
+      "generated_until_stop": "1. A: solitary / social\n2. B: insi……abundant\n3. C: solitary / insufficient / overwhelm\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.00982666015625,
+        "B": 0.2236328125,
+        "C": 0.038818359375,
+        "D": 0.038818359375,
+        "E": 0.6875
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 45,
+      "generated_until_stop": "1. Keyword: most human activities\n2. Text: select a particular strategy appropriate to the occasion\n3. A, C, D, E: not directly related to the passage's main point\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00518798828125,
+        "B": 0.9921875,
+        "C": 0.000904083251953125,
+        "D": 0.00191497802734375,
+        "E": 0.000904083251953125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 46,
+      "generated_until_stop": "1. Read the passage: \"Living without smartphones is difficult these days. However, using smartphones too much can cause several problems. Let’s talk about them in more detail.\"\n2. Identify the main idea: \"Using smartphones too much can cause several problems.\"\n3. Determine the next logical step: Discussing the problems caused by excessive smartphone use.\n4. Match the next logical step with the options: C. \"과도한 스마트폰 사용으로 인한 문제 점\"\n5. Confirm the answer: C. \"과도한 스마트폰 사용으로 인한 문제 점\"",
+      "pred": "D",
+      "probs": {
+        "A": 0.0296630859375,
+        "B": 0.043212890625,
+        "C": 0.41015625,
+        "D": 0.48828125,
+        "E": 0.029296875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 47,
+      "generated_until_stop": "answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.76953125,
+        "B": 0.171875,
+        "C": 0.0035552978515625,
+        "D": 0.0556640625,
+        "E": 0.0009002685546875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 48,
+      "generated_until_stop": "1. Context: Uruk-period domestic sites\n2. Lack of archaeological evidence\n3. A, B, D: not directly related to domestic sites\n4. C, E: more relevant to domestic life and power dynamics\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0159912109375,
+        "B": 0.055908203125,
+        "C": 0.875,
+        "D": 0.00970458984375,
+        "E": 0.04345703125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 49,
+      "generated_until_stop": "1. Main: tips to look taller\n2. Text: avoid loose clothes, wear similar colors\n3. A, C: irrelevant\n4. B, D: partial, not full reason\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.001495361328125,
+        "B": 0.99609375,
+        "C": 0.000377655029296875,
+        "D": 0.0035858154296875,
+        "E": 1.4662742614746094e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 50,
+      "generated_until_stop": "1. Identify the main idea: The passage discusses the importance of being cautious and validating information in the virtual world.\n2. Match the main idea with the options: Option E aligns with the main idea, emphasizing the importance of cautious information validation in the virtual world.\n3. Eliminate irrelevant options: Options A, B, C, and D do not directly address the main idea of cautious information validation in the virtual world.\n4. Confirm the answer: Option E is the most relevant and appropriate choice based on the passage's main idea.",
+      "pred": "D",
+      "probs": {
+        "A": 0.028564453125,
+        "B": 0.0517578125,
+        "C": 0.279296875,
+        "D": 0.59375,
+        "E": 0.0478515625
+      },
+      "gold": "E",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 51,
+      "generated_until_stop": "1. Identify the main idea: evolved greeting behaviors of elephants\n2. Determine the social aspect: social bond\n3. Determine the time aspect: sense of time\n4. Match the social and time aspects with the options: tied …… united\n5. Match the social and time aspects with the options: tied …… united\n\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.00604248046875,
+        "B": 0.07373046875,
+        "C": 0.00604248046875,
+        "D": 0.0164794921875,
+        "E": 0.8984375
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 52,
+      "generated_until_stop": "1. Identify the pair of words.\n2. Determine the relationship between the pair.\n3. Compare the relationship to the options.\n\nA. joy － sadness: opposite emotions\nB. furniture － sofa: related items (sofa is a type of furniture)\nC. subject － science: related fields (science is a subject)\nD. animal － chimpanzee: related species (chimpanzee is a type of animal)\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.212890625,
+        "B": 0.451171875,
+        "C": 0.06103515625,
+        "D": 0.2734375,
+        "E": 0.000194549560546875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 53,
+      "generated_until_stop": "1. Main: store arrangement\n2. Text: gives suggestions\n3. A, B, D: irrelevant\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.005889892578125,
+        "B": 0.002166748046875,
+        "C": 0.98828125,
+        "D": 0.003143310546875,
+        "E": 7.390975952148438e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 54,
+      "generated_until_stop": "1. Main idea: Uncertainty in knowledge\n2. A: matches the theme of reaching unknown heights\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.984375,
+        "B": 0.0140380859375,
+        "C": 0.00054168701171875,
+        "D": 0.00115203857421875,
+        "E": 0.0014801025390625
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 55,
+      "generated_until_stop": "1. Keyword: most effective advice\n2. Text: step out of comfort zone, challenge, innovate, grow\n3. A, C: not directly related\n4. B, E: not directly related\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0024261474609375,
+        "B": 0.0108642578125,
+        "C": 0.0004787445068359375,
+        "D": 0.98046875,
+        "E": 0.006591796875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 56,
+      "generated_until_stop": "1. Sent1: I _ like tomatoes → verb\n2. A, C, D: don’t fit the sentence structure\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.251953125,
+        "B": 0.68359375,
+        "C": 0.009765625,
+        "D": 0.05615234375,
+        "E": 0.000377655029296875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 57,
+      "generated_until_stop": "1. Read the passage and understand the flow.\n2. Identify the main points: contradictions in aphorisms, their limited guidance, and the difficulty in decision-making.\n3. Determine which part is unrelated to the main flow.\n4. Compare options to the main points.\n\nAnswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.193359375,
+        "B": 0.150390625,
+        "C": 0.318359375,
+        "D": 0.09130859375,
+        "E": 0.248046875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 58,
+      "generated_until_stop": "1. Context: British government decision\n2. Suitable word: transformation\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00150299072265625,
+        "B": 0.00090789794921875,
+        "C": 0.0002613067626953125,
+        "D": 0.99609375,
+        "E": 5.817413330078125e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 59,
+      "generated_until_stop": "1. Read the passage and identify the main idea.\n2. Identify the part of the passage where the given sentence fits.\n3. Match the given sentence to the correct part of the passage.\n\nThe given sentence is: \"The researchers had made this happen by lengthening the period of daylight to which the peach trees on whose roots the insects fed were exposed.\"\n\nThe correct part of the passage is: \"The researchers had made this happen by lengthening the period of daylight to which the peach trees on whose roots the insects fed were exposed.\"\n\nAnswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.404296875,
+        "B": 0.09033203125,
+        "C": 0.1904296875,
+        "D": 0.2451171875,
+        "E": 0.0703125
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 60,
+      "generated_until_stop": "1. B's statement: \"Can you tell me what it means?\"\n2. B's interest: \"I’m interested in the origin of the expression.\"\n3. B's mood: curious and interested\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0021820068359375,
+        "B": 0.0027923583984375,
+        "C": 0.99609375,
+        "D": 0.000621795654296875,
+        "E": 2.4199485778808594e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 61,
+      "generated_until_stop": "1. Passage discusses the scientific method in psychology.\n2. (A) talks about replicability of findings.\n3. (B) discusses compromises and challenges in psychology research.\n4. (C) talks about reactivity and people changing behavior when observed.\n\nAnswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.34375,
+        "B": 0.44140625,
+        "C": 0.126953125,
+        "D": 0.0281982421875,
+        "E": 0.059814453125
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 62,
+      "generated_until_stop": "answer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.04931640625,
+        "B": 0.25,
+        "C": 0.07177734375,
+        "D": 0.0264892578125,
+        "E": 0.6015625
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 63,
+      "generated_until_stop": "1. Identify the part: \"instead of\"\n2. Match with the option: B. ～ 대 신에 (meaning \"instead of\")",
+      "pred": "D",
+      "probs": {
+        "A": 0.038330078125,
+        "B": 0.0849609375,
+        "C": 0.357421875,
+        "D": 0.490234375,
+        "E": 0.0283203125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 64,
+      "generated_until_stop": "1. Identify the main issue: farmers in the less developed world are not benefiting from technological advances.\n2. Determine the cause: the capitalist mode of production is affecting peasant production.\n3. Identify the effect: this is causing a food problem, as staple crops are not being produced in sufficient amounts.\n4. Match the effect with the options: the effect is that farmers have lost control over their own production.\n5. Choose the most relevant option: A. have lost control over their own production.",
+      "pred": "D",
+      "probs": {
+        "A": 0.04248046875,
+        "B": 0.045166015625,
+        "C": 0.33984375,
+        "D": 0.5078125,
+        "E": 0.06396484375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 65,
+      "generated_until_stop": "1. Identify the subject: \"It\"\n2. Context: \"It will also help you feel more energetic and productive so you can focus on your work.\"\n3. Options: A, B, C, D\n4. A: exercise - fits the context\n5. B, C, D: don't fit the context\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.004058837890625,
+        "C": 0.00017833709716796875,
+        "D": 0.0024566650390625,
+        "E": 3.504753112792969e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 66,
+      "generated_until_stop": "1. Event: Julia Smith's book talk\n2. Location: main hall at 2 p.m.\n3. A, B, C: irrelevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0179443359375,
+        "B": 0.0024261474609375,
+        "C": 0.0011444091796875,
+        "D": 0.9765625,
+        "E": 0.00017547607421875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 67,
+      "generated_until_stop": "1. Main: Tax policy creation\n2. Text: Tax is the application of distributive justice theories\n3. A, C, D: not directly related to moral questions\n4. B, E: both involve moral questions\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.002227783203125,
+        "B": 0.201171875,
+        "C": 0.0002079010009765625,
+        "D": 0.000499725341796875,
+        "E": 0.796875
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 68,
+      "generated_until_stop": "1. Identify the flow of the text.\n2. Determine where \"She asked him for help\" fits.\n3. Compare options A, B, C, D to the text flow.\n\nAnswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.046142578125,
+        "B": 0.9296875,
+        "C": 0.0037994384765625,
+        "D": 0.0218505859375,
+        "E": 4.220008850097656e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 69,
+      "generated_until_stop": "1. Read the passage and identify the underlined parts.\n2. Determine if the underlined parts are grammatically correct.\n3. Compare the underlined parts with the options provided.\n\nIn the passage, the underlined parts are:\n① to repeat it as gossip\n② turn the fact that he knows something into something socially valuable\n③ himself, he may feel superior\n④ actualizing itself only at the moment of disclosure\n⑤ whose “friend” he presents himself, will rub off on him\n\nThe underlined part D (④) is grammatically correct in the passage. Therefore, there is no grammatical error in the underlined part D.\n\nAnswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.037353515625,
+        "B": 0.275390625,
+        "C": 0.0005340576171875,
+        "D": 0.5859375,
+        "E": 0.1015625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 70,
+      "generated_until_stop": "1. Passage: Most of us have a general, rational sense of what to eat and when ― there is no shortage of information on the subject.\n2. Emotional eating is a popular term used to describe eating that is influenced by emotions, both positive and negative.\n3. Many people who struggle with difficult emotions also struggle with eating problems.\n4. Individuals who struggle with obesity tend to eat in response to emotions.\n5. People of any size may try to escape an emotional experience by preoccupying themselves with eating or by obsessing over their shape and weight.\n\nAnswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.42578125,
+        "B": 0.42578125,
+        "C": 0.044921875,
+        "D": 0.010009765625,
+        "E": 0.0947265625
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 71,
+      "generated_until_stop": "1. Identify the underlined part: \"knowledge\"\n2. Match the meaning with the options: D. knowledge\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00457763671875,
+        "B": 0.007537841796875,
+        "C": 0.000331878662109375,
+        "D": 0.98828125,
+        "E": 0.000156402587890625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 72,
+      "generated_until_stop": "1. Sent1: parking spaces in the building → preposition\n2. Sent2: proud _ you → preposition\n3. A, B, C: don’t fit both\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.21875,
+        "B": 0.01397705078125,
+        "C": 0.0027618408203125,
+        "D": 0.765625,
+        "E": 0.000255584716796875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 73,
+      "generated_until_stop": "1. A: _ were you late for school? → question word\n2. B: Because I missed the bus. → reason\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.73046875,
+        "B": 0.1845703125,
+        "C": 0.06787109375,
+        "D": 0.0194091796875,
+        "E": 7.009506225585938e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 74,
+      "generated_until_stop": "1. Sent1: buildings evolved into forms we come _ → verb\n2. Sent2: buildings provide physical and symbolic setting → verb\n3. A, C, D: don’t fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.005523681640625,
+        "B": 0.38671875,
+        "C": 0.005523681640625,
+        "D": 0.30078125,
+        "E": 0.30078125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 75,
+      "generated_until_stop": "1. Setting: discussing books\n2. Suitable place: library\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.0027923583984375,
+        "C": 0.0001392364501953125,
+        "D": 0.00131988525390625,
+        "E": 1.6689300537109375e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 76,
+      "generated_until_stop": "1. A: _ ?\n2. B: Not too often, maybe once a week. How about you?\n3. A, C, D: don’t fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0771484375,
+        "B": 0.73046875,
+        "C": 0.0283203125,
+        "D": 0.1630859375,
+        "E": 0.000457763671875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 77,
+      "generated_until_stop": "1. Main idea: Scientific discoveries' journey\n2. Text: collective product, expert review, disciplinary specialists\n3. A, C, D: partial, not full journey\n4. B, E: not mentioned\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.984375,
+        "B": 0.008544921875,
+        "C": 0.000545501708984375,
+        "D": 0.00189971923828125,
+        "E": 0.003143310546875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 78,
+      "generated_until_stop": "answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.08837890625,
+        "B": 0.7421875,
+        "C": 0.019775390625,
+        "D": 0.146484375,
+        "E": 0.0038909912109375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 79,
+      "generated_until_stop": "1. Sent1: press **them** gently with your fingers → verb + object\n2. A, C, D: don’t fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0751953125,
+        "B": 0.91796875,
+        "C": 0.00156402587890625,
+        "D": 0.00616455078125,
+        "E": 0.00016498565673828125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 80,
+      "generated_until_stop": "1. Main: Dr. Smith's life story\n2. Text: Dr. Smith's career and work in Africa\n3. A, C, D: not directly related to main story\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.005218505859375,
+        "B": 0.9921875,
+        "C": 0.000705718994140625,
+        "D": 0.00191497802734375,
+        "E": 2.7298927307128906e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 81,
+      "generated_until_stop": "1. Identify the underlined part: \"decision\"\n2. Match the meaning with the options: \"decision\" → C. 결정\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0107421875,
+        "B": 0.00946044921875,
+        "C": 0.96484375,
+        "D": 0.0137939453125,
+        "E": 0.00010538101196289062
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 82,
+      "generated_until_stop": "1. Context: dealing with burn injuries\n2. Closest continuation: B.화 상 치료 방법",
+      "pred": "D",
+      "probs": {
+        "A": 0.045166015625,
+        "B": 0.07666015625,
+        "C": 0.37890625,
+        "D": 0.470703125,
+        "E": 0.0286865234375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 83,
+      "generated_until_stop": "1. Identify the subject: \"it\"\n2. Context: used to improve food taste and historical meaning\n3. A: salt (makes food tasty)\n4. B, C, D: don't fit the context\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.007568359375,
+        "C": 0.000621795654296875,
+        "D": 0.0024566650390625,
+        "E": 4.482269287109375e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 84,
+      "generated_until_stop": "1. Sent1: feel **shy** when I speak in front of people → adjective\n2. B, C, D: don’t fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.021240234375,
+        "B": 0.796875,
+        "C": 0.003692626953125,
+        "D": 0.177734375,
+        "E": 0.0003032684326171875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 85,
+      "generated_until_stop": "1. Main topic: purpose of laughter\n2. Text: inducing positive emotional arousal\n3. A: directly related to main topic\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.875,
+        "B": 0.1181640625,
+        "C": 0.000701904296875,
+        "D": 0.0024566650390625,
+        "E": 0.00457763671875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 86,
+      "generated_until_stop": "1. A: Whenever I see koalas in trees, I wonder why they\n2. C: Koalas hug trees to cool themselves down.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.1748046875,
+        "B": 0.11962890625,
+        "C": 0.69140625,
+        "D": 0.0162353515625,
+        "E": 0.00018024444580078125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 87,
+      "generated_until_stop": "answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.032958984375,
+        "B": 0.048095703125,
+        "C": 0.02001953125,
+        "D": 0.75,
+        "E": 0.1474609375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 88,
+      "generated_until_stop": "1. Jennifer was deeply concerned about the cost of her car repairs.\n2. The mechanic's news was good and the cost was less than ten dollars.\n3. Jennifer felt relieved and at ease after seeing the affordable bill.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.002471923828125,
+        "C": 0.0003337860107421875,
+        "D": 0.00020313262939453125,
+        "E": 0.0002613067626953125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 89,
+      "generated_until_stop": "1. Check the passage for mentioned items.\n2. A, C, D: mentioned in passage.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.9921875,
+        "C": 0.00054931640625,
+        "D": 0.004608154296875,
+        "E": 7.43865966796875e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 90,
+      "generated_until_stop": "1. Role of 'lion’s historians': to present the environment's perspective\n2. Text: urging a shift to sustainable human behaviour for nature\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00665283203125,
+        "B": 0.98828125,
+        "C": 0.00115966796875,
+        "D": 0.00148773193359375,
+        "E": 0.00115966796875
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 91,
+      "generated_until_stop": "1. Read the passage and identify the main points.\n2. Determine the logical flow of ideas.\n3. Match the flow with the given options.\n\nThe passage discusses the increasing complexity of computer software, the rise in software bugs, and the consequences for global safety and security. It then explains how malware exploits these bugs and how physical objects are becoming information technologies.\n\nThe most logical order is:\n(B) This is the basis for all malware attacks that take advantage of these computer bugs to get the code to do something it was not originally intended to do. As computer code grows more elaborate, software bugs flourish and security suffers, with increasing consequences for society at large.\n(A) As all this code grows in size and complexity, so too do the number of errors and software bugs. According to a study by Carnegie Mellon University, commercial software typically has twenty to thirty bugs for every thousand lines of code ― 50 million lines of code means 1 million to 1.5 million potential errors to be exploited.\n(C) Physical things are increasingly becoming information technologies. Cars are “computers we ride in,” and airplanes are nothing more than “flying Solaris boxes attached to bucketfuls of industrial control systems.”\n\nAnswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0322265625,
+        "B": 0.83203125,
+        "C": 0.04150390625,
+        "D": 0.005615234375,
+        "E": 0.087890625
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 92,
+      "generated_until_stop": "1. A: discussing a refund for a jacket\n2. B, C, D: irrelevant places\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0006256103515625,
+        "C": 4.00543212890625e-05,
+        "D": 0.0002613067626953125,
+        "E": 6.943941116333008e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 93,
+      "generated_until_stop": "1. The passage discusses the shift in resource demands and the need for rare metals in green technologies.\n2. The focus is on the importance of these materials in developing alternative green technologies.\n3. A, C, D, E: don't fit the context of the passage.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.43359375,
+        "B": 0.5546875,
+        "C": 0.0029144287109375,
+        "D": 0.00616455078125,
+        "E": 0.00177001953125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 94,
+      "generated_until_stop": "1. Identify the main topic: octopuses\n2. Identify the flow: octopuses use coconut shells for protection, hide under them, and save them\n3. Identify the out-of-place statement: Many people like to swim in the ocean\n4. Identify the out-of-place statement: Some octopuses even save coconut shells for later\n5. Identify the out-of-place statement: Aren’t they really smart?\n\nAnswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.03662109375,
+        "B": 0.010498046875,
+        "C": 0.9453125,
+        "D": 0.0081787109375,
+        "E": 4.291534423828125e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 95,
+      "generated_until_stop": "1. Sent1: brain automatically _ → action\n2. Sent2: holding the screwdriver → perception\n3. B, C, D: don’t fit both\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.00090789794921875,
+        "C": 0.00022983551025390625,
+        "D": 0.001495361328125,
+        "E": 0.99609375
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 96,
+      "generated_until_stop": "1. Main: children's play and coping\n2. Text: play as problem solving\n3. A, B, D, E: irrelevant\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0027923583984375,
+        "B": 0.002166748046875,
+        "C": 0.9921875,
+        "D": 0.00080108642578125,
+        "E": 0.000621795654296875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 97,
+      "generated_until_stop": "1. Read the passage and identify the main points.\n2. Determine the logical flow of ideas.\n3. Match the options to the correct order of ideas.\n\nThe passage discusses contingency pricing, its benefits to clients, and its role in personal injury and consumer cases.\n\nOption C: (B) － (C) － (A)\n- (B) discusses the benefits of contingency pricing to clients.\n- (C) explains the role of contingency pricing in personal injury and consumer cases.\n- (A) provides additional context about clients' concerns and the economic value of services.\n\nAnswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0084228515625,
+        "B": 0.01385498046875,
+        "C": 0.96875,
+        "D": 0.00113677978515625,
+        "E": 0.00653076171875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 98,
+      "generated_until_stop": "1. Check each option against the passage.\n2. A matches the passage.\n3. B matches the passage.\n4. D matches the passage.\n5. C does not match the passage.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00080108642578125,
+        "B": 0.0021820068359375,
+        "C": 0.99609375,
+        "D": 0.00102996826171875,
+        "E": 7.43865966796875e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 99,
+      "generated_until_stop": "1. Sent1: rushing up doesn't just give us less time, it can also steal the pleasure and benefit from the time that we do have.\n2. Sent2: either way, there are almost certainly areas of our life that could be _ .\n3. A, B, D, E: don’t fit both\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0040283203125,
+        "B": 0.0040283203125,
+        "C": 0.98828125,
+        "D": 0.000797271728515625,
+        "E": 0.00168609619140625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 100,
+      "generated_until_stop": "1. Context: time taken to go to train station\n2. Suitable word: long\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.002471923828125,
+        "C": 0.00020313262939453125,
+        "D": 0.00070953369140625,
+        "E": 7.867813110351562e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 101,
+      "generated_until_stop": "1. Passage describes two extremes of wilderness dining: gourmet eaters and survival eaters.\n2. Option B follows the order: (B) － (A) － (C)\n3. Option A follows the order: (A) － (C) － (B)\n4. Option C follows the order: (B) － (C) － (A)\n5. Option D follows the order: (C) － (A) － (B)\n6. Option E follows the order: (C) － (B) － (A)\n\nAnswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0172119140625,
+        "B": 0.9375,
+        "C": 0.004913330078125,
+        "D": 0.01043701171875,
+        "E": 0.0283203125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 102,
+      "generated_until_stop": "1. A expresses dissatisfaction with the sound quality.\n2. B asks for the reason behind A's dissatisfaction.\n3. A mentions the sound is not loud enough, indicating a negative experience.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00518798828125,
+        "B": 0.98828125,
+        "C": 0.00191497802734375,
+        "D": 0.002777099609375,
+        "E": 1.8715858459472656e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 103,
+      "generated_until_stop": "1. Sent1: _ kind of food do you like the most? → question word\n2. Sent2: _ time do you want to go to the movies? → question word\n3. A, B, C: don’t fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.07763671875,
+        "B": 0.57421875,
+        "C": 0.271484375,
+        "D": 0.07763671875,
+        "E": 0.0002803802490234375
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 104,
+      "generated_until_stop": "1. Read the passage and identify the main idea.\n2. Determine the logical flow of ideas.\n3. Match the passage with the most appropriate continuation.\n\nThe passage discusses the analogy of technology as an extension of human bodies, comparing it to the extended bodies of animals. It then points out the flaw in this analogy, emphasizing that humans don't inherit blueprints like animals do.\n\nThe most logical continuation would be to first address the flaw (C) before discussing the implications of technology as an extension of human bodies (B).\n\nAnswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.09912109375,
+        "B": 0.126953125,
+        "C": 0.0771484375,
+        "D": 0.126953125,
+        "E": 0.5703125
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 105,
+      "generated_until_stop": "1. Annette's initial feeling: worried\n2. Annette's feeling after Reiner's explanation: relieved\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00048828125,
+        "C": 4.5299530029296875e-05,
+        "D": 4.00543212890625e-05,
+        "E": 7.486343383789062e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 106,
+      "generated_until_stop": "1. Check the passage for mentioned rules.\n2. Compare the options with the passage content.\n3. A, B, C: mentioned in passage.\n4. D: not mentioned in passage.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00457763671875,
+        "B": 0.0031585693359375,
+        "C": 0.0010223388671875,
+        "D": 0.9921875,
+        "E": 0.000621795654296875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 107,
+      "generated_until_stop": "1. Sent1: looks _ his father → verb\n2. Sent2: _ to do during the vacation → verb\n3. A, B, D: don’t fit both\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.2578125,
+        "B": 0.0272216796875,
+        "C": 0.703125,
+        "D": 0.010009765625,
+        "E": 0.0005645751953125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 108,
+      "generated_until_stop": "1. Main: tips to reduce stress\n2. Text: walking, music, feel better\n3. A, B, C: not directly related\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.00191497802734375,
+        "C": 0.00015735626220703125,
+        "D": 0.9921875,
+        "E": 0.00010824203491210938
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 109,
+      "generated_until_stop": "1. Main: museums' focus on galleries vs unseen zones\n2. Text: museums prioritize consumable parts\n3. A, C: not main focus\n4. D: best match\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0014801025390625,
+        "B": 0.006622314453125,
+        "C": 9.441375732421875e-05,
+        "D": 0.984375,
+        "E": 0.00750732421875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 110,
+      "generated_until_stop": "1. Context: B is looking for a new bag for her son.\n2. A: irrelevant\n3. B, C: irrelevant\n4. D: relevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0322265625,
+        "B": 0.0220947265625,
+        "C": 0.00494384765625,
+        "D": 0.94140625,
+        "E": 0.0004596710205078125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 111,
+      "generated_until_stop": "1. Identify the main idea: tourism's impact on indigenous cultures\n2. Recognize the term: \"cage model\"\n3. Understand the context: tourism as a path to modernity and economic development\n4. Identify the problem: loss of traditions and cultural uniqueness\n5. Match the option: A. preserving a past culture in its original form for consumption\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.010986328125,
+        "C": 0.000156402587890625,
+        "D": 0.000545501708984375,
+        "E": 0.000545501708984375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 112,
+      "generated_until_stop": "1. Prior to file-sharing services, music albums landed exclusively in the hands of music critics before their release.\n2. These critics would listen to them well before the general public could and preview them for the rest of the world in their reviews.\n3. Internet made music easily accessible and allowed even advanced releases to spread through online social networks.\n4. Availability of new music became democratized, which meant critics no longer had unique access.\n5. Critics and laypeople alike could obtain new music simultaneously.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.83984375,
+        "B": 0.146484375,
+        "C": 0.0026702880859375,
+        "D": 0.0038909912109375,
+        "E": 0.00640869140625
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 113,
+      "generated_until_stop": "1. Red, yellow, blue, green: all are colors\n2. A: color is the common category\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.0035858154296875,
+        "C": 0.00022983551025390625,
+        "D": 0.0003337860107421875,
+        "E": 2.1338462829589844e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 114,
+      "generated_until_stop": "1. Context: healthy skin tips\n2. Options: A, B, C, D\n3. B, C, D: don't fit\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00020313262939453125,
+        "C": 2.753734588623047e-05,
+        "D": 4.5299530029296875e-05,
+        "E": 6.973743438720703e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 115,
+      "generated_until_stop": "1. Recognize the relationship between ideas and cultural patterns.\n2. New ideas are discovered through logical reasoning.\n3. Discoveries are made possible by the acceptance of cultural premises.\n4. New ideas are outgrowths of previous ideas.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.005218505859375,
+        "C": 0.00054931640625,
+        "D": 0.0002593994140625,
+        "E": 0.0003337860107421875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 116,
+      "generated_until_stop": "1. Read the passage: \"Sometimes we hurt others’ feelings, even if we don’t mean to. When that happens, we need to apologize. Then, how do we properly apologize? Here are three things you should consider when you say that you are sorry.\"\n2. Identify the context: The passage is about apologizing and what to consider when doing so.\n3. Match the context with the options: Option D is the only one that directly relates to the context of apologizing and what to consider in that situation.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0074462890625,
+        "B": 0.013916015625,
+        "C": 0.00146484375,
+        "D": 0.9765625,
+        "E": 0.000476837158203125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 117,
+      "generated_until_stop": "1. Sent1: Both players hit a ball back and forth across a net. _ , there are differences, too.\n2. B, C, D: don’t fit the context\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0027923583984375,
+        "B": 0.9921875,
+        "C": 0.000904083251953125,
+        "D": 0.0027923583984375,
+        "E": 2.4199485778808594e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 118,
+      "generated_until_stop": "answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.05078125,
+        "B": 0.03955078125,
+        "C": 0.0036773681640625,
+        "D": 0.90234375,
+        "E": 0.005340576171875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 119,
+      "generated_until_stop": "1. Sent1: My dad _ breakfast at 6 a.m. → verb\n2. Sent2: My town _ many beautiful parks. → verb\n3. A, B, C: don’t fit both\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.177734375,
+        "B": 0.018798828125,
+        "C": 0.004180908203125,
+        "D": 0.796875,
+        "E": 0.000568389892578125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 120,
+      "generated_until_stop": "1. A: preset / intentionally / consistency\n2. B: preset / automatically / variation\n3. C: self-selected / intentionally / variation\n4. D: self-selected / intentionally / consistency\n5. E: self-selected / automatically / consistency\n\nAnswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.060546875,
+        "B": 0.271484375,
+        "C": 0.010498046875,
+        "D": 0.2109375,
+        "E": 0.447265625
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 121,
+      "generated_until_stop": "1. Context: expressing a problem\n2. Text: asking for a change\n3. A, B: not fitting\n4. C, D: partial, not full reason\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0125732421875,
+        "B": 0.0439453125,
+        "C": 0.470703125,
+        "D": 0.470703125,
+        "E": 0.00022983551025390625
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 122,
+      "generated_until_stop": "1. Read the passage and identify the flow of ideas.\n2. Determine where the given sentence fits logically.\n3. Compare the sentence with the options provided.\n\nThe given sentence: \"As long as you do not run out of copies before completing this process, you will know that you have a sufficient number to go around.\"\n\nLooking at the passage, the sentence fits best after discussing the process of ensuring everyone has a copy of the agenda, which is mentioned in part (②).\n\nTherefore, the answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00070953369140625,
+        "B": 0.99609375,
+        "C": 0.0002613067626953125,
+        "D": 0.00090789794921875,
+        "E": 0.0004291534423828125
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 123,
+      "generated_until_stop": "1. Read the passage and understand the main idea.\n2. Identify the logical flow of ideas in the passage.\n3. Match the passage with the most appropriate continuation.\n\nThe passage discusses the effects of being observed on performance, highlighting two distinct effects: performance can be decreased (stage fright) or enhanced (performance improvement with audience).\n\nThe most logical continuation is (C) because it summarizes the main idea of the passage, explaining the general rule about the effects of being observed on performance.\n\nAnswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.042236328125,
+        "B": 0.0155029296875,
+        "C": 0.84765625,
+        "D": 0.0693359375,
+        "E": 0.025634765625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    }
+  ]
+}

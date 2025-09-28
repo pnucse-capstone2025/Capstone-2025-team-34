@@ -1,0 +1,940 @@
+{
+  "model_id": "google/gemma-3-4b-it",
+  "num_items_total": 62,
+  "num_evaluated": 62,
+  "num_stopped": 62,
+  "num_skipped": 0,
+  "accuracy_no_skipped": "67.74%",
+  "results": [
+    {
+      "index": 0,
+      "generated_until_stop": "1.  Underlined: “at last” – indicates the end of a journey.\n2.  Options: A, C, D – don’t fit the context of a long drive.\n3.  Option B: “finally” – means the completion of something, aligning with the arrival home.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00970458984375,
+        "B": 0.9609375,
+        "C": 0.01104736328125,
+        "D": 0.01287841796875,
+        "E": 0.00445556640625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 1,
+      "generated_until_stop": "1. Question: fill in the blank\n2. Context: asking about singing ability\n3. A, B, D: don’t fit the question\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0177001953125,
+        "B": 0.01007080078125,
+        "C": 0.96875,
+        "D": 0.0032806396484375,
+        "E": 0.00136566162109375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 2,
+      "generated_until_stop": "1.  It refers to a donation.\n2.  “It” is used to describe what a donation *can* be.\n3.  B, C, D don’t fit the context.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00080108642578125,
+        "C": 0.0003337860107421875,
+        "D": 0.0010986328125,
+        "E": 0.000606536865234375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 3,
+      "generated_until_stop": "1. Question: summary of the passage\n2. Main idea: self-evaluation maintenance model\n3. A, B, C, D, E: all relate to the passage\n4. E: best fits the overall theme\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.00848388671875,
+        "B": 0.0027618408203125,
+        "C": 0.0026702880859375,
+        "D": 0.005462646484375,
+        "E": 0.98046875
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 4,
+      "generated_until_stop": "1. Context: A suggests a movie, B declines due to a cold.\n2. B’s reason: “Sorry, I can’t. I have a cold.”\n3. A, B, C, D: don’t fit the context.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.006256103515625,
+        "C": 0.002685546875,
+        "D": 0.003143310546875,
+        "E": 0.00157928466796875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 5,
+      "generated_until_stop": "1. Sentence: “These shoes _ really expensive.”\n2. Subject: “shoes” (plural)\n3. Verb: needs to agree with the plural subject.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0191650390625,
+        "B": 0.014404296875,
+        "C": 0.94921875,
+        "D": 0.01275634765625,
+        "E": 0.0036468505859375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 6,
+      "generated_until_stop": "1.  The passage describes a study comparing fake and real extroverts.\n2.  The sentence describes how the researchers measured the fake extroverts.\n3.  The paragraph before the sentence is about the initial setup of the study.\n4.  The sentence is a direct description of the measurement process.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.042724609375,
+        "B": 0.1162109375,
+        "C": 0.431640625,
+        "D": 0.1318359375,
+        "E": 0.279296875
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 7,
+      "generated_until_stop": "1.  Context: strategic self- ignorance – avoiding info\n2.  Text: “use of ignorance as an excuse”\n3.  A, D, E: don’t fit the context\n4.  B, C: are about activities, not information\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.07861328125,
+        "B": 0.482421875,
+        "C": 0.33203125,
+        "D": 0.07177734375,
+        "E": 0.034912109375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 8,
+      "generated_until_stop": "1. Context: asking about exercise preference.\n2. A, B, C: irrelevant to the question.\n3. D: directly addresses the question.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00567626953125,
+        "B": 0.001312255859375,
+        "C": 0.005523681640625,
+        "D": 0.98828125,
+        "E": 0.00084686279296875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 9,
+      "generated_until_stop": "1. Main idea: don't plan, just react.\n2. Text: \"too easy to drift\" and \"any port in a storm\"\n3. A, B, C, E: don't fit the main idea.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00518798828125,
+        "B": 0.00144195556640625,
+        "C": 0.0007476806640625,
+        "D": 0.9921875,
+        "E": 0.0012359619140625
+      },
+      "gold": "E",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 10,
+      "generated_until_stop": "1. Passage: Songkran is a festival in Thailand.\n2. Passage: It's a New Year celebration.\n3. Passage: Enjoy water fights and food.\n4. Option A: matches all the details.\n5. Option B, C, D: all are correct.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0400390625,
+        "B": 0.03759765625,
+        "C": 0.0228271484375,
+        "D": 0.8828125,
+        "E": 0.0162353515625
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 11,
+      "generated_until_stop": "1. Passage: details about the museum's hours and prices.\n2. Option D: contradicts the passage.\n3. A, B, C: all align with the passage.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.022216796875,
+        "B": 0.00921630859375,
+        "C": 0.1796875,
+        "D": 0.78125,
+        "E": 0.007415771484375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 12,
+      "generated_until_stop": "1.  Sentence 1: A asks about making paper roses.\n2.  Sentence 2: B says he can only make paper birds.\n3.  B needs a negative response.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0123291015625,
+        "B": 0.76171875,
+        "C": 0.0908203125,
+        "D": 0.12451171875,
+        "E": 0.0108642578125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 13,
+      "generated_until_stop": "1. Underline: “deal with” – indicates a situation needing attention.\n2. Options: A, B, D are about production/delay/increase, not the core meaning.\n3. C: “process” means to handle or deal with something.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.004547119140625,
+        "B": 0.0025787353515625,
+        "C": 0.98046875,
+        "D": 0.0123291015625,
+        "E": 0.0012969970703125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 14,
+      "generated_until_stop": "1.  Context: cities as innovation/learning centers\n2.  Passage: “people have always wanted to be around other people”\n3.  A, C, E: don’t fit the context\n4.  B: “greatest exposure” – cities bring people together.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0093994140625,
+        "B": 0.93359375,
+        "C": 0.00555419921875,
+        "D": 0.04638671875,
+        "E": 0.00689697265625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 15,
+      "generated_until_stop": "1. Main idea: bicycle as delivery vehicle\n2. Text: “high-potential” and “cost-effective”\n3. A, C, D: all describe the bicycle’s potential\n4. B, E: not the main focus\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9140625,
+        "B": 0.00494384765625,
+        "C": 0.02685546875,
+        "D": 0.048583984375,
+        "E": 0.004119873046875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 16,
+      "generated_until_stop": "1.  Question: summary in one sentence\n2.  Passage: experiments lead to new knowledge\n3.  B: artistic work is unique\n4.  A, C, D, E: don’t fit the context\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.42578125,
+        "B": 0.482421875,
+        "C": 0.0225830078125,
+        "D": 0.03271484375,
+        "E": 0.037109375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 17,
+      "generated_until_stop": "1. Passage: describes seahorses' unique qualities.\n2. Option A: \" 말처럼 생겼다\" ( horse-like) - correct description.\n3. Option B: \" 서서 헤엄친다\" (standing and swimming) - correct description.\n4. Option C: \" 빠르게 이동한다\" (expands slowly) - incorrect, it moves slowly.\n5. Option D: \" 색을 바꿀 수 있다\" (change color) - correct description.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01904296875,
+        "B": 0.010498046875,
+        "C": 0.91796875,
+        "D": 0.04296875,
+        "E": 0.00958251953125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 18,
+      "generated_until_stop": "1.  Main idea: study of media effects on imagination.\n2.  ①, ②, ④, ⑤: all relate to the main idea.\n3.  ③: irrelevant to the study's focus.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00982666015625,
+        "B": 0.01080322265625,
+        "C": 0.9453125,
+        "D": 0.0184326171875,
+        "E": 0.0167236328125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 19,
+      "generated_until_stop": "1.  Main idea: stealing thunder – control the narrative.\n2.  Text: “stealing thunder” – break news, control framing.\n3.  A: contradicts the text.\n4.  C, D, E: irrelevant to the core idea.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0023040771484375,
+        "B": 0.9921875,
+        "C": 0.00148773193359375,
+        "D": 0.00191497802734375,
+        "E": 0.0031585693359375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 20,
+      "generated_until_stop": "1.  Task: fill in the blank\n2.  Text: review is opinion\n3.  A, C, D: don’t fit context\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00390625,
+        "B": 0.98828125,
+        "C": 0.0012664794921875,
+        "D": 0.00469970703125,
+        "E": 0.0036773681640625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 21,
+      "generated_until_stop": "1. Question: What is NOT mentioned about Andy Warhol?\n2. Text: mentions birth place, career, and influence.\n3. C: describes a method, not a fact.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.04052734375,
+        "B": 0.0380859375,
+        "C": 0.8125,
+        "D": 0.10009765625,
+        "E": 0.00848388671875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 22,
+      "generated_until_stop": "1.  Main idea: emotional matching & learning\n2.  Text: “animals – and people – who have been raised in extreme social isolation are poor at reading emotional cues”\n3.  A, D: focus on specific details, not overall idea.\n4.  B, E: too specific.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00823974609375,
+        "B": 0.0537109375,
+        "C": 0.921875,
+        "D": 0.0087890625,
+        "E": 0.00750732421875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 23,
+      "generated_until_stop": "1. Sent1: I go for a ___ → action\n2. Sent2: ___ a small coffee shop → verb\n3. A, C, D: don’t fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.006500244140625,
+        "B": 0.96484375,
+        "C": 0.001800537109375,
+        "D": 0.02490234375,
+        "E": 0.003936767578125
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 24,
+      "generated_until_stop": "1.  Problem: Mike couldn't borrow books.\n2.  Cause: lost library card.\n3.  A, B, D: irrelevant to the reason.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0081787109375,
+        "B": 0.00543212890625,
+        "C": 0.97265625,
+        "D": 0.0118408203125,
+        "E": 0.0021209716796875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 25,
+      "generated_until_stop": "1. Question: why elephants feet?\n2. Text: feet communicate\n3. A: not relevant\n4. B, C: not the main reason\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0030670166015625,
+        "B": 0.000682830810546875,
+        "C": 0.00058746337890625,
+        "D": 0.99609375,
+        "E": 0.000965118408203125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 26,
+      "generated_until_stop": "1.  The sentence discusses the *meaning* beyond money.\n2.  The passage starts by saying money is a *means* to an end.\n3.  Option E introduces the idea that money doesn't *directly* bring meaning.\n4.  Options A, B, C, D don’t fit the flow of the argument.\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.005126953125,
+        "B": 0.005126953125,
+        "C": 0.0196533203125,
+        "D": 0.02099609375,
+        "E": 0.94921875
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 27,
+      "generated_until_stop": "1.  The passage describes a journey.\n2.  (A) introduces the setting and background.\n3.  (B) describes the motivation for the journey.\n4.  (C) describes the process of the journey.\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.109375,
+        "B": 0.1494140625,
+        "C": 0.109375,
+        "D": 0.109375,
+        "E": 0.5234375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 28,
+      "generated_until_stop": "1.  The question asks for a pair with a different meaning relationship.\n2.  A, B, D: synonyms (to win/lose, to pull/push, to arrive/leave).\n3.  C: antonyms (answer/response).\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01251220703125,
+        "B": 0.007598876953125,
+        "C": 0.96484375,
+        "D": 0.01177978515625,
+        "E": 0.004058837890625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 29,
+      "generated_until_stop": "1.  The passage discusses the benefits of science.\n2.  The sentence is a contrasting idea.\n3.  ①, ③, ④ all support the idea of science's benefits.\n4.  ② introduces the danger, which the sentence contradicts.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.1376953125,
+        "B": 0.17578125,
+        "C": 0.212890625,
+        "D": 0.44921875,
+        "E": 0.0238037109375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 30,
+      "generated_until_stop": "1.  Underlined section: “② as Steven Mithen emphasizes in The Prehistory of the Modern Mind, tend to view man and Beast, animal and plant, organic and inorganic spheres, as participants in an integrated, animated totality.”\n2.  Grammar: “viewed” needs a singular form.\n3.  Options: A, C, D, E are singular.\n4.  Option B: “as” needs a plural form.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0205078125,
+        "B": 0.69921875,
+        "C": 0.15625,
+        "D": 0.047607421875,
+        "E": 0.076171875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 31,
+      "generated_until_stop": "1. Question: fill in the blank\n2. Context: asking about Alice's skills\n3. A, D: irrelevant\n4. B: fits the question\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0048828125,
+        "B": 0.93359375,
+        "C": 0.055908203125,
+        "D": 0.003936767578125,
+        "E": 0.00286865234375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 32,
+      "generated_until_stop": "1. Question: find the pair with different meaning relationship.\n2. A, C, D: synonyms (similar meaning).\n3. B: antonyms (opposites).\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.009033203125,
+        "B": 0.921875,
+        "C": 0.014892578125,
+        "D": 0.03466796875,
+        "E": 0.02099609375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 33,
+      "generated_until_stop": "1. Main idea: unsustainable efforts\n2. Text: \"we borrow environmental capital\"\n3. A: implies collaboration, not the main point\n4. B, C, D, E: focus on specific aspects, not overall.\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.27734375,
+        "B": 0.0291748046875,
+        "C": 0.08740234375,
+        "D": 0.0546875,
+        "E": 0.55078125
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 34,
+      "generated_until_stop": "1. Context: Whitman's fame beyond writing.\n2. Text: “political celebrities” – relevant to the context.\n3. A, B, C, D: don’t fit the context.\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.01239013671875,
+        "B": 0.0169677734375,
+        "C": 0.0096435546875,
+        "D": 0.034912109375,
+        "E": 0.92578125
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 35,
+      "generated_until_stop": "1.  Context: describes a price-setting mechanism in bazaars.\n2.  \"Assess\" implies evaluating something, fitting the context.\n3.  \"Restrictions\" and \"cultural/economic universe\" are suitable.\n4.  \"D\" - \"low\" prices are not the focus, and the context is about establishing a price *before* a low price is asked.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.212890625,
+        "B": 0.06103515625,
+        "C": 0.51171875,
+        "D": 0.1376953125,
+        "E": 0.078125
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 36,
+      "generated_until_stop": "1.  Sentence: “I called him yesterday, _ he didn’t answer.”\n2.  Grammar: needs a cause-and-effect relationship.\n3.  A, B, D: don’t fit the cause-effect relationship.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01116943359375,
+        "B": 0.010498046875,
+        "C": 0.97265625,
+        "D": 0.0036163330078125,
+        "E": 0.0015106201171875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 37,
+      "generated_until_stop": "1.  Underlined \"It\" refers to something valuable.\n2.  Text mentions \" honey\" and \" apples/peach\"\n3.  A, C, D: are specific items, not the general answer.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00390625,
+        "B": 0.98828125,
+        "C": 0.00323486328125,
+        "D": 0.0036773681640625,
+        "E": 0.0020904541015625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 38,
+      "generated_until_stop": "1. Passage states: “Adults - $5 / Students and Children - $2”\n2. Option C states: “Adults and Students are the same price.”\n3. This is incorrect.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01324462890625,
+        "B": 0.01806640625,
+        "C": 0.87109375,
+        "D": 0.091796875,
+        "E": 0.005523681640625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 39,
+      "generated_until_stop": "1. Context: discussing school uniforms.\n2. A's response: expresses agreement.\n3. B, C, D: don't fit the context.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.0028533935546875,
+        "C": 0.00115966796875,
+        "D": 0.0040283203125,
+        "E": 0.004730224609375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 40,
+      "generated_until_stop": "1. Question: mismatch statement\n2. Text: all statements are correct\n3. A, B, C, D: all fit the description\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.12353515625,
+        "B": 0.216796875,
+        "C": 0.08203125,
+        "D": 0.5546875,
+        "E": 0.0250244140625
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 41,
+      "generated_until_stop": "1.  Context: cars designed toabsorb shock\n2.  Goal: protect drivers/passengers\n3.  A, B, C: don't fit the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.000469207763671875,
+        "C": 0.00087738037109375,
+        "D": 0.9921875,
+        "E": 0.00106048583984375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 42,
+      "generated_until_stop": "1.  The passage discusses the concept of “carrying capacity” and the potential for conflict over resources.\n2.  The sentence talks about “exhausting the Earth’s finite carrying capacity,” which directly relates to the concept of carrying capacity.\n3.  Options B, C, D, E are about discussing the possibility of innovation or population control, not the core concept of carrying capacity.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98046875,
+        "B": 0.0018310546875,
+        "C": 0.002838134765625,
+        "D": 0.00201416015625,
+        "E": 0.01275634765625
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 43,
+      "generated_until_stop": "1. Topic: meeting time discussion\n2. A: talks about changing time\n3. B, C, D: irrelevant\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000667572021484375,
+        "C": 0.000278472900390625,
+        "D": 0.000278472900390625,
+        "E": 0.000286102294921875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 44,
+      "generated_until_stop": "1.  Question: find the best fit for the third sentence.\n2.  Context: locusts gather together due to increased food.\n3.  A, B, C, D, E: don’t fit the context.\n4.  “overwhelms” implies a large number, which is the core of the sentence.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.158203125,
+        "B": 0.095703125,
+        "C": 0.333984375,
+        "D": 0.11572265625,
+        "E": 0.294921875
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 45,
+      "generated_until_stop": "1. Main idea: goals need to be adjusted\n2. Text: “what needs to be done”\n3. A: focuses on analysis, not action\n4. B: describes a situation, not a solution\n5. D: describes an outcome, not a process\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.057861328125,
+        "B": 0.27734375,
+        "C": 0.1572265625,
+        "D": 0.022705078125,
+        "E": 0.484375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 46,
+      "generated_until_stop": "1.  Context: discussing smartphone problems.\n2.  Sentence 1 & 2: introduce the topic.\n3.  A, B, D: don't fit the flow.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.006011962890625,
+        "B": 0.005645751953125,
+        "C": 0.98046875,
+        "D": 0.007476806640625,
+        "E": 0.001617431640625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 47,
+      "generated_until_stop": "1. Question: what is NOT mentioned?\n2. Text: describes the event\n3. A: not mentioned\n4. B, C, D: all are mentioned\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9453125,
+        "B": 0.0184326171875,
+        "C": 0.0147705078125,
+        "D": 0.017822265625,
+        "E": 0.005615234375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 48,
+      "generated_until_stop": "1. Context: discussing the origins of writing and the temple's role.\n2. Text: “not clear how widespread literacy was at its origins.”\n3. A, C, D, E: don’t fit the context.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.003021240234375,
+        "B": 0.9765625,
+        "C": 0.007232666015625,
+        "D": 0.005828857421875,
+        "E": 0.006195068359375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 49,
+      "generated_until_stop": "1. Topic: tips for looking taller\n2. Text: avoid loose clothes, similar colors\n3. A: irrelevant\n4. B, C, D: not the main focus\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.011474609375,
+        "B": 0.97265625,
+        "C": 0.005615234375,
+        "D": 0.00616455078125,
+        "E": 0.0038604736328125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 50,
+      "generated_until_stop": "1. Passage: discusses online suspicion & validation.\n2. Main idea: natural instinct to protect ourselves.\n3. A: focuses on freedom, not suspicion.\n4. B, C, D: irrelevant to the core idea.\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.01422119140625,
+        "B": 0.00836181640625,
+        "C": 0.004608154296875,
+        "D": 0.00811767578125,
+        "E": 0.96484375
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 51,
+      "generated_until_stop": "1. Passage focuses on elephant greetings.\n2. (A) & (B) describe the strength of social bonds.\n3. “tie” and “parted” suggest a strong connection.\n4. “ competitive” and “ isolated” don’t fit the context.\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.0274658203125,
+        "B": 0.03759765625,
+        "C": 0.0311279296875,
+        "D": 0.1484375,
+        "E": 0.75390625
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 52,
+      "generated_until_stop": "1.  The question asks for a pair with a different meaning relationship.\n2.  A, B, C are synonyms (joy/sadness, furniture/sofa, subject/science).\n3.  D is a type-example relationship (animal/ chimpanzee).\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.036376953125,
+        "B": 0.00738525390625,
+        "C": 0.041015625,
+        "D": 0.90625,
+        "E": 0.00811767578125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 53,
+      "generated_until_stop": "1. Question: topic of the passage\n2. Text: “not random” – suggests a deliberate plan\n3. A, B, D: irrelevant\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.006988525390625,
+        "B": 0.00982666015625,
+        "C": 0.97265625,
+        "D": 0.006561279296875,
+        "E": 0.0020599365234375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 54,
+      "generated_until_stop": "1.  Main idea: uncertainty about knowledge\n2.  Text: \"we may never know precise...\"\n3.  A, B, C, D, E: don't capture the core\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.953125,
+        "B": 0.01361083984375,
+        "C": 0.0096435546875,
+        "D": 0.00994873046875,
+        "E": 0.01446533203125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 55,
+      "generated_until_stop": "1. Main idea: step out of comfort zone\n2. Text: “What experience? I guarantee you’ll tell me it was a time you felt at risk.”\n3. A, B, C, E: don’t fit the main idea\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004730224609375,
+        "B": 0.0015869140625,
+        "C": 0.000499725341796875,
+        "D": 0.9921875,
+        "E": 0.00109100341796875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 56,
+      "generated_until_stop": "1. Sentence: I _ like tomatoes.\n2. Subject: I (singular)\n3. Verb: needs to agree with the subject.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01202392578125,
+        "B": 0.01275634765625,
+        "C": 0.69921875,
+        "D": 0.2734375,
+        "E": 0.00469970703125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 57,
+      "generated_until_stop": "1.  The passage discusses the limitations of common sense and aphorism.\n2.  The question asks for the sentence that doesn't fit the flow.\n3.  ①, ③, ④, ⑤ all relate to the idea of using aphorism to guide decision-making.\n4.  ② introduces the problem of contradictory statements needing context.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.042724609375,
+        "B": 0.51953125,
+        "C": 0.130859375,
+        "D": 0.09033203125,
+        "E": 0.216796875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 58,
+      "generated_until_stop": "1. Context: museum built from power station\n2. Text: British government decided to *transform* it\n3. A, B, C: don’t fit the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0048828125,
+        "B": 0.000728607177734375,
+        "C": 0.0015869140625,
+        "D": 0.9921875,
+        "E": 0.000850677490234375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 59,
+      "generated_until_stop": "1.  The passage describes a process: cicadas counting.\n2.  The experiment details are about the *nurses* (the young form) and their growth.\n3.  The explanation of the process is about the *insects* using an external cues.\n4.  The passage describes the experiment setup.\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.0908203125,
+        "B": 0.1923828125,
+        "C": 0.1328125,
+        "D": 0.150390625,
+        "E": 0.43359375
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 60,
+      "generated_until_stop": "1. Context: A explains a strong rain.\n2. B asks about the origin of the phrase.\n3. A, B, D: don’t fit the context.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.005859375,
+        "B": 0.005157470703125,
+        "C": 0.984375,
+        "D": 0.00244140625,
+        "E": 0.00122833251953125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 61,
+      "generated_until_stop": "1.  The passage discusses the scientific method in psychology.\n2.  (A) introduces the concept of replicable findings.\n3.  (B) discusses the difficulties in performing studies.\n4.  (C) explains the problem of reaction to observation.\n5.  Logical flow: The passage starts with the method, then discusses challenges, then explains a key issue (reaction).\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.052001953125,
+        "B": 0.462890625,
+        "C": 0.1708984375,
+        "D": 0.08056640625,
+        "E": 0.2333984375
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    }
+  ]
+}

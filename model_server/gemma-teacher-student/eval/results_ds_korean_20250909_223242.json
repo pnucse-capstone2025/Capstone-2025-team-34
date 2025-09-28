@@ -1,0 +1,1870 @@
+{
+  "model_id": "google/gemma-3-4b-it",
+  "num_items_total": 124,
+  "num_evaluated": 121,
+  "num_stopped": 121,
+  "num_skipped": 3,
+  "accuracy_no_skipped": "74.38%",
+  "results": [
+    {
+      "index": 0,
+      "generated_until_stop": "The sentence describes the completion of a journey after a significant duration. The phrase \"at last\" indicates the arrival of a destination after a period of waiting or travel. Among the given options, \"마침내\" best conveys the sense of arrival after a long time or delay, fitting the context of reaching home after a two-hour drive. \"우선\" means \"firstly,\" \"요약하면\" means \"in summary,\" and \"예를 들면\" means \"for example,\" none of which fit the context of reaching a destination after a journey.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 1.2993812561035156e-05,
+        "B": 1.0,
+        "C": 5.817413330078125e-05,
+        "D": 7.420778274536133e-06,
+        "E": 3.329478204250336e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 1,
+      "generated_until_stop": "The question asks for the most appropriate response to \"Can you sing well?\" The subsequent statement, \"but I can dance well,\" implies a contrast or a qualification to the first question. The phrase \"Can you dance well\" suggests a skill that is being presented as an alternative or a counterpoint to singing. Among the given options, \"No, I can't\" directly addresses the first part of the question (\"Can you sing well\") and sets up the contrasting skill. The other options do not fit the context of responding to a question about singing.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00020313262939453125,
+        "B": 3.528594970703125e-05,
+        "C": 1.0,
+        "D": 0.0003147125244140625,
+        "E": 7.62520357966423e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 2,
+      "generated_until_stop": "The sentence structure and the context of the passage point to a noun that is being exemplified. The phrase \"For example, it may be money, food or medical care given to people suffering from natural disasters\" provides examples of what a donation can be. The pronoun \"it\" refers back to the noun \"donations\" mentioned earlier in the passage. Therefore, \"donations\" is the most logical antecedent for \"it\" in this context.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 8.487701416015625e-05,
+        "C": 2.586841583251953e-05,
+        "D": 0.00011587142944335938,
+        "E": 6.548361852765083e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 3,
+      "generated_until_stop": "The passage discusses self-evaluation maintenance, focusing on how people shift between reflection and comparison to maintain positive self-views. The examples provided, like the friend's winning goal, illustrate a situation where one person's success is perceived as a positive association for themselves, even if not directly related to their own skill. The core idea is that by linking our own self-worth to others' achievements in non-essential ways, we can still experience self- enhancement. Therefore, the most fitting summary of this process is that people can maintain positive self-views by connecting their own achievements to others' success.\n\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.01336669921875,
+        "B": 0.0283203125,
+        "C": 0.0250244140625,
+        "D": 0.10546875,
+        "E": 0.828125
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 4,
+      "generated_until_stop": "The context of the dialogue is a simple suggestion for an activity, followed by a refusal. The reason given, \"I have a cold,\" directly explains why the speaker cannot participate in the proposed activity. The other options, \"day is too hot,\" \"have many homeworks,\" and \"must take care of a younger sibling,\" are unrelated to the inability to go to the movies and are not implied by the simple statement of having a cold.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00021648406982421875,
+        "C": 9.012222290039062e-05,
+        "D": 0.000148773193359375,
+        "E": 2.0838342607021332e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 5,
+      "generated_until_stop": "The sentence describes the shoes as being \"really expensive.\" The subject \"shoes\" is plural. Therefore, the verb must also be plural to agree with the subject. The adverb \"really\" modifies the adjective \"expensive,\" indicating a high degree of it. The sentence structure requires a plural verb to agree with the plural subject \"shoes.\"\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0001316070556640625,
+        "B": 0.0006256103515625,
+        "C": 1.0,
+        "D": 0.000911712646484375,
+        "E": 2.1420419216156006e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 6,
+      "generated_until_stop": "The passage describes a series of experiments conducted by Richard Lippa to study how people perceive and behave. The first part of the passage introduces the idea of asking introverts to act like extroverts. The subsequent sentences detail the specific metrics Lippa and his team used to measure this behavior. The final sentence summarizes the overall findings. The sentence in question, \"Then he and his team, with video cameras in hand, measured the length of their strides, the amount of eye contact they made with their “students,” the percentage of time they spent talking, and the volume of their speech,\" directly follows the initial setup for the experiment and precedes the comparison of results. Therefore, this sentence is the most logical next step in the narrative of the experiment.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000545501708984375,
+        "B": 0.98828125,
+        "C": 0.00970458984375,
+        "D": 0.000514984130859375,
+        "E": 1.7434358596801758e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 7,
+      "generated_until_stop": "The passage discusses \"strategic self-ignorance\" and how present-biased agents tend to delay receiving information that might be detrimental to their immediate, albeit potentially harmful, actions. The phrase \"perhaps because it would produce guilt or shame, perhaps because it would suggest an aggregate trade-off that would counsel against engaging in such activities\" reinforces this idea. Therefore, the missing word should describe the effect of such information on the agent's current engagement with activities. The information being delayed is expected to reveal the negative consequences of the current behavior.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.001678466796875,
+        "B": 0.984375,
+        "C": 0.0096435546875,
+        "D": 0.0029449462890625,
+        "E": 7.450580596923828e-07
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 8,
+      "generated_until_stop": "The question asks for the most appropriate word to fill the blank in the given dialogue. The dialogue is a conversation about modes of transportation or activity. The question \"A: \\_\\_\\_, cycling or walking?\" presents a choice between two activities. The subsequent question \"B: I like cycling rather than walking\" provides a preference. The question \"A: Why do you like it?\" seeks a reason for this preference. The answer \"Because I think cycling burns more calories\" offers a justification. Therefore, the blank should be a question about the *type* of exercise or activity being considered. \"Which type of exercise do you prefer\" directly addresses this topic and fits the context of the conversation about cycling versus walking.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0001087188720703125,
+        "B": 0.00019073486328125,
+        "C": 0.00014019012451171875,
+        "D": 1.0,
+        "E": 1.5832483768463135e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 9,
+      "generated_until_stop": "The passage discusses the tendency of individuals to postpone decisive action until an emergency arises, leading to a life of \"drift\" and uncertainty about future life work. The examples provided—taking the \"lines of least resistance,\" \"snap courses,\" and waiting to \"know better what I am fitted to do\"—all point to a lack of proactive planning and preparation for the future. The final sentence, \"eventually, most men find they must be satisfied with 'any port in a storm,'\" reinforces the idea of being caught unprepared and uncertain. Therefore, the most fitting statement to address this behavior and its negative consequences is a call to abandon passivity and embrace future preparation.\n\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.006500244140625,
+        "B": 0.015625,
+        "C": 0.022705078125,
+        "D": 0.048095703125,
+        "E": 0.90625
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 10,
+      "generated_until_stop": "The passage describes the festival of Songkran, a significant event in Thailand. It states that the festival is held in April and celebrates the Thai New Year. It then lists activities one can engage in during the festival, such as a \"big water fight\" and trying traditional food. The question asks for the statement that is *not* consistent with the provided text.\n\nLet's analyze each option:\nA. \"태국에서 4월에 열리는 큰 축제이다.\" (Songkran is a large festival held in April in Thailand.) This is consistent with the first sentence of the passage.\nB. \"태국의 전통적인 새해맞이 행사이다.\" (This festival celebrates the traditional Thai New Year.) This is consistent with the second sentence of the passage.\nC. \"축제 기간 동안 소싸움을 즐길 수 있다.\" (You can enjoy a big water fight at the festival.) The passage states \"You can enjoy a big water fight at the festival.\" This is consistent. However, the options provided are not directly related to the provided text. The question asks what is *not* consistent. Let's re-examine the provided text. The activities mentioned are \"a big water fight\" and \"traditional Thai food.\"",
+      "pred": "A",
+      "probs": {
+        "A": 0.82421875,
+        "B": 0.030029296875,
+        "C": 0.10498046875,
+        "D": 0.041015625,
+        "E": 0.0003490447998046875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 11,
+      "generated_until_stop": "The passage lists opening hours, admission prices, and a group discount. The sentence \"All photography is forbidden\" directly contradicts the information about visitors being allowed to take photographs. Therefore, this statement does not align with the other provided details.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 6.198883056640625e-05,
+        "B": 0.0003147125244140625,
+        "C": 0.00012302398681640625,
+        "D": 1.0,
+        "E": 1.7974525690078735e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 12,
+      "generated_until_stop": "The question asks for the most appropriate word to fill the blank in the dialogue. The first part of the dialogue, \"Can you make a paper rose?\", is a question about ability. The second part, \"No, _ . I can only make a paper bird,\" is an answer to that question, stating a negative capability. The structure \"No, \\_\\_\\_. I can only...\" requires a negative statement of ability. \"I can't\" directly conveys this negative ability. The other options do not fit the grammatical structure or the intended meaning of the dialogue.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0001316070556640625,
+        "B": 1.0,
+        "C": 0.000278472900390625,
+        "D": 7.009506225585938e-05,
+        "E": 2.3632310330867767e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 13,
+      "generated_until_stop": "The sentence describes a country's response to a food shortage. The phrase \"deal with\" implies managing or handling a difficult situation. Among the options, \"deal with\" is an idiom that means to cope with or to manage a problem. The other options do not fit the context of managing a crisis. \"생산하다\" means to produce, \"연기하다\" means to smoke or to perform, and \" 확대하다\" means to increase or to extend. Therefore, \"처리하다\" is the most appropriate word to complete the idiom and convey the meaning of addressing the food shortage problem.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.7762184143066406e-05,
+        "B": 9.584426879882812e-05,
+        "C": 1.0,
+        "D": 0.0002613067626953125,
+        "E": 7.916241884231567e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 14,
+      "generated_until_stop": "The passage discusses how cities foster social interaction and innovation. The sentence in question follows the idea that language innovation happens where many people talk to each other. The phrase \"who not unsurprisingly are often the creative people cities seem to attract\" suggests that cities are places where creative individuals are exposed to and interact with a wide range of people. Therefore, the most fitting verb to describe this interaction, leading to innovation and creativity, is one that implies widespread exposure and communication.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0002307891845703125,
+        "B": 1.0,
+        "C": 0.00019073486328125,
+        "D": 2.753734588623047e-05,
+        "E": 9.033828973770142e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 15,
+      "generated_until_stop": "The passage discusses the potential of bicycle-based delivery systems in urban environments. It mentions the advantages of smaller vehicles like bikes for distribution, their use in \"last-mile\" delivery, and the economic benefits in developing countries. The examples of the Netherlands and France, where bicycle use is encouraged or supported by policy, further illustrate this trend. The overall theme is the adaptation of urban delivery vehicles to suit the needs of cities, with a specific focus on the role of bicycles. Therefore, the most fitting topic sentence encapsulates this broader idea of bicycle-based delivery as a solution for urban distribution.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.00168609619140625,
+        "C": 0.000701904296875,
+        "D": 0.008544921875,
+        "E": 3.129243850708008e-07
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 16,
+      "generated_until_stop": "The passage contrasts scientific progress with artistic creation. Scientific knowledge is described as a progression of experiments, implying a process of discovery and revision. The phrase \"no limitlessness implied\" suggests that the artistic process is not necessarily a sequential or endless one. The sentence structure requires a word that describes the nature of scientific progress and is then contrasted with the artistic approach. \"Successive\" fits the context of scientific experimentation and discovery, whereas \"valuable,\" \"valuable,\" \"influential,\" and \"unique\" do not directly relate to the scientific process of progress.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.984375,
+        "B": 0.0140380859375,
+        "C": 0.0014801025390625,
+        "D": 0.00130462646484375,
+        "E": 2.2724270820617676e-07
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 17,
+      "generated_until_stop": "The passage describes several unique characteristics of a seahorse. The sentence \"It is a kind of fish, but it looks like a horse\" establishes a visual comparison. The subsequent sentences detail its mode of propulsion and a defensive mechanism. The question asks for the statement that *doesn't* align with the overall description. Considering the provided text, the most fitting answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.412109375,
+        "B": 0.1953125,
+        "C": 0.341796875,
+        "D": 0.04931640625,
+        "E": 1.4156103134155273e-06
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 18,
+      "generated_until_stop": "The passage describes a study on how different media affect children's imaginative responses. The core of the study is the comparison between radio and television presentation of a story. The subsequent sentences explain the process of asking children about the story and then assessing their imaginativeness. The final sentence introduces a hypothesis related to this study. The question asks for a sentence that is not directly related to the overall flow or the specific methods of the study.\n\nThe first sentence sets up the general research topic. The second sentence describes the initial setup of the study. The third and fourth sentences detail the specific actions taken with the radio and television groups, respectively, and their subsequent responses. The fifth sentence introduces a concluding thought or hypothesis that might not have been directly implied by the preceding sentences, but rather serves as a broader context or a different perspective.\n\nConsidering the structure, sentence ③ discusses a characteristic of novels that might not be directly relevant to the children's responses or the intended outcome of the study's comparison. While related to storytelling, it adds a separate point that could potentially distract from the primary focus of the media's effect on imagination.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.002777099609375,
+        "B": 0.0020294189453125,
+        "C": 0.9921875,
+        "D": 0.00457763671875,
+        "E": 1.0579824447631836e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 19,
+      "generated_until_stop": "The passage discusses a strategic approach to managing a crisis, specifically focusing on how an organization can gain an advantage by revealing its own news first. The examples provided, such as \"stealing thunder\" and the research on credibility ratings, suggest that the core idea is about taking the proactive step to control the narrative and perception of a crisis. Therefore, the most fitting topic is the importance of initiating action to manage a crisis effectively.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 3.7670135498046875e-05,
+        "B": 1.0,
+        "C": 9.632110595703125e-05,
+        "D": 1.3828277587890625e-05,
+        "E": 6.426125764846802e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 20,
+      "generated_until_stop": "The passage provides a structure for writing a book review. The phrase \"your _ of it\" follows \"a brief summary or description of the book\" and precedes the statement about liking or not liking the book. This sequence indicates that the blank should be filled with a word that represents the writer's overall judgment or feeling about the book. Among the options, \"opinion\" is the most fitting word to complete this thought, as it directly relates to the writer's personal view of the book.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 7.009506225585938e-05,
+        "B": 1.0,
+        "C": 5.14984130859375e-05,
+        "D": 1.7762184143066406e-05,
+        "E": 2.514570951461792e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 21,
+      "generated_until_stop": "The passage describes Andy Warhol's life and work. The sentence \"New York에서 태어났다\" is not mentioned, but the other options are all directly stated or implied by the text. The passage states he moved to New York, began his career as a commercial artist, used common things as painting subjects, and his works influenced other artists. Therefore, the missing information is his origin.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.0029754638671875,
+        "C": 0.00066375732421875,
+        "D": 0.001495361328125,
+        "E": 2.775341272354126e-07
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 22,
+      "generated_until_stop": "The passage discusses emotional empathy and its connection to mirroring, social isolation, and learning. The sentence \"Animals－and people－who have been raised in extreme social isolation are poor at reading emotional cues in those around them not because they lack the basic circuitry for empathy but because, lacking emotional tutors, they have never learned to pay attention to these messages and so haven't practiced this skill\" explains why some people struggle with emotional empathy. This passage implies that while the nervous system is set to engage in emotional empathy, the skill itself is learned. Therefore, the most fitting topic sentence would be about the necessity of learning for this ability.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 2.1457672119140625e-05,
+        "B": 0.00011587142944335938,
+        "C": 1.0,
+        "D": 0.00102996826171875,
+        "E": 1.4901161193847656e-07
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 23,
+      "generated_until_stop": "The sentence \"I go for a _ every morning\" suggests a habitual activity that is part of the speaker's routine. Among the options, \"run\" is the most common and fitting verb to describe a regular, often physical, activity that occurs in the morning and is a standard part of daily life. The other options do not fit the context of a personal habit in this manner.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0001392364501953125,
+        "B": 0.00070953369140625,
+        "C": 0.000553131103515625,
+        "D": 1.0,
+        "E": 7.729977369308472e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 24,
+      "generated_until_stop": "The passage describes Mike's attempt to borrowed books for a science project. The sentence \"He couldn't borrow them because he left his library card at home\" directly explains the reason for not being able to take the books. The other options, \"already too many books borrowed,\" \"necessary books not available,\" and \"temporary halt to lending due to construction,\" do not fit the context of why he cannot take the books *at that moment* given he has his card.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.5735626220703125e-05,
+        "B": 0.00010204315185546875,
+        "C": 1.0,
+        "D": 0.00048828125,
+        "E": 1.618172973394394e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 25,
+      "generated_until_stop": "The passage explains that elephants perform a specific action with their feet to communicate. The sentence \"It does this to communicate with other elephants\" directly states the purpose of this action. The subsequent sentences detail how elephants perceive this action as a form of communication over distance. Therefore, the most fitting reason for the elephant's action is communication.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.4722347259521484e-05,
+        "B": 8.487701416015625e-05,
+        "C": 2.276897430419922e-05,
+        "D": 1.0,
+        "E": 4.0046870708465576e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 26,
+      "generated_until_stop": "The passage discusses the value of money and its relationship to happiness and meaning. The sentence in question, \"This is not to say that the accumulation and production of material wealth is in itself wrong,\" serves as a concluding thought or a counterpoint to a preceding idea about the pursuit of material wealth. Considering the context of the passage, which argues against the elevation of material wealth as an ultimate end, this statement functions to reframe the initial premise and suggest that while material wealth might not be inherently wrong, it's still not the ultimate goal. Therefore, the most logical placement for this sentence is at the end of the passage, as a concluding or qualifying remark.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98046875,
+        "B": 0.0024261474609375,
+        "C": 0.0021514892578125,
+        "D": 0.01397705078125,
+        "E": 0.00011396408081054688
+      },
+      "gold": "E",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 27,
+      "generated_until_stop": "The passage describes the migration of hunters to Canada. The first part of the passage explains the difficulty of hunting mammoths. The second part, (A), describes the geographical context of the migration, specifically the low sea level during the ice age and the formation of a land bridge. The third part, (B), explains the reward for successfully hunting a mammoth, and the fourth part, (C), describes the ultimate goal of the migration and its potential consequences if it had not happened. The sequence that best fits the narrative is: the challenge of hunting (A), the geographical context (A), the reward (B), and the outcome of the migration (C).\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.80859375,
+        "B": 0.045654296875,
+        "C": 0.03564453125,
+        "D": 0.109375,
+        "E": 0.00012063980102539062
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 28,
+      "generated_until_stop": "The question asks to identify a pair of words whose semantic relationship is distinct from the others provided. The phrase \"meaning relationship\" implies a connection that is not a direct antonym or a simple parallel. Considering common English idioms and semantic pairs, \"answer\" and \"reply\" are direct synonyms, indicating the same concept. The other options, \"win-lose,\" \"pull-push,\" and \"arrive-leave,\" represent contrasting or closely related actions that, while distinct, are not as universally or directly synonymous as \"answer\" and \"reply.\" The structure of the question suggests a need to differentiate between a strong, direct semantic link and others that are more nuanced or less definitive in their relationship.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0001583099365234375,
+        "B": 0.00021648406982421875,
+        "C": 1.0,
+        "D": 0.00048828125,
+        "E": 7.031485438346863e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 29,
+      "generated_until_stop": "The passage presents a counterpoint to the idea that science is dangerous. The first sentence, \"However, I think science does us more good than harm,\" establishes a positive view of science. The following sentences then provide examples of science's benefits. The sentence that best introduces this counterpoint is the one that states \"Some people argue that science can be dangerous.\" This sets up the subsequent positive assertion about science's value.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.000911712646484375,
+        "C": 0.0002956390380859375,
+        "D": 0.000804901123046875,
+        "E": 1.5832483768463135e-07
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 30,
+      "generated_until_stop": "The sentence structure and the context of the passage suggest that the first sentence is the introductory statement, and the following sentences elaborate on the basis for this statement. The phrase \"as Steven Mithem emphasizes\" introduces a specific source of information or a counterpoint that supports the initial claim. Therefore, the first sentence, which is about the meaning and purpose of prehistoric art, is the most fitting to be introduced in this manner.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00016880035400390625,
+        "C": 7.963180541992188e-05,
+        "D": 0.0002460479736328125,
+        "E": 2.039596438407898e-07
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 31,
+      "generated_until_stop": "The question asks for the most appropriate response to \"What is Alice good at?\". The preceding question about Alice's abilities implies a need for a positive or neutral statement about her skills. Options B and D are plausible, but option B directly addresses a skill or talent, which is the most common and fitting context for this type of inquiry.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 2.1457672119140625e-05,
+        "B": 1.0,
+        "C": 7.009506225585938e-05,
+        "D": 8.404254913330078e-06,
+        "E": 3.771856427192688e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 32,
+      "generated_until_stop": "The question asks to identify a word that has a meaning relationship with the other three that is distinct and significant. The provided passage is a setup for a wordplay or a question about semantic connections. The options are all pairs of antonyms or words with closely related meanings. However, the structure \"Two words of meaning relationship... and the other three...\" implies a specific pattern or a word that fits into a set of contrasting or closely related ideas. Without further context or a clearer question, it's difficult to definitively determine the intended answer. However, if we assume this is a common linguistic exercise, the most likely scenario involves a word that creates a common or idiomatic phrase with the others, or a word that represents a significant contrast. Given the options, \"tall\" and \"high\" are common antonyms, and \"large\" and \"small\" are also common antonyms. \"Old\" and \"young\" are antonyms. The question asks for a word that is *different* in meaning from the others *while* still being a word of meaning. This suggests a word that, when paired with the others, creates a common or representative collocation or contrast. Let's re-examine the prompt and the options. The prompt is \"",
+      "pred": "A",
+      "probs": {
+        "A": 0.96875,
+        "B": 0.00201416015625,
+        "C": 0.0042724609375,
+        "D": 0.01275634765625,
+        "E": 0.01055908203125
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": true
+    },
+    {
+      "index": 33,
+      "generated_until_stop": "The passage discusses the current approach to human progress, needs, and ambitions, highlighting their potential unsustainability due to the overreliance on environmental resources. The phrase \"we borrow environmental capital from future generations with no intention or prospect of repaying\" directly addresses the issue of future consequences for the environment. The options provided are: A. The importance of inter-generational collaboration to resolve environmental issues. B. The relationship of human development to the development of various environmental resources. C. The necessity of a global society's joint effort to address environmental problems. D. The role of advanced countries in securing environmental resources. E. The current generation's use of environmental resources without considering future consequences. The passage implies that the current approach is not ideal, as it involves borrowing from future generations without a plan to repay. Therefore, the most fitting option is one that suggests a need for action to prevent this situation.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.13671875,
+        "B": 0.06884765625,
+        "C": 0.57421875,
+        "D": 0.19921875,
+        "E": 0.02099609375
+      },
+      "gold": "E",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 34,
+      "generated_until_stop": "The passage discusses the pursuit of fame and its historical context, contrasting it with Whitman's belief in the value of personality and cultural performance. The final sentence, \"Whom’s poet sought \\_\\_\\_,\" needs to connect to the preceding discourse about fame and its reception. The phrase \"in the instability of American democracy, fame would be dependent on celebrity, on the degree to which the people rejoiced in the poet and his work\" suggests that the poem's success is contingent on public approval and the \"rejoycing\" of the people. Therefore, the missing word should represent this desired state of recognition and approval from the audience.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00058746337890625,
+        "B": 0.0033721923828125,
+        "C": 0.000965118408203125,
+        "D": 0.99609375,
+        "E": 1.4081597328186035e-06
+      },
+      "gold": "E",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 35,
+      "generated_until_stop": "The sentence discusses the awareness of buyers and sellers in a bazaar economy. The phrase \"are aware of each other's ① \\_\\_\\_\" suggests a limitation or condition that influences their actions. Considering the context of price-setting and cultural understanding, \"restrictions\" fits as a term that could refer to limitations on what buyers or sellers can do or offer. The other options, \"assess,\" \"necessity,\" and \"low,\" do not fit the grammatical structure or the intended meaning of shared limitations or constraints.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 5.14984130859375e-05,
+        "C": 3.528594970703125e-05,
+        "D": 6.198883056640625e-05,
+        "E": 1.0896474123001099e-07
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 36,
+      "generated_until_stop": "The sentence describes a situation where an action (calling him) was followed by an outcome that contradicted the action's likely result (him not answering). The conjunction that best introduces a contrasting or unexpected outcome in this context is \"but.\" The other options do not create the necessary logical connection or contrast.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0010986328125,
+        "C": 3.528594970703125e-05,
+        "D": 3.528594970703125e-05,
+        "E": 5.2677933126688e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 37,
+      "generated_until_stop": "The sentence structure and the preceding context of \"bees give us honey\" strongly suggest that the pronoun \"It\" refers to the substance that is both good for health and tastes good. Among the options provided, only \"honey\" fits this description and is directly associated with the activity of bees. The other options, \"bird,\" \"apple,\" and \"peach,\" are not typically described as being good for health in this manner, nor are they the primary products of bees that would be highlighted in this text.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 7.009506225585938e-05,
+        "B": 1.0,
+        "C": 6.628036499023438e-05,
+        "D": 1.0788440704345703e-05,
+        "E": 3.4226104617118835e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 38,
+      "generated_until_stop": "The passage lists specific details about the Science Museum's operations. The first two points, \"Opening Hours\" and \"Closed on Monday,\" are straightforward. The third point, \"Entrance fee,\" indicates a difference between adult and student/child prices. The final point, \"Note: Pets cannot be brought into the museum,\" is a common restriction for public facilities. The question asks what *doesn't* align with the provided information. Considering the options, \"C. 성인 입장료와 학생 입장료는 동일하다\" directly contradicts the \"Entrance fee\" information, which states they are different. The other options are consistent with the overall description.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.0788440704345703e-05,
+        "B": 4.5299530029296875e-05,
+        "C": 1.0,
+        "D": 0.00010251998901367188,
+        "E": 5.093170329928398e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 39,
+      "generated_until_stop": "The context of the dialogue is a conversation about school uniforms. The speaker B expresses a negative sentiment about uniforms (\"I don't think it's a good idea because everyone looks the same\"). The speaker A then responds with \"I agree with you.\" This response directly reflects and supports the opinion expressed by speaker B, indicating acceptance of their viewpoint. Therefore, the most fitting intention for the word \"agree\" is to express this acceptance.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0006256103515625,
+        "C": 0.0001087188720703125,
+        "D": 0.00014019012451171875,
+        "E": 1.83936208486557e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 40,
+      "generated_until_stop": "The passage lists specific requirements for student reporter candidates. The first sentence states they are looking for \"reporters\" and the second sentence provides instructions for submission. The third sentence mentions an evaluation, and the fourth sets a deadline. The question asks what is *not* implied by the passage. The options are all consistent with the information provided. However, the question asks what is *not* implied, and the structure of the passage suggests that the first sentence is a general call for anyone interested, and the subsequent sentences detail the specific process. The phrase \"please submit three articles about school life\" implies that the act of submission itself is the primary focus, and the other details are secondary to this initial action. Therefore, the most logical inference is that the school is looking for anyone who is willing to write and submit these articles.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.734375,
+        "B": 0.087890625,
+        "C": 0.0322265625,
+        "D": 0.14453125,
+        "E": 1.3470649719238281e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 41,
+      "generated_until_stop": "The passage discusses the purpose of car design in relation to safety. The phrase \"absorb heavy shocks\" and the goal of protecting people from \"serious car accidents\" indicate that the intended outcome is to keep people safe. Among the given options, \"protect\" is the verb that best fits this context, signifying the act of shielding or preserving someone from harm.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.1457672119140625e-05,
+        "B": 4.839897155761719e-05,
+        "C": 1.2218952178955078e-05,
+        "D": 1.0,
+        "E": 3.655441105365753e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 42,
+      "generated_until_stop": "The passage discusses the challenge of consuming resources while maintaining a standard of living in a given space, particularly in the context of rising fuel costs and human footprints. The question being posed is about the possibility of expanding Earth's capacity to meet these demands. The subsequent sentences offer different perspectives on this issue. The first sentence, \"Still, many believe we will eventually reach a point at which conflict with the finite nature of resources is inevitable,\" introduces a general belief about the inevitability of resource conflict. The following sentences then present two contrasting possibilities: one that the Earth's capacity is already exhausted, and another that innovations can expand it. The question being asked directly relates to the feasibility of expanding this capacity. Therefore, the most logical placement for the given sentence is at the beginning of this discussion, as it sets up the central theme of resource availability and the potential for expansion.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.97265625,
+        "B": 0.01153564453125,
+        "C": 0.00543212890625,
+        "D": 0.00897216796875,
+        "E": 1.1920928955078125e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 43,
+      "generated_until_stop": "The context of the dialogue is a conversation about a meeting. The phrase \"We need to change the meeting time\" directly addresses the timing of the event. The subsequent suggestion of a new time, and the agreement to it, confirms that the primary focus of the conversation is the meeting's schedule. Therefore, the most fitting topic for the dialogue is the change in the meeting time.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0001583099365234375,
+        "C": 4.5299530029296875e-05,
+        "D": 7.486343383789062e-05,
+        "E": 1.57160684466362e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 44,
+      "generated_until_stop": "The passage describes a shift in the locust's behavior and survival strategies based on food availability. When food is scarce, they are born with camouflage and live solitary. When food is abundant, they transition to a social lifestyle. The sentence in question, \"Suddenly, baby locusts are born with bright colors and a preference for company. Instead of avoiding one another and hiding from predators through camouflage and inactivity, these locusts gather in vast groups, feed together, and (C) [overwhelm / overestimate] their predators simply through numbers,\" describes the social behavior that arises from abundant food. The word that best fits this context, indicating a response to predators that is not merely hiding but a proactive, overwhelming defense, is \"overwhelm.\" The other options do not fit the logical progression or the context of a social defense against predators in response to abundant food.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.007049560546875,
+        "B": 0.0029449462890625,
+        "C": 0.921875,
+        "D": 0.06689453125,
+        "E": 2.5391578674316406e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 45,
+      "generated_until_stop": "The passage discusses the importance of having goals clearly defined and the need to know what needs to be done moment by moment. It then provides examples of a salesperson's aim and the various approaches required for each sale, emphasizing the unpredictable nature of these decisions. The concluding sentence, \"Doing so will ensure more lasting success in reaching one's goals,\" reinforces this idea of implementing a chosen course of action. Therefore, the most fitting statement is about using a particular strategy appropriate to the occasion.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 2.1457672119140625e-05,
+        "B": 1.0,
+        "C": 0.00011587142944335938,
+        "D": 2.014636993408203e-05,
+        "E": 1.8975697457790375e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 46,
+      "generated_until_stop": "The passage begins by stating that living without smartphones is difficult and then mentions problems associated with using them too much. The subsequent sentence, \"Let's talk about them in more detail,\" indicates that the following text will elaborate on these problems. Therefore, the most fitting continuation of the discussion is a detailed examination of the negative consequences of excessive smartphone use.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 8.940696716308594e-06,
+        "B": 0.0001087188720703125,
+        "C": 1.0,
+        "D": 0.000431060791015625,
+        "E": 5.2677933126688e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 47,
+      "generated_until_stop": "The passage lists \"When,\" \"Where,\" and \"What to do\" as elements of an event. The phrase \"Happy Earth Day Event\" serves as the title and a general descriptor. The subsequent items are specific activities or components of the event. Therefore, the missing element is the condition or requirement for participation in the event, which would typically be stated as \" 참가자격.\"\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00040435791015625,
+        "C": 0.0001316070556640625,
+        "D": 0.00011587142944335938,
+        "E": 2.584420144557953e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 48,
+      "generated_until_stop": "The passage discusses the role of the temple as an administrative authority managing commodity production and distribution. It then asks a question about individuals' involvement in this system, specifically focusing on the practical aspects of its use beyond just the abstract concept of \"economic governance.\" The phrase \"for that matter, it is not clear how widespread literacy was at its beginnings\" suggests a context where individuals are using this system, and the preceding sentences detail the temple's function. The most logical and immediate reason for individuals to be involved with such a system, especially in a context of early writing and administration, is for the purpose of the temple's operations. Among the options, \"personal agreements\" is the most fitting as it directly relates to individuals' involvement in the transactional aspects of the economy being managed by the temple, and where literacy would be crucial for understanding and participation.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000148773193359375,
+        "B": 1.0,
+        "C": 0.00019073486328125,
+        "D": 2.276897430419922e-05,
+        "E": 2.8405338525772095e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 49,
+      "generated_until_stop": "The passage offers advice on how to appear taller. The first point, \"Avoidloose clothes,\" directly relates to clothing that might make one appear shorter. The second point, \"wear similar colors,\" also aims to create a cohesive image that can affect perceived height. The other options, while potentially related to personal appearance, do not directly address the specific goal of looking taller as described in the text.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000179290771484375,
+        "B": 1.0,
+        "C": 0.0002460479736328125,
+        "D": 2.4318695068359375e-05,
+        "E": 3.213062882423401e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 50,
+      "generated_until_stop": "The passage discusses the need for a balanced approach to online safety, emphasizing the importance of questioning data and implementing protective measures. The phrase \"but not a lot\" suggests a need for a moderate level of caution, and the examples of needing to validate identity through scenarios and evidence reinforce this idea. The final sentence, \"Once we have received that information and it has gone through a cognitive validation, we accept that person as more trustworthy,\" further supports this need for careful verification. Therefore, the most fitting topic is the significance of diligent information verification in a context where physical threat is absent, aligning with the overall theme of online security.\n\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.003692626953125,
+        "B": 0.0093994140625,
+        "C": 0.013671875,
+        "D": 0.01287841796875,
+        "E": 0.9609375
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 51,
+      "generated_until_stop": "The passage discusses elephant social behavior, specifically greetings and the significance of these interactions to their social structure. The phrase \"reunions are more important in elephant society than among primates\" and the description of \"family and bond groups greet one another with incredibly theatrical displays\" indicate a strong, enduring social connection. The question asks how the evolved greeting behaviors serve as an indicator of elephant social status and the duration of their separation. The context suggests that elephants are \"tied\" to their social groups and that the frequency and intensity of greetings reflect this connection and the time spent apart. Therefore, \"tied\" and \"parted\" are the most fitting words to describe the relationship and the impact of separation on their social behavior.\n\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.028076171875,
+        "B": 0.038330078125,
+        "C": 0.023193359375,
+        "D": 0.038330078125,
+        "E": 0.87109375
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 52,
+      "generated_until_stop": "The question asks to identify a word that has a distinct and different meaning relationship with the other options in the provided list. The structure of the sentence implies a comparison or contrast between these words. The options are: \"joy\" and \"sadness\" ( emotional states), \"furnished\" and \"sofa\" ( object and its place), and \"subject\" and \"science\" ( academic discipline). The most logical and grammatically sound way to complete this sentence is to provide a word that fits a pattern of contrast or a unique semantic connection to the others. Considering common English collocations and semantic relationships, \"joy\" and \"sadness\" represent antonyms, creating a clear contrast. The other options, while grammatically possible, do not create as strong or natural a parallel in meaning or grammatical structure in the given context.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00040435791015625,
+        "C": 9.584426879882812e-05,
+        "D": 0.00012302398681640625,
+        "E": 2.2817403078079224e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 53,
+      "generated_until_stop": "The passage discusses how items are displayed together in a store to influence customers. The phrase \"placement of items in a store is not _\" suggests that the placement is a deliberate strategy. The subsequent sentences explain that this placement provides suggestions to customers, which is a core concept of \"strategoic marketing.\" Among the options, \"strategoic marketing\" best fits the context of how items are arranged to influence purchasing decisions.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.000148773193359375,
+        "B": 0.000148773193359375,
+        "C": 1.0,
+        "D": 0.000431060791015625,
+        "E": 1.0477378964424133e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 54,
+      "generated_until_stop": "The passage discusses the limits of human knowledge and the discovery that the world cannot be perfectly known. It then contrasts this with the ability to control the world despite this uncertainty, leading to the attainment of goals. The phrase \"even if we cannot know the world with absolute precision, we can still control it\" and the subsequent analogy of climbing a mountain (\"we can still control it. We may never know precisely how high is the highest mountain, but we continue to be certain that we can get to the top nevertheless\") suggest a theme of perseverance and progress in the face of limitations. The title should reflect this forward-looking, aspirational message.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.004058837890625,
+        "C": 0.000850677490234375,
+        "D": 0.0024566650390625,
+        "E": 1.0952353477478027e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 55,
+      "generated_until_stop": "The passage emphasizes a mindset shift for leadership, focusing on venturing beyond current capabilities and exploring new possibilities. The phrase \"step out of your comfort zone\" and \"challenge the conventional ways of doing things\" are central to this idea. The core of the advice is about personal growth and adaptation, which is best captured by the idea of challenging oneself to move beyond one's current limitations.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.014636993408203e-05,
+        "B": 8.487701416015625e-05,
+        "C": 3.7670135498046875e-05,
+        "D": 1.0,
+        "E": 9.639188647270203e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 56,
+      "generated_until_stop": "The sentence structure “I \\_\\_\\_ like tomatoes” requires a verb that expresses a preference or a feeling about the object “vegetables.” The options provided are forms of the verb “to be” and “to do.” Considering common English expressions of preference, the most fitting verb is one that indicates a lack of preference or a dislike. The phrase “I don’t like” is a standard and grammatically correct expression of disliking something.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 5.14984130859375e-05,
+        "B": 0.0001316070556640625,
+        "C": 1.0,
+        "D": 0.00070953369140625,
+        "E": 8.381903171539307e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 57,
+      "generated_until_stop": "The passage discusses the limitations of common sense knowledge and the need for a more reliable basis for decision-making. The examples provided, \"Birds of a feather flock together\" and \"Opposites attract,\" are presented as contradictory to the idea that groups are smarter and that group work is beneficial. The final question asks for a guideline to use when facing a choice that entails risk, further emphasizing the need for a consistent and reliable approach to decision-making. Therefore, the passage of these examples and the subsequent question are the most closely related to the overall theme of the text.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.50390625,
+        "B": 0.087890625,
+        "C": 0.099609375,
+        "D": 0.306640625,
+        "E": 0.000759124755859375
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 58,
+      "generated_until_stop": "The passage describes a former power station that was not destroyed but repurposed into a museum. The phrase \"decided to _ it into a museum\" indicates a change of purpose or function for the building. Among the given options, \" transform\" best fits this context, signifying the process of changing the station's purpose from a power source to a museum. \"Balance,\" \"forbid,\" and \"prevent\" do not logically fit the idea of turning a station into a museum.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.7762184143066406e-05,
+        "B": 4.00543212890625e-05,
+        "C": 2.586841583251953e-05,
+        "D": 1.0,
+        "E": 3.888271749019623e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 59,
+      "generated_until_stop": "The passage describes a scientific experiment conducted on cicadas. The phrase \"moved them to an experimental enclosure\" directly follows the statement about the 17-year cicada and precedes the description of the two-year emergence. This action is the core of the proposed experiment and its subsequent findings. Therefore, the first sentence of the provided text, which refers to the 15-year-old nymphs being moved to an enclosure, is the most logical continuation of the narrative.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.000667572021484375,
+        "C": 0.000278472900390625,
+        "D": 0.0010986328125,
+        "E": 2.726912498474121e-06
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 60,
+      "generated_until_stop": "The context of the conversation is about the meaning of a common idiom, \"It's raining cats and dogs.\" B's question, \"Can you tell me what it means?\", directly indicates a desire for clarification and understanding of this expression. The subsequent question, \"Really? I'm interested in the origin of the expression,\" further reinforces this curiosity and engagement with the subject matter. Therefore, the most fitting emotion for B is one of interest and a willingness to learn.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 1.0788440704345703e-05,
+        "B": 2.586841583251953e-05,
+        "C": 1.0,
+        "D": 0.00012302398681640625,
+        "E": 6.344635039567947e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 61,
+      "generated_until_stop": "The passage discusses the challenges and benefits of using the scientific method in psychology. The first sentence establishes the subject and its nature. The second sentence provides a comparison to other scientific fields. The following sentences (A, B, and C) offer different perspectives on the method's application and limitations. The structure suggests a flow where the initial setup is contrasted with the difficulties and then explained further. The order provided implies a progression of information, starting with a general statement about the method and then moving to its challenges and consequences.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.322265625,
+        "B": 0.4140625,
+        "C": 0.09228515625,
+        "D": 0.171875,
+        "E": 7.915496826171875e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 62,
+      "generated_until_stop": "The passage describes a situation where Ellie is being reprimanded by Miss Smith for not having the correct shoes. The phrase \"She always let Megan go first\" and the subsequent actions of Miss Smith suggest a pattern of behavior. The question asks what makes the current situation (the reprimand) different from what has happened before. The preceding sentences describe a positive interaction where Ellie received praise. The current sentence, however, describes a negative interaction where Miss Smith is angry about the shoes. The phrase \"She always let Megan go first\" implies a sequence of events where Miss Smith's reprimand is a deviation from a norm. The other options do not fit the narrative as well.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.07958984375,
+        "B": 0.8046875,
+        "C": 0.09619140625,
+        "D": 0.017822265625,
+        "E": 0.0003070831298828125
+      },
+      "gold": "E",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 63,
+      "generated_until_stop": "The sentence structure \"can I have soup instead of salad?\" indicates a substitution or alternative. The preposition \"instead of\" is a common idiomatic expression in English that signifies taking one thing in place of another. Among the given options, \"대신에\" is the most appropriate word to complete this idiomatic phrase, meaning \"in place of.\"\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 2.9325485229492188e-05,
+        "B": 1.0,
+        "C": 0.000457763671875,
+        "D": 5.14984130859375e-05,
+        "E": 7.497146725654602e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 64,
+      "generated_until_stop": "The passage describes a situation where a large segment of the population in less developed countries is unable to compete with commercial agriculturalists due to a lack of technological advancements. The phrase \"the vast majority _ because of larger global causes\" suggests a consequence of this inability to compete. The examples provided, such as encouraging export crops at the expense of basic food production, further illustrate a problem. The question asks what this large majority is experiencing or undergoing. Considering the context of being unable to compete and the global causes mentioned, the most fitting completion is a statement about their state of control over their own production, which is directly linked to their inability to compete and the global economic forces at play.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000179290771484375,
+        "C": 3.314018249511719e-05,
+        "D": 5.817413330078125e-05,
+        "E": 1.2631062418222427e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 65,
+      "generated_until_stop": "The sentence structure “It will also help you feel more energetic and productive so you can focus on your work” refers back to the preceding statement about exercise. The pronoun “It” in this context refers to the overall concept of exercise, not a specific body part, health issue, or a general state of being. The phrase “It will also help you” directly links the pronoun to the initial mention of exercise.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 5.14984130859375e-05,
+        "C": 1.2218952178955078e-05,
+        "D": 1.7762184143066406e-05,
+        "E": 3.958120942115784e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 66,
+      "generated_until_stop": "The passage is a public announcement from a library about a specific event. The phrase \"Welcome to the downtown library\" and the subsequent information about a talk by a author about their new book indicate that the purpose of this announcement is to inform the public about a scheduled event. The other options, \"gift methods,\" \" toilet malfunction,\" and \"used books for sale,\" do not fit the context of a welcome announcement about an event.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.1457672119140625e-05,
+        "B": 7.486343383789062e-05,
+        "C": 3.314018249511719e-05,
+        "D": 1.0,
+        "E": 1.4435499906539917e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 67,
+      "generated_until_stop": "The passage discusses the historical and modern approaches to tax legislation, emphasizing the importance of moral questions in the creation of tax laws. It states that while economics can help determine if a tax law will achieve a goal, it cannot identify the goal itself. The passage then concludes that creating tax policy requires establishing a moral goal, which involves ethics and moral analysis. Therefore, the most fitting topic sentence is the one that directly addresses the need for establishing a moral goal for tax policy.\n\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.0028228759765625,
+        "B": 0.0059814453125,
+        "C": 0.0076904296875,
+        "D": 0.0390625,
+        "E": 0.9453125
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 68,
+      "generated_until_stop": "The passage describes a sequence of events leading to a need for help. The first sentence, \"She asked him for help,\" is a general request for assistance. The following sentences detail the problem: forgetting to turn off the headlights, leading to a dead battery and a need for help. The final sentence describes the neighbor's action of providing help. The most logical placement for the initial sentence of asking for help is at the beginning of this narrative, as it sets the context for the subsequent events and the need for a solution.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.002044677734375,
+        "C": 0.000705718994140625,
+        "D": 0.0031585693359375,
+        "E": 2.775341272354126e-07
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 69,
+      "generated_until_stop": "The sentence structure and the context of the passage point to a specific phrase that, when modified by \"to repeat it as gossip,\" implies a consequence or a continuation of the action. The phrase \"as unrevealed information it remains social inactive\" suggests that the information, if not revealed, is not actively engaging with others. Therefore, the most logical continuation of this idea, leading to the act of repeating it as gossip, is the possessor's internal state or motivation.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00159454345703125,
+        "C": 0.000965118408203125,
+        "D": 0.0021820068359375,
+        "E": 2.8014183044433594e-06
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 70,
+      "generated_until_stop": "The passage discusses the general sense of what to eat and the influence of emotions on eating. The subsequent sentences explain emotional eating and its connection to overeating and other issues. The structure suggests a progression of ideas: first, a general statement about eating, then a detailed explanation of emotional eating, and finally, a broader discussion about the disconnect between knowledge and action and the struggle with emotions. The order (A, B, C) logically follows this pattern, introducing a concept, then elaborating on it, and concluding with a related but broader point.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.0045166015625,
+        "C": 0.0033111572265625,
+        "D": 0.01397705078125,
+        "E": 4.678964614868164e-06
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 71,
+      "generated_until_stop": "The sentence structure “Reading books is a great way to gain \\_\\_\\_” indicates that the object of gaining is a noun representing an acquired understanding or information. The word “books” strongly suggests an academic or intellectual pursuit. Among the options, “지식” (meaning knowledge) is the most fitting abstract concept that can be gained through reading. The other options, “균형” (mean balance), “ 목표” (mean goal), and “우정” (mean friendship), are not directly acquired from reading books in this context.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 1.150369644165039e-05,
+        "B": 2.9325485229492188e-05,
+        "C": 4.5299530029296875e-05,
+        "D": 1.0,
+        "E": 5.494803190231323e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 72,
+      "generated_until_stop": "The sentence \"There are plenty _ parking spaces\" requires a preposition that indicates possession or availability. The phrase \"parking spaces\" refers to locations where vehicles can be parked. The most common and idiomatic preposition used in English to express that something is available or designated for a particular purpose, such as parking, is \"of.\" Therefore, \"plenty of\" is the standard and most appropriate construction.\n\nThe second sentence, \"Your dad and I are so proud _ you,\" requires a preposition that expresses the source of the pride. The phrase \"proud of\" is a standard English idiom indicating approval and admiration for someone's achievements or qualities.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000335693359375,
+        "C": 9.584426879882812e-05,
+        "D": 0.00058746337890625,
+        "E": 3.026798367500305e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 73,
+      "generated_until_stop": "The question asks for the most appropriate word to fill the blank in the given dialogue. The context is a question about the reason for being late for school. The response, \"Because I missed the bus,\" directly explains the cause of the lateness. Therefore, the interrogative word that seeks a reason or explanation is the most fitting.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0003147125244140625,
+        "C": 0.0001583099365234375,
+        "D": 0.0001583099365234375,
+        "E": 1.4726538211107254e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 74,
+      "generated_until_stop": "The passage discusses how buildings, over time, have become part of our environment and how our experiences with them shape their meaning. The phrase \"we in turn read our experience into buildings\" suggests a process of personal adaptation and meaning-making. The blank needs a verb that describes what happens to the buildings as a result of this process, implying a transformation or integration. \"Use and change into an integral part of our environment\" best captures this idea of buildings evolving within and becoming a natural extension of human experience and cultural adaptation.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 4.267692565917969e-05,
+        "B": 9.632110595703125e-05,
+        "C": 2.9325485229492188e-05,
+        "D": 1.0,
+        "E": 4.172325134277344e-07
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 75,
+      "generated_until_stop": "The context of the dialogue, \"I'd like to check out these books\" and the subsequent question about borrowing, strongly suggests a location where books are kept and borrowed from. Among the given options, a \"도서관\" (library) is the only place that fits this scenario. The other options, \"세탁소\" (laundry), \"약국\" ( pharmacy), and \"은행\" (bank), have no direct connection to the act of checking out books.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 7.963180541992188e-05,
+        "C": 2.586841583251953e-05,
+        "D": 0.00011587142944335938,
+        "E": 3.119930624961853e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 76,
+      "generated_until_stop": "The context of the conversation is about eating habits and schedules. The question \"How often do you eat out?\" directly relates to the frequency of eating at restaurants, which is the subject of the first question in the passage. The subsequent question, \"I eat out almost every day,\" provides an answer to this question. Therefore, the missing word should be a question about the frequency of eating out.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 7.486343383789062e-05,
+        "B": 0.00016880035400390625,
+        "C": 6.198883056640625e-05,
+        "D": 1.0,
+        "E": 7.497146725654602e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 77,
+      "generated_until_stop": "The passage discusses the nature of scientific discoveries and the process by which they are acknowledged and accepted within the scientific community. It emphasizes that discoveries are made through patient labor, skilled hands, and an unbiased mind, and that they \"speak for themselves\" but are also subject to scrutiny and approval. The phrase \"first means best\" and the idea of needing \"disciplinary specialists\" to acknowledge knowledge as \"true\" suggest a focus on the formal, often social, process of validating scientific findings. The other options do not capture this nuance as effectively.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.67578125,
+        "B": 0.28125,
+        "C": 0.0140380859375,
+        "D": 0.0296630859375,
+        "E": 2.872943878173828e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 78,
+      "generated_until_stop": "The passage lists specific characteristics of a lost dog, including its name, breed, weight, and personality. The question asks what is *not* mentioned. The provided list contains all the information given. Therefore, the answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.57421875,
+        "B": 0.04443359375,
+        "C": 0.30859375,
+        "D": 0.0732421875,
+        "E": 5.334615707397461e-06
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 79,
+      "generated_until_stop": "The passage describes a method for relaxing tired eyes. The phrase \"close your eyes and press \\_\\_\\_ gently with your fingers\" refers to a physical action performed on the eyes. Among the options, \"eyes\" is the only one that fits this context, as one would gently press their own eyes to relax them. The other options, \"hands,\" \"towels,\" and \"glasses,\" do not fit the described action of relaxing eyes.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 9.012222290039062e-05,
+        "C": 3.123283386230469e-05,
+        "D": 7.009506225585938e-05,
+        "E": 1.2223608791828156e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 80,
+      "generated_until_stop": "The passage describes Dr. Smith's life and work. The information includes his birth, his profession, his location for his work, and the duration of his impact. The phrase \"spent most of his life helping them until he died\" strongly suggests the focus of his life's work and dedication. Therefore, \"Dr. Smith's life\" is the most fitting topic.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 2.9325485229492188e-05,
+        "B": 1.0,
+        "C": 7.486343383789062e-05,
+        "D": 6.973743438720703e-06,
+        "E": 1.955777406692505e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 81,
+      "generated_until_stop": "The sentence structure “I’m sure that you made the right \\_\\_\\_” implies a past action or choice that has a positive outcome or is considered correct. The word “decision” fits this context perfectly, as it refers to a choice made between alternatives. The other options, “hope,” “effort,” and “advice,” do not fit the grammatical and semantic requirements of the sentence.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 7.867813110351562e-06,
+        "B": 2.014636993408203e-05,
+        "C": 1.0,
+        "D": 0.000179290771484375,
+        "E": 3.958120942115784e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 82,
+      "generated_until_stop": "The passage discusses the potential for harm from cooking and offers advice on how to manage these risks. The phrase \"Take the following steps to quickly heal a burn\" directly follows a statement about the possibility of getting a burn. Therefore, the most logical continuation of the text is a method for treating a burn. The other options, while potentially related to safety or health, do not directly follow the context of a kitchen fire and the subsequent advice on managing a consequence of it.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 6.628036499023438e-05,
+        "B": 1.0,
+        "C": 0.00011587142944335938,
+        "D": 1.3828277587890625e-05,
+        "E": 2.6775524020195007e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 83,
+      "generated_until_stop": "The passage discusses the historical use of salt in the independence movement in India, led by Gandhi. The phrase \"used salt to lead the independence movement\" implies that \"it\" refers to the substance that was used for this purpose. Among the given options, \"salt\" is the only one that fits this context, as it is the substance that would be used in a movement for independence and has a direct impact on food taste. The other options do not fit the context of a historical movement or food preparation.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 4.839897155761719e-05,
+        "C": 1.7762184143066406e-05,
+        "D": 3.123283386230469e-05,
+        "E": 4.6566128730773926e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 84,
+      "generated_until_stop": "The sentence describes a feeling experienced when speaking in front of others. The word \"shy\" in this context refers to a feeling of discomfort or embarrassment. Among the given options, \"부끄러운\" directly conveys this sense of shame or embarrassment that is commonly associated with public speaking. The other options, \"고마운,\" \"신나는,\" and \"피곤한,\" do not fit the context of feeling when speaking in front of people.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.276897430419922e-05,
+        "B": 9.012222290039062e-05,
+        "C": 8.487701416015625e-05,
+        "D": 1.0,
+        "E": 8.475035429000854e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 85,
+      "generated_until_stop": "The passage discusses the purpose of laughter, suggesting it induces a playful state in others and serves a biosocial function of coordinating activities. The phrase \"when we hear someone laughing, it is almost impossible not to feel cheerful and begin laughing too\" directly relates to the influence of laughter on the listener's emotional state and subsequent behavior. Therefore, the most fitting topic is the consequences or impact of laughter on individuals within a group.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00116729736328125,
+        "C": 0.0003566741943359375,
+        "D": 0.000553131103515625,
+        "E": 6.193295121192932e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 86,
+      "generated_until_stop": "The dialogue begins with a question about a specific behavior of koalas (\"hug trees like that\") and follows with an explanation of the reason for this behavior (\"to cool themselves down\") in the context of Australia's hot climate. The subsequent question, \"Oh, that makes sense,\" indicates that the explanation is a plausible and relevant response to the initial observation. Therefore, the most fitting topic for the conversation is the reason why koalas hug trees.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 5.424022674560547e-06,
+        "B": 4.267692565917969e-05,
+        "C": 1.0,
+        "D": 0.00016880035400390625,
+        "E": 5.2677933126688e-09
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 87,
+      "generated_until_stop": "The passage describes Marjorie Kinnan Rawlings' life and achievements. The sentence \"Cross Creek에 소유했던 땅은 Florida 주립 공원이 되었다\" indicates a significant event related to her legacy. The phrase \"honoring her achievements\" suggests that this transformation is a result of her positive impact. The other options, while true, do not convey the same sense of a lasting, positive contribution to the place she loved and wrote about. The final sentence about the park directly links her achievements to the land she possessed, implying a memorial or a symbol of her creativity.\n\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.05078125,
+        "B": 0.0693359375,
+        "C": 0.083984375,
+        "D": 0.2138671875,
+        "E": 0.58203125
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 88,
+      "generated_until_stop": "The passage describes Jennifer's initial concern about the cost of fixing her car due to an expensive problem. The subsequent news from the mechanic that the issue was a simple, easily fixable \"dirty spark plug\" and the low cost of repairs leads to a feeling of ease and affordability. This transition from concern to a positive emotional state of relief and satisfaction is best described as a change from worry to relief.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000148773193359375,
+        "C": 2.586841583251953e-05,
+        "D": 4.5299530029296875e-05,
+        "E": 1.0128132998943329e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 89,
+      "generated_until_stop": "The passage lists a sale with a specific discount percentage and a duration. It also provides information about when the sale is open. The question asks what is *not* mentioned. The list of what *is* mentioned includes the discount, the purpose of the sale, the sale duration, and the hours of operation. The missing item is the specific location of the sale, which is not provided.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 3.314018249511719e-05,
+        "B": 1.0,
+        "C": 0.00014019012451171875,
+        "D": 1.3828277587890625e-05,
+        "E": 4.1443854570388794e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 90,
+      "generated_until_stop": "The passage discusses the role of environmental journalists in relation to human consumption and the rights of the environment. The phrase \"the role of the ‘Lion’s historians’\", in the context of advocating for change in human behavior and a shift to sustainable practices, implies a function of presenting and defending the case for the environment. The subsequent sentences emphasize the need for change in human behavior and the violation of environmental rights. Therefore, the most fitting interpretation of the \"Lion's historians\" role is one that actively supports and presents the environmental perspective to those in power, which is then contrasted with the current human-centered view.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0023193359375,
+        "B": 0.99609375,
+        "C": 0.001922607421875,
+        "D": 0.0012359619140625,
+        "E": 3.591179847717285e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 91,
+      "generated_until_stop": "The passage discusses the growth of computer software and its impact on global safety and security, specifically mentioning the increasing number of errors and the potential for malware attacks. The subsequent sentences explain how physical objects are becoming computer code and the consequences of this transformation. The flow of information suggests that the first sentence establishes the problem, the second sentence provides a specific example of how this problem is realized, and the third sentence offers a contrasting or further explanation. The structure (A) introduces the issue, (B) provides a specific instance or consequence, and (C) offers a broader context or a different perspective. This sequence creates a coherent narrative about the challenges posed by complex software.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.828125,
+        "B": 0.041259765625,
+        "C": 0.031982421875,
+        "D": 0.0986328125,
+        "E": 4.8160552978515625e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 92,
+      "generated_until_stop": "The context of the dialogue, particularly the request for a jacket to be \"too big for me,\" strongly suggests a retail environment where clothing is sold and exchanged. The subsequent question about the problem and the offer of an exchange are typical procedures for a store's customer service department. Therefore, an \"옷 가게\" (clothes store) is the most fitting location for this interaction.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00010251998901367188,
+        "C": 3.314018249511719e-05,
+        "D": 3.528594970703125e-05,
+        "E": 1.0477378964424133e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 93,
+      "generated_until_stop": "The passage discusses the future of high-tech goods and the challenge of meeting rising resource demands for green technologies. The sentence \"The future of our high-tech goods may lie not in the limitations of our minds, but in \\_\\_\\_\" suggests a potential solution or a broader context for this future. Considering the subsequent sentences about the discovery of new elements and the need for increased resource supply, the most fitting option is related to the production and availability of these goods. \"Our ability to secure the ingredients to produce them\" directly addresses the scarcity issue highlighted in the text and offers a plausible reason why innovation might be the key, rather than focusing solely on making the products more \"eco-friendly\" or relying on \"governmental policies.\" The other options, while potentially important, do not as directly address the core challenge of resource insufficiency for future technological development.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000179290771484375,
+        "C": 4.839897155761719e-05,
+        "D": 5.817413330078125e-05,
+        "E": 9.837094694375992e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 94,
+      "generated_until_stop": "The passage discusses the intelligence of octopuses and their behavior. The sentence \"They usecoconut shells for protection\" describes a defensive mechanism. The subsequent sentence, \"When they can't find a good hiding place, they hide undercoconut shells,\" explains a specific instance of using protection, implying the first sentence establishes the general practice of using shells. The sentence about people liking to swim in the ocean is a separate, general fact. The final sentence poses a rhetorical question about the intelligence of octopuses, which is then directly supported by the preceding sentences. The sentence about saving shells for later is also a specific behavior that, like the use for protection, is presented as an example of their intelligence.\n\nThe question asks for the *most* unsuitable sentence. Considering the flow, the sentence about people liking to swim is a general statement that doesn't directly relate to the preceding discussion of octopuses' intelligence or behavior, making it a slight disconnect if presented immediately after the other sentences. The other sentences are all examples of how octopuses use or relate to their environment.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 4.267692565917969e-05,
+        "B": 4.00543212890625e-05,
+        "C": 1.0,
+        "D": 0.000335693359375,
+        "E": 1.9907020032405853e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 95,
+      "generated_until_stop": "The passage describes how the brain and body perceive and interact with tools. The phrase \"Our brain automatically \\_\\_\\_\" refers to the process of understanding and preparing to use the tool. The subsequent sentences detail how the brain and body recognize the tool's capabilities and limitations, and how the tool is integrated into the self. The options provided are: A. remembers past experiences, B. knows what it can do best without the tool, C. chooses the best part of the body for the tool, D. understands what limits the tool's use, and E. includes the tool in what it considers its body. Considering the context of using a tool, the most fitting description of the brain's process is its ability to recognize the tool's potential and the constraints on its use. Options A and B are less precise about the cognitive process. Option C and D are also plausible but do not capture the full range of the brain's adaptation. Option E, \"incluses the tool in what it considers its body,\" is a metaphorical but fitting description of how the brain and body perceive the tool as an extension of themselves.\n\nanswer is",
+      "pred": "E",
+      "probs": {
+        "A": 0.04248046875,
+        "B": 0.039794921875,
+        "C": 0.054443359375,
+        "D": 0.061767578125,
+        "E": 0.80078125
+      },
+      "gold": "E",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 96,
+      "generated_until_stop": "The passage discusses how children engage in play to overcome challenges and develop coping mechanisms. The phrase \"playing them out\" refers to using play to deal with problems. The subsequent sentences emphasize the child's self-discovery of solutions and the potential negative impact of parental interference. This suggests that the core theme is the child's own process of problem-solving through play, with a focus on allowing the child to progress naturally.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 9.012222290039062e-05,
+        "B": 0.00022983551025390625,
+        "C": 1.0,
+        "D": 0.00102996826171875,
+        "E": 2.584420144557953e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 97,
+      "generated_until_stop": "The passage describes a specific type of pricing, \"contingency pricing,\" and its context in legal and consumer cases. The structure of the passage suggests a progression of information: first, a general introduction to the concept, then its application in specific scenarios, and finally, a more detailed explanation of the underlying mechanism. The options provided are also introductions to related concepts. The most logical flow to connect these ideas is to first introduce the concept, then illustrate its use, and finally, provide a more detailed explanation of the method.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.8828125,
+        "B": 0.01611328125,
+        "C": 0.0301513671875,
+        "D": 0.072265625,
+        "E": 4.8160552978515625e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 98,
+      "generated_until_stop": "The passage describes a resort in Thailand with activities like swimming and fishing, and the availability of food from around the world. The phrase \"Come visit us in paradise!\" suggests an invitation to experience these benefits. The sentence \"The resort has restaurants where you can enjoy various dishes from around the world\" directly supports this idea. The other options, while potentially part of a resort experience, are not as directly or universally implied by the provided text. The most logical continuation of the positive description of the resort is the promise of global culinary experiences.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 8.487701416015625e-05,
+        "B": 0.0003566741943359375,
+        "C": 0.0001583099365234375,
+        "D": 1.0,
+        "E": 1.7974525690078735e-07
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 99,
+      "generated_until_stop": "The passage discusses the negative consequences of hurrying, such as reduced efficiency and less enjoyment of activities. It then suggests that areas of life could be improved by a change in approach. The phrase \"a little go-slow behavior\" is presented as a counterpoint to hurrying, implying that slowing down can lead to positive outcomes. Therefore, the blank should be filled with a word that describes how these areas of life can be positively influenced by a go-slow approach.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 3.7670135498046875e-05,
+        "B": 0.0001087188720703125,
+        "C": 1.0,
+        "D": 0.000457763671875,
+        "E": 9.918585419654846e-08
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 100,
+      "generated_until_stop": "The sentence is a question about duration. The phrase \"How _ does it take to go to the train station?\" seeks information about the time required for a journey. Among the given options, \"long\" is the word that specifically refers to duration or time. \"Many\" refers to quantity, \"often\" refers to frequency, and \"tall\" refers to height, none of which fit the context of measuring time for a trip.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 4.5299530029296875e-05,
+        "C": 1.6689300537109375e-05,
+        "D": 2.9325485229492188e-05,
+        "E": 4.802132025361061e-09
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 101,
+      "generated_until_stop": "The passage discusses outdoor activities and food preparation. The first sentence establishes the importance of food for enjoyment and variety. The subsequent sentences, (A), (B), and (C), describe different approaches to eating while outdoors, ranging from survival-oriented to luxury camping. The flow suggests a progression from a general statement about food's impact to specific examples of outdoor eating habits, and then to contrasting different types of travelers. The order (A) then (B) then (C) best captures this narrative flow, moving from a broad concept to specific examples and then to contrasting approaches.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.52734375,
+        "B": 0.0712890625,
+        "C": 0.0810546875,
+        "D": 0.3203125,
+        "E": 7.390975952148438e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 102,
+      "generated_until_stop": "The dialogue clearly indicates a negative experience with theheadphones. The phrase \"I'm not satisfied with the sound\" and \"It's not loud enough\" express dissatisfaction. The action of returning the item further reinforces this negative sentiment. Therefore, the most fitting emotion for A is one of dissatisfaction or grievance.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 4.5299530029296875e-05,
+        "B": 1.0,
+        "C": 0.0002613067626953125,
+        "D": 4.839897155761719e-05,
+        "E": 3.655441105365753e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 103,
+      "generated_until_stop": "The question asks for the most appropriate word to fill the blank in both sentences. The sentences are questions about personal preference and desired timing for an activity. \"How\" is used to inquire about a manner or preference, as in \"How kind of food do you like the most?\" \"When\" is used to inquire about time or a specific point in time, as in \"When do you want to go to the movies?\" \"What\" is used to ask about a specific thing or category, and \"Where\" is used to ask about a place. Therefore, \"How\" is the most fitting word for the first sentence, and \"When\" is the most fitting word for the second sentence, as they both inquire about personal preference and timing, respectively.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0002956390380859375,
+        "C": 0.000148773193359375,
+        "D": 8.487701416015625e-05,
+        "E": 2.0139850676059723e-08
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 104,
+      "generated_until_stop": "The passage discusses the concept of technology as an extension of human consciousness and the ability of minds to create new things. It then provides an analogy of animal tails as an extension of their bodies, which is a result of their genes. The final sentence of the passage states, \"If technology is an extension of humans, it is not an extension of our genes but of our minds.\" This statement directly follows and elaborates on the preceding idea about the potential of minds to create. Therefore, the most logical flow is to first present the general idea of technology as an extension of human consciousness, then provide an example of animal tails, and finally, address the flaw in the animal analogy to reinforce the main point about the extension of consciousness.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.69921875,
+        "B": 0.050537109375,
+        "C": 0.050537109375,
+        "D": 0.2001953125,
+        "E": 0.000133514404296875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 105,
+      "generated_until_stop": "The passage describes Annette's initial concern for Reiner's whereabouts after waiting for him for an hour. The subsequent events—failed phone calls and the arrival of Reiner—indicate a state of worry and anxiety. Reiner's explanation of the traffic and forgetting his phone further emphasizes the negative experience. The final interaction, where Reiner apologizes and they register together, signifies a transition from this state of concern to one of ease and shared experience. Therefore, the most fitting emotional progression is from worry to relief.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00048828125,
+        "C": 7.486343383789062e-05,
+        "D": 0.00011587142944335938,
+        "E": 1.57160684466362e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 106,
+      "generated_until_stop": "The passage lists common library rules. The options provided are all examples of such rules. The question asks for a rule that is *not* mentioned. Since the rules are parallel in structure and purpose, the missing rule should also be a fundamental aspect of library behavior. Among the given options, \"Return books on time\" is a primary and universally understood obligation in a library environment, whereas the others are more specific or less universally emphasized as absolute rules. The phrasing suggests a general, encompassing principle.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.95703125,
+        "B": 0.005035400390625,
+        "C": 0.0032501220703125,
+        "D": 0.03271484375,
+        "E": 7.487833499908447e-07
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 107,
+      "generated_until_stop": "The first sentence, \"He looks _ his father,\" describes a relationship or a visual comparison. The phrase \"looks like\" is a common idiom used to express resemblance or similarity between two entities. The second sentence, \"What do you _ to do during the vacation?\", asks about a plan or intention for an activity. Among the given options, \"like\" fits the context of the first sentence (looking like someone) and can be used in a general sense to inquire about a person's feelings or preferences, which is relevant to planning for a vacation. The other options do not fit grammatically or semantically in this context.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0003147125244140625,
+        "B": 1.0,
+        "C": 0.00048828125,
+        "D": 9.584426879882812e-05,
+        "E": 3.888271749019623e-08
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 108,
+      "generated_until_stop": "The passage discusses activities like going for a walk and listening to music to alleviate stress. The phrase \"I hope these tips can help you feel less stressed\" directly points to the overall theme of stress reduction. Therefore, the most fitting topic is the methods for managing or decreasing stress.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 5.14984130859375e-05,
+        "B": 0.000148773193359375,
+        "C": 6.580352783203125e-05,
+        "D": 1.0,
+        "E": 1.2386590242385864e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 109,
+      "generated_until_stop": "The passage discusses how museums, facing financial pressure, tend to focus on their visible, public-facing parts like gallery exhibitions and shops, often at the expense of their less visible, essential storage spaces. The phrase \"prioritise those parts of themselves that are consumable: infotainment in the galleries, goods and services in the cafes and the shops\" directly points to this focus. The subsequent sentences explain how this leads to the neglect or underinvestment in storeroorms. Therefore, the most fitting topic is the consequences of this profit-oriented management.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.586841583251953e-05,
+        "B": 6.198883056640625e-05,
+        "C": 2.4318695068359375e-05,
+        "D": 1.0,
+        "E": 4.400499165058136e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 110,
+      "generated_until_stop": "The context of the conversation is a customer seeking a bag for their son. The initial question \"Can I help you?\" is a standard opening for service. The subsequent response \"I'm looking for a new bag for my son\" directly asks for assistance with a specific item and purpose. The most logical follow-up question for a service provider in this situation is to gather information about the son's preferences or needs regarding the bag. Among the options, \"What style does he like?\" is the most relevant question to help the provider suggest suitable options. \"What day is it?\" and \"What are you wearing?\" are unrelated to the purchase of a bag. \"What does he eat?\" is also a separate topic and not relevant to the context of buying a bag.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.014636993408203e-05,
+        "B": 5.4836273193359375e-05,
+        "C": 5.14984130859375e-05,
+        "D": 1.0,
+        "E": 3.119930624961853e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 111,
+      "generated_until_stop": "The passage discusses the negative aspects of tourism, such as cultural pollution and the loss of tradition, while also presenting an ideal scenario where ancient cultures are available for modern consumers. The phrase \"a cage model\" in this context refers to the way in which these cultures are presented and consumed. The options provided offer different interpretations of this \"cage model.\" Considering the overall theme of tourism's impact on indigenous cultures and the concept of \"cultural pollution,\" the most fitting interpretation of the \"cage model\" is one that describes how these cultures are displayed or \"caged\" for the amusement or consumption of modern visitors.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000553131103515625,
+        "C": 0.00021648406982421875,
+        "D": 0.000431060791015625,
+        "E": 1.3969838619232178e-07
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 112,
+      "generated_until_stop": "The passage describes a shift in how music is handled and how music reviews are perceived. The main idea is that the internet and social media have changed the process of music release and reception, making music more accessible and allowing for broader public opinion to influence what is considered \"good\" or \"popular.\" The final sentence summarizes this change, stating that music reviews now reflect public opinion rather than guiding it. Therefore, the most fitting topic sentence is one that captures this alteration in the relationship between music, criticism, and the public.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.004608154296875,
+        "C": 0.00140380859375,
+        "D": 0.001800537109375,
+        "E": 4.842877388000488e-07
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 113,
+      "generated_until_stop": "The passage lists a series of visual elements that are commonly associated with visual perception and artistic expression. The phrase \"red yellow blue green\" refers to a specific set of colors. Among the given options, \"color\" is the most fitting word to encompass these elements, as they are all forms of color. The other options, \"shape,\" \"hobby,\" and \"country,\" do not align with the visual elements presented.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 5.817413330078125e-05,
+        "C": 0.00150299072265625,
+        "D": 7.963180541992188e-05,
+        "E": 1.7811544239521027e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 114,
+      "generated_until_stop": "The passage lists several actions to achieve healthy skin, such as getting enough sleep, drinking water, using sunscreen, and washing the face. These actions are presented as beneficial for skin health. The word that best categorizes these helpful suggestions or recommendations is \"tips.\" \" Risks\" would imply negative consequences, \"sales\" is irrelevant to personal care, and \"societies\" refers to groups of people, not individual actions for health.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 9.012222290039062e-05,
+        "C": 3.123283386230469e-05,
+        "D": 6.198883056640625e-05,
+        "E": 2.9336661100387573e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 115,
+      "generated_until_stop": "The passage discusses how cultural ideas develop through logical reasoning and are \"ripe\" for discovery. It emphasizes that these discoveries are \"real consequences\" of the number system and that many individuals contribute to a \"chorus of knowledge.\" The phrase \"cultural ideas show 'advances' and 'developments'\" implies that these advancements are a result of how cultural ideas relate to and build upon existing ones. The concept of \"grow out of\" suggests a process of development and expansion, which aligns with the idea of cultural ideas evolving from prior assumptions.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00016880035400390625,
+        "C": 6.580352783203125e-05,
+        "D": 5.4836273193359375e-05,
+        "E": 1.955777406692505e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 116,
+      "generated_until_stop": "The passage structure indicates a shift from a general statement about hurting feelings and the need to apologize to specific advice on *how* to apologize. The phrase \"Here are three things you should consider when you say that you are sorry\" directly follows the introductory text about apologies. Therefore, the most logical continuation of the subject matter is the practical guidance on making a good apology.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 6.198883056640625e-05,
+        "B": 0.000179290771484375,
+        "C": 9.584426879882812e-05,
+        "D": 1.0,
+        "E": 1.7974525690078735e-07
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 117,
+      "generated_until_stop": "The passage structure presents a comparison between tennis and table tennis, highlighting both common traits and distinct differences. The phrase \"Also, both players hit a ball back and forth across a net\" serves as a continuation of the introductory information about the sports. The subsequent sentence, \"While tennis is played on a court, table tennis is played on a table,\" introduces a specific difference. The word that best connects these two contrasting points, indicating that despite the shared characteristics, significant differences exist, is a conjunctive adverb signaling contrast.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0002956390380859375,
+        "B": 1.0,
+        "C": 0.00048828125,
+        "D": 0.0001583099365234375,
+        "E": 1.6391277313232422e-07
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 118,
+      "generated_until_stop": "The passage describes Jean Renoir's life and achievements. The sentence \"He and the rest of the Renoir family were the models of many of his father’s paintings\" directly states he was the son of a famous painter. The subsequent sentences detail his military service during World War I and his work in film, including a specific movie title. The final sentence mentions an award he received. The question asks what *doesn't* align with the provided text. Considering the options, \"La Grande Illusion was not allowed to show in Germany\" is a specific detail about a particular film and its distribution, which is not directly stated as a general fact about his life or work in the surrounding sentences, though it does relate to his film career. The other options are either general statements about his family or his military service or a specific award, none of which are contradicted by the provided text.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.000179290771484375,
+        "B": 0.00058746337890625,
+        "C": 0.99609375,
+        "D": 0.00180816650390625,
+        "E": 1.2293457984924316e-07
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 119,
+      "generated_until_stop": "The sentence structure \"My dad _ breakfast at 6 a.m.\" requires a verb that describes a habitual action performed at a specific time. \"Has\" is the most appropriate verb in this context, as it can be followed by a prepositional phrase indicating a routine or custom, such as \"has dinner at 7 p.m.\" The other options do not fit the grammatical or semantic context of describing a regular activity at a set time.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.000553131103515625,
+        "C": 5.4836273193359375e-05,
+        "D": 4.839897155761719e-05,
+        "E": 1.2631062418222427e-08
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 120,
+      "generated_until_stop": "The passage describes a scientific experiment where subjects are expected to exercise at a specific relative physiological intensity. The phrase \"perhaps they would ... exercise at 65 percent of their maximum heart rate\" and \"instinctively settle into rhythm at 70 percent of their maximum rate of oxygen consumption\" indicates a desired outcome or expectation regarding the subjects' behavior. The word \"expecting\" implies a prediction of what would happen. The sentence structure \"Perhaps they would ... exercise at ... of their maximum heart rate\" suggests a planned or anticipated action. The subsequent sentences, \"But that's not what happened. There was, in fact, no consistency in measurements,\" reveal a deviation from the initial expectation. The blank needs a word that fits the pattern of expectation and the subsequent contrast. Considering the context of a scientific expectation, \"expecting\" is followed by an adverb that describes the manner of achieving that expectation. The options provided are \"preset,\" \"self-selected,\" and \"intentionally.\" The word \"expecting\" is followed by an adverb that describes the manner of achieving the intensity. The sentence structure implies a planned or anticipated action. The word \"expecting\" is followed by an adverb that describes the manner of achieving the intensity. The options provided are \"preset",
+      "pred": "A",
+      "probs": {
+        "A": 0.71484375,
+        "B": 0.1982421875,
+        "C": 0.053466796875,
+        "D": 0.0181884765625,
+        "E": 0.0162353515625
+      },
+      "gold": "E",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 121,
+      "generated_until_stop": "The passage is a letter from one person to another, expressing a complaint about noise. The phrase \"I live downstairs and have been hearing a lot of noise from your apartment lately. I can't sleep at night.Please keep the noise levels down, especially during the late hours. This would be greatly appreciated\" clearly outlines a problem and a desired outcome: reduced noise. Therefore, the purpose of the letter is to make a request.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 2.9325485229492188e-05,
+        "B": 7.009506225585938e-05,
+        "C": 2.014636993408203e-05,
+        "D": 1.0,
+        "E": 7.962808012962341e-08
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 122,
+      "generated_until_stop": "The passage describes a method for managing multiple copies of a document to ensure everyone receives one. The initial sentence sets up a general principle, and the subsequent sentences detail a specific example of how to achieve this. The phrase \"For example, suppose you are conducting a meeting and you want to ensure that everyone there has a copy of the agenda\" directly introduces the scenario that the following sentences will elaborate on. Therefore, the first sentence serves as an introductory statement for the provided text.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0004863739013671875,
+        "C": 0.00020313262939453125,
+        "D": 0.00096893310546875,
+        "E": 2.995133399963379e-06
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 123,
+      "generated_until_stop": "The passage describes a duality of being observed on performance. The first part explains that being observed can decrease performance, exemplified by stage fright. The second part provides an opposing example where observation enhances performance. The final sentence summarizes these two effects, stating that if something is new or being done for the first time, observation hinders it, but when it's well-known and practiced, it helps. The structure of the passage suggests a progression from a general principle to specific examples and then to a concluding rule. The provided options are all arrangements of the given sentences. The most logical flow to present these contrasting ideas is to first introduce the general principle of being observed affecting performance, then give a specific example of a negative effect, and finally provide a contrasting example of a positive effect, concluding with a general rule summarizing these observations.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.1591796875,
+        "B": 0.263671875,
+        "C": 0.08544921875,
+        "D": 0.4921875,
+        "E": 6.437301635742188e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    }
+  ]
+}

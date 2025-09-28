@@ -1,0 +1,1315 @@
+{
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "num_items_total": 87,
+  "num_evaluated": 82,
+  "num_stopped": 82,
+  "num_skipped": 5,
+  "accuracy_no_skipped": "68.29%",
+  "results": [
+    {
+      "index": 0,
+      "generated_until_stop": "1. Question: prom called \"formal\" in which country?\n2. Text: prom is called \"formal\" in Canada.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.005889892578125,
+        "B": 0.9921875,
+        "C": 0.00131988525390625,
+        "D": 0.000293731689453125,
+        "E": 6.109476089477539e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 1,
+      "generated_until_stop": "1. Question: why is prom important?\n2. Text: end of school, start of adulthood\n3. A: becoming an adult\n4. B, C: less relevant\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.953125,
+        "B": 0.0174560546875,
+        "C": 0.0011138916015625,
+        "D": 0.02880859375,
+        "E": 8.058547973632812e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 2,
+      "generated_until_stop": "1. Main topic: prom\n2. A, B, C: partial, not full topic\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.01324462890625,
+        "B": 0.059326171875,
+        "C": 0.0002422332763671875,
+        "D": 0.92578125,
+        "E": 0.00011444091796875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 3,
+      "generated_until_stop": "answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.267578125,
+        "B": 0.44140625,
+        "C": 0.02197265625,
+        "D": 0.267578125,
+        "E": 0.0012359619140625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 4,
+      "generated_until_stop": "1. Identify materials mentioned in the passage.\n2. Exclude materials not mentioned.\n3. A, B, D: mentioned in the passage.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.000431060791015625,
+        "B": 0.00012302398681640625,
+        "C": 1.0,
+        "D": 0.0001087188720703125,
+        "E": 1.895427703857422e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 5,
+      "generated_until_stop": "1. Identify the subject: kite\n2. Identify the event: introduced to Europe\n3. Identify the person responsible: the Italians\n4. Match the person with the option: B. the Italians\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00070953369140625,
+        "B": 1.0,
+        "C": 0.0002613067626953125,
+        "D": 0.0003795623779296875,
+        "E": 1.2993812561035156e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 6,
+      "generated_until_stop": "1. Main topic: history of kites\n2. A: making kites\n3. B, C: flying and introduction to Europe\n4. D: not mentioned\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.25,
+        "B": 0.412109375,
+        "C": 0.3203125,
+        "D": 0.0159912109375,
+        "E": 0.0002593994140625
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 7,
+      "generated_until_stop": "D. It supplied delicious seafood to the writer.",
+      "pred": "D",
+      "probs": {
+        "A": 0.07958984375,
+        "B": 0.08740234375,
+        "C": 0.197265625,
+        "D": 0.48828125,
+        "E": 0.1484375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": true
+    },
+    {
+      "index": 8,
+      "generated_until_stop": "answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.1396484375,
+        "B": 0.1396484375,
+        "C": 0.23046875,
+        "D": 0.48828125,
+        "E": 0.00225830078125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 9,
+      "generated_until_stop": "1. Main: describing a holiday experience\n2. Text: mentions visiting places, dining, and sailing\n3. A, C, D: irrelevant\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.003173828125,
+        "B": 0.99609375,
+        "C": 0.0002593994140625,
+        "D": 0.00116729736328125,
+        "E": 2.1338462829589844e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 10,
+      "generated_until_stop": "1. Main topic: autumn and fruit/vegetables\n2. A: autumn is a great time for fruit and vegetables\n3. B, C: partial, not main focus\n4. D: related, but not main focus\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.95703125,
+        "B": 0.00390625,
+        "C": 0.0003643035888671875,
+        "D": 0.037109375,
+        "E": 7.152557373046875e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 11,
+      "generated_until_stop": "1. Keyword: rich in beta carotene\n2. Text: Pumpkins are rich in beta carotene\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.002471923828125,
+        "C": 0.0001392364501953125,
+        "D": 0.0001392364501953125,
+        "E": 4.76837158203125e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 12,
+      "generated_until_stop": "1. People say the world is smaller because of the Internet.\n2. The Internet brings the outside world closer to people's homes.\n3. A, B, D: don't fit the main reason.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.005218505859375,
+        "B": 0.00191497802734375,
+        "C": 0.9921875,
+        "D": 0.000377655029296875,
+        "E": 5.793571472167969e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 13,
+      "generated_until_stop": "1. Question: what can't we do without the Internet?\n2. Text: see a doctor and study all kinds of subjects\n3. A: limited role\n4. B, C: not directly related\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.002166748046875,
+        "B": 0.008544921875,
+        "C": 0.000331878662109375,
+        "D": 0.98828125,
+        "E": 0.0001220703125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 14,
+      "generated_until_stop": "1. Main idea: Internet helps us\n2. Text: Internet helps us in many ways\n3. B, C, D: don't fit\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.001922607421875,
+        "C": 7.486343383789062e-05,
+        "D": 0.0002613067626953125,
+        "E": 3.123283386230469e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 15,
+      "generated_until_stop": "1. Read the passage.\n2. Identify the false statement.\n3. Compare options with passage content.\n\nAnswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.029296875,
+        "B": 0.96875,
+        "C": 0.00015354156494140625,
+        "D": 0.0003261566162109375,
+        "E": 1.2636184692382812e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 16,
+      "generated_until_stop": "1. Identify the reason for Ko's public apology.\n2. Match the reason with the corresponding option.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.91796875,
+        "B": 0.05859375,
+        "C": 0.0022735595703125,
+        "D": 0.0216064453125,
+        "E": 0.00014495849609375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 17,
+      "generated_until_stop": "1. Identify the reason for Ko's fame.\n2. Match the reason with the correct option.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.09228515625,
+        "B": 0.875,
+        "C": 0.0263671875,
+        "D": 0.007568359375,
+        "E": 0.0001220703125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 18,
+      "generated_until_stop": "1. Read the passage.\n2. Identify the relevant information about the press conference duration.\n3. Match the information to the correct option.\n\nThe passage states: \"By the end of the 10-minute press conference, 3,207 users of Sina Weibo supported Ko and hoped he would be a better person in the future.\"\n\nThe correct option is D. 10 minutes.",
+      "pred": "D",
+      "probs": {
+        "A": 0.048828125,
+        "B": 0.048828125,
+        "C": 0.298828125,
+        "D": 0.55859375,
+        "E": 0.043212890625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": true
+    },
+    {
+      "index": 19,
+      "generated_until_stop": "1. Text: \"After 14 days of detention, Ko's acting skills grew a lot!\"\n2. Reason: The user is commenting on Ko's improvement in acting skills during his detention.\n3. A, B, C: don't fit the context\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.01092529296875,
+        "B": 0.003143310546875,
+        "C": 0.0004253387451171875,
+        "D": 0.984375,
+        "E": 0.00012159347534179688
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 20,
+      "generated_until_stop": "answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.1962890625,
+        "B": 0.15234375,
+        "C": 0.11865234375,
+        "D": 0.53125,
+        "E": 0.0003337860107421875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 21,
+      "generated_until_stop": "1. Plants are important for life.\n2. Animals and man need plants to live.\n3. A, B, C: don't fit both\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001495361328125,
+        "B": 0.00116729736328125,
+        "C": 0.0003337860107421875,
+        "D": 0.99609375,
+        "E": 0.0003337860107421875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 22,
+      "generated_until_stop": "1. Main topic: plants\n2. Content: scientific information about plants\n3. A, B, D: not suitable\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00116729736328125,
+        "B": 0.0004291534423828125,
+        "C": 0.99609375,
+        "D": 0.00070953369140625,
+        "E": 4.5299530029296875e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 23,
+      "generated_until_stop": "answer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.291015625,
+        "B": 0.291015625,
+        "C": 0.373046875,
+        "D": 0.044677734375,
+        "E": 0.000720977783203125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 24,
+      "generated_until_stop": "1. Identify the duration of the holiday mentioned in the passage.\n2. The passage states, \"A week is not really long enough, is it?\" and \"If your school has a five-week holiday next year, perhaps you'll be able to stay with us for two or three weeks.\"\n3. The holiday lasted for three weeks, as mentioned in the passage.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00823974609375,
+        "B": 0.036865234375,
+        "C": 0.94921875,
+        "D": 0.004974365234375,
+        "E": 7.104873657226562e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 25,
+      "generated_until_stop": "1. Sent1: \"It feels like three months!\" → time feeling\n2. Sent2: Michael works very hard now that he is in Grade One → hard work\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.005126953125,
+        "B": 0.0108642578125,
+        "C": 0.003997802734375,
+        "D": 0.98046875,
+        "E": 0.00032806396484375
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 26,
+      "generated_until_stop": "1. Identify the subject: Michael is writing to John.\n2. Determine the context: Michael is discussing John's holiday and school life.\n3. Focus on the relevant part: Michael mentions John and his sister's school life.\n4. Match the context to the options: Michael is referring to his own school life in Grade One.\n5. Select the correct option: Michael is in Grade One now.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.057861328125,
+        "B": 0.03515625,
+        "C": 0.00106048583984375,
+        "D": 0.90625,
+        "E": 0.0003910064697265625
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 27,
+      "generated_until_stop": "1. Michael didn't go to the island for picnic.\n2. He had a cut foot and couldn't walk very well.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.00116729736328125,
+        "C": 0.99609375,
+        "D": 9.584426879882812e-05,
+        "E": 1.4662742614746094e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 28,
+      "generated_until_stop": "1. Identify the advantages mentioned in the passage.\n2. Compare the options with the advantages.\n3. Eliminate the options that are advantages.\n4. Identify the option that is NOT an advantage.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01068115234375,
+        "B": 0.01373291015625,
+        "C": 0.96484375,
+        "D": 0.01068115234375,
+        "E": 0.000774383544921875
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 29,
+      "generated_until_stop": "1. Identify the main topic: Weibo\n2. Identify the main activity: sharing information\n3. Identify the main content: news, pictures, music, videos, etc.\n4. Identify the main problem: sharing sensitive information\n5. Identify the main option: secrets\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.000553131103515625,
+        "B": 0.000911712646484375,
+        "C": 0.00020313262939453125,
+        "D": 1.0,
+        "E": 0.00012302398681640625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 30,
+      "generated_until_stop": "1. Main topic: Weibo\n2. Text: Why Weibo is so popular\n3. A, C, D: not main focus\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.99609375,
+        "C": 0.000705718994140625,
+        "D": 0.002471923828125,
+        "E": 4.506111145019531e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 31,
+      "generated_until_stop": "1. People join dangerous sports for excitement.\n2. Other options (A, B, D) are not mentioned as reasons.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.005157470703125,
+        "B": 0.005157470703125,
+        "C": 0.984375,
+        "D": 0.005157470703125,
+        "E": 0.000156402587890625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 32,
+      "generated_until_stop": "answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.06982421875,
+        "B": 0.8515625,
+        "C": 0.01068115234375,
+        "D": 0.06982421875,
+        "E": 0.00017261505126953125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 33,
+      "generated_until_stop": "1. Identify the main activity in bungee jumping.\n2. Match the activity with the correct option.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.01043701171875,
+        "B": 0.9375,
+        "C": 0.0220947265625,
+        "D": 0.0283203125,
+        "E": 9.012222290039062e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 34,
+      "generated_until_stop": "1. Past life: dangerous animals, poor living conditions, no doctors/hospitals\n2. All options (A, B, C) are relevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00116729736328125,
+        "B": 0.000553131103515625,
+        "C": 0.000553131103515625,
+        "D": 0.99609375,
+        "E": 7.486343383789062e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 35,
+      "generated_until_stop": "1. Identify the false statement\n2. Compare options with passage content\n3. A: True, passage mentions excitement\n4. B, C, D: True, passage mentions safe places, shops, doctors\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.007537841796875,
+        "C": 0.0002574920654296875,
+        "D": 0.0040283203125,
+        "E": 0.0001773834228515625
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 36,
+      "generated_until_stop": "answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.2138671875,
+        "B": 0.58203125,
+        "C": 0.017578125,
+        "D": 0.1884765625,
+        "E": 0.0003204345703125
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 37,
+      "generated_until_stop": "1. Look for kids in Africa\n2. Identify their activities\n3. Compare with other continents\n4. Find the unique activity\n5. Answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0286865234375,
+        "B": 9.107589721679688e-05,
+        "C": 0.0223388671875,
+        "D": 0.94921875,
+        "E": 1.0907649993896484e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 38,
+      "generated_until_stop": "1. The passage mentions \"October is getting closer and it also means that the year of 2014 is coming to an end.\"\n2. The passage describes activities kids in other continents do during their holidays.\n3. The passage does not mention the writing date of the passage.\n4. The passage does not state that kids in America are good at maths.\n5. The passage does not state that kids in Australia spend much time on homework.\n6. The passage does not state that kids in Africa don't play football.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.984375,
+        "B": 0.0140380859375,
+        "C": 0.000698089599609375,
+        "D": 0.00115203857421875,
+        "E": 9.441375732421875e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 39,
+      "generated_until_stop": "1. Purpose: Holiday activities\n2. Text: good holiday plans\n3. A: limited role\n4. B, C, D: don't fit\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.02294921875,
+        "C": 0.00078582763671875,
+        "D": 0.00146484375,
+        "E": 5.6743621826171875e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 40,
+      "generated_until_stop": "1. Three tortoises are mentioned.\n2. They are friends.\n3. A, C, D: don't fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.002471923828125,
+        "B": 0.99609375,
+        "C": 0.000553131103515625,
+        "D": 0.0002613067626953125,
+        "E": 2.4199485778808594e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 41,
+      "generated_until_stop": "answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.32421875,
+        "B": 0.1533203125,
+        "C": 0.197265625,
+        "D": 0.32421875,
+        "E": 0.0006256103515625
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 42,
+      "generated_until_stop": "answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.54296875,
+        "B": 0.09423828125,
+        "C": 0.03466796875,
+        "D": 0.328125,
+        "E": 0.00081634521484375
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 43,
+      "generated_until_stop": "answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.26953125,
+        "B": 0.443359375,
+        "C": 0.2099609375,
+        "D": 0.0771484375,
+        "E": 0.000518798828125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 44,
+      "generated_until_stop": "answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.1728515625,
+        "B": 0.1728515625,
+        "C": 0.049560546875,
+        "D": 0.60546875,
+        "E": 0.00102996826171875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 45,
+      "generated_until_stop": "1. Main topic: broken bones\n2. Key information: symptoms, treatment, healing\n3. A, C: not main focus\n4. D: covers all aspects\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.025146484375,
+        "B": 0.028564453125,
+        "C": 0.000461578369140625,
+        "D": 0.9453125,
+        "E": 0.000247955322265625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 46,
+      "generated_until_stop": "1. Identify the action that should not be done when someone breaks a bone.\n2. The passage states to stay calm, comfort the person, and call the doctor.\n3. Moving the injured part is mentioned as something to avoid.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.000553131103515625,
+        "B": 0.000431060791015625,
+        "C": 1.0,
+        "D": 8.487701416015625e-05,
+        "E": 1.0132789611816406e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 47,
+      "generated_until_stop": "1. Mary told a story about different cups.\n2. She mentioned four completely different cups.\n3. A, C, D: don't fit the story's focus.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.010986328125,
+        "B": 0.98828125,
+        "C": 0.000545501708984375,
+        "D": 0.00115966796875,
+        "E": 5.745887756347656e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 48,
+      "generated_until_stop": "1. Story: Different cups, same tea\n2. Message: Envy not helpful\n3. A, C: not main point\n4. D: enjoy own life\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.009033203125,
+        "B": 0.06689453125,
+        "C": 0.00045013427734375,
+        "D": 0.921875,
+        "E": 0.00045013427734375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 49,
+      "generated_until_stop": "answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.7109375,
+        "B": 0.26171875,
+        "C": 0.01019287109375,
+        "D": 0.0147705078125,
+        "E": 0.00021076202392578125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 50,
+      "generated_until_stop": "1. Mike was chosen in the school team because he scored a lot of goals.\n2. Mike scored two goals before half time.\n3. Mike almost scored another goal in the second half.\n4. Mike's father commented on his performance in the match.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.016845703125,
+        "B": 0.058837890625,
+        "C": 0.002288818359375,
+        "D": 0.921875,
+        "E": 0.000240325927734375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 51,
+      "generated_until_stop": "1. Identify the team Mike's team played against.\n2. Determine the color of Mike's team's shirts.\n3. Green, Blue, Red: colors of opposing team and irrelevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0291748046875,
+        "B": 0.0021209716796875,
+        "C": 0.00145721435546875,
+        "D": 0.96875,
+        "E": 2.0742416381835938e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 52,
+      "generated_until_stop": "1. Mike scored 1 goal in the first two minutes.\n2. Mike scored 2 goals before half time.\n3. Mike almost scored 1 goal in the second half.\n4. Mike scored 0 goals in the second half (goalkeeper caught the ball).\n\nTotal goals scored by Mike: 1 + 2 + 0 = 3\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01336669921875,
+        "B": 0.046630859375,
+        "C": 0.9375,
+        "D": 0.0038299560546875,
+        "E": 0.00010204315185546875
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 53,
+      "generated_until_stop": "1. Mike scored multiple goals in the match.\n2. Mike's father commented on his missed goal.\n3. Mike's response: \"Because there were tears in the goalkeeper's eyes.\"\n4. Mike's action: Kicked the ball lightly.\n5. Mike's behavior: Kindness towards the goalkeeper.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.00518798828125,
+        "C": 0.000701904296875,
+        "D": 0.98828125,
+        "E": 0.000331878662109375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 54,
+      "generated_until_stop": "answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.41015625,
+        "B": 0.11767578125,
+        "C": 0.1513671875,
+        "D": 0.3203125,
+        "E": 0.0002269744873046875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 55,
+      "generated_until_stop": "1. Jeff's friends ran across America with him.\n2. They all have no _.\n3. A, C, D: don't fit both\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.98828125,
+        "C": 0.00148773193359375,
+        "D": 0.00665283203125,
+        "E": 7.390975952148438e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 56,
+      "generated_until_stop": "1. Main: Jeff ran for everybody\n2. Text: Jeff wants people to know they can do anything\n3. A: irrelevant\n4. B, C: partial, not full meaning\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.005828857421875,
+        "B": 0.318359375,
+        "C": 0.00167083740234375,
+        "D": 0.671875,
+        "E": 0.00054168701171875
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 57,
+      "generated_until_stop": "1. Fashion means \"clothes\"\n2. Fashionable refers to clothes\n3. Options A, B, C: not directly related to fashion\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00116729736328125,
+        "B": 0.00090789794921875,
+        "C": 0.0001583099365234375,
+        "D": 0.99609375,
+        "E": 0.0001087188720703125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 58,
+      "generated_until_stop": "1. Fashion changes over time\n2. New fashions lead to buying new things\n3. A, B, C: irrelevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.008544921875,
+        "B": 0.000701904296875,
+        "C": 0.000331878662109375,
+        "D": 0.9921875,
+        "E": 0.00015735626220703125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 59,
+      "generated_until_stop": "1. Fashion changes quickly\n2. Fashion leads to buying new things\n3. New things generate money\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.008544921875,
+        "B": 0.0031280517578125,
+        "C": 0.984375,
+        "D": 0.0040283203125,
+        "E": 0.00012159347534179688
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 60,
+      "generated_until_stop": "1. Main topic: fashion changes\n2. Fashion changes lead to buying new things\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.11669921875,
+        "B": 0.0157470703125,
+        "C": 0.86328125,
+        "D": 0.00579833984375,
+        "E": 0.00017547607421875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 61,
+      "generated_until_stop": "1. Criticism: People don't understand her family.\n2. Text: They don't hear us laughing over each other's jokes.\n3. A: They don't know what her family is really like.\n4. B, C, D: don't fit the context of the passage.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.1435546875,
+        "B": 0.031982421875,
+        "C": 0.0012359619140625,
+        "D": 0.82421875,
+        "E": 0.000354766845703125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 62,
+      "generated_until_stop": "1. Keyword: strict parenting\n2. Text: made me more independent\n3. A: irrelevant\n4. B, C: irrelevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0004291534423828125,
+        "B": 0.00116729736328125,
+        "C": 0.0001583099365234375,
+        "D": 1.0,
+        "E": 8.487701416015625e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 63,
+      "generated_until_stop": "1. Identify the main point of the passage.\n2. Determine which option contradicts the main point.\n3. Option B states that Sophia has never been disturbed by tea parties, which contradicts the main point that she is thankful for her strict mother's upbringing.\n4. Option C supports the main point.\n5. Option D is a detail that supports the main point.\n\nAnswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00518798828125,
+        "B": 0.9921875,
+        "C": 0.00020122528076171875,
+        "D": 0.004058837890625,
+        "E": 3.504753112792969e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 64,
+      "generated_until_stop": "1. Main factors: climate and resources\n2. Climate: warm conditions and rainfall\n3. Resources: oceans, rivers, deserts, mountains\n4. Answer: C. Climate and resources.",
+      "pred": "D",
+      "probs": {
+        "A": 0.04296875,
+        "B": 0.04296875,
+        "C": 0.2431640625,
+        "D": 0.62109375,
+        "E": 0.04931640625
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 65,
+      "generated_until_stop": "1. Main: people avoid north and south pole\n2. Text: bitterly cold and windy conditions\n3. A, B: irrelevant\n4. C, D: both are reasons\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00042724609375,
+        "B": 0.001495361328125,
+        "C": 0.9921875,
+        "D": 0.004058837890625,
+        "E": 5.793571472167969e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 66,
+      "generated_until_stop": "1. Main: advantages of living in valleys near rivers\n2. Text: warm conditions, rainfall, resources like oil, fish, plants, animals\n3. A, B, C: advantages\n4. D: disadvantage\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0223388671875,
+        "B": 0.0196533203125,
+        "C": 0.00927734375,
+        "D": 0.94921875,
+        "E": 0.0002803802490234375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 67,
+      "generated_until_stop": "1. Identify the sports mentioned in the passage.\n2. Identify the sport that is not mentioned in the passage.\n3. A, B, D: mentioned in the passage\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.002166748046875,
+        "B": 0.00131988525390625,
+        "C": 0.9921875,
+        "D": 0.0027923583984375,
+        "E": 0.00012302398681640625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 68,
+      "generated_until_stop": "answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.6015625,
+        "B": 0.11865234375,
+        "C": 0.0264892578125,
+        "D": 0.251953125,
+        "E": 0.000377655029296875
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 69,
+      "generated_until_stop": "1. Test: why get high marks?\n2. Text: training makes test easier\n3. A: irrelevant\n4. B, D: partial, not full reason\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0024261474609375,
+        "B": 0.0179443359375,
+        "C": 0.98046875,
+        "D": 0.00054168701171875,
+        "E": 0.00012063980102539062
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 70,
+      "generated_until_stop": "1. Test: P. E. test\n2. Text: Most students find the test easy\n3. A: not mentioned\n4. B, C: not mentioned\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0019073486328125,
+        "B": 0.010986328125,
+        "C": 0.000545501708984375,
+        "D": 0.98828125,
+        "E": 8.344650268554688e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 71,
+      "generated_until_stop": "answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.353515625,
+        "B": 0.353515625,
+        "C": 0.07861328125,
+        "D": 0.2138671875,
+        "E": 0.00019550323486328125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 72,
+      "generated_until_stop": "1. Blue moon: rare event\n2. Blue moon: second full moon in one month\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.036376953125,
+        "B": 0.0172119140625,
+        "C": 0.94140625,
+        "D": 0.00634765625,
+        "E": 0.00019168853759765625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 73,
+      "generated_until_stop": "answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.2373046875,
+        "B": 0.1845703125,
+        "C": 0.1845703125,
+        "D": 0.390625,
+        "E": 0.00180816650390625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 74,
+      "generated_until_stop": "1. Blue moon happens 15 times in 20 years.\n2. Blue moon is rare.\n3. B: Less than once a year.",
+      "pred": "D",
+      "probs": {
+        "A": 0.07275390625,
+        "B": 0.08740234375,
+        "C": 0.24609375,
+        "D": 0.53515625,
+        "E": 0.057373046875
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 75,
+      "generated_until_stop": "1. Charitable purpose: help children\n2. Children with: serious illnesses\n3. A: limited role\n4. B, C, D: don't fit\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.004058837890625,
+        "C": 0.000202178955078125,
+        "D": 0.0004863739013671875,
+        "E": 1.6570091247558594e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 76,
+      "generated_until_stop": "1. Christopher's wish: to be a police officer\n2. Police officers' action: made a real police uniform for him\n3. B: They gave him a tour of the city .\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0732421875,
+        "B": 0.890625,
+        "C": 0.01123046875,
+        "D": 0.0238037109375,
+        "E": 0.00020599365234375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 77,
+      "generated_until_stop": "1. Identify the true statement in the passage.\n2. True statement: \"Make-A-Wish \" has a history of over 30 years.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0019073486328125,
+        "B": 0.003143310546875,
+        "C": 0.00665283203125,
+        "D": 0.98828125,
+        "E": 0.000156402587890625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 78,
+      "generated_until_stop": "answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.2041015625,
+        "B": 0.431640625,
+        "C": 0.1591796875,
+        "D": 0.2041015625,
+        "E": 0.000347137451171875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 79,
+      "generated_until_stop": "1. Identify the context: Marley received Christmas presents.\n2. Determine the relevant part: Marley's reaction to the presents.\n3. Match the reaction with the options: Marley was excited about her name on the biggest box.\n4. Identify the biggest box: The passage mentions Marley's name on the biggest box.\n5. Choose the option that matches the context: D. Nothing. (Marley was excited about her name on the biggest box, not the contents of the box.)",
+      "pred": "D",
+      "probs": {
+        "A": 0.044677734375,
+        "B": 0.058349609375,
+        "C": 0.357421875,
+        "D": 0.50390625,
+        "E": 0.034912109375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 80,
+      "generated_until_stop": "1. Identify the true statement in the passage.\n2. A: True, mentioned in the passage.\n3. B, C: False, not mentioned in the passage.\n4. D: False, the writer's happiness was cut in half, not doubled.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.91796875,
+        "B": 0.00616455078125,
+        "C": 0.0751953125,
+        "D": 0.0022735595703125,
+        "E": 0.00018596649169921875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 81,
+      "generated_until_stop": "1. Keyword: benefits people's\n2. Text: walking helps body work better\n3. A: limited role\n4. B, D: minor\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00189971923828125,
+        "B": 0.01092529296875,
+        "C": 0.984375,
+        "D": 0.0010223388671875,
+        "E": 8.344650268554688e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 82,
+      "generated_until_stop": "1. People are more likely to continue a walking program.\n2. Walking offers some mental benefits, too.\n3. B, C, D: don't fit both\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9921875,
+        "B": 0.005218505859375,
+        "C": 0.00017833709716796875,
+        "D": 0.00054931640625,
+        "E": 0.00010824203491210938
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 83,
+      "generated_until_stop": "1. Start walking\n2. Prepare walking shoes and comfortable clothes\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001922607421875,
+        "B": 0.002471923828125,
+        "C": 0.00116729736328125,
+        "D": 0.99609375,
+        "E": 0.00012302398681640625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 84,
+      "generated_until_stop": "1. Count the number of ways mentioned in the passage.\n2. The passage mentions five ways: WAY 1, WAY 2, WAY 3, WAY 4, and WAY 5.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00836181640625,
+        "B": 0.0177001953125,
+        "C": 0.00653076171875,
+        "D": 0.96875,
+        "E": 0.00025177001953125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 85,
+      "generated_until_stop": "1. Turning off PC reduces CO2\n2. CO2 reduction is the main benefit\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.000705718994140625,
+        "B": 0.9921875,
+        "C": 0.006683349609375,
+        "D": 0.000904083251953125,
+        "E": 1.6570091247558594e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 86,
+      "generated_until_stop": "answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.25390625,
+        "B": 0.41796875,
+        "C": 0.25390625,
+        "D": 0.07275390625,
+        "E": 0.000629425048828125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    }
+  ]
+}

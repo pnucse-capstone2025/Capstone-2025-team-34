@@ -1,0 +1,1330 @@
+{
+  "model_id": "microsoft/Phi-4-mini-instruct",
+  "num_items_total": 88,
+  "num_evaluated": 83,
+  "num_stopped": 83,
+  "num_skipped": 5,
+  "accuracy_no_skipped": "80.72%",
+  "results": [
+    {
+      "index": 87,
+      "generated_until_stop": "1. Identify the main goal: reduce CO2 and other greenhouse gases.\n2. Evaluate each way: all ways contribute to reducing greenhouse gases.\n3. Match the ways to the goal: all ways help reduce greenhouse gases.\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00116729736328125,
+        "B": 0.00116729736328125,
+        "C": 0.99609375,
+        "D": 0.00020313262939453125,
+        "E": 4.00543212890625e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 88,
+      "generated_until_stop": "1. Keyword: plant a tree\n2. Text: beautifies garden, cleaner air, save environment\n3. D: all mentioned benefits\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.005859375,
+        "B": 0.008544921875,
+        "C": 0.000545501708984375,
+        "D": 0.984375,
+        "E": 0.0001373291015625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 89,
+      "generated_until_stop": "1. Boy from Germany\n2. Robot helps with homework\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.004058837890625,
+        "C": 0.000705718994140625,
+        "D": 0.0003337860107421875,
+        "E": 1.2934207916259766e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 90,
+      "generated_until_stop": "1. Question: How many kids imagined robots could help do chores?\n2. Text: A quarter of kids surveyed imagined robots could do chores.\n3. A: 20\n4. B, C, D: don't fit\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.2216796875,
+        "B": 0.7734375,
+        "C": 0.00054931640625,
+        "D": 0.0031585693359375,
+        "E": 2.4199485778808594e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 91,
+      "generated_until_stop": "D. Robots make movies.",
+      "pred": "D",
+      "probs": {
+        "A": 0.07568359375,
+        "B": 0.1328125,
+        "C": 0.19921875,
+        "D": 0.478515625,
+        "E": 0.11376953125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": true
+    },
+    {
+      "index": 92,
+      "generated_until_stop": "1. Identify the options that are not mentioned in the passage.\n2. A: kitchen helpers - mentioned as doing chores and boring work.\n3. B, C, D: all mentioned in the passage.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.83984375,
+        "B": 0.06884765625,
+        "C": 0.0026702880859375,
+        "D": 0.08837890625,
+        "E": 0.000362396240234375
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 93,
+      "generated_until_stop": "1. Kids' thoughts about robots\n2. Robots help with learning, chores, friendship, and coolness\n3. A: kids' ideas\n4. B, C: not mentioned\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.96484375,
+        "B": 0.006500244140625,
+        "C": 0.001129150390625,
+        "D": 0.029052734375,
+        "E": 8.153915405273438e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 94,
+      "generated_until_stop": "1. Identify the main topic: Penguins\n2. Look for a statement that directly describes a characteristic of penguins\n3. A: can swim better than fly - directly describes a characteristic of penguins\n4. B, C, D: don't directly describe a characteristic of penguins\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.953125,
+        "B": 0.0224609375,
+        "C": 0.00052642822265625,
+        "D": 0.0224609375,
+        "E": 0.00022029876708984375
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 95,
+      "generated_until_stop": "answer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.162109375,
+        "B": 0.01177978515625,
+        "C": 0.82421875,
+        "D": 0.000965118408203125,
+        "E": 0.000514984130859375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 96,
+      "generated_until_stop": "1. Identify the main reason for the increase in penguin reproduction.\n2. Link the increase to the actions taken by people.\n3. Eliminate options that are not directly related to the increase in reproduction.\n4. Choose the option that best explains the increase in reproduction.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0283203125,
+        "B": 0.0771484375,
+        "C": 0.73046875,
+        "D": 0.1630859375,
+        "E": 0.0010986328125
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 97,
+      "generated_until_stop": "1. Keyword: skills taught by part-time job\n2. Text: responsibility, independence, teamwork, leadership\n3. D: organization not mentioned\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00823974609375,
+        "B": 0.036865234375,
+        "C": 0.000598907470703125,
+        "D": 0.953125,
+        "E": 0.00028228759765625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 98,
+      "generated_until_stop": "1. Keyword: age to work\n2. Text: US Department of Labor allows teenagers to apply for jobs at the age of 14\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.010986328125,
+        "C": 0.000545501708984375,
+        "D": 0.0004253387451171875,
+        "E": 2.1219253540039062e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 99,
+      "generated_until_stop": "1. Question: favorite summer job for teens\n2. Text: top jobs in summer\n3. A, B: not summer jobs\n4. C, D: both are summer jobs\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0031585693359375,
+        "B": 0.0024566650390625,
+        "C": 0.9921875,
+        "D": 0.0024566650390625,
+        "E": 2.7298927307128906e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 100,
+      "generated_until_stop": "1. Teenagers value work experience\n2. Babysitting is a favorite job\n3. A: limited role\n4. B, C: minor\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.00518798828125,
+        "C": 0.000705718994140625,
+        "D": 0.9921875,
+        "E": 0.0001220703125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 101,
+      "generated_until_stop": "1. Main topic: travel books\n2. Options: A, B, C, D\n3. A, C, D: not directly related\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.002471923828125,
+        "B": 0.99609375,
+        "C": 0.0003795623779296875,
+        "D": 0.00090789794921875,
+        "E": 3.0994415283203125e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 102,
+      "generated_until_stop": "1. First kind: personal ideas\n2. Second kind: objective information\n3. Third kind: guide\n4. Fourth kind: practical matter\n5. Fifth kind: useful information\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.70703125,
+        "B": 0.07470703125,
+        "C": 0.05810546875,
+        "D": 0.158203125,
+        "E": 0.00014400482177734375
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 103,
+      "generated_until_stop": "1. Date of publication is mentioned\n2. Travel is a practical matter\n3. Many things change quickly in the 21st century\n4. Information in travel books is always changing\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.006683349609375,
+        "C": 0.000797271728515625,
+        "D": 0.98828125,
+        "E": 0.00013828277587890625
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 104,
+      "generated_until_stop": "1. Main character: Jeff Keith\n2. Jeff's condition: has only one leg, was disabled\n3. A: disabled\n4. B, C, D: don't fit\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.008544921875,
+        "C": 0.000331878662109375,
+        "D": 0.00168609619140625,
+        "E": 1.8715858459472656e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 105,
+      "generated_until_stop": "1. Jeff lost one of his right _ because of cancer.\n2. The passage mentions Jeff's right leg.\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.008544921875,
+        "B": 0.98828125,
+        "C": 0.00244140625,
+        "D": 0.00148773193359375,
+        "E": 2.1219253540039062e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 106,
+      "generated_until_stop": "1. Jeff ran across American\n2. Jeff started running in Boston\n3. Seven months later, he stopped running in Los Angeles\n4. Jeff ran 3,200 miles, that's about 16 miles each day\n5. Jeff stopped in cities on the way to Los Angeles\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.07421875,
+        "B": 0.0166015625,
+        "C": 0.90625,
+        "D": 0.0047607421875,
+        "E": 0.00012683868408203125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 107,
+      "generated_until_stop": "1. Read the passage.\n2. Identify the false statement.\n3. Compare options with passage content.\n4. Eliminate true statements.\n5. Select the false statement.\n\nAnswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.2001953125,
+        "B": 0.0947265625,
+        "C": 0.00469970703125,
+        "D": 0.69921875,
+        "E": 0.000820159912109375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 108,
+      "generated_until_stop": "answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.205078125,
+        "B": 0.6328125,
+        "C": 0.07568359375,
+        "D": 0.08544921875,
+        "E": 0.00011348724365234375
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 109,
+      "generated_until_stop": "1. Identify the incorrect statement about Sagittarians.\n2. Compare the statements with the passage content.\n3. A: Sagittarians often tell lies. (Incorrect, Sagittarians seldom tell lies)\n4. B: Sagittarians can be rude. (Correct, mentioned in passage)\n5. C: Sagittarians show great interest in strange things and people. (Correct, mentioned in passage)\n6. D: Sagittarians can end up working by using their good intuition. (Correct, mentioned in passage)\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.003173828125,
+        "C": 0.00020313262939453125,
+        "D": 0.00020313262939453125,
+        "E": 2.1338462829589844e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 110,
+      "generated_until_stop": "1. Main topic: Hershey's Kisses and chocolate factory visit\n2. Text: Hershey's Kisses, chocolate factory, town theme\n3. A: Her wonderful trip to a chocolate factory\n4. B, C, D: not mentioned\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.010986328125,
+        "C": 0.0002918243408203125,
+        "D": 0.0021514892578125,
+        "E": 0.00013828277587890625
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 111,
+      "generated_until_stop": "1. Passage describes Hershey as a chocolate-themed amusement park.\n2. Options A, B, C: don't fit the description.\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.0002593994140625,
+        "C": 0.000705718994140625,
+        "D": 0.99609375,
+        "E": 0.00012302398681640625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 112,
+      "generated_until_stop": "1. Identify the true statement in the passage.\n2. True statement: \"Hershey Chocolate developed very fast.\"\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0003337860107421875,
+        "B": 0.001922607421875,
+        "C": 0.99609375,
+        "D": 0.0002613067626953125,
+        "E": 2.7418136596679688e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 113,
+      "generated_until_stop": "1. The writer's excitement about visiting the factory is evident in their description of the town and the amenities available.\n2. The writer's eagerness is further highlighted by their enthusiastic response to Jason's description of the town.\n3. The writer's anticipation is confirmed by their statement, \"Isn't that cool?\" which indicates a high level of excitement and interest.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.008544921875,
+        "C": 0.000701904296875,
+        "D": 0.98828125,
+        "E": 0.0001220703125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 114,
+      "generated_until_stop": "1. Rita's dream doll was not received by her parents.\n2. Linda's dream doll was not received by her parents.\n3. Linda's dream doll was not received by her parents.\n4. Linda's dream doll was not received by her parents.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0172119140625,
+        "B": 0.0284423828125,
+        "C": 0.013427734375,
+        "D": 0.94140625,
+        "E": 0.00058746337890625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 115,
+      "generated_until_stop": "answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.044189453125,
+        "B": 0.044189453125,
+        "C": 0.0208740234375,
+        "D": 0.890625,
+        "E": 0.00055694580078125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 116,
+      "generated_until_stop": "1. Identify the role of a discipline leader\n2. Match the role with the corresponding option\n3. Option C: make sure that nobody chats in class\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0024566650390625,
+        "B": 0.00518798828125,
+        "C": 0.98828125,
+        "D": 0.003143310546875,
+        "E": 9.489059448242188e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 117,
+      "generated_until_stop": "1. New way of learning: \"Tuantuanzuo\"\n2. Purpose: give students more chances to communicate\n3. D: limited options\n4. A, C: not directly related\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0019073486328125,
+        "B": 0.008544921875,
+        "C": 0.00020122528076171875,
+        "D": 0.98828125,
+        "E": 0.000331878662109375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 118,
+      "generated_until_stop": "1. Students are involved in the new way of learning.\n2. Text: benefits and tiredness mentioned.\n3. A: limited role\n4. B, C, D: don't fit both\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.984375,
+        "B": 0.0140380859375,
+        "C": 0.0002574920654296875,
+        "D": 0.000545501708984375,
+        "E": 1.2814998626708984e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 119,
+      "generated_until_stop": "1. Group size: five or six students\n2. Answer: D. Five or six.",
+      "pred": "D",
+      "probs": {
+        "A": 0.0654296875,
+        "B": 0.061279296875,
+        "C": 0.2080078125,
+        "D": 0.62109375,
+        "E": 0.045654296875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 120,
+      "generated_until_stop": "1. Identify the main subject: electronic \"hong bao\"\n2. Identify the Web giants involved: Alibaba and Tencent\n3. Identify the option that includes both Web giants: C. Alibaba and Tencent\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.005126953125,
+        "B": 0.0123291015625,
+        "C": 0.98046875,
+        "D": 0.00311279296875,
+        "E": 0.00012063980102539062
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 121,
+      "generated_until_stop": "1. Identify the popular trend for sending \"red envelopes\".\n2. Focus on the method used for sending \"red envelopes\".\n3. Identify the option that matches the method used.\n4. Confirm that the option C is the correct answer as it matches the method used for sending \"red envelopes\" through smartphones.",
+      "pred": "D",
+      "probs": {
+        "A": 0.0517578125,
+        "B": 0.055908203125,
+        "C": 0.2890625,
+        "D": 0.55859375,
+        "E": 0.04638671875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 122,
+      "generated_until_stop": "1. Identify the true statement in the passage.\n2. Compare the options with the passage content.\n3. Option A is false, as Tencent blocked Alipay from sending red envelopes on Wechat.\n4. Option C is false, as the passage states it's easy to send and receive hongbao or participate in the lotteries.\n5. Option D is false, as Alipay controls 82.6 percent of the Chinese mobile phone payment market, compared to 10 percent for Tencent's Tenpay.\n6. Option B is true, as the passage states the idea of electronic red envelope was introduced by Wechat in 2014.",
+      "pred": "D",
+      "probs": {
+        "A": 0.042724609375,
+        "B": 0.053955078125,
+        "C": 0.3203125,
+        "D": 0.54296875,
+        "E": 0.038818359375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 123,
+      "generated_until_stop": "1. Identify the main business purpose for launching lotteries.\n2. Look for the option that best fits the purpose of attracting public attention and engaging users.\n3. Option D: To gain many more new App users - This option aligns with the purpose of engaging users and attracting their attention.\n4. Other options (A, B, C) do not directly relate to the purpose of launching lotteries in the context of the passage.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.005096435546875,
+        "B": 0.0228271484375,
+        "C": 0.00113677978515625,
+        "D": 0.96875,
+        "E": 0.0004177093505859375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 124,
+      "generated_until_stop": "1. Mistake: pointing out\n2. Polite: A\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9609375,
+        "B": 0.032958984375,
+        "C": 0.00127410888671875,
+        "D": 0.0034637451171875,
+        "E": 6.341934204101562e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 125,
+      "generated_until_stop": "1. Keyword: don't ask\n2. Text: age, sex, families\n3. A, B: both\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0031585693359375,
+        "B": 0.001495361328125,
+        "C": 0.00102996826171875,
+        "D": 0.99609375,
+        "E": 0.00010824203491210938
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 126,
+      "generated_until_stop": "1. Main topic: behavior on the Internet\n2. Text: basic rules of behavior\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.003173828125,
+        "B": 0.00090789794921875,
+        "C": 0.99609375,
+        "D": 0.000705718994140625,
+        "E": 2.7418136596679688e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 127,
+      "generated_until_stop": "1. Identify common spices in Chinese cooking.\n2. Exclude options that are not spices.\n3. A, B, C: all are spices used in Chinese cooking.\n4. D: pearls are not a common spice, they are used medicinally.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00090789794921875,
+        "B": 0.00116729736328125,
+        "C": 0.0002613067626953125,
+        "D": 0.99609375,
+        "E": 0.00012302398681640625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 128,
+      "generated_until_stop": "1. Question: What do you know about medicinal food?\n2. Text: Chinese have eaten medicinal food for centuries.\n3. B, C: not mentioned\n4. D: not mentioned\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.002471923828125,
+        "C": 0.0001392364501953125,
+        "D": 0.0001583099365234375,
+        "E": 4.5299530029296875e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 129,
+      "generated_until_stop": "1. Question: Why did the Chinese begin to use ginger?\n2. Text: Used ginger for medicinal purposes\n3. A, B: irrelevant\n4. C: medicinal food for health\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.123046875,
+        "B": 0.123046875,
+        "C": 0.70703125,
+        "D": 0.045166015625,
+        "E": 0.00136566162109375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 130,
+      "generated_until_stop": "1. Identify the relevant part of the passage: \"Is your hair turning gray? Color your hair or eat black rice.\"\n2. Determine the answer: Black rice is used to color hair.\n3. Match the answer to the options: B. Why do women like \"Queen's Secret\"?\n4. Confirm the answer: Black rice is used to color hair, which is a reason women might like \"Queen's Secret.\"\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00127410888671875,
+        "B": 0.9609375,
+        "C": 0.000774383544921875,
+        "D": 0.037353515625,
+        "E": 4.935264587402344e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 131,
+      "generated_until_stop": "1. Main idea: medicinal food\n2. Text: Chinese restaurant in San Francisco\n3. A: foreigners will learn more\n4. B, C: not mentioned\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9765625,
+        "B": 0.003997802734375,
+        "C": 0.0003719329833984375,
+        "D": 0.0179443359375,
+        "E": 7.295608520507812e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 132,
+      "generated_until_stop": "1. Compare Taiwan, China and the Netherlands in area\n2. Netherlands is more than 41,500 square kilometres in area\n3. Taiwan, China is a bit smaller than the Netherlands in area\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.003173828125,
+        "C": 0.00116729736328125,
+        "D": 0.0004863739013671875,
+        "E": 1.1444091796875e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 133,
+      "generated_until_stop": "1. Reading: mentions artists, tulips, etc.\n2. Not mentioned: weather\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00148773193359375,
+        "B": 0.0031585693359375,
+        "C": 0.9921875,
+        "D": 0.004058837890625,
+        "E": 3.981590270996094e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 134,
+      "generated_until_stop": "1. Identify the relevant part of the passage: \"So Dutch people build many dams to protect the country from flooding. They have created almost one sixth of the country from seas and rivers!\"\n2. Convert the fraction to a percentage: one sixth is approximately 16.67%.\n3. Choose the closest option: A. 16%\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.8671875,
+        "B": 0.1171875,
+        "C": 0.0027618408203125,
+        "D": 0.01397705078125,
+        "E": 3.933906555175781e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 135,
+      "generated_until_stop": "1. Identify the false statement about the Netherlands.\n2. A: True, China and the Netherlands are long-time friends.\n3. B: True, Keukenhof garden is famous for tulips.\n4. C: True, wooden clogs are traditional shoes in the Netherlands.\n5. D: False, in the Netherlands, it's impolite to start eating at once.\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.001495361328125,
+        "B": 0.0004291534423828125,
+        "C": 0.001922607421875,
+        "D": 0.99609375,
+        "E": 0.00012302398681640625
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 136,
+      "generated_until_stop": "1. Compare San Francisco and London races\n2. London race is longer and harder\n3. A, B, C: don't fit both\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.005218505859375,
+        "B": 0.0024566650390625,
+        "C": 0.000331878662109375,
+        "D": 0.9921875,
+        "E": 0.0002593994140625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 137,
+      "generated_until_stop": "1. Identify the sport: table tennis\n2. Identify the player: Joy Foster\n3. Identify the year: 1958\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.003143310546875,
+        "B": 0.00518798828125,
+        "C": 0.98828125,
+        "D": 0.003143310546875,
+        "E": 2.4080276489257812e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 138,
+      "generated_until_stop": "1. Identify the record: walking backwards\n2. Identify the record holder: man from Texas\n3. Identify the record duration: 18 months\n4. Identify the record distance: 12,875 kilometers\n5. Identify the record breaker: Nobody else\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00189208984375,
+        "B": 0.98046875,
+        "C": 0.01397705078125,
+        "D": 0.005126953125,
+        "E": 3.933906555175781e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 139,
+      "generated_until_stop": "1. Identify the main topic: sport superlatives\n2. Match the topic with the passage content\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01080322265625,
+        "B": 0.01385498046875,
+        "C": 0.97265625,
+        "D": 0.0030975341796875,
+        "E": 8.249282836914062e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 140,
+      "generated_until_stop": "1. Main: locusts' colours protect them\n2. Text: locusts change colours to hide\n3. A, B: not mentioned\n4. C, D: partial, not full reason\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00131988525390625,
+        "B": 0.004058837890625,
+        "C": 0.00080108642578125,
+        "D": 0.9921875,
+        "E": 0.0002288818359375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 141,
+      "generated_until_stop": "1. Pests need to protect themselves\n2. Text: change colours to hide\n3. A: limited role\n4. B, C: partial, not full reason\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.81640625,
+        "B": 0.1416015625,
+        "C": 0.000957489013671875,
+        "D": 0.04052734375,
+        "E": 0.00012969970703125
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 142,
+      "generated_until_stop": "1. Main: protect themselves\n2. Text: colours like trees\n3. A, B, C: don't fit\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.0031585693359375,
+        "C": 8.440017700195312e-05,
+        "D": 0.002471923828125,
+        "E": 4.506111145019531e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 143,
+      "generated_until_stop": "answer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.61328125,
+        "B": 0.373046875,
+        "C": 0.00469970703125,
+        "D": 0.00872802734375,
+        "E": 0.00020599365234375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 144,
+      "generated_until_stop": "1. Main topic: use of colours for protection\n2. Text: main use of colours for animals and pests\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.0040283203125,
+        "B": 0.0040283203125,
+        "C": 0.98828125,
+        "D": 0.0024566650390625,
+        "E": 0.0001220703125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 145,
+      "generated_until_stop": "1. Purpose: To describe very modern technology.\n2. Text: \"High tech\" and \"state of the art\" are expressions that describe very modern technology.\n3. A, B, C: partial, not full purpose\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.008544921875,
+        "B": 0.00115966796875,
+        "C": 0.000545501708984375,
+        "D": 0.98828125,
+        "E": 6.532669067382812e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 146,
+      "generated_until_stop": "1. High tech and state of the art are expressions describing modern technology.\n2. High tech is a shorter way to say high technology.\n3. State of the art describes the latest and most modern technology.\n4. A lantern out of a big orange pumpkin is not mentioned in the passage.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.158203125,
+        "B": 0.70703125,
+        "C": 0.07470703125,
+        "D": 0.05810546875,
+        "E": 0.0005035400390625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 147,
+      "generated_until_stop": "1. Identify the false statement\n2. Compare options with passage content\n3. A: True, passage mentions popularity\n4. B: True, passage mentions best design\n5. C: True, passage mentions rapid change\n6. D: False, passage does not state all producers claim\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0004138946533203125,
+        "B": 0.0030517578125,
+        "C": 0.037109375,
+        "D": 0.9609375,
+        "E": 9.202957153320312e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 148,
+      "generated_until_stop": "answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.2080078125,
+        "B": 0.341796875,
+        "C": 0.01031494140625,
+        "D": 0.439453125,
+        "E": 0.000514984130859375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 149,
+      "generated_until_stop": "1. Keyword: personality\n2. Text: behavior, reaction, thinking\n3. B: not mentioned\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.013671875,
+        "B": 0.95703125,
+        "C": 0.005035400390625,
+        "D": 0.0225830078125,
+        "E": 0.00022125244140625
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 150,
+      "generated_until_stop": "1. Keyword: change personality\n2. Text: personality doesn't stop here\n3. A: limited role\n4. B: partial reason\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.004608154296875,
+        "B": 0.9921875,
+        "C": 0.00131988525390625,
+        "D": 0.0010223388671875,
+        "E": 3.504753112792969e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 151,
+      "generated_until_stop": "answer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.2578125,
+        "B": 0.0240478515625,
+        "C": 0.0113525390625,
+        "D": 0.703125,
+        "E": 0.00286865234375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 152,
+      "generated_until_stop": "answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.345703125,
+        "B": 0.443359375,
+        "C": 0.1630859375,
+        "D": 0.046630859375,
+        "E": 0.002044677734375
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 153,
+      "generated_until_stop": "answer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.039306640625,
+        "B": 0.478515625,
+        "C": 0.0028533935546875,
+        "D": 0.478515625,
+        "E": 0.0002651214599609375
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 154,
+      "generated_until_stop": "1. Question: dumplings with best\n2. Text: dumplings with vegetables and pork\n3. A: irrelevant\n4. B, D: irrelevant\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.00396728515625,
+        "B": 0.0177001953125,
+        "C": 0.96875,
+        "D": 0.0107421875,
+        "E": 0.00011920928955078125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 155,
+      "generated_until_stop": "answer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.15625,
+        "B": 0.0576171875,
+        "C": 0.703125,
+        "D": 0.083984375,
+        "E": 0.0001430511474609375
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 156,
+      "generated_until_stop": "1. Identify the false statement\n2. Compare options with passage content\n3. A: True, mentioned in passage\n4. B: True, mentioned in passage\n5. C: False, passage says people couldn't often eat dumplings because they were very poor\n6. D: True, mentioned in passage\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.003143310546875,
+        "B": 0.00518798828125,
+        "C": 0.98828125,
+        "D": 0.003143310546875,
+        "E": 0.00010776519775390625
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 157,
+      "generated_until_stop": "1. Identify the time period mentioned in the passage.\n2. Determine the relevant time period for Adams' mental health problems.\n3. Match the time period with the correct option.\n\nanswer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.044189453125,
+        "B": 0.25390625,
+        "C": 0.69140625,
+        "D": 0.01263427734375,
+        "E": 0.00018024444580078125
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 158,
+      "generated_until_stop": "1. Doctors disliked Adams\n2. Adams was different\n3. A, B: positive traits\n4. D: main reason\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0040283203125,
+        "B": 0.00848388671875,
+        "C": 0.0040283203125,
+        "D": 0.984375,
+        "E": 0.0002918243408203125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 159,
+      "generated_until_stop": "1. Identify the main subject: Gusundheit Institute\n2. Determine the relationship: Gusundheit Institute was opened by Hunter Adams\n3. Identify the options related to the main subject: A, B, C, D\n4. Match the relationship to the options: A (was a hospital)\n5. Confirm the answer: A",
+      "pred": "D",
+      "probs": {
+        "A": 0.034912109375,
+        "B": 0.0361328125,
+        "C": 0.3671875,
+        "D": 0.51953125,
+        "E": 0.044189453125
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": true
+    },
+    {
+      "index": 160,
+      "generated_until_stop": "1. Identify the false statement\n2. Compare options with passage content\n3. A: True, Adams wore shirts\n4. B: False, Williams played Adams, not Adams\n5. C: True, Adams believed in more than medicine\n6. D: True, Williams was an actor\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.00116729736328125,
+        "B": 0.99609375,
+        "C": 0.00017833709716796875,
+        "D": 0.004058837890625,
+        "E": 1.8835067749023438e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 161,
+      "generated_until_stop": "1. Main topic: Hunter Adams\n2. Other topics: mental health, hospital, film\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.0458984375,
+        "B": 0.0279541015625,
+        "C": 0.0015716552734375,
+        "D": 0.92578125,
+        "E": 0.0003986358642578125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 162,
+      "generated_until_stop": "1. Location: West Lake\n2. Text: lies in central Hangzhou\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.003173828125,
+        "C": 0.0003337860107421875,
+        "D": 0.0004291534423828125,
+        "E": 7.867813110351562e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 163,
+      "generated_until_stop": "1. Identify the number of causeways mentioned in the passage.\n2. Count the causeways: Su Di, Bai Di, and Yanggong Di.\n3. There are three causeways mentioned.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.005218505859375,
+        "B": 0.9921875,
+        "C": 0.001495361328125,
+        "D": 0.000904083251953125,
+        "E": 2.1338462829589844e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 164,
+      "generated_until_stop": "1. Identify the scene: Spring Dawn on the Su Causeway\n2. Determine the position: first of ten scenes\n3. Match the position with the option: A. first\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.93359375,
+        "B": 0.059814453125,
+        "C": 0.00124359130859375,
+        "D": 0.003814697265625,
+        "E": 0.00011539459228515625
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 165,
+      "generated_until_stop": "1. Context: Introduction to West Lake\n2. Audience: People visiting West Lake\n3. A, B, C: irrelevant\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.004058837890625,
+        "B": 0.000705718994140625,
+        "C": 0.0004291534423828125,
+        "D": 0.99609375,
+        "E": 7.43865966796875e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 166,
+      "generated_until_stop": "1. Identify the relevant part of the passage: \"More than 20 of my classmates have adopted pets online, while last year the number was just 10,\" said Wang Hui, a middle school student from Beijing, who also raises pets online.\n2. Determine the current number of students: \"More than 20 of my classmates have adopted pets online, while last year the number was just 10.\"\n3. Compare the current number with the options: The current number is 20, which is half of the previous year's number (10).\n4. Match the current number with the options: The current number is half of the previous year's number, so the answer is",
+      "pred": "C",
+      "probs": {
+        "A": 0.01397705078125,
+        "B": 0.006591796875,
+        "C": 0.98046875,
+        "D": 7.343292236328125e-05,
+        "E": 1.633167266845703e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 167,
+      "generated_until_stop": "1. Question: Dai Yingshuang's opinion on raising pets online\n2. Text: She thinks it's great fun\n3. A, B: not mentioned\n4. C: not mentioned\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.003997802734375,
+        "B": 0.00848388671875,
+        "C": 0.006622314453125,
+        "D": 0.98046875,
+        "E": 0.00015544891357421875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 168,
+      "generated_until_stop": "1. Identify the false statement\n2. Compare options with passage content\n3. A: True, passage mentions balance\n4. B: True, passage mentions care\n5. C: True, passage mentions worry\n6. D: False, passage doesn't support this\n\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.059814453125,
+        "B": 0.0023193359375,
+        "C": 0.0003566741943359375,
+        "D": 0.9375,
+        "E": 0.00010204315185546875
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 169,
+      "generated_until_stop": "1. Identify the number of examples mentioned in the passage.\n2. Count the examples: Wang Hui, Dai Yingshuang, Wang Zhaotong.\n3. There are three examples mentioned in the passage.\n\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.002410888671875,
+        "B": 0.97265625,
+        "C": 0.02294921875,
+        "D": 0.00041961669921875,
+        "E": 8.702278137207031e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 170,
+      "generated_until_stop": "1. Main topic: raising pets online\n2. Text: popular among teenagers\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00150299072265625,
+        "C": 0.00012302398681640625,
+        "D": 7.486343383789062e-05,
+        "E": 1.2993812561035156e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 171,
+      "generated_until_stop": "1. Happiness is for everyone\n2. Text: not limited to those with material wealth\n3. A, B, C: don't fit\nanswer is",
+      "pred": "D",
+      "probs": {
+        "A": 0.00150299072265625,
+        "B": 0.00070953369140625,
+        "C": 0.0002613067626953125,
+        "D": 0.99609375,
+        "E": 7.486343383789062e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 172,
+      "generated_until_stop": "1. When you do something wrong, _ people around you will help you to correct it.\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.00116729736328125,
+        "C": 0.0001583099365234375,
+        "D": 0.000335693359375,
+        "E": 1.1444091796875e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 173,
+      "generated_until_stop": "1. Question: Which is TRUE according to the passage?\n2. Text: Happiness is always around you if you put your heart into it.\n3. A: When you get success, your friends will say congratulations to you.\n4. B, C, D: False according to the passage.\n\nanswer is",
+      "pred": "A",
+      "probs": {
+        "A": 0.9296875,
+        "B": 0.035888671875,
+        "C": 0.0218505859375,
+        "D": 0.01324462890625,
+        "E": 0.000400543212890625
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 174,
+      "generated_until_stop": "1. Question: Happiness vs money\n2. Text: Happiness not tied to money\n3. A: Happiness not always with money\n4. B, C, D: don't fit\nanswer is",
+      "pred": "B",
+      "probs": {
+        "A": 0.0027923583984375,
+        "B": 0.99609375,
+        "C": 0.0004291534423828125,
+        "D": 0.00080108642578125,
+        "E": 2.4199485778808594e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    }
+  ]
+}

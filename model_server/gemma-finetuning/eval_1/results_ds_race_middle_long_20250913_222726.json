@@ -1,0 +1,1315 @@
+{
+  "model_id": "google/gemma-3-4b-it",
+  "num_items_total": 87,
+  "num_evaluated": 87,
+  "num_stopped": 87,
+  "num_skipped": 0,
+  "accuracy_no_skipped": "77.01%",
+  "results": [
+    {
+      "index": 0,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.1513671875,
+        "B": 0.5625,
+        "C": 0.1611328125,
+        "D": 0.125,
+        "E": 1.8358230590820312e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 1,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.9296875,
+        "B": 0.046142578125,
+        "C": 0.010986328125,
+        "D": 0.01409912109375,
+        "E": 3.2901763916015625e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 2,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.06103515625,
+        "B": 0.11376953125,
+        "C": 0.03466796875,
+        "D": 0.7890625,
+        "E": 0.0001373291015625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 3,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.02880859375,
+        "B": 0.953125,
+        "C": 0.01129150390625,
+        "D": 0.00726318359375,
+        "E": 1.5854835510253906e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 4,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.004852294921875,
+        "B": 0.00848388671875,
+        "C": 0.98046875,
+        "D": 0.005157470703125,
+        "E": 1.7762184143066406e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 5,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.0096435546875,
+        "B": 0.984375,
+        "C": 0.0029449462890625,
+        "D": 0.00130462646484375,
+        "E": 7.62939453125e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 6,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.1376953125,
+        "B": 0.11376953125,
+        "C": 0.7421875,
+        "D": 0.007049560546875,
+        "E": 1.2695789337158203e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 7,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.030029296875,
+        "B": 0.0634765625,
+        "C": 0.030029296875,
+        "D": 0.875,
+        "E": 0.00031280517578125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 8,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.45703125,
+        "B": 0.08984375,
+        "C": 0.158203125,
+        "D": 0.294921875,
+        "E": 9.584426879882812e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 9,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.00909423828125,
+        "B": 0.98828125,
+        "C": 0.00115966796875,
+        "D": 0.000701904296875,
+        "E": 1.996755599975586e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 10,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.94140625,
+        "B": 0.01953125,
+        "C": 0.01519775390625,
+        "D": 0.0235595703125,
+        "E": 3.886222839355469e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 11,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.625,
+        "B": 0.203125,
+        "C": 0.09619140625,
+        "D": 0.07470703125,
+        "E": 0.0002689361572265625
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 12,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.030517578125,
+        "B": 0.041748046875,
+        "C": 0.89453125,
+        "D": 0.03466796875,
+        "E": 1.52587890625e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 13,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.1904296875,
+        "B": 0.259765625,
+        "C": 0.1484375,
+        "D": 0.40234375,
+        "E": 0.0002193450927734375
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 14,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.00124359130859375,
+        "C": 0.0008544921875,
+        "D": 0.002044677734375,
+        "E": 3.2186508178710938e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 15,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.0016937255859375,
+        "B": 0.9921875,
+        "C": 0.00335693359375,
+        "D": 0.00191497802734375,
+        "E": 6.288290023803711e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 16,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.90234375,
+        "B": 0.044921875,
+        "C": 0.0240478515625,
+        "D": 0.029052734375,
+        "E": 6.151199340820312e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 17,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.0201416015625,
+        "B": 0.96875,
+        "C": 0.00738525390625,
+        "D": 0.00396728515625,
+        "E": 8.285045623779297e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 18,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.08203125,
+        "B": 0.119140625,
+        "C": 0.06787109375,
+        "D": 0.73046875,
+        "E": 0.000827789306640625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 19,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.283203125,
+        "B": 0.234375,
+        "C": 0.09765625,
+        "D": 0.38671875,
+        "E": 9.632110595703125e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 20,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.02783203125,
+        "B": 0.043212890625,
+        "C": 0.921875,
+        "D": 0.007476806640625,
+        "E": 3.266334533691406e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 21,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.051513671875,
+        "B": 0.109375,
+        "C": 0.03125,
+        "D": 0.80859375,
+        "E": 0.000522613525390625
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 22,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.0027923583984375,
+        "B": 0.000934600830078125,
+        "C": 0.99609375,
+        "D": 0.00164031982421875,
+        "E": 3.844499588012695e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 23,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.06396484375,
+        "B": 0.087890625,
+        "C": 0.83203125,
+        "D": 0.0162353515625,
+        "E": 1.2159347534179688e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 24,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.19921875,
+        "B": 0.396484375,
+        "C": 0.09423828125,
+        "D": 0.30859375,
+        "E": 0.00016021728515625
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 25,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.29296875,
+        "B": 0.1298828125,
+        "C": 0.0654296875,
+        "D": 0.51171875,
+        "E": 4.482269287109375e-05
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 26,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.2353515625,
+        "B": 0.388671875,
+        "C": 0.25,
+        "D": 0.1259765625,
+        "E": 4.363059997558594e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 27,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.04052734375,
+        "B": 0.0296630859375,
+        "C": 0.921875,
+        "D": 0.006622314453125,
+        "E": 1.6450881958007812e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 28,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.0074462890625,
+        "B": 0.0123291015625,
+        "C": 0.9765625,
+        "D": 0.00311279296875,
+        "E": 2.86102294921875e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 29,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.013427734375,
+        "B": 0.0301513671875,
+        "C": 0.01611328125,
+        "D": 0.94140625,
+        "E": 0.000537872314453125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 30,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.08447265625,
+        "B": 0.55078125,
+        "C": 0.05126953125,
+        "D": 0.314453125,
+        "E": 2.1696090698242188e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 31,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.0137939453125,
+        "B": 0.0137939453125,
+        "C": 0.96875,
+        "D": 0.00506591796875,
+        "E": 6.318092346191406e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 32,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.00159454345703125,
+        "B": 0.99609375,
+        "C": 0.0021820068359375,
+        "D": 0.000377655029296875,
+        "E": 1.5869736671447754e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 33,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.0048828125,
+        "B": 0.98828125,
+        "C": 0.0037841796875,
+        "D": 0.0037841796875,
+        "E": 2.3096799850463867e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 34,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.080078125,
+        "B": 0.05859375,
+        "C": 0.0517578125,
+        "D": 0.80859375,
+        "E": 0.0002803802490234375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 35,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.98046875,
+        "B": 0.0123291015625,
+        "C": 0.0025787353515625,
+        "D": 0.006195068359375,
+        "E": 9.47713851928711e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 36,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.0703125,
+        "B": 0.859375,
+        "C": 0.027587890625,
+        "D": 0.042724609375,
+        "E": 1.4603137969970703e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 37,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.0272216796875,
+        "B": 0.0478515625,
+        "C": 0.376953125,
+        "D": 0.546875,
+        "E": 0.00025177001953125
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 38,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.4765625,
+        "B": 0.240234375,
+        "C": 0.1279296875,
+        "D": 0.1552734375,
+        "E": 2.4557113647460938e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 39,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.84765625,
+        "B": 0.10107421875,
+        "C": 0.0225830078125,
+        "D": 0.0289306640625,
+        "E": 1.704692840576172e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 40,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.051025390625,
+        "B": 0.90625,
+        "C": 0.039794921875,
+        "D": 0.0047607421875,
+        "E": 4.792213439941406e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 41,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.14453125,
+        "B": 0.1123046875,
+        "C": 0.609375,
+        "D": 0.1357421875,
+        "E": 4.00543212890625e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 42,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.330078125,
+        "B": 0.1005859375,
+        "C": 0.0888671875,
+        "D": 0.48046875,
+        "E": 0.00011444091796875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 43,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.337890625,
+        "B": 0.07080078125,
+        "C": 0.4921875,
+        "D": 0.09716796875,
+        "E": 6.079673767089844e-05
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 44,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.890625,
+        "B": 0.05029296875,
+        "C": 0.03466796875,
+        "D": 0.0238037109375,
+        "E": 6.246566772460938e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 45,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.11083984375,
+        "B": 0.3203125,
+        "C": 0.038330078125,
+        "D": 0.53125,
+        "E": 0.00010442733764648438
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 46,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.0027923583984375,
+        "B": 0.003265380859375,
+        "C": 0.9921875,
+        "D": 0.00106048583984375,
+        "E": 5.364418029785156e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 47,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.07568359375,
+        "B": 0.169921875,
+        "C": 0.08056640625,
+        "D": 0.671875,
+        "E": 0.00011730194091796875
+      },
+      "gold": "C",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 48,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.002166748046875,
+        "B": 0.004058837890625,
+        "C": 0.00140380859375,
+        "D": 0.9921875,
+        "E": 0.00017833709716796875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 49,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.77734375,
+        "B": 0.072265625,
+        "C": 0.0498046875,
+        "D": 0.09912109375,
+        "E": 0.00011968612670898438
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 50,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.006561279296875,
+        "B": 0.01019287109375,
+        "C": 0.0079345703125,
+        "D": 0.9765625,
+        "E": 0.000225067138671875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 51,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.2060546875,
+        "B": 0.33984375,
+        "C": 0.1708984375,
+        "D": 0.28125,
+        "E": 0.00048065185546875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 52,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.1884765625,
+        "B": 0.330078125,
+        "C": 0.451171875,
+        "D": 0.0289306640625,
+        "E": 1.3053417205810547e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 53,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.007476806640625,
+        "B": 0.0079345703125,
+        "C": 0.005126953125,
+        "D": 0.98046875,
+        "E": 5.364418029785156e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 54,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.06689453125,
+        "B": 0.091796875,
+        "C": 0.81640625,
+        "D": 0.023193359375,
+        "E": 2.5153160095214844e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 55,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.042236328125,
+        "B": 0.90625,
+        "C": 0.039794921875,
+        "D": 0.01287841796875,
+        "E": 6.246566772460938e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 56,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.029541015625,
+        "B": 0.71484375,
+        "C": 0.03564453125,
+        "D": 0.21875,
+        "E": 3.790855407714844e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 57,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.0126953125,
+        "B": 0.0252685546875,
+        "C": 0.0126953125,
+        "D": 0.94921875,
+        "E": 0.0002727508544921875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 58,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.0201416015625,
+        "B": 0.96875,
+        "C": 0.00946044921875,
+        "D": 0.0025482177734375,
+        "E": 4.112720489501953e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 59,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.0654296875,
+        "B": 0.0198974609375,
+        "C": 0.90234375,
+        "D": 0.0120849609375,
+        "E": 4.100799560546875e-05
+      },
+      "gold": "B",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 60,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.99609375,
+        "B": 0.0023193359375,
+        "C": 0.000728607177734375,
+        "D": 0.00159454345703125,
+        "E": 3.2186508178710938e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 61,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.90625,
+        "B": 0.051025390625,
+        "C": 0.01373291015625,
+        "D": 0.0291748046875,
+        "E": 2.7418136596679688e-05
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 62,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.01019287109375,
+        "B": 0.005462646484375,
+        "C": 0.00701904296875,
+        "D": 0.9765625,
+        "E": 0.000255584716796875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 63,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.2021484375,
+        "B": 0.33203125,
+        "C": 0.189453125,
+        "D": 0.275390625,
+        "E": 2.002716064453125e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 64,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.0361328125,
+        "B": 0.0206298828125,
+        "C": 0.93359375,
+        "D": 0.0103759765625,
+        "E": 1.5854835510253906e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 65,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.037841796875,
+        "B": 0.029541015625,
+        "C": 0.91796875,
+        "D": 0.01397705078125,
+        "E": 1.33514404296875e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 66,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.1396484375,
+        "B": 0.70703125,
+        "C": 0.095703125,
+        "D": 0.05810546875,
+        "E": 1.800060272216797e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 67,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.005462646484375,
+        "B": 0.0115966796875,
+        "C": 0.98046875,
+        "D": 0.003753662109375,
+        "E": 2.6106834411621094e-05
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 68,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.91796875,
+        "B": 0.05859375,
+        "C": 0.006591796875,
+        "D": 0.016845703125,
+        "E": 3.6656856536865234e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 69,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.0322265625,
+        "B": 0.01953125,
+        "C": 0.94140625,
+        "D": 0.007171630859375,
+        "E": 2.5480985641479492e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 70,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.0291748046875,
+        "B": 0.1484375,
+        "C": 0.0213623046875,
+        "D": 0.80078125,
+        "E": 0.0002956390380859375
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 71,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.2353515625,
+        "B": 0.7265625,
+        "C": 0.0205078125,
+        "D": 0.019287109375,
+        "E": 8.046627044677734e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 72,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.015380859375,
+        "B": 0.0238037109375,
+        "C": 0.953125,
+        "D": 0.00933837890625,
+        "E": 9.953975677490234e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 73,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.1396484375,
+        "B": 0.75390625,
+        "C": 0.061767578125,
+        "D": 0.045166015625,
+        "E": 2.276897430419922e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 74,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.064453125,
+        "B": 0.69140625,
+        "C": 0.1748046875,
+        "D": 0.068359375,
+        "E": 1.1026859283447266e-05
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 75,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 1.0,
+        "B": 0.0003147125244140625,
+        "C": 6.198883056640625e-05,
+        "D": 0.000518798828125,
+        "E": 5.066394805908203e-07
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 76,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.01312255859375,
+        "B": 0.98046875,
+        "C": 0.0031280517578125,
+        "D": 0.0024261474609375,
+        "E": 4.6193599700927734e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 77,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.06591796875,
+        "B": 0.1904296875,
+        "C": 0.1904296875,
+        "D": 0.55078125,
+        "E": 8.7738037109375e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 78,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.1767578125,
+        "B": 0.2421875,
+        "C": 0.546875,
+        "D": 0.034912109375,
+        "E": 2.2411346435546875e-05
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 79,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.97265625,
+        "B": 0.0167236328125,
+        "C": 0.0032958984375,
+        "D": 0.00616455078125,
+        "E": 9.834766387939453e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 80,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.08349609375,
+        "B": 0.057373046875,
+        "C": 0.06494140625,
+        "D": 0.79296875,
+        "E": 4.839897155761719e-05
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 81,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.0087890625,
+        "B": 0.003143310546875,
+        "C": 0.984375,
+        "D": 0.002593994140625,
+        "E": 9.000301361083984e-06
+      },
+      "gold": "C",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 82,
+      "generated_until_stop": "",
+      "pred": "A",
+      "probs": {
+        "A": 0.98828125,
+        "B": 0.008544921875,
+        "C": 0.0020294189453125,
+        "D": 0.0029449462890625,
+        "E": 3.7401914596557617e-06
+      },
+      "gold": "A",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 83,
+      "generated_until_stop": "",
+      "pred": "D",
+      "probs": {
+        "A": 0.006561279296875,
+        "B": 0.0101318359375,
+        "C": 0.009521484375,
+        "D": 0.97265625,
+        "E": 0.0002880096435546875
+      },
+      "gold": "D",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 84,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.123046875,
+        "B": 0.4296875,
+        "C": 0.130859375,
+        "D": 0.314453125,
+        "E": 0.0028076171875
+      },
+      "gold": "D",
+      "is_correct": false,
+      "is_skipped": false
+    },
+    {
+      "index": 85,
+      "generated_until_stop": "",
+      "pred": "B",
+      "probs": {
+        "A": 0.026611328125,
+        "B": 0.9375,
+        "C": 0.020751953125,
+        "D": 0.01422119140625,
+        "E": 8.940696716308594e-06
+      },
+      "gold": "B",
+      "is_correct": true,
+      "is_skipped": false
+    },
+    {
+      "index": 86,
+      "generated_until_stop": "",
+      "pred": "C",
+      "probs": {
+        "A": 0.2421875,
+        "B": 0.291015625,
+        "C": 0.3515625,
+        "D": 0.1142578125,
+        "E": 0.00010585784912109375
+      },
+      "gold": "A",
+      "is_correct": false,
+      "is_skipped": false
+    }
+  ]
+}
