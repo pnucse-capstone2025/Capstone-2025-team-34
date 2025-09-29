@@ -127,7 +127,7 @@ ssh -L 9009:localhost:8009 (사용자 계정)@(아이피)
 
 현재 계정은 학과 서버에서 발급 받은 계정을 사용한 것
 
-intellij 설치되어 있는 환경일 경우 → [GraduateServerApplication.java](http://GraduateServerApplication.java) 바로 실행하면 서버 준비 ok
+intellij 설치되어 있는 환경일 경우 → GraduateServerApplication.java 바로 실행하면 서버 준비 ok
 
 그렇지 않은 환경일 경우 → gradlew를 통해 jar파일 생성 후 해당 jar 파일 실행
 
@@ -207,7 +207,7 @@ python serving.py
 > PPT 등
 #### 6.2. 시연 영상
 
-[![Re:Fresh 발표 및 시연 영상](https://youtu.be/zF91HYHA-iY?si=9tdLii6b0SzqeMNe/0.jpg)](https://youtu.be/zF91HYHA-iY?si=9tdLii6b0SzqeMNe)
+[![Re:Fresh 발표 및 시연 영상](https://img.youtu.be/zF91HYHA-iY?si=9tdLii6b0SzqeMNe/0.jpg)](https://youtu.be/zF91HYHA-iY?si=9tdLii6b0SzqeMNe)
 
 ### 7. 팀 구성
 #### 7.1. 팀원별 소개 및 역할 분담
