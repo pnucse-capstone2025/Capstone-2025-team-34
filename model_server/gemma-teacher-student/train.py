@@ -38,7 +38,7 @@ def next_number_str(str_list: list[str]) -> str:
 
 def main():
     login(token)
-
+    os.makedirs('./output', exist_ok=True)
     corrent_model_list = os.listdir('./output')
     next_model_name = next_number_str(corrent_model_list)
     output_dir = "output/"+next_model_name
@@ -64,7 +64,7 @@ def main():
         bias="none",
         target_modules="all-linear",
         task_type="CAUSAL_LM",
-        modules_to_save=["lm_head", "embed_tokens"]
+        # modules_to_save=["lm_head", "embed_tokens"]
     )
 
     args = SFTConfig(
@@ -112,8 +112,8 @@ def main():
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     tokenizer.add_bos_token = False
 
-    train_dataset = bd.build_dataset("~/refresh/genai_api_send/cloth_with_pred", "train", 7591)
-    eval_dataset = bd.build_dataset("~/refresh/genai_api_send/cloth_with_pred", "validation", 949)
+    train_dataset = bd.build_dataset("../genai_api_send/cloth_with_pred", "train", 1)
+    eval_dataset = bd.build_dataset("../genai_api_send/cloth_with_pred", "validation", 1)
 
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     tokenizer.add_bos_token = False
@@ -146,7 +146,8 @@ def main():
     print(alive)
 
     trainer.train()
-    trainer.save_model()
+    trainer.model.save_pretrained(output_dir)
+    trainer.model.save_pretrained('../_final/model/gemma-teacher-student')
 
     with open(output_dir+'/train_info.json', 'w', encoding="utf-8") as make_file:
         json.dump(info_data, make_file, ensure_ascii=False, indent="\t", default=str)

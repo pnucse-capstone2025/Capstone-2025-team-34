@@ -50,7 +50,7 @@ learning_rate = 2e-5
 max_grad_norm = 1.0
 warmup_ratio = 0.03
 
-base_paths = "../dataset/분류 모델 용"
+base_paths = "../_final/dataset"
 data_paths = {
     "cloth": f"{base_paths}/cloth",
     "korean": f"{base_paths}/korean",

@@ -17,25 +17,22 @@
   "lora_dropout": 0.05,
   "megatron_config": null,
   "megatron_core": "megatron.core",
-  "modules_to_save": [
-    "lm_head",
-    "embed_tokens"
-  ],
+  "modules_to_save": null,
   "peft_type": "LORA",
   "r": 16,
   "rank_pattern": {},
   "revision": null,
   "target_modules": [
+    "up_proj",
+    "o_proj",
     "gate_proj",
     "k_proj",
-    "out_proj",
-    "q_proj",
-    "v_proj",
-    "up_proj",
-    "down_proj",
     "fc2",
-    "o_proj",
-    "fc1"
+    "v_proj",
+    "out_proj",
+    "down_proj",
+    "fc1",
+    "q_proj"
   ],
   "task_type": "CAUSAL_LM",
   "use_dora": false,

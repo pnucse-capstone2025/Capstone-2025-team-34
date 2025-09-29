@@ -3,20 +3,18 @@ import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 from peft import LoraConfig
 from trl import SFTTrainer, SFTConfig
-import build_prompt as bp
+import build_dataset as bd 
 from pathlib import Path
 import json
 from collections import OrderedDict
 import os
 import sys
-
-from customCollator import *
 from dotenv import load_dotenv
 
 load_dotenv()
 token = os.getenv("HUGGINGFACE_TOKEN")
 
-model_id = "microsoft/Phi-4-mini-instruct"
+model_id = "google/gemma-3-4b-it"
 
 torch_dtype = torch.bfloat16
 
@@ -25,11 +23,26 @@ lora_dropout=0.05
 r=16
 
 num_train_epochs=3
-per_device_train_batch_size=2
-per_device_eval_batch_size=2
+per_device_train_batch_size=4
+per_device_eval_batch_size=4
 learning_rate=2e-4
 max_grad_norm=1.0
 warmup_ratio=0.03
+
+use_train_datasets_list = [
+    ["../dataset/my_korean", 1], 
+    ["../dataset/my_race_middle", 1], 
+    ["../dataset/my_race_high", 1], 
+    ["../dataset/my_cloth", 1]
+    ]
+
+use_validation_datasets_list = [
+    ["../dataset/my_korean", 1], 
+    ["../dataset/my_race_middle", 1],
+    ["../dataset/my_race_high", 1],
+    ["../dataset/my_cloth", 1],
+    ]
+
 
 def next_number_str(str_list: list[str]) -> str:
     if len(str_list) == 0:
@@ -69,8 +82,8 @@ def main():
 
     args = SFTConfig(
         output_dir=output_dir, 
-        max_length=1024,           
-        packing=False,             
+        max_length=512,           
+        packing=True,             
         gradient_accumulation_steps=4,    
         gradient_checkpointing=True,       
         optim="adamw_torch_fused",      
@@ -78,6 +91,7 @@ def main():
         save_strategy="epoch",
         fp16=True if torch_dtype == torch.float16 else False,  
         bf16=True if torch_dtype == torch.bfloat16 else False, 
+
         eval_strategy="epoch",
         per_device_eval_batch_size=per_device_eval_batch_size,
 
@@ -107,34 +121,15 @@ def main():
     info_data["learning_rate"] = learning_rate
     info_data["max_grad_norm"] = max_grad_norm
     info_data["warmup_ratio"] = warmup_ratio
+    info_data["use_train_datasets_list"] = use_train_datasets_list
+    info_data["use_validation_datasets_list"] = use_validation_datasets_list
 
     model = AutoModelForCausalLM.from_pretrained(model_id, **model_kwargs)
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     tokenizer.add_bos_token = False
 
-    train_dataset = bp.build_dataset_for_train("./dataset/loop0_dataset", "train", 1)
-    eval_dataset = bp.build_dataset_for_train("./dataset/loop0_dataset", "validation", 1)
-
-    import time
-    train_dataset = train_dataset.map(
-        lambda x: x,
-        load_from_cache_file=False,
-        new_fingerprint=str(time.time()) 
-    )
-    eval_dataset = eval_dataset.map(
-        lambda x: x,
-        load_from_cache_file=False,
-        new_fingerprint=str(time.time())  
-    )
-
-
-    tokenizer = AutoTokenizer.from_pretrained(model_id)
-    tokenizer.add_bos_token = False
-
-    completion_only_collator = CompletionOnlyCollator(
-        tokenizer=tokenizer,
-        response_template="<|assistant|>\n",
-    )
+    train_dataset = bd.concat_datasets(use_train_datasets_list, "train")
+    eval_dataset = bd.concat_datasets(use_validation_datasets_list, "validation")
 
     trainer = SFTTrainer(
         model=model,
@@ -143,10 +138,10 @@ def main():
         eval_dataset=eval_dataset,
         peft_config=peft_config,
         processing_class=tokenizer,
-        data_collator=completion_only_collator,
     )
     dl = trainer.get_train_dataloader()
-    batch = next(iter(dl))
+    batch = next(iter(dl)) 
+
     ids     = batch["input_ids"][0].tolist()
     labels  = batch["labels"][0].tolist()
     tokens  = tokenizer.convert_ids_to_tokens(ids)
@@ -159,8 +154,8 @@ def main():
 
     trainer.train()
     trainer.model.save_pretrained(output_dir)
-    trainer.model.save_pretrained('../_final/model/phi-STaR')
-
+    trainer.model.save_pretrained('../_final/model/gemma-finetuning')
+    
     with open(output_dir+'/train_info.json', 'w', encoding="utf-8") as make_file:
         json.dump(info_data, make_file, ensure_ascii=False, indent="\t", default=str)
 
