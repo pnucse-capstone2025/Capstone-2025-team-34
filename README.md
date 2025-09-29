@@ -12,7 +12,8 @@ Re:Fresh 팀은 LLM을 활용하여 영어 객관식 문제를 풀어 답을 생
 ### 3. 시스템 설계
 #### 3.1. 시스템 구성도
 
-![문제 전달.png](attachment:66429a9b-00ab-4cf3-9134-8334225a5b8c:문제_전달.png)
+<img width="1920" height="1080" alt="문제 전달" src="https://github.com/user-attachments/assets/82482f22-03fa-47b1-9a1b-2d5f49b3aead" />
+
 
 > 사용자가 문제의 지문과 문제, 보기를 입력하여 서버에 전송
 
