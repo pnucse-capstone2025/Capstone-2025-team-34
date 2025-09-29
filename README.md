@@ -123,8 +123,9 @@ pnpm start
 
 ```shell
 ssh -L 9009:localhost:8009 (사용자 계정)@(아이피)
-```
 (계정에 대한 암호 입력)
+```
+
 
 현재 계정은 학과 서버에서 발급 받은 계정을 사용한 것
 
@@ -132,9 +133,10 @@ intellij 설치되어 있는 환경일 경우 → GraduateServerApplication.java
 
 그렇지 않은 환경일 경우 → gradlew를 통해 jar파일 생성 후 해당 jar 파일 실행
 
+```shell
 ./gradlew clean bootJar
-
 java -jar build/libs/graduate-server-0.0.1-SNAPSHOT.jar
+```
 
 실행 후 서버 ip의 8080번 포트를 통해 웹 api 송수신 진행
 
@@ -147,11 +149,10 @@ java -jar build/libs/graduate-server-0.0.1-SNAPSHOT.jar
 1. .env 파일 생성
 
 포함 내용
-
-- HUGGINGFACE_TOKEN: {허깅 페이스 토큰}
-
-- GOOGLE_API_KEY: 구글 Gemini api 토큰
-
+```python
+HUGGINGFACE_TOKEN: {허깅 페이스 토큰}
+GOOGLE_API_KEY: {구글 Gemini api 토큰}
+```
 2. 데이터 셋 구성
 
 - 데이터셋은 공개가 불가능하기 때문에 현재 깃허브에 올라가있지 않다
@@ -166,21 +167,18 @@ java -jar build/libs/graduate-server-0.0.1-SNAPSHOT.jar
 
 각 model_server밑의 개별 모델 디렉토리
 
+```
 gemma-fintuning
-
 gemma-STaR
-
 gemma-teacher-student
-
 phi-finetuning
-
 phi-STaR
-
 phi-teacher-student
+```
 
 에서 각 각 실행
 
-- 모델 학습을 위해 개별 모델 디렉토리의 [train.py](http://train.py) 파일을 실행한다.
+- 모델 학습을 위해 개별 모델 디렉토리의 train.py 파일을 실행한다.
 
 - 각 개별 모델의 테스트를 위해 개별 모델 디렉토리의 model_test.ipynb 노트북 파일을 실행한다.
 
