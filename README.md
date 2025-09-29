@@ -207,7 +207,7 @@ python serving.py
 > PPT 등
 #### 6.2. 시연 영상
 
-[![Re:Fresh 발표 및 시연 영상](https://img.youtu.be/zF91HYHA-iY?si=9tdLii6b0SzqeMNe/0.jpg)](https://youtu.be/zF91HYHA-iY?si=9tdLii6b0SzqeMNe)
+[![Re:Fresh 발표 및 시연 영상](https://img.youtube.com/watch?v=zF91HYHA-iY/0.jpg)](https://www.youtube.com/watch?v=zF91HYHA-iY)
 
 ### 7. 팀 구성
 #### 7.1. 팀원별 소개 및 역할 분담
