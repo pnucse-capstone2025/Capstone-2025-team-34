@@ -171,7 +171,9 @@ Capstone-2025-team-34/model-server/_final/fastapi 디렉토리로 이동한 후 
 
 ### 6. 소개 자료 및 시연 영상
 #### 6.1. 프로젝트 소개 자료
-> PPT 등
+
+[2025전기 졸업과제 발표영상_34_ReFresh_영어 객관식 문제 자동정답 생성기 개발.pptx](https://github.com/user-attachments/files/22607962/2025._34_ReFresh_.pptx)
+
 #### 6.2. 시연 영상
 
 [![Re:Fresh 발표 및 시연 영상](https://img.youtube.com/vi/zF91HYHA-iY/0.jpg)](https://www.youtube.com/watch?v=zF91HYHA-iY)
