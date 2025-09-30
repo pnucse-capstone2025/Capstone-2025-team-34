@@ -194,7 +194,7 @@ Capstone-2025-team-34/model-server/_final/fastapi 디렉토리로 이동한 후 
 |실제 데이터셋에 대해 조사하면서 적절한 데이터셋을 선정하는 것이 꽤나 어려웠으며, 선정 이후에도 데이터셋의 무결성을 검증하기 위해 데이터셋들을 일일이 검증하는 것이 꽤나 힘든 일이었다. 그러나, 실제로 이렇게 만든 데이터셋을 통해 모델에 파인튜닝하고 그 결과가 실제로 가시적으로 보이자 뿌듯함도 있었다.|BERT 계열의 모델을 이 과제를 통해 처음 접하게 되었는데, 처음에는 모델을 다루는 것이 어렵게만 느껴졌다. 특히 최종적으로 어떤 모델을 사용할지 정하는 것부터, 사용하기로 정한 모델에 맞게 학습과 추론 코드를 수정하는 것이 꽤 어려웠다. 그러나 최종적으로, 사용할 모델을 라우팅하는 것과 모델이 실제로 추론하는 것을 보자 성취감을 느낄 수 있었다.|과제 수행을 위해 모델의 파인튜닝을 하면서 시행착오를 많이 겪었다. 하지만 시행착오를 통해 배우는 부분도 많이 있었고, 고민한 문제를 해결하면서 성취감도 얻을 수 있어 의미 있는 경험이 된 것 같아 좋았다.|
 
 ### 8. 참고 문헌 및 출처
-
+```
 [1] G. Lai, Q. Xie, H. Liu, Y. Yang, and E. Hovy, “RACE: Large-scale ReAding Comprehension Dataset From Examinations,” *arXiv preprint* arXiv:1704.04683, 2017.
 
 [2] Q. Xie, G. Lai, Z. Dai, and E. Hovy, “Large-scale Cloze Test Dataset Created by Teachers,” *arXiv preprint* arXiv:1711.03225, Aug. 2018. (Presented at EMNLP 2018)
@@ -210,3 +210,4 @@ Capstone-2025-team-34/model-server/_final/fastapi 디렉토리로 이동한 후 
 [7] T. G. Dietterich, “Ensemble Methods in Machine Learning,” in *Multiple Classifier Systems*, Berlin, Heidelberg: Springer, 2000, pp. 1–15. doi: 10.1007/3-540-45014-9_1.
 
 [8] T. Heskes, “Selecting Weighting Factors in Logarithmic Opinion Pools,” *Advances in Neural Information Processing Systems (NeurIPS)*, vol. 10, pp. 267-273, 1997.
+```
