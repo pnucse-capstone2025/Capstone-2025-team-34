@@ -74,7 +74,8 @@ Re:Fresh 팀은 LLM을 활용하여 영어 객관식 문제를 풀어 답을 생
 `git clone (리포지토리 주소)`
 
 > 프론트엔드
-> 서버 주소에 따라 코드 내의 내용 일부 수정 필요
+
+서버 주소에 따라 코드 내의 내용 일부 수정 필요
 front/app/routes/question.tsx에서,
 
 ```tsx
