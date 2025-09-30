@@ -174,7 +174,7 @@ GOOGLE_API_KEY: {구글 Gemini api 토큰}
 ```
 2. 데이터 셋 구성
 
-- 오픈데이터셋 정책 [9] [10] 에 따라 데이터셋의 재게시가 불가능하기 때문에 현재 GitHub에 업로드 되어 있지 않음
+- 오픈데이터셋 정책 [RACE Dataset](https://www.cs.cmu.edu/~glai1/data/race/) 에 따라 데이터셋의 재게시가 불가능하기 때문에 현재 GitHub에 업로드 되어 있지 않음
 - 다만 make_dataset.ipynb 파일에 오픈데이터셋을 활용하고 작업하는 코드가 있으므로, 이를 참고하여 본인만의 데이터셋을 구축하여 사용하여도 됨
 - 혹은 빠른 테스트를 위해 가짜 데이터셋을 만드는 코드를 사용할 수 있음
   - Capstone-2025-team-34/model_server/dataset/make_mock_dataset.ipynb 노트북 파일을 전부 실행
@@ -274,8 +274,4 @@ python serving.py
 [7] T. G. Dietterich, “Ensemble Methods in Machine Learning,” in *Multiple Classifier Systems*, Berlin, Heidelberg: Springer, 2000, pp. 1–15. doi: 10.1007/3-540-45014-9_1.
 
 [8] T. Heskes, “Selecting Weighting Factors in Logarithmic Opinion Pools,” *Advances in Neural Information Processing Systems (NeurIPS)*, vol. 10, pp. 267-273, 1997.
-
-[9] https://www.cs.cmu.edu/~glai1/data/race/
-
-[10] https://www.cs.cmu.edu/~glai1/data/cloth/
 ```
