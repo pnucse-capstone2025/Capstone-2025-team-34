@@ -49,7 +49,7 @@ Re:Fresh 팀은 LLM을 활용하여 영어 객관식 문제를 풀어 답을 생
 
 1. 분류 모델
 - 문제의 지문과 문제, 보기에 대한 정보를 입력으로 받아, “이 문제가 어떤 종류의 문제에 해당하는가?”를 확률 값으로 출력
-- 해당 logit값을 파싱하여 모델이 분류한 문제의 종류가 결정됨
+- 해당 확률 값을 파싱하여 모델이 분류한 문제의 종류가 결정됨
 
 2. 풀이 모델 공통
 - 문제의 지문과 문제, 보기에 대한 정보를 입력으로 받아, “이 문제의 답이 어떤 것인가?”를 각 모델마다 확률 값으로 출력
@@ -151,12 +151,22 @@ phi-teacher-student
 에서 각각 실행
 
 - 모델 학습을 위해 개별 모델 디렉토리의 train.py 파일을 실행한다.
+  - 사용하는 데이터셋의 크기에 따라 코드 내 수치 조정 필요
+  - ***-fintuning
+  - <img width="652" height="558" alt="image (2)" src="https://github.com/user-attachments/assets/8a2ad244-d356-4d63-847e-bac13eb4a9be" />
+  - ***-STaR
+  - <img width="1230" height="102" alt="image (3)" src="https://github.com/user-attachments/assets/31150257-13d9-4711-aed3-f8bc603a4a19" />
+  - ***-teacher-student
+  - <img width="1216" height="124" alt="image (4)" src="https://github.com/user-attachments/assets/59006cb2-d494-4c76-9f85-96c4c657989c" />
+
 - 각 개별 모델의 테스트를 위해 개별 모델 디렉토리의 model_test.ipynb 노트북 파일을 실행한다.
+  - 사용하는 데이터셋의 크기에 따라 코드 내 수치 조정 필요
+  - <img width="1642" height="362" alt="image (5)" src="https://github.com/user-attachments/assets/b291b5eb-e9a2-47ab-9e02-b612e0f67245" />
 
 4. 분류 모델
 
 Capstone-2025-team-34/model_server/classifier/ 하위의 학습 코드 2개를 각각 실행한다.
-만약 데이터셋의 위치가 수정되었다면, base_paths, data_paths를 각각 올바르게 수정한다.
+만약 데이터셋의 위치가 수정되었다면, `base_paths`, `data_paths`를 각각 올바르게 수정한다.
 
 5. fast api 서버 구동
 Capstone-2025-team-34/model-server/_final/fastapi 디렉토리로 이동한 후 아래 문장으로 모델 실행
