@@ -23,8 +23,8 @@ Re:Fresh 팀은 LLM을 활용하여 영어 객관식 문제를 풀어 답을 생
 ##### 프론트엔드 : TypeScript, React, React Router
 - React를 활용하여 웹 UI를 통해 사용자가 사용하기 쉬운 프론트엔드를 제공
 
-##### 백엔드 : Java 21, Spring Boot 3.5.3
-- java를 활용하여 모델서버와 프론트를 연결하는 중계서버 구축
+##### 백엔드 : Java 21, Spring Boot, Gradle
+- Java 및 Spring Boot를 활용하여 모델서버와 프론트를 연결하는 중계서버 구축
 
 ##### 모델 서버 : Python 3.10, FastAPI, Transformer
 - Python과 Transformer를 활용하여 모델 학습
